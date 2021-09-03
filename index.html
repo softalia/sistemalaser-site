@@ -22,7 +22,7 @@
     <meta name="description" content="Software online de gestão de locações de equipamentos e aparelhos médicos estéticos">
     <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/favicon.png?h=47412c11579e82ccc534a4c42cd7b30c">
     <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/favicon.png?h=47412c11579e82ccc534a4c42cd7b30c">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=d4755479f0f36f73843ee6d3249a23a4">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=ad5b31e9847548e7e766097c9f7c9425">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
@@ -53,7 +53,7 @@
                             <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
                             <li class="nav-item"><a class="nav-link" href="#videos">Vídeos</a></li>
                             <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
-                            <li class="nav-item"><a class="nav-link" data-tf-popup="Q7lZLBOK" href="#">Fale conosco</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#faleconosco">Fale conosco</a></li>
                         </ul>
                     </div>
                 </div>
@@ -243,9 +243,24 @@
                     <div class="intro">
                         <h2>Fale conosco</h2>
                         <p>Entre em contato e conheça mais detalhes do produto.</p><div>
+<div id="tripetto"></div>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-classic"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiM2JtdFBHUllkMlZDU0Jwc1VoeGJkVnNOQXlsV3gxQjZKZ1ZDTkFyTHZzZz0iLCJkZWZpbml0aW9uIjoiWFJSdmhsenRqUFJOL0RPQjdwMnA1YXFvZXR3OXdId3l2amFyWXJKejEyWT0iLCJ0eXBlIjoiY29sbGVjdCJ9.uunIdtSthWsCIssCgy89Goz2R1H0m1JyQf3hfzmFjec" });
 
-<button data-tf-popup="Q7lZLBOK" class="btn btn-primary">Entre em contato</button><script src="//embed.typeform.com/next/embed.js"></script>
-    
+TripettoClassic.run({
+    element: document.getElementById("tripetto"),
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit
+});
+</script>
 </div>
                     </div><!-- End: Intro -->
                 </div>
@@ -253,7 +268,7 @@
                     <!-- Start: Intro -->
                     <div class="intro">
                         <h2>Mensagem eletrônica</h2>
-                        <p>Se preferir, envie-nos um e-mail</p><a class="btn btn-primary" role="button" href="mailto:laurocesar@terasoft.com.br">Envie um e-mail</a>
+                        <p>Se preferir, envie-nos um e-mail</p><a class="btn btn-primary" role="button" href="mailto:laurocesar@terasoft.com.br" style="background: #055ada;">Envie um e-mail</a>
                     </div><!-- End: Intro -->
                 </div>
             </div>
