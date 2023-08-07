@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html data-bs-theme="auto" lang="pt-br">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Sistema Laser</title>
+    <link rel="canonical" href="https://www.sistemalaser.com.br/">
+    <meta property="og:url" content="https://www.sistemalaser.com.br/">
     <meta property="og:description" content="Software online de gestão de locações de equipamentos e aparelhos médicos estéticos">
     <meta name="twitter:card" content="summary">
     <meta property="og:image" content="https://www.sistemalaser.com.br/assets/img/favicon.png">
     <meta property="og:type" content="website">
-    <meta name="keywords" content="software de gestão, equipamentos médicos, aparelhos médicos, aparelhos laser, equipamentos laser, locação, plataforma solon, LMG laser, laser medical group, aliança laser, sistemalocar, ea7, east7, actloc, otimogestor">
+    <meta name="keywords" content="software de gestão, equipamentos médicos, aparelhos médicos, aparelhos laser, equipamentos laser, locação, plataforma solon, LMG laser, laser medical group, aliança laser, sistemalocar, ea7, east7, actloc, otimogestor, easyloc, izziloc, azo, whatsapp, aplicativo, app, motorista">
     <meta property="og:url" content="https://www.sistemalaser.com.br">
     <meta property="og:site_name" content="Sistema Laser">
     <meta property="twitter:cards" content="summary">
@@ -20,14 +22,100 @@
     <meta name="twitter:image" content="https://www.sistemalaser.com.br/assets/img/favicon.png">
     <meta property="og:title" content="Sistema Laser">
     <meta name="description" content="Software online de gestão de locações de equipamentos e aparelhos médicos estéticos">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Sistema Laser",
+            "url": "https://www.sistemalaser.com.br"
+        }
+    </script>
+    <script>
+        (function() {
+
+            // JavaScript snippet handling Dark/Light mode switching
+
+            const getStoredTheme = () => localStorage.getItem('theme');
+            const setStoredTheme = theme => localStorage.setItem('theme', theme);
+            const forcedTheme = document.documentElement.getAttribute('data-bss-forced-theme');
+
+            const getPreferredTheme = () => {
+
+                if (forcedTheme) return forcedTheme;
+
+                const storedTheme = getStoredTheme();
+                if (storedTheme) {
+                    return storedTheme;
+                }
+
+                const pageTheme = document.documentElement.getAttribute('data-bs-theme');
+
+                if (pageTheme) {
+                    return pageTheme;
+                }
+
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+
+            const setTheme = theme => {
+                if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark');
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', theme);
+                }
+            }
+
+            setTheme(getPreferredTheme());
+
+            const showActiveTheme = (theme, focus = false) => {
+                const themeSwitchers = [].slice.call(document.querySelectorAll('.theme-switcher'));
+
+                if (!themeSwitchers.length) return;
+
+                document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                    element.classList.remove('active');
+                    element.setAttribute('aria-pressed', 'false');
+                });
+
+                for (const themeSwitcher of themeSwitchers) {
+
+                    const btnToActivate = themeSwitcher.querySelector('[data-bs-theme-value="' + theme + '"]');
+
+                    if (btnToActivate) {
+                        btnToActivate.classList.add('active');
+                        btnToActivate.setAttribute('aria-pressed', 'true');
+                    }
+                }
+            }
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                const storedTheme = getStoredTheme();
+                if (storedTheme !== 'light' && storedTheme !== 'dark') {
+                    setTheme(getPreferredTheme());
+                }
+            });
+
+            window.addEventListener('DOMContentLoaded', () => {
+                showActiveTheme(getPreferredTheme());
+
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            const theme = toggle.getAttribute('data-bs-theme-value');
+                            setStoredTheme(theme);
+                            setTheme(theme);
+                            showActiveTheme(theme);
+                        })
+                    })
+            });
+        })();
+    </script>
     <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/favicon.png?h=47412c11579e82ccc534a4c42cd7b30c">
     <link rel="icon" type="image/png" sizes="1024x1024" href="assets/img/favicon.png?h=47412c11579e82ccc534a4c42cd7b30c">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=7de7a0f402fce5fd940f59dd4df1022f">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=f9b50ef9fae3fd6dd71d14c05da626ca">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=5aae26cfc631423a28ee9f3eea8618b0">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css?h=5aae26cfc631423a28ee9f3eea8618b0">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css?h=5aae26cfc631423a28ee9f3eea8618b0">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=5e92495f9facee421c736ef47fc137f6">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=7c2682b8c4e63d3f7c6a9e7a12f73561">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176086027-1"></script>
@@ -53,23 +141,22 @@
 </head>
 
 <body>
-    <!-- Start: Navigation with Button -->
-    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button" style="background: rgb(238,244,247);">
-        <div class="container"><a class="navbar-brand" href="#" style="font-size: 32px;"><i class="fas fa-bolt" style="font-size: 30px;"></i>&nbsp;Sistema Laser 3</a><!-- Start: Navigation Clean -->
-            <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background: rgb(238,244,247);">
-                <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#videos">Vídeos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#faleconosco">Fale conosco</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav><!-- End: Navigation Clean -->
+    <!-- Start: Navbar With Button -->
+    <nav class="navbar navbar-expand-md fixed-top bg-body py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-lightning-fill">
+                        <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"></path>
+                    </svg></span><span class="fs-2">Sistema Laser</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Principal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Vídeos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faleconosco">Fale conosco</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+                </ul>
+            </div>
         </div>
-    </nav><!-- End: Navigation with Button -->
+    </nav><!-- End: Navbar With Button -->
     <header class="masthead text-white text-center" style="background: url(assets/img/ani-kolleshi-vu-DaZVeny0-unsplash.jpg?h=8df297c25202021bc22f4df79ba3958c) bottom / cover;">
         <div class="overlay"></div>
         <div class="container">
@@ -79,143 +166,303 @@
                 </div>
             </div>
         </div>
-    </header><!-- Start: Features -->
-    <section data-aos="fade-up" id="funcionalidades" class="features-icons bg-light text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Start: Locações -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-check m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Agenda e Locações de equipamentos médicos</h3>
-                        <p class="lead mb-0">Gerencie as locações de equipamentos médicos estéticos em uma plataforma online amigável e completa. Use diferentes visões de agendas, com consultas flexíveis e rápidas</p>
-                    </div>
-                </div><!-- End: Locações -->
-                <!-- Start: Proprietários -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-trophy m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Franquias,&nbsp; proprietários, representantes, parceiros e clientes</h3>
-                        <p class="lead mb-0">Controle locações de equipamentos de vários proprietários, veja as comissões de&nbsp; representantes, administre parceiros, franquias e gerencie o portfólio de clientes</p>
-                    </div>
-                </div><!-- End: Proprietários -->
-                <!-- Start: Financeiro -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="la la-money m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Gerenciamento financeiro</h3>
-                        <p class="lead mb-0">Faça a gestão financeira completa do seu negócio, com controle de custos de locações, contas a pagar, receber, cheques emitidos e recebidos, livros caixas, contas bancárias e mais...</p>
-                    </div>
-                </div><!-- End: Financeiro -->
-                <!-- Start: Manutenções -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="la la-magic m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Manutenções de equipamentos</h3>
-                        <p class="lead mb-0">Controle os custos de reparos e o ciclo de vida de equipamentos</p>
-                    </div>
-                </div><!-- End: Manutenções -->
-                <!-- Start: Produtos -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="la la-tencent-weibo m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Ponteiras, disparos e produtos&nbsp;</h3>
-                        <p class="lead mb-0">Controle os custos e os valores de venda de ponteiras, disparos e produtos utilizados nas locações</p>
-                    </div>
-                </div><!-- End: Produtos -->
-                <!-- Start: Relatórios -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="la la-file-excel-o m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Relatórios em vários formatos</h3>
-                        <p class="lead mb-0">Exporte relatórios para Excel, PDF e outros formatos</p>
-                    </div>
-                </div><!-- End: Relatórios -->
-                <!-- Start: Usuários -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-user-following m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Vários usuários</h3>
-                        <p class="lead mb-0">Obtenha segurança com perfis específicos para diferentes tipos de usuários, como parceiros e colaboradores. Cada um vê apenas o que você definir</p>
-                    </div>
-                </div><!-- End: Usuários -->
-                <!-- Start: Responsivo -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="icon-screen-smartphone m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Adequado para computador, celular ou tablet</h3>
-                        <p class="lead mb-0">Navegue de forma adequada em qualquer dispositivo</p>
-                    </div>
-                </div><!-- End: Responsivo -->
-                <!-- Start: Nuvem -->
-                <div class="col-lg-4">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="la la-cloud m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
-                        <h3>Nuvem segura</h3>
-                        <p class="lead mb-0">Preocupe-se apenas com seu negócio. Cuidamos da plataforma,&nbsp; da segurança e das outras coisas complicadas de TI em um contrato de sigilo</p>
-                    </div>
-                </div><!-- End: Nuvem -->
+    </header><!-- Start: Features Centered Icons -->
+    <div class="container py-4 py-xl-5" id="funcionalidades">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Funcionalidades</h2>
+                <p class="w-lg-50">Principais recursos</p>
             </div>
         </div>
-    </section><!-- End: Features -->
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <!-- Start: Locações -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bookmark-check">
+                            <path fill-rule="evenodd" d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"></path>
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Agenda e Locações de equipamentos médicos</strong></h4>
+                        <p class="lead">Gerencie as locações de equipamentos médicos estéticos em uma plataforma online amigável e completa. Use diferentes visões de agendas, com consultas flexíveis e rápidas</p>
+                    </div>
+                </div>
+            </div><!-- End: Locações -->
+            <!-- Start: Proprietários -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-trophy">
+                            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Franquias,&nbsp; proprietários, representantes, parceiros e clientes</strong></h4>
+                        <p class="lead">Controle locações de equipamentos de vários proprietários, veja as comissões de&nbsp; representantes, administre parceiros, franquias e gerencie o portfólio de clientes</p>
+                    </div>
+                </div>
+            </div><!-- End: Proprietários -->
+            <!-- Start: Financeiro -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-currency-dollar">
+                            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Gerenciamento financeiro</strong></h4>
+                        <p class="lead">Faça a gestão financeira completa do seu negócio, com controle de custos de locações, contas a pagar, receber, cheques emitidos e recebidos, livros caixas, contas bancárias e mais...</p>
+                    </div>
+                </div>
+            </div><!-- End: Financeiro -->
+            <!-- Start: Manutenções -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-screwdriver">
+                            <path d="M0 .995.995 0l3.064 2.19a.995.995 0 0 1 .417.809v.07c0 .264.105.517.291.704l5.677 5.676.909-.303a.995.995 0 0 1 1.018.24l3.338 3.339a.995.995 0 0 1 0 1.406L14.13 15.71a.995.995 0 0 1-1.406 0l-3.337-3.34a.995.995 0 0 1-.24-1.018l.302-.909-5.676-5.677a.995.995 0 0 0-.704-.291H3a.995.995 0 0 1-.81-.417L0 .995Zm11.293 9.595a.497.497 0 1 0-.703.703l2.984 2.984a.497.497 0 0 0 .703-.703l-2.984-2.984Z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Manutenções de equipamentos</strong></h4>
+                        <p class="lead">Controle os custos de reparos e o ciclo de vida de equipamentos</p>
+                    </div>
+                </div>
+            </div><!-- End: Manutenções -->
+            <!-- Start: Produtos -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-geo-fill">
+                            <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Ponteiras, disparos e produtos&nbsp;</strong></h4>
+                        <p class="lead">Controle os custos e os valores de venda de ponteiras, disparos e produtos utilizados nas locações</p>
+                    </div>
+                </div>
+            </div><!-- End: Produtos -->
+            <!-- Start: Relatórios -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-paperclip">
+                            <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Relatórios em vários formatos</strong></h4>
+                        <p class="lead">Exporte relatórios para Excel, PDF e outros formatos</p>
+                    </div>
+                </div>
+            </div><!-- End: Relatórios -->
+            <!-- Start: Usuários -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-heart">
+                            <path d="M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276Z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Vários usuários</strong></h4>
+                        <p class="lead">Obtenha segurança com perfis específicos para diferentes tipos de usuários, como parceiros e colaboradores. Cada um vê apenas o que você definir</p>
+                    </div>
+                </div>
+            </div><!-- End: Usuários -->
+            <!-- Start: Responsivo -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-phone-landscape">
+                            <path d="M1 4.5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-6zm-1 6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v6z"></path>
+                            <path d="M14 7.5a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Adequado para computador, celular ou tablet</strong></h4>
+                        <p class="lead">Navegue de forma adequada em qualquer dispositivo</p>
+                    </div>
+                </div>
+            </div><!-- End: Responsivo -->
+            <!-- Start: Nuvem -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-cloud">
+                            <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Nuvem segura</strong></h4>
+                        <p class="lead">Preocupe-se apenas com seu negócio. Cuidamos da plataforma,&nbsp; da segurança e das outras coisas complicadas de TI em um contrato de sigilo</p>
+                    </div>
+                </div>
+            </div><!-- End: Nuvem -->
+            <!-- Start: Integrações -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-google">
+                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4>Integrações</h4>
+                        <p class="lead">Integrações com Google Forms e sua ferramenta de CRM favorita!</p>
+                    </div>
+                </div>
+            </div><!-- End: Integrações -->
+            <!-- Start: Whatsapp -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
+                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Automação de Whatsapp</strong><sup>Em breve!&nbsp;</sup></h4>
+                        <p class="lead">Confirmações de agendamento e notificações automáticas utilizando Whatsapp Cloud API</p>
+                    </div>
+                </div>
+            </div><!-- End: Whatsapp -->
+            <!-- Start: App -->
+            <div class="col">
+                <div class="text-center d-flex flex-column align-items-center align-items-xl-center">
+                    <div class="bs-icon-lg bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon lg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-fuel-pump">
+                            <path d="M3 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5Z"></path>
+                            <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1c.564 0 1.034.11 1.412.336.383.228.634.551.794.907.295.655.294 1.465.294 2.081v3.175a.5.5 0 0 1-.5.501H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V2Zm9 0a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h8V2Z"></path>
+                        </svg></div>
+                    <div class="px-3">
+                        <h4><strong>Aplicativo para motoristas</strong><sup>Em breve!&nbsp;</sup></h4>
+                        <p class="lead">Aplicativo com visão especializada para entrega e logística dos equipamentos</p>
+                    </div>
+                </div>
+            </div><!-- End: App -->
+        </div>
+    </div><!-- End: Features Centered Icons -->
     <!-- Start: Telas -->
-    <section data-aos="fade-up" class="showcase">
-        <div class="container-fluid p-0">
-            <div class="row g-0" data-aos="fade-up">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background: url(assets/img/locacoes-calendario.png?h=d16edc9cd375f85e3c7cf42154e00050) center / contain no-repeat;"><span style="background: url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2><strong>Agenda de locações</strong></h2>
-                    <p class="lead mb-0">Gerencie as locações de equipamentos laser em uma plataforma online integrada com diferentes visões de agendas e programações de locações</p>
+    <div class="container">
+        <section data-aos="fade-up" class="showcase">
+            <div class="container-fluid p-0">
+                <div class="row g-0" data-aos="fade-up">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background: url(assets/img/locacoes-calendario.png?h=d16edc9cd375f85e3c7cf42154e00050) center / contain no-repeat;"><span style="background: url(https://cdn.bootstrapstudio.io/placeholders/1400x800.png);"></span></div>
+                    <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                        <h2><strong>Agenda de locações</strong></h2>
+                        <p class="lead mb-0">Gerencie as locações de equipamentos laser em uma plataforma online integrada com diferentes visões de agendas e programações de locações</p>
+                    </div>
+                </div>
+                <div class="row g-0" data-aos="fade-up">
+                    <div class="col-lg-6 text-white showcase-img" style="background: url(assets/img/financeiro-caixa.png?h=ad4c6b911bbfb243b17a596fd02902c7) no-repeat;background-size: contain;"><span></span></div>
+                    <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                        <h2><strong>Gerenciamento financeiro completo</strong></h2>
+                        <p class="lead mb-0">Faça a gestão financeira completa do seu negócio, com controle de custos de locações, contas a pagar, receber, cheques emitidos e recebidos, livros caixas, contas bancárias, relatórios e mais...</p>
+                    </div>
+                </div>
+                <div class="row g-0" data-aos="fade-up">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background: url(assets/img/locacoes-contrato.png?h=2aa85db92a0a46803dfc0242d724ed67) center / contain no-repeat;"><span></span></div>
+                    <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                        <h2>Emissão de recibos e contratos</h2>
+                        <p class="lead mb-0">Gerencie a emissão de recibos e envie contratos padronizados por email</p>
+                    </div>
+                </div>
+                <div class="row g-0" data-aos="fade-up">
+                    <div class="col-lg-6 text-white showcase-img" style="background: url(assets/img/locacoes-fechamento-parceiro.png?h=29807cd126b03b82521af554fecc12ca) no-repeat;background-size: contain;"><span></span></div>
+                    <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                        <h2><strong>Parceiros, muitos parceiros</strong></h2>
+                        <p class="lead mb-0">Gerencie de forma unificada filiais ou representantes com equipamentos cedidos em comodato. Para seu negócio crescer muito!</p>
+                    </div>
                 </div>
             </div>
-            <div class="row g-0" data-aos="fade-up">
-                <div class="col-lg-6 text-white showcase-img" style="background: url(assets/img/financeiro-caixa.png?h=ad4c6b911bbfb243b17a596fd02902c7) no-repeat;background-size: contain;"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2><strong>Gerenciamento financeiro completo</strong></h2>
-                    <p class="lead mb-0">Faça a gestão financeira completa do seu negócio, com controle de custos de locações, contas a pagar, receber, cheques emitidos e recebidos, livros caixas, contas bancárias, relatórios e mais...</p>
+        </section>
+    </div><!-- End: Telas -->
+    <!-- Start: Projects Grid Horizontal -->
+    <div class="container py-4 py-xl-5" id="videos">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Vídeos</h2>
+                <p class="w-lg-50">Veja na prática</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2">
+            <div class="col">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100">
+                        <h4>Locações</h4><!-- Start: Locações --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/XVNVSPW6acE?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=XVNVSPW6acE&amp;controls=0" width="560" height="315"></iframe><!-- End: Locações -->
+                        <p>Consulta e cadastro de locações</p>
+                    </div>
                 </div>
             </div>
-            <div class="row g-0" data-aos="fade-up">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background: url(assets/img/locacoes-contrato.png?h=2aa85db92a0a46803dfc0242d724ed67) center / contain no-repeat;"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2>Emissão de recibos e contratos</h2>
-                    <p class="lead mb-0">Gerencie a emissão de recibos e envie contratos padronizados por email</p>
+            <div class="col">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100">
+                        <h4>Plano de Contas</h4><!-- Start: Plano de Contas --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/_PFCZK3OxkI?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=_PFCZK3OxkI&amp;controls=0" width="560" height="315"></iframe><!-- End: Plano de Contas -->
+                        <p>Use seu plano de contas para gerenciar as finanças da empresa</p>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4"></div>
                 </div>
             </div>
-            <div class="row g-0" data-aos="fade-up">
-                <div class="col-lg-6 text-white showcase-img" style="background: url(assets/img/locacoes-fechamento-parceiro.png?h=29807cd126b03b82521af554fecc12ca) no-repeat;background-size: contain;"><span></span></div>
-                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2><strong>Parceiros, muitos parceiros</strong></h2>
-                    <p class="lead mb-0">Gerencie de forma unificada filiais ou representantes com equipamentos cedidos em comodato. Para seu negócio crescer muito!</p>
+            <div class="col">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100">
+                        <h4>Pessoas e clientes</h4><!-- Start: Pessoas e clientes --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hZLKFw4rJNU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=hZLKFw4rJNU&amp;controls=0" width="548" height="315"></iframe><!-- End: Pessoas e clientes -->
+                        <p>Controle clientes, fornecedores e parceiros e defina tabelas de preços de locações individualizadas para cada cliente. Integre recursos do Google Forms e outros recursos</p>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100">
+                        <h4>Modelos e equipamentos</h4><!-- Start: Modelos e equipamentos --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ma94G5WUTJk?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=ma94G5WUTJk&amp;controls=0" width="560" height="315"></iframe><!-- End: Modelos e equipamentos -->
+                        <p>Controle de múltiplos modelos e equipamentos</p>
+                    </div>
+                    <div class="py-4 py-lg-0 px-lg-4"></div>
                 </div>
             </div>
         </div>
-    </section><!-- End: Telas -->
-    <!-- Start: Videos -->
-    <div data-aos="fade-up" id="videos" class="projects-clean">
-        <div class="container">
-            <!-- Start: Intro -->
-            <div class="intro">
-                <h2 class="text-center">Vídeos</h2>
-                <p class="text-center">Conheça um pouco mais o sistema...</p>
-            </div><!-- End: Intro -->
-            <!-- Start: Projects -->
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 row-cols-xl-1 projects">
-                <div class="col-auto col-sm-6 col-lg-4 item" data-aos="fade-up">
-                    <p class="name">Locações</p>
-                    <p class="description">Consulta e cadastro de locações</p><!-- Start: Locações --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/XVNVSPW6acE?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=XVNVSPW6acE&amp;controls=0" width="560" height="315"></iframe><!-- End: Locações -->
+    </div><!-- End: Projects Grid Horizontal -->
+    <!-- Start: Contact Details -->
+    <section id="faleconosco" class="position-relative py-4 py-xl-5">
+        <div class="container position-relative">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>Fale conosco</h2>
+                    <p class="w-lg-50">Entre em contato e conheça mais detalhes do produto</p>
                 </div>
-                <div class="col-auto col-sm-6 col-lg-4 item" data-aos="fade-up">
-                    <p class="name">Plano de contas</p>
-                    <p class="description">Use seu plano de contas para gerenciar as finanças da empresa</p><!-- Start: Plano de Contas --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/_PFCZK3OxkI?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=_PFCZK3OxkI&amp;controls=0" width="560" height="315"></iframe><!-- End: Plano de Contas -->
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="d-flex flex-column justify-content-center align-items-start h-100">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Telefone</h6>
+                                <p class="mb-0"><a href="https://api.whatsapp.com/send?phone=61991642806&amp;text=Olá%20,%20gostaria%20de%20mais%20informações%20sobre%20o%20Sistema%20Laser">+55 61 99164-2806</a></p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0"><a href="mailto:contato@terasoft.com.br">contato@terasoft.com.br</a></p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pin">
+                                    <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Localização</h6>
+                                <p class="mb-0">Brasília, DF, Brasil</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-auto col-sm-6 col-lg-4 item" data-aos="fade-up">
-                    <p class="name">Pessoas e clientes</p>
-                    <p class="description">Controle clientes, fornecedores e parceiros e defina tabelas de preços de locações individualizadas para cada cliente</p><!-- Start: Pessoas e clientes --><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hZLKFw4rJNU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=hZLKFw4rJNU&amp;controls=0" width="548" height="315"></iframe><!-- End: Pessoas e clientes -->
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <div>
+                        <form class="p-3 p-xl-4" data-bss-subject="Sistema Laser - Fale Conosco" data-bss-loading-message="Enviando..." data-bss-success-title="Sucesso" data-bss-success-message="Sua mensagem foi enviada. Entraremos em contato em breve" data-bss-empty-form-message="Por favor, preencha os campos do fomrulário" data-bss-close="Fechar" data-bss-error-message="Algo aconteceu errado..." data-bss-recipient="9938338c93cfca38cc9e4d7bdb165072">
+                            <!-- Start: Success Example -->
+                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Nome" required=""></div><!-- End: Success Example -->
+                            <!-- Start: Success Example -->
+                            <div class="mb-3"><input class="form-control" type="tel" id="phone" name="phone" placeholder="Telefone/Whatsapp" minlength="10" required=""></div><!-- End: Success Example -->
+                            <!-- Start: Error Example -->
+                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email" required=""></div><!-- End: Error Example -->
+                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Mensagem">Olá, gostaria de mais informações sobre o Sistema Laser</textarea></div>
+                            <div><button class="btn btn-primary d-block w-100" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
                 </div>
-            </div><!-- End: Projects -->
+            </div>
         </div>
-    </div><!-- End: Videos -->
+    </section><!-- End: Contact Details -->
     <!-- Start: Alguns clientes -->
     <section id="parceiros">
         <div class="container">
@@ -244,61 +491,23 @@
             </div><!-- End: Projects -->
         </div>
     </section><!-- End: Alguns clientes -->
-    <!-- Start: Fale Conosco -->
-    <div id="faleconosco" class="highlight-phone" style="background: rgb(238, 244, 247);">
-        <div class="container">
+    <!-- Start: Footer Basic -->
+    <footer class="text-center">
+        <div class="container text-muted py-4 py-lg-5">
             <div class="row">
-                <div class="col-md-8">
-                    <!-- Start: Intro -->
-                    <div class="intro">
-                        <h2>Fale conosco</h2>
-                        <p>Entre em contato e conheça mais detalhes do produto.</p><div>
-<div id="tripetto"></div>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-classic"></script>
-<script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
-<script>
-var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiM2JtdFBHUllkMlZDU0Jwc1VoeGJkVnNOQXlsV3gxQjZKZ1ZDTkFyTHZzZz0iLCJkZWZpbml0aW9uIjoiWFJSdmhsenRqUFJOL0RPQjdwMnA1YXFvZXR3OXdId3l2amFyWXJKejEyWT0iLCJ0eXBlIjoiY29sbGVjdCJ9.uunIdtSthWsCIssCgy89Goz2R1H0m1JyQf3hfzmFjec" });
-
-TripettoClassic.run({
-    element: document.getElementById("tripetto"),
-    definition: tripetto.definition,
-    styles: tripetto.styles,
-    l10n: tripetto.l10n,
-    locale: tripetto.locale,
-    translations: tripetto.translations,
-    attachments: tripetto.attachments,
-    onSubmit: tripetto.onSubmit
-});
-</script>
-</div>
-                    </div><!-- End: Intro -->
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-start">
+                    <p class="text-muted small mb-4 mb-lg-0">Copyright © 2023 Sistema Laser</p>
                 </div>
-                <div class="col-sm-4">
-                    <!-- Start: Intro -->
-                    <div class="intro">
-                        <h2>Mensagem eletrônica</h2>
-                        <p>Se preferir, envie-nos um e-mail</p><a class="btn btn-primary" role="button" href="mailto:laurocesar@terasoft.com.br" style="background: #055ada;">Envie um e-mail</a>
-                    </div><!-- End: Intro -->
-                </div>
-            </div>
-        </div>
-    </div><!-- End: Fale Conosco -->
-    <!-- Start: Imagem de fim -->
-    <section class="call-to-action text-white text-center" style="background: url(assets/img/wonderlane-BT5AHk5c_hg-unsplash.jpg?h=f7b753b1a00aa968e2b8bd8a1aa145c3) center center / cover no-repeat;"></section><!-- End: Imagem de fim -->
-    <footer class="footer bg-light">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-6 my-auto h-100 text-center text-lg-start">
                     <p class="text-muted small mb-4 mb-lg-0">Registro no Instituto Nacional de Propriedade Industrial (INPI) - BR512019003013-3 <br>©&nbsp;Sistema Laser 2005-2022. Todos os direitos reservados.</p>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js?h=981245863c383366a329259d02b8172c"></script>
+    </footer><!-- End: Footer Basic -->
+    <script src="assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=a52d057774a957ffc5c4e3aabf79520a"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/script.min.js?h=df94a0428c20e95648fe378e928a5d26"></script>
+    <script src="assets/js/script.min.js?h=ede12e4e501ae07503f9a284f6129381"></script>
 </body>
 
 </html>
