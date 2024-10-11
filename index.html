@@ -87,11 +87,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 document.addEventListener("DOMContentLoaded", function() {
     var offset = 50; // Adjust this value based on the height of your fixed header or desired offset
 
-    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    document.querySelectorAll('a[href^="index.html?#"]').forEach(function(anchor) {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
 
-            var target = document.querySelector(this.getAttribute('href'));
+            var targetId = this.getAttribute('href').split('#')[1];
+            var target = document.getElementById(targetId);
             if (target) {
                 window.scrollTo({
                     top: target.offsetTop - offset,
@@ -122,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li class="nav-item"><a class="nav-link" href="index.html#faleconosco">Fale conosco</a></li><!-- End: Fale Conosco -->
                     <!-- Start: Blog -->
                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li><!-- End: Blog -->
-                    <li class="theme-switcher nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-sun-fill mb-1">
+                    <li class="theme-switcher nav-item dropdown"><a class="dropdown-toggle nav-link ms-2" aria-expanded="false" data-bs-toggle="dropdown" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-sun-fill mb-1">
                                 <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
                             </svg></a>
                         <div class="dropdown-menu"><a class="dropdown-item d-flex align-items-center" href="#" data-bs-theme-value="light"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-sun-fill opacity-50 me-2">
@@ -134,7 +135,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"></path>
                                 </svg>Auto</a></div>
                     </li>
-                </ul>
+                </ul><a class="btn btn-primary ms-2" role="button" href="index.html#faleconosco" rel="external">Registre-se</a><a class="btn btn-warning ms-2" role="button" href="https://app.sistemalaser.com.br" target="_blank" rel="external">Entrar</a>
             </div>
         </div>
     </nav><!-- End: Navbar With Button -->
@@ -157,7 +158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2>Seu negócio totalmente online</h2>
-                <p class="w-lg-50">Automatize completamente os processos da sua empresa</p>
+                <p class="w-lg-50">Automatize completamente os processos da sua empresa</p><a class="btn btn-primary" role="button" href="index.html#faleconosco">Quero meu negócio online</a>
             </div>
         </div>
         <section data-aos="fade-up" class="showcase">
@@ -247,7 +248,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2>Resumo</h2>
-                <p class="w-lg-50">Principais recursos</p>
+                <p class="w-lg-50">Principais recursos</p><a class="btn btn-primary" role="button" href="index.html#faleconosco">Quero automatizar minha empresa</a>
             </div>
         </div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -430,7 +431,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2>Planos</h2>
-                <p class="w-lg-50">Encontre um plano ideal para seu negócio</p>
+                <p class="w-lg-50">Encontre um plano ideal para seu negócio</p><a class="btn btn-primary" role="button" href="index.html#faleconosco">Quero saber mais</a>
             </div>
         </div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -597,7 +598,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container position-relative">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>Fale conosco</h2>
+                    <h2>Fale conosco e registre-se</h2>
                     <p class="w-lg-50">Entre em contato e conheça mais detalhes do produto</p>
                 </div>
             </div>
@@ -672,8 +673,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-sm-6 col-lg-4 text-center my-auto item" style="filter: grayscale(0%);"><a href="https://prolasersp.com.br/" target="_blank"><img src="assets/img/parceiros/brand-prolaser.png?h=924fcac8b354dd9b6c0cf6ec8b7d9861"></a></div><!-- End: Prolaser -->
             </div><!-- End: Projects -->
         </div>
-    </section><!-- End: Alguns clientes -->
-    <!-- Start: Footer Multi Column -->
+    </section><!-- End: Alguns clientes --><a href="https://api.whatsapp.com/send?phone=5541985359210&amp;text=Olá%20,%20gostaria%20de%20mais%20informações%20sobre%20o%20Sistema%20Laser" style="position: fixed;width: 75px;height: 75px;bottom: 50px;right: 40px;background-color: #25d366;color: #FFF;border-radius: 100px; text-align: center; font-size: 40px; box-shadow: 0 0 10px #25d366;z-index: 1000;border: 2px solid #25d366;animation: glow 1.5s infinite alternate;        @keyframes glow {        0% { box-shadow: 0 0 5px #25d366, 0 0 10px #25d366, 0 0 15px #25d366; }  100% { box-shadow: 0 0 15px #25d366, 0 0 20px #25d366, 0 0 30px #25d366; }    }" target="_blank" title="Fale conosco"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+        </svg></a><!-- Start: Footer Multi Column -->
     <footer>
         <div class="container py-4 py-lg-5">
             <hr>
