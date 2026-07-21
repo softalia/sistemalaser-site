@@ -1,0 +1,9 @@
+(function(){
+  var markup='<footer class="site-footer"><div class="container"><div class="row g-4"><div class="col-lg-4"><a class="site-brand" style="color:#fff" href="index.html"><img src="assets/img/icons/simbolo.svg" width="25" height="30" alt=""><span>Sistema Laser<sup>®</sup></span></a><p class="mt-3">Software para gestão de locação de equipamentos, aperfeiçoado há mais de 20 anos por quem entende de logística.</p><div class="footer-other mt-4"><h3>Outras soluções</h3><a class="footer-other-link" href="https://www.ebrain.clinic" target="_blank" rel="noopener">ebrain.clinic ↗</a></div></div><div class="col-6 col-lg-2"><h3>Plataforma</h3><a href="funcionalidades.html">Funcionalidades</a><a href="integracoes.html">Integrações</a><a href="planos.html">Planos e preços</a></div><div class="col-6 col-lg-2"><h3>Soluções</h3><a href="solucoes-locadoras.html#especializadas">Médico e hospitalar</a><a href="solucoes-locadoras.html#geral">Construção e outros</a><a href="solucoes-locadoras.html#rede">Parceiros</a></div><div class="col-6 col-lg-2"><h3>Empresa</h3><a href="blog.html">Conteúdos</a><a href="jobs.html">Trabalhe conosco</a><a href="whatsapp.html">Meta Partner</a></div><div class="col-6 col-lg-2"><h3>Legal</h3><a href="termos-uso.html">Termos de Uso</a><a href="termos-privacidade.html">Privacidade</a></div></div><div class="footer-bottom">© 2005–2026 Sistema Laser® · Aliasoft Ltda. · CNPJ 54.344.272/0001-38 · INPI BR512019003013-3</div></div></footer>';
+  function render(){
+    var current=document.querySelector('body > footer');
+    if(current)current.remove();
+    document.body.insertAdjacentHTML('beforeend',markup);
+  }
+  document.addEventListener('DOMContentLoaded',render);
+})();
