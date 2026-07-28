@@ -2,7 +2,7 @@
 
 > Software online de gestão de locação de equipamentos médicos, hospitalares, estéticos, lasers, construção civil e qualquer outro tipo de equipamento.
 
-O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, protocolos, financeiro, estoque, parceiros, cobranças e atendimento. A plataforma funciona em computador, celular e tablet.
+O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, protocolos, financeiro, estoque, parceiros, cobranças, automação via WhatsApp e atendimento. A plataforma funciona em computador, celular e tablet.
 
 ## Páginas principais
 
@@ -18,11 +18,11 @@ O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, p
 - Starter: R$ 399 por mês, até 8 equipamentos e 3 usuários.
 - Pro: R$ 699 por mês, até 15 equipamentos e 7 usuários.
 - Master: R$ 1.299 por mês, equipamentos e usuários ilimitados.
-- Não há taxa de adesão; a assinatura pode ser cancelada quando o cliente desejar, conforme as condições comerciais vigentes.
+- Não há taxa de adesão; migração gratuita do sistema atual; a assinatura pode ser cancelada quando o cliente desejar, conforme as condições comerciais vigentes.
 
 ## Empresa e contato
 
-Sistema Laser é marca da Aliasoft Ltda. Contato comercial: contato@sistemalaser.com.br ou WhatsApp +55 61 99164-2806.
+Sistema Laser é marca da Aliasoft Ltda. Contato comercial: contato@sistemalaser.com.br ou WhatsApp +55 61 99164-2806. Instagram oficial: [@meusistemalaser](https://www.instagram.com/meusistemalaser).
 
 ## Outras soluções
 

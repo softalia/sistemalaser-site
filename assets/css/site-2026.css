@@ -1,3 +1,5 @@
+@import url("../fonts/fontawesome-all.min.css");
+
 :root,[data-bs-theme="light"]{
   --sl-primary:#5456c7;--sl-primary-strong:#3f42aa;--sl-primary-soft:#eeefff;
   --sl-accent:#7b76ee;--sl-success:#1d9b68;--sl-warning:#d88b2c;
@@ -22,6 +24,22 @@
 .logo-cloud .partner-logo{display:flex;align-items:center;justify-content:center;min-width:150px;min-height:72px;padding:.7rem 1rem;background:#fff;border:1px solid var(--sl-border);border-radius:.75rem;box-shadow:0 8px 24px rgba(30,32,72,.08)}
 .logo-cloud .partner-logo img{max-width:130px;max-height:58px;filter:none;opacity:1}
 .site-footer .footer-other-link{display:inline-flex;color:#fff;font-weight:800}
+.site-footer .footer-social-link{display:inline-flex;align-items:center;gap:.55rem}
+.site-footer .footer-social-link .fab{width:1.1rem;text-align:center;font-size:1.1rem}
+.migration-band{position:relative;overflow:hidden;background:linear-gradient(135deg,#315a8f 0%,#4535a8 58%,#6b48c8 100%);color:#fff}
+.migration-band:before{content:"";position:absolute;width:28rem;height:28rem;right:-10rem;top:-15rem;border-radius:50%;background:rgba(255,255,255,.09)}
+.migration-band .container{position:relative}
+.migration-band h2,.migration-band h3{color:#fff}
+.migration-band p{color:rgba(255,255,255,.82)}
+.migration-band .eyebrow{color:#d9e7ff}
+.migration-card{height:100%;padding:1.7rem;border:1px solid rgba(255,255,255,.2);border-radius:1rem;background:rgba(15,18,56,.3);backdrop-filter:blur(8px)}
+.migration-card h3{font-size:1.15rem;margin-bottom:1rem}
+.migration-list{list-style:none;margin:0;padding:0}
+.migration-list li{position:relative;padding:.72rem 0 .72rem 1.8rem;border-bottom:1px solid rgba(255,255,255,.13);color:rgba(255,255,255,.88)}
+.migration-list li:last-child{border-bottom:0}
+.migration-list li:before{content:"✓";position:absolute;left:0;color:#b9ffd9;font-weight:900}
+.migration-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+.migration-band .btn-outline-light:hover{color:#34368d}
 .other-solution{padding:1.5rem 0 4.5rem;background:var(--sl-surface)}
 .other-solution-card{display:flex;align-items:center;gap:1.5rem;padding:1.5rem;border:1px solid var(--sl-border);border-radius:1rem;background:var(--sl-surface-raised)}
 .other-solution-logo{display:grid;place-items:center;min-width:190px;min-height:88px;padding:1rem;background:#fff;border:1px solid var(--sl-border);border-radius:.8rem}
