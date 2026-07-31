@@ -8,6 +8,25 @@
     document.querySelectorAll('.site-nav .nav-link').forEach(function(link){
       if(link.getAttribute('href')===page){link.classList.add('active');link.setAttribute('aria-current','page')}
     });
+    var demoLink=document.querySelector('.site-nav a[href="index.html#demonstracao"]');
+    var menu=document.getElementById('siteMenu');
+    var toggler=document.querySelector('.site-nav .navbar-toggler');
+    if(demoLink&&menu&&toggler){
+      demoLink.addEventListener('click',function(event){
+        if(!document.getElementById('demonstracao')){
+          event.preventDefault();
+          window.location.href=demoLink.href;
+          return;
+        }
+        if(!window.matchMedia('(max-width: 991.98px)').matches)return;
+        if(window.bootstrap&&window.bootstrap.Collapse){
+          window.bootstrap.Collapse.getOrCreateInstance(menu).hide();
+        }else{
+          menu.classList.remove('show');
+          toggler.setAttribute('aria-expanded','false');
+        }
+      });
+    }
   }
   document.addEventListener('DOMContentLoaded',render);
 })();
