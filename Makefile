@@ -1,12 +1,15 @@
 .DEFAULT_GOAL := help
 
-.PHONY: build clean help serve validate
+.PHONY: build clean help serve validate convert-assets-new-to-webp
 
 build: ## Gera os arquivos finais do site
 	node scripts/build-blog.mjs
 
 clean: ## Remove os arquivos gerados
 	rm -rf dist
+
+convert-assets-new-to-webp: ## Converte arquivos em assets/new para WebP e remove os originais
+	bash scripts/convert-assets-new-to-webp.sh assets/new
 
 serve: build ## Inicia um servidor local para testar o site em http://localhost:8080
 	python3 -m http.server 8080 --directory dist

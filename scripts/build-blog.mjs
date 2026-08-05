@@ -20,6 +20,7 @@ const staticSitemapEntries = [
   ["/software-locadora-medica.html", today, "monthly", "0.85"],
   ["/software-locadora-construcao.html", today, "monthly", "0.8"],
   ["/erp-locadora.html", today, "monthly", "0.85"],
+  ["/sistema-financeiro-locadora.html", today, "monthly", "0.9"],
   ["/controle-equipamentos.html", today, "monthly", "0.85"],
   ["/agenda-locacoes.html", today, "monthly", "0.85"],
   ["/funcionalidades.html", today, "monthly", "0.8"],

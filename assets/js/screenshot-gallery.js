@@ -7,13 +7,18 @@
     { src: 'assets/img/sistema/sll-locacoes-contrato.webp', title: 'Contratos e documentos', description: 'Geração de documentos vinculados diretamente à locação.' },
     { src: 'assets/img/sistema/sll-locacoes-fotos.webp', title: 'Equipamentos e evidências', description: 'Cadastro de equipamentos e registro de fotos de início e fim da locação.' },
     { src: 'assets/img/sistema/sll-documento-assinatura.webp', title: 'Assinatura eletrônica', description: 'Formalização e acompanhamento da assinatura de documentos.' },
-    { src: 'assets/img/sistema/sll-financeiro-caixa.webp', title: 'Fluxo de caixa', description: 'Receitas, despesas e indicadores financeiros conectados à operação.' },
+    { src: 'assets/img/sistema/sll-financeiro-dashboard.webp', title: 'Dashboard financeiro', description: 'Saldos, valores em aberto, resultados do período e comparação mensal.' },
+    { src: 'assets/img/sistema/sll-financeiro-contas.webp', title: 'Contas a receber e a pagar', description: 'Parcelas, vencimentos, recebimentos, pagamentos e controle de cheques.' },
+    { src: 'assets/img/sistema/sll-financeiro-fluxo-caixa.webp', title: 'Fluxo de caixa', description: 'Previsão de entradas, saídas e saldos futuros em todos os caixas.' },
+    { src: 'assets/img/sistema/sll-financeiro-caixa.webp', title: 'Caixas e movimentações', description: 'Bancos, caixas e indicadores financeiros conectados à operação.' },
     { src: 'assets/img/sistema/sll-financeiro-pix.webp', title: 'Cobranças integradas', description: 'PIX, boleto, cartão e conciliação de pagamentos pelo Asaas.' },
     { src: 'assets/img/sistema/locacoes-fechamento-parceiro.webp', title: 'Fechamento de parceiros', description: 'Conferência de repasses, comissões e resultados por parceiro.' },
     { src: 'assets/img/sistema/sll-links.webp', title: 'Formulários de captação', description: 'Links e formulários configuráveis que cadastram novos clientes automaticamente.' },
     { src: 'assets/img/sistema/sll-lila.webp', title: 'LILA e WhatsApp', description: 'Atendimento automatizado e conversas integradas ao Sistema Laser.' },
     { src: 'assets/img/sistema/financeiro-mobile-left.webp', title: 'Acesso pelo celular', description: 'Consulta da operação em uma interface responsiva para dispositivos móveis.' },
-    { src: 'assets/img/sistema/sll-dark-mode.webp', title: 'Modo escuro', description: 'Interface com tema escuro para mais conforto visual.' }
+    { src: 'assets/img/sistema/sll-layout-acessivel.webp', title: 'Layout acessível', description: 'Alternativa visual que favorece contraste e leitura da interface.' },
+    { src: 'assets/img/sistema/sll-layout-confortavel.webp', title: 'Layout confortável', description: 'Organização visual equilibrada para uma rotina prolongada no sistema.' },
+    { src: 'assets/img/sistema/sll-layout-dark-mode.webp', title: 'Modo escuro', description: 'Interface com tema escuro para mais conforto em ambientes com pouca luz.' }
   ];
 
   const screenIndexByFile = new Map(screens.map(function (screen, index) {

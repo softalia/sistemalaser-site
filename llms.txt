@@ -25,6 +25,7 @@ Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O co
 - [Software para locadora médica e hospitalar](https://www.sistemalaser.com.br/software-locadora-medica.html): página para locadoras de equipamentos médicos, hospitalares, odontológicos, fisioterapia e empresas que alugam tecnologias para clínicas.
 - [Software para locadora de equipamentos de construção](https://www.sistemalaser.com.br/software-locadora-construcao.html): página para aluguel de máquinas, ferramentas, geradores, compressores, plataformas e equipamentos de construção civil.
 - [ERP para locadora](https://www.sistemalaser.com.br/erp-locadora.html): página para comparação entre ERP genérico e ERP específico para locadoras.
+- [Sistema financeiro para locadoras](https://www.sistemalaser.com.br/sistema-financeiro-locadora.html): contas a receber e a pagar, caixas, bancos, cheques, fluxo de caixa, DRE, dashboard, PIX, boleto e cartão integrados à operação.
 - [Controle de equipamentos alugados](https://www.sistemalaser.com.br/controle-equipamentos.html): página para controle de equipamentos, ativos, manutenção, fotos, protocolos e histórico.
 - [Agenda de locações](https://www.sistemalaser.com.br/agenda-locacoes.html): página para agenda de aluguel de equipamentos, disponibilidade e prevenção de conflitos.
 
