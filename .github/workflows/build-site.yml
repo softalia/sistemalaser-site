@@ -1,4 +1,4 @@
-name: Build static site
+name: Build and publish site
 
 on:
   push:
@@ -16,6 +16,7 @@ on:
       - "CNAME"
       - "robots.txt"
       - "llms.txt"
+      - ".github/workflows/build-site.yml"
   workflow_dispatch:
 
 permissions:
@@ -23,21 +24,37 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
 jobs:
-  build-static-site:
+  build-and-deploy:
+    name: Build dist and deploy to GitHub Pages
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: make validate
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Build and validate static site
+        run: make validate
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dist artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - id: deployment
+
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
