@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.sistemalaser.com.br/sitemap.xml
+LLMS: https://www.sistemalaser.com.br/llms.txt
