@@ -2,6 +2,30 @@
   "version": 1,
   "posts": [
     {
+      "slug": "controle-disparos-ponteiras-locadora",
+      "title": "Controle de disparos e ponteiras: 3 passos para conciliar o uso real na locação de laser",
+      "heroTitle": "Controle de disparos e ponteiras: 3 passos para conciliar o uso real na locação de laser",
+      "description": "Veja como registrar a contagem de disparos na saída e devolução, vincular o consumo ao contrato e dar acesso seguro de campo para técnicos.",
+      "seoTitle": "Controle de disparos e ponteiras na locação de laser | Sistema Laser",
+      "seoDescription": "Saiba como controlar o consumo de disparos de ponteiras por locação, conciliar cobranças e dar acesso de campo sem expor dados financeiros.",
+      "ogTitle": "Controle de disparos e ponteiras na locação de laser",
+      "ogDescription": "3 passos para conciliar o uso real da ponteira sem depender do papel.",
+      "date": "2026-08-05",
+      "modified": "2026-08-05",
+      "category": "Controle de equipamentos",
+      "tags": [
+        "controle de disparos",
+        "locação de laser",
+        "ponteiras de laser",
+        "gestão de locadora"
+      ],
+      "heroCopy": "Quando a locação de equipamentos estéticos ou médicos envolve contagem de tiros por ponteira, a conciliação só é tranquila se houver leitura inicial e final registrada.",
+      "readingTime": 2,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/controle-disparos-ponteiras-locadora.html",
+      "contentHtml": "<h2>1. Registro no recolhimento do equipamento</h2><p>Anote o contador inicial no momento da entrega e o contador final na coleta. Esse registro evita dúvidas na hora da cobrança e documenta a utilização real da ponteira.</p><h2>2. Conciliação direta no contrato</h2><p>Vincule os disparos consumidos diretamente ao contrato do cliente. Isso automatiza o faturamento adicional e reduz erros na emissão da cobrança.</p><h2>3. Acesso de campo seguro para a equipe técnica</h2><p>Permita que entregadores e técnicos registrem as leituras do laser diretamente pelo celular, sem que precisem acessar relatórios de faturamento ou saldos bancários da locadora.</p><h2>Como o Sistema Laser apoia a operação</h2><p>O Sistema Laser oferece controle de disparos por locação, histórico de vida útil por ponteira e controle de permissões por função.</p><p><a href=\"../controle-equipamentos.html\">Conheça o módulo de controle de equipamentos</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/DbqoAZrlK9A/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>"
+    },
+    {
       "slug": "consultar-disponibilidade-equipamentos",
       "title": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
       "heroTitle": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
