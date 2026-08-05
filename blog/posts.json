@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-08-05T12:42:26.126Z",
+  "version": 1,
   "posts": [
     {
+      "slug": "consultar-disponibilidade-equipamentos",
       "title": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
+      "heroTitle": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
       "description": "Transforme pedidos em consultas claras, confira o período inteiro e reduza conflitos de agenda na locadora.",
+      "seoTitle": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação | Sistema Laser",
+      "seoDescription": "Como consultar disponibilidade antes de confirmar uma locação e evitar conflitos de agenda no aluguel de equipamentos.",
+      "ogTitle": "Como consultar disponibilidade de equipamentos",
+      "ogDescription": "Evite conflitos antes de confirmar uma locação.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
       "category": "Agenda de locações",
@@ -12,11 +18,21 @@
         "como evitar conflitos de agenda",
         "controle de locações"
       ],
-      "url": "blog/consultar-disponibilidade-equipamentos.html"
+      "heroCopy": "A pergunta “tem disponível?” parece direta, mas a resposta pede contexto de equipamento, período, cliente e responsável.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/consultar-disponibilidade-equipamentos.html",
+      "contentHtml": "<h2>Transforme o pedido em uma consulta clara</h2><p>Organize a consulta com as informações que fazem diferença: equipamento, modelo quando necessário, cliente, período e responsável.</p><h2>Confira o período inteiro</h2><p>A disponibilidade pode mudar conforme datas, horários, preparação do ativo e devoluções anteriores. A confirmação comercial ganha qualidade quando vem acompanhada de conferência consistente.</p><h2>Delegue sem dispersar contexto</h2><p>Atendimento, operação e gestão podem ter permissões diferentes, mas precisam consultar uma base comum. Isso reduz dependência de memória e conversas paralelas.</p><h2>Como o Sistema Laser apoia</h2><p>O Sistema Laser oferece diferentes visões de agenda, consultas rápidas, filtros por equipamento, cliente ou responsável e restrição de agenda por usuário.</p><p><a href=\"../agenda-locacoes.html\">Leia o guia sobre agenda de locações</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>.</p>"
     },
     {
+      "slug": "formalizacao-contratos-locadora",
       "title": "Formalização de contratos na locadora: 3 conferências antes da saída",
+      "heroTitle": "Formalização de contratos na locadora: 3 conferências antes da saída",
       "description": "Contrato, minuta, recibo e assinatura eletrônica precisam caminhar junto da locação para reduzir dúvidas na saída do equipamento.",
+      "seoTitle": "Formalização de contratos na locadora: 3 conferências antes da saída | Sistema Laser",
+      "seoDescription": "Veja 3 conferências antes da saída do equipamento e como organizar contrato, minuta, recibo e assinatura eletrônica na locadora.",
+      "ogTitle": "Formalização de contratos na locadora",
+      "ogDescription": "3 conferências antes da saída do equipamento alugado.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
       "category": "Contratos e documentos",
@@ -25,11 +41,21 @@
         "assinatura eletrônica locação",
         "software para locadora"
       ],
-      "url": "blog/formalizacao-contratos-locadora.html"
+      "heroCopy": "Em uma locadora, preparar o equipamento é apenas parte da saída. O contrato precisa estar claro, vinculado à locação e acompanhado pela equipe.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/formalizacao-contratos-locadora.html",
+      "contentHtml": "<h2>1. Confirme o modelo antes de gerar o documento</h2><p>Identifique qual modelo de contrato se aplica àquela locação. Essa conferência evita que a pressa transforme uma situação específica em um documento genérico.</p><h2>2. Mantenha a minuta vinculada à locação</h2><p>Uma minuta ajuda de verdade quando pode ser localizada no contexto certo. Vincular a formalização à locação reduz a necessidade de procurar anexos, versões ou explicações em conversas paralelas.</p><h2>3. Acompanhe a assinatura sem separar documento e operação</h2><p>Assinatura é uma etapa do processo, não um arquivo isolado. Antes de liberar uma saída, defina quem confere o andamento, como registra pendências e quando a gestão precisa ser avisada.</p><h2>Como um software para locadora ajuda</h2><p>O Sistema Laser oferece modelos de contrato, minuta automática, emissão de recibos, assinatura eletrônica, fotos com evidências, assinatura de protocolos e histórico centralizado junto da locação.</p><p><a href=\"../funcionalidades.html#documentos\">Veja os recursos de documentos digitais</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>.</p>"
     },
     {
+      "slug": "controle-manutencao-equipamentos",
       "title": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
+      "heroTitle": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
       "description": "Histórico, custos e acompanhamento posterior ajudam a controlar manutenção de equipamentos alugados.",
+      "seoTitle": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo | Sistema Laser",
+      "seoDescription": "3 perguntas para controlar manutenção de equipamentos alugados antes de autorizar reparos e custos na locadora.",
+      "ogTitle": "Controle de manutenção de equipamentos",
+      "ogDescription": "3 perguntas antes de autorizar um reparo.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
       "category": "Manutenção",
@@ -38,11 +64,21 @@
         "controle de equipamentos",
         "como controlar equipamentos alugados"
       ],
-      "url": "blog/controle-manutencao-equipamentos.html"
+      "heroCopy": "Na locação de equipamentos, reparo é decisão de gestão: envolve histórico do ativo, custo, disponibilidade e próximo uso.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/controle-manutencao-equipamentos.html",
+      "contentHtml": "<h2>1. O que o histórico do equipamento mostra?</h2><p>O histórico reúne a trajetória do ativo em vez de depender somente de memória, conversas ou planilhas paralelas.</p><h2>2. Quais custos estão associados?</h2><p>Custos de manutenção e reparos precisam ficar junto ao controle de equipamentos para avaliar ciclo de vida e rentabilidade.</p><h2>3. O que acompanhar depois do reparo?</h2><p>Defina responsável, registre o que foi feito e acompanhe a condição antes de disponibilizar o equipamento novamente.</p><p>O Sistema Laser ajuda a acompanhar histórico do equipamento, custos de manutenção e reparos. <a href=\"../controle-equipamentos.html\">Leia sobre controle de equipamentos</a>.</p>"
     },
     {
+      "slug": "ponto-reposicao-locadora",
       "title": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
+      "heroTitle": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
       "description": "Ponto de reposição ajuda a transformar saldo de estoque em rotina de decisão antes da saída do equipamento.",
+      "seoTitle": "Ponto de reposição na locadora: como conectar estoque e disponibilidade | Sistema Laser",
+      "seoDescription": "Como conectar estoque, consumíveis e disponibilidade na locação de equipamentos usando ponto de reposição.",
+      "ogTitle": "Ponto de reposição na locadora",
+      "ogDescription": "Conecte estoque e disponibilidade na locação de equipamentos.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
       "category": "Estoque e ativos",
@@ -51,11 +87,21 @@
         "controle de estoque locadora",
         "gestão de locações"
       ],
-      "url": "blog/ponto-reposicao-locadora.html"
+      "heroCopy": "A agenda pode indicar que o equipamento está livre, mas a locação só está preparada quando os itens que acompanham seu uso também estão disponíveis.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/ponto-reposicao-locadora.html",
+      "contentHtml": "<h2>Comece pelo item associado à locação</h2><p>Liste produtos, consumíveis ou itens rastreáveis que acompanham cada tipo de locação. Em equipamentos médicos, estéticos ou lasers, isso pode incluir insumos ligados ao uso técnico.</p><h2>Defina o sinal que pede ação</h2><p>Contar saldo é importante, mas não resolve sozinho a decisão de compra. Um ponto de reposição definido pela empresa ajuda a equipe a perceber quando precisa olhar o item com atenção.</p><h2>Conecte estoque à disponibilidade</h2><p>Quando estoque e locações são vistos como partes do mesmo processo, a equipe depende menos de memória e mensagens dispersas.</p><p>O Sistema Laser reúne controle de estoque, produtos rastreáveis, ponto de reposição, ponteiras e disparos por locação. <a href=\"../controle-equipamentos.html\">Veja o guia de controle de equipamentos</a>.</p>"
     },
     {
+      "slug": "novo-layout-sistema-laser",
       "title": "Um novo layout para uma rotina mais clara, em qualquer tela",
+      "heroTitle": "Um novo layout para uma rotina mais clara, em qualquer tela",
       "description": "A interface do Sistema Laser ganhou organização visual para facilitar consultas em computador, celular e tablet.",
+      "seoTitle": "Um novo layout para uma rotina mais clara, em qualquer tela | Sistema Laser",
+      "seoDescription": "Novo layout do Sistema Laser para uma rotina mais clara em computador, celular, tablet, modo claro e modo escuro.",
+      "ogTitle": "Novo layout do Sistema Laser",
+      "ogDescription": "Uma rotina mais clara em qualquer tela.",
       "date": "2026-07-31",
       "modified": "2026-07-31",
       "category": "Produto",
@@ -64,11 +110,21 @@
         "software para locadora",
         "modo escuro"
       ],
-      "url": "blog/novo-layout-sistema-laser.html"
+      "heroCopy": "O Sistema Laser ganhou um novo layout pensado para acompanhar a operação onde ela acontece.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/novo-layout-sistema-laser.html",
+      "contentHtml": "<p>A interface reúne escolhas modernas de tipografia, hierarquia visual e organização de conteúdo para tornar as informações importantes mais fáceis de localizar.</p><p>No computador, no tablet ou no celular, cada tela se adapta ao espaço disponível sem perder contexto. Menus, formulários, indicadores e recursos do dia a dia foram organizados para navegação fluida.</p><p>O novo visual também conta com modos claro e escuro, para que cada pessoa escolha o tema mais confortável conforme ambiente e horário.</p><p><a href=\"../funcionalidades.html#indicadores\">Veja relatórios e acesso online</a>.</p>"
     },
     {
+      "slug": "novo-site-sistema-laser",
       "title": "Um novo site para apresentar o novo momento do Sistema Laser",
+      "heroTitle": "Um novo site para apresentar o novo momento do Sistema Laser",
       "description": "A experiência do site foi reformulada para apresentar melhor soluções, funcionalidades, integrações e planos.",
+      "seoTitle": "Um novo site para apresentar o novo momento do Sistema Laser | Sistema Laser",
+      "seoDescription": "Novo site do Sistema Laser apresenta funcionalidades, integrações, soluções e planos para locadoras de equipamentos.",
+      "ogTitle": "Novo site do Sistema Laser",
+      "ogDescription": "Um novo momento para apresentar o software de gestão de locações.",
       "date": "2026-07-20",
       "modified": "2026-07-20",
       "category": "Produto",
@@ -76,11 +132,21 @@
         "Sistema Laser",
         "software para locação de equipamentos"
       ],
-      "url": "blog/novo-site-sistema-laser.html"
+      "heroCopy": "A experiência foi reformulada para explicar com mais clareza como o software apoia locadoras de equipamentos.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/novo-site-sistema-laser.html",
+      "contentHtml": "<p>Funcionalidades, integrações, soluções e planos agora estão organizados em páginas próprias, facilitando pesquisa e comparação.</p><p>A navegação foi aprimorada para funcionar de forma consistente em computadores, celulares e tablets, nos modos claro e escuro.</p><p>Essa estrutura acompanha a evolução contínua do Sistema Laser e aproxima cada visitante das informações importantes para sua operação.</p><p><a href=\"../software-locacao-equipamentos.html\">Conheça a página de software para locação de equipamentos</a>.</p>"
     },
     {
+      "slug": "cadastros-clientes-locadora",
       "title": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
+      "heroTitle": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
       "description": "Cadastro completo reduz erros de comunicação, cobrança, emissão de documentos e duplicidade de registros.",
+      "seoTitle": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente | Sistema Laser",
+      "seoDescription": "Como manter cadastros de clientes atualizados para melhorar comunicação, cobrança e documentos na locadora.",
+      "ogTitle": "Cadastro de clientes na locadora",
+      "ogDescription": "Base para comunicação, cobrança e documentos.",
       "date": "2026-03-06",
       "modified": "2026-03-06",
       "category": "Operação",
@@ -89,11 +155,21 @@
         "gestão de locações",
         "software para locadora"
       ],
-      "url": "blog/cadastros-clientes-locadora.html"
+      "heroCopy": "Um cadastro completo evita erros de comunicação, cobrança e emissão de documentos.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/cadastros-clientes-locadora.html",
+      "contentHtml": "<p>Cadastros atualizados reduzem registros duplicados e ajudam comercial, operação e financeiro a trabalhar com a mesma informação.</p><p>Trocar de sistema não precisa significar começar do zero. No Sistema Laser, é possível importar dados de outros sistemas ou planilhas em Excel.</p><p>O caminho inverso também está disponível: os dados podem ser exportados quando necessário para análises, conferências ou integração.</p><p><a href=\"../funcionalidades.html#indicadores\">Veja recursos de importação e relatórios</a>.</p>"
     },
     {
+      "slug": "meta-partner-whatsapp",
       "title": "Somos um Meta Partner Oficial",
+      "heroTitle": "Somos um Meta Partner Oficial",
       "description": "A Aliasoft, empresa do Sistema Laser, é Meta Solution Partner oficial com integração ao WhatsApp Cloud API.",
+      "seoTitle": "Somos um Meta Partner Oficial | Sistema Laser",
+      "seoDescription": "Sistema Laser é Meta Solution Partner oficial e possui integração com WhatsApp Cloud API para locadoras.",
+      "ogTitle": "Sistema Laser é Meta Partner Oficial",
+      "ogDescription": "Integração oficial com WhatsApp Cloud API para locadoras.",
       "date": "2025-06-22",
       "modified": "2025-06-22",
       "category": "WhatsApp e automação",
@@ -102,11 +178,21 @@
         "Meta Partner",
         "automação de locação"
       ],
-      "url": "blog/meta-partner-whatsapp.html"
+      "heroCopy": "O Sistema Laser possui integração com WhatsApp Cloud API e a Aliasoft é Meta Solution Partner oficial.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/meta-partner-whatsapp.html",
+      "contentHtml": "<p>A integração oficial aproxima atendimento, confirmações, notificações e operação de locação em um fluxo mais controlado.</p><p>Veja os detalhes no <a href=\"https://www.facebook.com/business/partner-directory/search?solution_type=campaign_management&amp;id=24895639710025385&amp;section=overview\" target=\"_blank\" rel=\"noopener\">diretório de parceiros da Meta</a>.</p><p><a href=\"../whatsapp.html\">Conheça a integração oficial com WhatsApp</a>.</p>"
     },
     {
+      "slug": "fotos-assinatura-eletronica-locacao",
       "title": "Fotos de equipamentos de locações e assinatura eletrônica de documentos",
+      "heroTitle": "Fotos de equipamentos e assinatura eletrônica de documentos",
       "description": "Fotos e assinatura eletrônica ajudam a preservar evidências e formalizar documentos no fluxo da locação.",
+      "seoTitle": "Fotos de equipamentos de locações e assinatura eletrônica de documentos | Sistema Laser",
+      "seoDescription": "Fotos de equipamentos e assinatura eletrônica ajudam a documentar saída, uso e devolução em locadoras.",
+      "ogTitle": "Fotos e assinatura eletrônica na locação",
+      "ogDescription": "Documente evidências na saída e devolução do equipamento.",
       "date": "2025-06-17",
       "modified": "2025-06-17",
       "category": "Contratos e documentos",
@@ -115,11 +201,21 @@
         "fotos de equipamentos",
         "contrato de locação digital"
       ],
-      "url": "blog/fotos-assinatura-eletronica-locacao.html"
+      "heroCopy": "Fotos do equipamento e assinatura eletrônica fortalecem a formalização e o histórico da locação.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/fotos-assinatura-eletronica-locacao.html",
+      "contentHtml": "<p>Ao registrar fotos antes e depois da locação, a empresa reduz dúvidas sobre condição do equipamento, acessórios e evidências de entrega.</p><p>A assinatura eletrônica aproxima documento e operação, evitando que contratos fiquem soltos em anexos ou conversas.</p><p>No Sistema Laser, esses recursos podem ser vinculados à locação. <a href=\"../funcionalidades.html#documentos\">Conheça documentos digitais</a>.</p>"
     },
     {
+      "slug": "formularios-leads-locadora",
       "title": "Potencialize sua geração de leads: conheça os formulários do Sistema Laser",
+      "heroTitle": "Potencialize sua geração de leads com formulários integrados",
       "description": "Formulários integrados ajudam a capturar oportunidades e cadastrar leads automaticamente na plataforma.",
+      "seoTitle": "Potencialize sua geração de leads: conheça os formulários do Sistema Laser | Sistema Laser",
+      "seoDescription": "Como formulários de coleta de leads ajudam locadoras a transformar visitantes em oportunidades cadastradas no sistema.",
+      "ogTitle": "Formulários de leads para locadoras",
+      "ogDescription": "Capture oportunidades e cadastre leads diretamente na operação.",
       "date": "2025-06-17",
       "modified": "2025-06-17",
       "category": "Vendas e leads",
@@ -128,11 +224,21 @@
         "formulários para locadoras",
         "automação de locação"
       ],
-      "url": "blog/formularios-leads-locadora.html"
+      "heroCopy": "Transformar visitantes em oportunidades reais exige formulários fáceis de compartilhar e conectados à operação.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/formularios-leads-locadora.html",
+      "contentHtml": "<p>Com formulários integrados, cada lead capturado entra no fluxo de trabalho com mais contexto e menos digitação manual.</p><p>A empresa pode definir campos, obrigatoriedade, link de compartilhamento e incorporação em páginas externas.</p><p>Isso reduz retrabalho entre marketing, comercial e operação. <a href=\"../integracoes.html#formularios-leads\">Veja os recursos de captação de leads</a>.</p>"
     },
     {
+      "slug": "automacao-agenda-locacao-equipamentos-esteticos",
       "title": "Como a automação de agenda pode transformar seu negócio de locação de equipamentos estéticos",
+      "heroTitle": "Como a automação de agenda pode transformar a locação de equipamentos estéticos",
       "description": "Automação de agenda ajuda a evitar conflitos, lembrar clientes e aumentar produtividade na locadora.",
+      "seoTitle": "Como a automação de agenda pode transformar seu negócio de locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como a automação de agenda melhora produtividade, atendimento e disponibilidade na locação de equipamentos estéticos.",
+      "ogTitle": "Automação de agenda para equipamentos estéticos",
+      "ogDescription": "Produtividade e atendimento com agenda de locações.",
       "date": "2024-06-01",
       "modified": "2024-06-01",
       "category": "Agenda de locações",
@@ -141,11 +247,21 @@
         "locação de aparelhos estéticos",
         "automação de locação"
       ],
-      "url": "blog/automacao-agenda-locacao-equipamentos-esteticos.html"
+      "heroCopy": "Agenda automatizada ajuda a organizar reservas, lembretes, disponibilidade e atendimento.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/automacao-agenda-locacao-equipamentos-esteticos.html",
+      "contentHtml": "<p>No mercado de locação de equipamentos estéticos, a agenda é um ponto crítico. Reservas duplicadas, atrasos e comunicação incompleta afetam diretamente a experiência do cliente.</p><p>A automação ajuda a reduzir conflitos, enviar lembretes, centralizar informações e facilitar a consulta por equipamento, cliente ou período.</p><p>Com o Sistema Laser, agenda, notificações e locações caminham juntas. <a href=\"../agenda-locacoes.html\">Leia o guia de agenda de locações</a>.</p>"
     },
     {
+      "slug": "gestao-financeira-locacao-equipamentos-esteticos",
       "title": "Gestão financeira eficiente: o segredo para o sucesso na locação de equipamentos estéticos",
+      "heroTitle": "Gestão financeira eficiente para locadoras de equipamentos",
       "description": "Contas a receber, fluxo de caixa, DRE e cobranças precisam estar conectados à locação correta.",
+      "seoTitle": "Gestão financeira eficiente: o segredo para o sucesso na locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Controle financeiro para locadoras: contas, fluxo de caixa, DRE, cobranças e pagamentos integrados à locação.",
+      "ogTitle": "Gestão financeira para locadoras",
+      "ogDescription": "Financeiro integrado à locação de equipamentos.",
       "date": "2024-05-24",
       "modified": "2024-05-24",
       "category": "Financeiro",
@@ -154,11 +270,21 @@
         "fluxo de caixa locadora",
         "gestão de locações"
       ],
-      "url": "blog/gestao-financeira-locacao-equipamentos-esteticos.html"
+      "heroCopy": "O resultado financeiro precisa estar conectado à locação que gerou receita, custo, comissão e cobrança.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/gestao-financeira-locacao-equipamentos-esteticos.html",
+      "contentHtml": "<p>Uma locadora precisa acompanhar pagamentos recebidos, pendentes, custos, cheques, bancos, caixas e fluxo de caixa.</p><p>Quando o financeiro fica separado da operação, a gestão perde rastreabilidade. Ao conectar cobrança e locação, fica mais fácil entender resultado por período, equipamento e cliente.</p><p>O Sistema Laser reúne contas a receber, contas a pagar, bancos, caixas, fluxo de caixa, DRE e integração com cobranças. <a href=\"../funcionalidades.html#financeiro\">Conheça o financeiro</a>.</p>"
     },
     {
+      "slug": "logistica-entrega-coleta-equipamentos",
       "title": "Logística inteligente: como otimizar a entrega e coleta de equipamentos estéticos",
+      "heroTitle": "Logística inteligente: entrega e coleta de equipamentos",
       "description": "Entrega e coleta ficam mais confiáveis quando agenda, responsáveis, documentos e protocolos estão conectados.",
+      "seoTitle": "Logística inteligente: como otimizar a entrega e coleta de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como otimizar entrega e coleta na locação de equipamentos com agenda, responsáveis, protocolos e controle operacional.",
+      "ogTitle": "Logística de entrega e coleta de equipamentos",
+      "ogDescription": "Organize operação logística na locadora.",
       "date": "2024-05-17",
       "modified": "2024-05-17",
       "category": "Operação",
@@ -167,11 +293,21 @@
         "controle de equipamentos",
         "logística de equipamentos"
       ],
-      "url": "blog/logistica-entrega-coleta-equipamentos.html"
+      "heroCopy": "A eficiência na entrega e coleta afeta satisfação do cliente, disponibilidade do ativo e rentabilidade da locadora.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/logistica-entrega-coleta-equipamentos.html",
+      "contentHtml": "<p>Entrega e coleta dependem de agenda confiável, responsáveis definidos, endereço correto, documentação e registro de condições.</p><p>Protocolos, fotos e permissões ajudam a equipe a executar a rotina sem perder contexto. O gestor acompanha exceções e gargalos com mais clareza.</p><p><a href=\"../software-locacao-equipamentos.html\">Veja como o software para locação organiza o fluxo completo</a>.</p>"
     },
     {
+      "slug": "organizacao-clientes-locacao-equipamentos",
       "title": "Organização de clientes: a chave para um atendimento personalizado na locação de equipamentos estéticos",
+      "heroTitle": "Organização de clientes na locação de equipamentos",
       "description": "Cadastro, histórico e comunicação com clientes ajudam a melhorar atendimento e reduzir erros na locadora.",
+      "seoTitle": "Organização de clientes: a chave para um atendimento personalizado na locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como organizar clientes, histórico de locações e comunicação para melhorar atendimento em locadoras.",
+      "ogTitle": "Organização de clientes na locação",
+      "ogDescription": "Base para atendimento personalizado em locadoras.",
       "date": "2024-05-10",
       "modified": "2024-05-10",
       "category": "Operação",
@@ -180,11 +316,21 @@
         "gestão de locações",
         "atendimento locadora"
       ],
-      "url": "blog/organizacao-clientes-locacao-equipamentos.html"
+      "heroCopy": "Conhecer bem o cliente ajuda a personalizar atendimento, cobrança e comunicação.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/organizacao-clientes-locacao-equipamentos.html",
+      "contentHtml": "<p>Cadastro completo, histórico de locações e preferências reduzem retrabalho e melhoram a experiência do cliente.</p><p>Quando comercial, financeiro e operação compartilham a mesma base, a locadora reduz divergências em documentos e cobranças.</p><p><a href=\"../blog/cadastros-clientes-locadora.html\">Leia também sobre cadastros atualizados</a>.</p>"
     },
     {
+      "slug": "gestao-tarefas-locacao-equipamentos",
       "title": "Gestão de tarefas: como aumentar a produtividade na locação de equipamentos estéticos",
+      "heroTitle": "Gestão de tarefas para aumentar produtividade na locadora",
       "description": "Responsáveis, permissões e fluxo operacional ajudam a aumentar produtividade na rotina da locadora.",
+      "seoTitle": "Gestão de tarefas: como aumentar a produtividade na locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como aumentar produtividade na locação de equipamentos com tarefas, permissões, responsáveis e rotina organizada.",
+      "ogTitle": "Gestão de tarefas na locação de equipamentos",
+      "ogDescription": "Produtividade e responsabilidades claras na locadora.",
       "date": "2024-05-03",
       "modified": "2024-05-03",
       "category": "Operação",
@@ -193,11 +339,21 @@
         "gestão de locações",
         "produtividade locadora"
       ],
-      "url": "blog/gestao-tarefas-locacao-equipamentos.html"
+      "heroCopy": "Produtividade melhora quando cada pessoa sabe o que precisa fazer e onde encontrar o contexto.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/gestao-tarefas-locacao-equipamentos.html",
+      "contentHtml": "<p>Na locação de equipamentos, tarefas aparecem em atendimento, agenda, entrega, coleta, manutenção, financeiro e documentos.</p><p>Organizar responsabilidades reduz falhas de comunicação e permite que cada perfil acesse apenas o que precisa.</p><p>O Sistema Laser possui recursos de permissões, perfis de usuário, agenda e histórico operacional. <a href=\"../funcionalidades.html#rede\">Veja filiais, parceiros e usuários</a>.</p>"
     },
     {
+      "slug": "seguranca-dados-locadora",
       "title": "Segurança de dados: proteja as informações sensíveis dos seus clientes com o Sistema Laser",
+      "heroTitle": "Segurança de dados para locadoras de equipamentos",
       "description": "Dados de clientes, documentos e locações precisam de organização, permissão de acesso e infraestrutura adequada.",
+      "seoTitle": "Segurança de dados: proteja as informações sensíveis dos seus clientes com o Sistema Laser | Sistema Laser",
+      "seoDescription": "Como proteger informações de clientes, documentos, contratos e dados operacionais em locadoras de equipamentos.",
+      "ogTitle": "Segurança de dados para locadoras",
+      "ogDescription": "Proteja informações sensíveis de clientes e locações.",
       "date": "2024-04-26",
       "modified": "2024-04-26",
       "category": "Segurança",
@@ -206,11 +362,21 @@
         "controle de acesso",
         "software para locadora"
       ],
-      "url": "blog/seguranca-dados-locadora.html"
+      "heroCopy": "Informações de clientes, documentos e locações precisam de controle de acesso e organização.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/seguranca-dados-locadora.html",
+      "contentHtml": "<p>Locadoras lidam com dados de clientes, contratos, valores, documentos e histórico operacional.</p><p>Permissões refinadas e acesso online ajudam a reduzir exposição desnecessária e manter a rotina mais controlada.</p><p><a href=\"../termos-privacidade.html\">Consulte a Política de Privacidade</a> e veja como o Sistema Laser organiza permissões em <a href=\"../funcionalidades.html#rede\">filiais e usuários</a>.</p>"
     },
     {
+      "slug": "integracao-sistemas-locacao-equipamentos",
       "title": "Como a integração de sistemas pode melhorar a gestão de locação de equipamentos estéticos",
+      "heroTitle": "Integração de sistemas na gestão de locação",
       "description": "API, webhooks, formulários e cobranças integradas reduzem retrabalho entre operação e outros sistemas.",
+      "seoTitle": "Como a integração de sistemas pode melhorar a gestão de locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como API, webhooks, formulários, WhatsApp e cobranças integradas melhoram a gestão de locação de equipamentos.",
+      "ogTitle": "Integração de sistemas para locadoras",
+      "ogDescription": "API, webhooks, WhatsApp e cobranças integradas.",
       "date": "2024-04-19",
       "modified": "2024-04-19",
       "category": "Integrações",
@@ -219,11 +385,21 @@
         "API locadora",
         "webhooks"
       ],
-      "url": "blog/integracao-sistemas-locacao-equipamentos.html"
+      "heroCopy": "Sistemas integrados reduzem digitação, aceleram cobranças e conectam atendimento, leads e dados internos.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/integracao-sistemas-locacao-equipamentos.html",
+      "contentHtml": "<p>API, webhooks e formulários permitem que dados entrem e saiam de forma controlada.</p><p>Integrações com cobrança e WhatsApp aproximam comunicação e financeiro da operação de locação.</p><p><a href=\"../integracoes.html\">Conheça as integrações do Sistema Laser</a>.</p>"
     },
     {
+      "slug": "suporte-cliente-locacao-equipamentos",
       "title": "A importância do suporte ao cliente na locação de equipamentos estéticos",
+      "heroTitle": "A importância do suporte ao cliente na locação de equipamentos",
       "description": "Histórico, comunicação e atendimento com contexto ajudam a melhorar satisfação e fidelização em locadoras.",
+      "seoTitle": "A importância do suporte ao cliente na locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Por que suporte ao cliente, histórico e comunicação organizada são importantes em locadoras de equipamentos.",
+      "ogTitle": "Suporte ao cliente na locação de equipamentos",
+      "ogDescription": "Atendimento com contexto melhora a rotina da locadora.",
       "date": "2024-04-12",
       "modified": "2024-04-12",
       "category": "Atendimento",
@@ -232,11 +408,21 @@
         "suporte ao cliente",
         "gestão de locações"
       ],
-      "url": "blog/suporte-cliente-locacao-equipamentos.html"
+      "heroCopy": "Atendimento eficiente depende de histórico, contexto e comunicação organizada.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/suporte-cliente-locacao-equipamentos.html",
+      "contentHtml": "<p>Clientes bem atendidos tendem a confiar mais na operação, indicar a empresa e retornar.</p><p>Quando a equipe consulta histórico, agenda e documentos no mesmo lugar, responde com mais rapidez e menos improviso.</p><p><a href=\"../whatsapp.html\">Veja a integração oficial com WhatsApp</a>.</p>"
     },
     {
+      "slug": "analise-dados-locacao-equipamentos",
       "title": "Como a análise de dados pode impulsionar seu negócio de locação de equipamentos estéticos",
+      "heroTitle": "Análise de dados para locadoras de equipamentos",
       "description": "Dashboards e relatórios ajudam a entender ocupação, faturamento, caixa e desempenho da locadora.",
+      "seoTitle": "Como a análise de dados pode impulsionar seu negócio de locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como dashboards, relatórios e análise de dados ajudam locadoras a tomar decisões sobre ocupação, faturamento e operação.",
+      "ogTitle": "Análise de dados para locadoras",
+      "ogDescription": "Dashboards e relatórios para decidir com contexto.",
       "date": "2024-04-05",
       "modified": "2024-04-05",
       "category": "Relatórios",
@@ -245,11 +431,21 @@
         "relatórios locadora",
         "gestão de locações"
       ],
-      "url": "blog/analise-dados-locacao-equipamentos.html"
+      "heroCopy": "Dados ajudam a identificar tendências, gargalos, ocupação, faturamento e oportunidades de melhoria.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/analise-dados-locacao-equipamentos.html",
+      "contentHtml": "<p>Dashboards financeiros e operacionais ajudam a comparar períodos, entender caixa e acompanhar desempenho.</p><p>Relatórios exportáveis permitem análises complementares quando a empresa precisa cruzar dados com outros controles.</p><p><a href=\"../funcionalidades.html#indicadores\">Veja indicadores e relatórios</a>.</p>"
     },
     {
+      "slug": "gestao-inventario-locacao-equipamentos",
       "title": "Como a gestão de inventário pode melhorar a eficiência na locação de equipamentos estéticos",
+      "heroTitle": "Gestão de inventário na locação de equipamentos",
       "description": "Inventário organizado melhora disponibilidade, qualidade, consumíveis e controle dos ativos alugados.",
+      "seoTitle": "Como a gestão de inventário pode melhorar a eficiência na locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como gestão de inventário melhora controle de disponibilidade, estoque, consumíveis e qualidade na locação de equipamentos.",
+      "ogTitle": "Gestão de inventário na locação",
+      "ogDescription": "Controle estoque, ativos e consumíveis.",
       "date": "2024-03-29",
       "modified": "2024-03-29",
       "category": "Estoque e ativos",
@@ -258,11 +454,21 @@
         "controle de equipamentos",
         "controle de estoque locadora"
       ],
-      "url": "blog/gestao-inventario-locacao-equipamentos.html"
+      "heroCopy": "Inventário organizado garante disponibilidade e qualidade dos equipamentos alugados.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/gestao-inventario-locacao-equipamentos.html",
+      "contentHtml": "<p>O controle rigoroso do inventário mostra quais equipamentos estão disponíveis, em uso, em manutenção ou aguardando reposição de itens associados.</p><p>Produtos rastreáveis, números de série e ponto de reposição ajudam a proteger a operação.</p><p><a href=\"../controle-equipamentos.html\">Leia o guia de controle de equipamentos</a>.</p>"
     },
     {
+      "slug": "personalizacao-servicos-locacao-equipamentos",
       "title": "Como a personalização de serviços pode diferenciar seu negócio de locação de equipamentos estéticos",
+      "heroTitle": "Personalização de serviços na locação de equipamentos",
       "description": "Histórico, preferências e comunicação personalizada ajudam a melhorar experiência e fidelização do cliente.",
+      "seoTitle": "Como a personalização de serviços pode diferenciar seu negócio de locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como personalizar serviços, comunicação e ofertas na locação de equipamentos com base no histórico do cliente.",
+      "ogTitle": "Personalização de serviços na locação",
+      "ogDescription": "Use histórico para atender melhor clientes de locadora.",
       "date": "2024-03-22",
       "modified": "2024-03-22",
       "category": "Atendimento",
@@ -271,11 +477,21 @@
         "personalização de serviços",
         "clientes locadora"
       ],
-      "url": "blog/personalizacao-servicos-locacao-equipamentos.html"
+      "heroCopy": "Serviços personalizados atendem melhor às necessidades dos clientes e melhoram fidelização.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/personalizacao-servicos-locacao-equipamentos.html",
+      "contentHtml": "<p>Conhecer histórico, preferências e perfil do cliente permite oferecer atendimento mais adequado.</p><p>Cadastro organizado e comunicação integrada ajudam a criar propostas e rotinas mais alinhadas ao uso real do cliente.</p><p><a href=\"../blog/organizacao-clientes-locacao-equipamentos.html\">Leia sobre organização de clientes</a>.</p>"
     },
     {
+      "slug": "mobilidade-gestao-locacao-equipamentos",
       "title": "Como a mobilidade pode facilitar a gestão de locação de equipamentos estéticos",
+      "heroTitle": "Mobilidade na gestão de locação de equipamentos",
       "description": "Acesso online por celular, tablet e computador facilita consulta de agenda, equipamentos e financeiro.",
+      "seoTitle": "Como a mobilidade pode facilitar a gestão de locação de equipamentos estéticos | Sistema Laser",
+      "seoDescription": "Como acesso por celular, tablet e computador facilita gestão de locação de equipamentos em escritório e operação externa.",
+      "ogTitle": "Mobilidade na gestão de locação",
+      "ogDescription": "Controle a locadora em computador, celular e tablet.",
       "date": "2024-03-15",
       "modified": "2024-03-15",
       "category": "Produto",
@@ -284,7 +500,11 @@
         "sistema de locação",
         "mobilidade"
       ],
-      "url": "blog/mobilidade-gestao-locacao-equipamentos.html"
+      "heroCopy": "Acesso online facilita consulta de informações no escritório, em campo ou durante atendimento ao cliente.",
+      "readingTime": 1,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/mobilidade-gestao-locacao-equipamentos.html",
+      "contentHtml": "<p>Locadoras precisam consultar agenda, clientes, equipamentos e financeiro em diferentes momentos da rotina.</p><p>Uma plataforma online, responsiva e disponível em computador, celular e tablet reduz dependência de um único posto de trabalho.</p><p><a href=\"../software-locacao-equipamentos.html\">Conheça o software para locação de equipamentos</a>.</p>"
     }
   ]
 }

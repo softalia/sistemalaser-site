@@ -12,11 +12,11 @@ O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, p
 - [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud, LILA, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.
 - [Blog](https://www.sistemalaser.com.br/blog.html): artigos sobre gestão de locações.
-- [Índice JSON do Blog](https://www.sistemalaser.com.br/blog/posts.json): base estática gerada a partir das páginas individuais em `/blog`.
+- [Base JSON do Blog](https://www.sistemalaser.com.br/blog/posts.json): fonte canônica das postagens, com metadados de SEO e conteúdo HTML dos artigos.
 
 ## Arquitetura do blog
 
-Cada postagem do blog fica em uma página HTML individual dentro de `/blog`, com canonical próprio, metadados Open Graph, Schema.Org `BlogPosting`, data semântica e um bloco `post-meta` usado pelo script `scripts/build-blog-index.mjs`. A página `blog.html` carrega `blog/posts.json` no navegador para montar a lista de postagens, filtro por categoria e paginação sem depender de servidor.
+Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O comando `make build` executa `scripts/build-blog.mjs` e gera o site público completo em `/dist`, incluindo as páginas HTML individuais em `/dist/blog`, canonical próprio, metadados Open Graph, Schema.org `BlogPosting`, `BreadcrumbList`, data semântica, links relacionados, feed RSS e sitemap atualizado. A página `blog.html` carrega `blog/posts.json` no navegador para montar a lista de postagens, filtro por categoria e paginação sem depender de servidor.
 
 ## Páginas pilar de SEO
 
