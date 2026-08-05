@@ -2,6 +2,30 @@
   "version": 1,
   "posts": [
     {
+      "slug": "controle-serie-equipamentos-hospitalares",
+      "title": "Rastreabilidade por número de série em equipamentos hospitalares e de home care",
+      "heroTitle": "Rastreabilidade por número de série em equipamentos hospitalares e de home care",
+      "description": "Veja 3 verificações para rastrear higienização, manutenção preventiva e o histórico técnico individual de cada ativo alugado.",
+      "seoTitle": "Rastreabilidade por número de série em locação hospitalar | Sistema Laser",
+      "seoDescription": "Saiba como rastrear equipamentos médicos e de home care por número de série, laudos de higienização e visão de campo no celular.",
+      "ogTitle": "Rastreabilidade por número de série em equipamentos hospitalares",
+      "ogDescription": "3 verificações para rastrear higienização e histórico de cada ativo médico.",
+      "date": "2026-08-05",
+      "modified": "2026-08-05",
+      "category": "Controle de equipamentos",
+      "tags": [
+        "número de série",
+        "equipamentos hospitalares",
+        "locação de home care",
+        "gestão de locadora"
+      ],
+      "heroCopy": "Em locações de equipamentos hospitalares e de home care, cada cama, bomba ou monitor precisa ter seu histórico individual rastreado antes da próxima saída.",
+      "readingTime": 2,
+      "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
+      "url": "blog/controle-serie-equipamentos-hospitalares.html",
+      "contentHtml": "<h2>1. Identificação única por série e patrimônio</h2><p>Cadastre cada equipamento por seu número de série e patrimônio individual. Isso evita misturar ativos do mesmo modelo e garante histórico técnico próprio.</p><h2>2. Histórico de higienização e calibração</h2><p>Anexe o laudo de sanitização, teste de segurança elétrica e protocolo de manutenção antes da liberação. O cliente recebe o ativo com documentação clara.</p><h2>3. Visão de campo no celular para equipes técnicas</h2><p>Entregadores e técnicos conferem a prontidão do equipamento direto no smartphone, sem expor dados financeiros ou relatórios estratégicos da empresa.</p><h2>Como o Sistema Laser apoia a locadora de saúde</h2><p>O Sistema Laser oferece controle individual por número de série, laudos técnicos anexados ao contrato e níveis de acesso por perfil.</p><p><a href=\"../controle-equipamentos.html\">Conheça o módulo de controle de equipamentos</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/Dbqrn7jIa29/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>"
+    },
+    {
       "slug": "controle-disparos-ponteiras-locadora",
       "author": "Geovana",
       "title": "Controle de disparos e ponteiras: 3 passos para conciliar o uso real na locação de laser",
