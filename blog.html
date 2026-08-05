@@ -1,630 +1,159 @@
-<!DOCTYPE html>
-<html data-bs-theme="auto" lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR" data-bs-theme="light" data-theme-preference="auto">
 <head>
-    <meta charset="utf-8">
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PPW847MH');</script>
-<!-- End Google Tag Manager -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blog | Gestão de locação e manutenção de equipamentos | Sistema Laser</title>
-    <link rel="canonical" href="https://www.sistemalaser.com.br/blog.html">
-    <meta property="og:url" content="https://www.sistemalaser.com.br/blog.html">
-    <meta property="og:title" content="Sistema Laser">
-    <meta property="twitter:image" content="https://www.sistemalaser.com.br/assets/img/favicon.png?h=47412c11579e82ccc534a4c42cd7b30c">
-    <meta property="twitter:url" content="https://www.sistemalaser.com.br">
-    <meta property="twitter:title" content="Sistema Laser de locações de equipamentos médicos estéticos">
-    <meta property="twitter:description" content="Software online de gestão de locações de equipamentos e aparelhos médicos estéticos">
-    <meta property="twitter:cards" content="summary">
-    <meta property="og:site_name" content="Sistema Laser">
-    <meta property="og:url" content="https://www.sistemalaser.com.br">
-    <meta name="keywords" content="software de gestão, software para locadora, gestão de locação de equipamentos, controle de equipamentos, manutenção de equipamentos, gestão de manutenção, equipamentos médicos, aparelhos médicos, aparelhos laser, equipamentos laser, locação, plataforma solon, LMG laser, laser medical group, aliança laser, sistemalocar, ea7, east7, actloc, otimogestor, easyloc, izziloc, azo, whatsapp, aplicativo, app, motorista">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
-    <meta property="og:description" content="Software online de gestão de locações de equipamentos e aparelhos médicos estéticos">
-    <meta name="twitter:image" content="https://www.sistemalaser.com.br/assets/img/icons/simbolo.svg">
-    <meta name="description" content="Conteúdos sobre gestão de locação de equipamentos, controle de ativos, manutenção e operação para locadoras de equipamentos médicos, estéticos, lasers e construção civil.">
-    <meta property="og:image" content="https://www.sistemalaser.com.br/assets/img/icons/simbolo.svg">
-    <script>!function(){const e=()=>localStorage.getItem("theme"),t=document.documentElement.getAttribute("data-bss-forced-theme"),a=()=>{if(t)return t;const a=e();if(a)return a;const c=document.documentElement.getAttribute("data-bs-theme");return c||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")},c=e=>{"auto"===e&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.setAttribute("data-bs-theme","dark"):document.documentElement.setAttribute("data-bs-theme",e)};c(a());const r=(e,t=!1)=>{const a=[].slice.call(document.querySelectorAll(".theme-switcher"));if(!a.length)return;document.querySelectorAll("[data-bs-theme-value]").forEach((e=>{e.classList.remove("active"),e.setAttribute("aria-pressed","false")}));const c="auto"===e?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e;for(const t of a){if(!!t.dataset.bsAdaptIcon){const e=t.querySelector("[data-bss-adaptable]");try{const a=JSON.parse(t.dataset.bssIcons||"{}")[c],r=document.createElement("template");r.innerHTML=a;const s=r.content.cloneNode(!0);s?.children?.length&&(s.children[0].dataset.bssAdaptable=!0),e.replaceWith(s)}catch(e){}}const a=t.querySelector('[data-bs-theme-value="'+e+'"]');a&&(a.classList.add("active"),a.setAttribute("aria-pressed","true"))}};window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",(()=>{const t=e();"light"!==t&&"dark"!==t&&c(a())})),window.addEventListener("DOMContentLoaded",(()=>{r(a()),document.querySelectorAll("[data-bs-theme-value]").forEach((e=>{e.addEventListener("click",(t=>{t.preventDefault();const a=e.getAttribute("data-bs-theme-value");(e=>{localStorage.setItem("theme",e)})(a),c(a),r(a)}))}))}))}();</script>
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png?h=096ddd8e3bde5e293f787c979076652c">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png?h=096ddd8e3bde5e293f787c979076652c" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png?h=096ddd8e3bde5e293f787c979076652c">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png?h=096ddd8e3bde5e293f787c979076652c" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/svg+xml" sizes="619x750" href="assets/img/icons/simbolo.svg?h=20bae2328a024802c0ba71186d9b9918">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icons/android-chrome-192x192.png?h=f387cd431ba28847bb9bbbe785a9da80">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/icons/android-chrome-512x512.png?h=f387cd431ba28847bb9bbbe785a9da80">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=e7656ec77ab2fd93ddeb0b653f2436d7">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=57956e292cae99b95ca21bf8116b4399">
-    <link rel="stylesheet" href="assets/css/site-2026.css">
-    <link rel="stylesheet" href="assets/css/legacy-2026.css">
-    <script src="assets/js/header-2026.js"></script>
-    <script src="assets/js/footer-2026.js"></script>
-    <script src="assets/js/theme-2026.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Blog","name":"Blog Sistema Laser","url":"https://www.sistemalaser.com.br/blog.html","description":"Conteúdos sobre gestão de locação de equipamentos, controle de ativos, manutenção e operação para locadoras de equipamentos médicos, estéticos, lasers e construção civil.","publisher":{"@id":"https://www.sistemalaser.com.br/#organization"}},{"@type":"BreadcrumbList","@id":"https://www.sistemalaser.com.br/blog.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://www.sistemalaser.com.br/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.sistemalaser.com.br/blog.html"}]}]}</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WS5QS9LS8K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WS5QS9LS8K');
-</script>
-
-<!-- Hotjar Tracking Code for https://www.sistemalaser.com.br -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2887943,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
-<!-- Add increase scroll offset -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var offset = 50; // Adjust this value based on the height of your fixed header or desired offset
-
-    document.querySelectorAll('a[href^="index.html#"]').forEach(function(anchor) {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            var targetId = this.getAttribute('href').split('#')[1];
-            var target = document.getElementById(targetId);
-            if (target) {
-                window.scrollTo({
-                    top: target.offsetTop - offset,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-});
-</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blog sobre gestão de locação de equipamentos | Sistema Laser</title>
+  <meta name="description" content="Guias sobre software para locadora, agenda de locações, controle de equipamentos, contratos, manutenção, financeiro, WhatsApp e automação para locadoras.">
+  <link rel="canonical" href="https://www.sistemalaser.com.br/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sistema Laser">
+  <meta property="og:url" content="https://www.sistemalaser.com.br/blog.html">
+  <meta property="og:title" content="Blog sobre gestão de locação de equipamentos | Sistema Laser">
+  <meta property="og:description" content="Conteúdos práticos para locadoras que precisam controlar equipamentos, agenda, contratos, financeiro e manutenção.">
+  <meta property="og:image" content="https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog sobre gestão de locação de equipamentos | Sistema Laser">
+  <meta name="twitter:description" content="Guias para locadoras sobre agenda, controle de equipamentos, ERP, contratos, financeiro e automação.">
+  <meta name="twitter:image" content="https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png">
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src="https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f)})(window,document,"script","dataLayer","GTM-PPW847MH");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WS5QS9LS8K"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-WS5QS9LS8K");</script>
+  <link rel="icon" href="assets/img/icons/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/site-2026.css">
+  <script src="assets/js/header-2026.js"></script>
+  <script src="assets/js/footer-2026.js"></script>
+  <script src="assets/js/theme-2026.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Blog","@id":"https://www.sistemalaser.com.br/blog.html#blog","name":"Blog Sistema Laser","url":"https://www.sistemalaser.com.br/blog.html","description":"Guias sobre gestão de locação de equipamentos, controle de ativos, manutenção, agenda, contratos e automação para locadoras.","publisher":{"@id":"https://www.sistemalaser.com.br/#organization"}},{"@type":"BreadcrumbList","@id":"https://www.sistemalaser.com.br/blog.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://www.sistemalaser.com.br/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.sistemalaser.com.br/blog.html"}]}]}</script>
 </head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPW847MH" height="0" width="0" style="display:none"></iframe></noscript>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <main id="conteudo">
+    <header class="subhero">
+      <div class="container">
+        <span class="eyebrow">Blog Sistema Laser</span>
+        <h1 class="display-title">Blog sobre gestão de locação de equipamentos.</h1>
+        <p class="hero-copy">Guias práticos sobre agenda de locações, controle de equipamentos, contratos, financeiro, manutenção, WhatsApp e automação para locadoras.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="software-locacao-equipamentos.html">Software para locação</a>
+          <a class="btn btn-surface btn-lg" href="controle-equipamentos.html">Controle de equipamentos</a>
+        </div>
+      </div>
+    </header>
 
-<body class="legacy-page legacy-blog"><!-- Start: Navbar With Button -->
-    <nav class="navbar navbar-expand-md fixed-top bg-body py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: transparent;"><img src="assets/img/icons/simbolo.svg?h=20bae2328a024802c0ba71186d9b9918" width="28" height="33" alt="Logotipo do Sistema Laser"></span><span class="fs-2">Sistema Laser<small><sup>®</sup></small></span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav ms-auto"><!-- Start: Funcionalidades -->
-                    <li class="nav-item"><a class="nav-link" href="index.html#funcionalidades">Funcionalidades</a></li><!-- End: Funcionalidades --><!-- Start: Planos -->
-                    <li class="nav-item"><a class="nav-link" href="index.html#planos">Planos</a></li><!-- End: Planos --><!-- Start: Fale Conosco -->
-                    <li class="nav-item"><a class="nav-link" href="index.html#faleconosco">Fale conosco</a></li><!-- End: Fale Conosco --><!-- Start: Blog -->
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li><!-- End: Blog -->
-                    <li class="theme-switcher nav-item dropdown"><a class="dropdown-toggle nav-link ms-2" data-bs-toggle="dropdown" aria-expanded="false" href="#"><svg class="bi bi-sun-fill mb-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"></path>
-                            </svg></a>
-                        <div class="dropdown-menu"><a class="dropdown-item d-flex align-items-center" href="#" data-bs-theme-value="light"><svg class="bi bi-sun-fill me-2 opacity-50" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"></path>
-                                </svg>Light</a><a class="dropdown-item d-flex align-items-center" href="#" data-bs-theme-value="dark"><svg class="bi bi-moon-stars-fill me-2 opacity-50" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"></path>
-                                    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"></path>
-                                </svg>Dark</a><a class="dropdown-item d-flex align-items-center" href="#" data-bs-theme-value="auto"><svg class="bi bi-circle-half me-2 opacity-50" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"></path>
-                                </svg>Auto</a></div>
-                    </li>
-                </ul><a class="btn btn-primary ms-2" role="button" href="index.html#faleconosco" rel="external">Registre-se</a><a class="btn btn-warning ms-2" role="button" href="https://app.sistemalaser.com.br" target="_blank" rel="external">Entrar</a>
-            </div>
+    <section class="section-space surface-section">
+      <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+          <div class="col-lg-7">
+            <span class="eyebrow">Conteúdos por intenção de busca</span>
+            <h2 class="section-title">Últimas postagens para quem administra locações.</h2>
+          </div>
+          <div class="col-lg-5">
+            <label class="form-label" for="blogCategory">Filtrar por categoria</label>
+            <select class="form-select" id="blogCategory">
+              <option value="">Todas as categorias</option>
+            </select>
+          </div>
         </div>
-    </nav><!-- End: Navbar With Button --><!-- Start: Contact Details -->
-    <section class="mt-5 py-5"><!-- Start: Hero Clean Reverse -->
-        <div class="container pt-4 pt-xl-5">
-            <div class="row pt-5">
-                <div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
-                    <div class="text-center">
-                        <h1 class="fw-bold">Blog</h1>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-10 mx-auto">
-                    <div class="position-relative" style="display:flex;flex-wrap:wrap;justify-content:flex-end;">
-                        <div class="mb-5 d-flex flex-wrap justify-content-center gap-3"><a class="btn btn-outline-primary" href="funcionalidades.html">Ver funcionalidades</a><a class="btn btn-outline-primary" href="planos.html">Comparar planos</a><a class="btn btn-outline-primary" href="integracoes.html">Conhecer integrações</a></div>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">Formalização de contratos na locadora: 3 conferências antes da saída</h2>
-                                    <aside style="text-align:right;"><small>Postado em 04/08/2026</small></aside>
-                                    <p>Em uma locadora, preparar o equipamento é apenas uma parte da saída. Também é preciso saber se o documento correspondente está claro, se as etapas de formalização foram acompanhadas e onde a equipe encontrará esse contexto quando houver uma dúvida. Uma rotina de gestão de locação de equipamentos fica mais consistente quando contrato e operação caminham juntos.</p>
-                                    <h3 class="h5 mt-4">1. Confirme o modelo antes de gerar o documento</h3>
-                                    <p>O primeiro cuidado é identificar qual modelo de contrato se aplica àquela locação. Essa conferência evita que a pressa transforme uma situação específica em um documento genérico. A definição continua sendo da empresa; o processo apenas precisa deixar claro qual referência foi usada.</p>
-                                    <h3 class="h5 mt-4">2. Mantenha a minuta vinculada à locação</h3>
-                                    <p>Uma minuta só ajuda de verdade quando pode ser localizada com facilidade no contexto certo. Vincular a formalização à locação reduz a necessidade de procurar anexos, versões ou explicações em conversas paralelas. Para o proprietário, isso facilita a supervisão e permite dedicar atenção às exceções que merecem análise.</p>
-                                    <h3 class="h5 mt-4">3. Acompanhe a assinatura sem separar documento e operação</h3>
-                                    <p>Assinatura é uma etapa do processo, não um arquivo isolado. Antes de liberar uma saída, a empresa pode definir quem confere o andamento, como registra pendências e quando a gestão precisa ser avisada. Essa organização não substitui a conferência humana, mas ajuda cada pessoa a trabalhar com referências consistentes.</p>
-                                    <h3 class="h5 mt-4">Como um software para locadora apoia a formalização</h3>
-                                    <p>O Sistema Laser oferece modelos de contrato, minuta automática, emissão de recibos, assinatura eletrônica, fotos com evidências, assinatura de protocolos e histórico centralizado junto da locação. Esses recursos podem apoiar a formalização de contratos na locadora e o controle de equipamentos conforme a configuração e a rotina de cada empresa.</p>
-                                    <p class="mb-0">Quer conhecer uma forma de organizar documentos e locações no mesmo processo? <a href="index.html#faleconosco">Agende uma demonstração do Sistema Laser</a>.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">Como consultar a disponibilidade de equipamentos antes de confirmar uma locação</h2>
-                                    <aside style="text-align:right;"><small>Postado em 04/08/2026</small></aside>
-                                    <p>Em uma locadora, a pergunta “tem disponível?” parece direta, mas a resposta pede contexto. Antes de confirmar uma locação, vale conferir qual equipamento ou modelo atende ao pedido, qual é o período completo e quem acompanha a execução. Esse cuidado ajuda a proteger a agenda e a dar uma resposta comercial mais responsável.</p>
-                                    <h3 class="h5 mt-4">Transforme o pedido em uma consulta clara</h3>
-                                    <p>Comece organizando a consulta com as informações que fazem diferença para a operação: equipamento, modelo quando necessário, cliente, período e responsável. Em vez de procurar uma informação isolada em mensagens ou anotações, a equipe pode partir de uma pergunta bem definida e reservar a análise humana para as exceções.</p>
-                                    <h3 class="h5 mt-4">Confira o período inteiro, não apenas o horário de saída</h3>
-                                    <p>Uma gestão de locação de equipamentos precisa observar o intervalo completo da locação. A disponibilidade pode mudar conforme as datas e horários envolvidos, a preparação do ativo e a realidade de cada operação. Por isso, a confirmação comercial ganha qualidade quando vem acompanhada de uma conferência consistente.</p>
-                                    <h3 class="h5 mt-4">Delegue a consulta sem dispersar o contexto</h3>
-                                    <p>Atendimento, operação e gestão não precisam consultar exatamente as mesmas informações para trabalhar bem. Definir a responsabilidade de cada etapa e manter o contexto da locação organizado reduz a dependência de memória e facilita a supervisão de quem responde pelo patrimônio e pela continuidade do serviço.</p>
-                                    <h3 class="h5 mt-4">Como um software para locadora apoia a rotina</h3>
-                                    <p>O Sistema Laser oferece diferentes visões de agenda, consultas rápidas e filtros por equipamento, modelo, cliente ou responsável. Também inclui restrição de agenda por usuário. Esses recursos podem apoiar o controle de equipamentos e a organização da consulta de disponibilidade, sempre com a configuração e a conferência adequadas à rotina da empresa.</p>
-                                    <p class="mb-0">Quer conhecer uma forma mais organizada de consultar a disponibilidade da sua locadora? <a href="index.html#faleconosco">Agende uma demonstração do Sistema Laser</a>.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">Ponto de reposição na locadora: como conectar estoque e disponibilidade</h2>
-                                    <aside style="text-align:right;"><small>Postado em 04/08/2026</small></aside>
-                                    <p>Em uma operação de locação, a agenda pode indicar que o equipamento está livre. Ainda assim, a locação só está realmente preparada quando os itens que acompanham seu uso também estão disponíveis. Para o proprietário, o ponto de reposição é uma forma prática de transformar uma contagem de estoque em uma rotina de decisão.</p>
-                                    <h3 class="h5 mt-4">Comece pelo item associado à locação</h3>
-                                    <p>Liste os produtos, consumíveis ou itens rastreáveis que precisam acompanhar cada tipo de locação. Em equipamentos médicos, estéticos ou lasers, essa conversa pode incluir insumos ligados ao uso técnico. Em outros segmentos, pode abranger acessórios e materiais que sustentam a entrega. O objetivo não é criar burocracia, e sim dar contexto para a conferência antes de confirmar a saída.</p>
-                                    <h3 class="h5 mt-4">Defina o sinal que pede ação</h3>
-                                    <p>Contar o saldo é importante, mas não resolve sozinho a decisão de compra. Um ponto de reposição definido pela empresa ajuda a equipe a perceber quando precisa olhar o item com atenção. Esse sinal deve ser acompanhado da conferência da agenda, das próximas locações e da realidade de cada operação.</p>
-                                    <h3 class="h5 mt-4">Conecte a rotina à disponibilidade</h3>
-                                    <p>Quando estoque e locações são vistos como partes do mesmo processo, a equipe tende a depender menos de memória e de mensagens dispersas. A gestão mantém espaço para avaliar exceções, ajustar prioridades e decidir com o contexto do negócio, sem tratar o sistema como substituto da conferência humana.</p>
-                                    <h3 class="h5 mt-4">Como um software para locadora apoia esse controle</h3>
-                                    <p>O Sistema Laser reúne controle de estoque, produtos rastreáveis e ponto de reposição, além de recursos para acompanhar ponteiras e disparos por locação. Esses recursos ajudam a organizar o controle de equipamentos e dos itens que acompanham seu uso dentro da gestão de locação de equipamentos.</p>
-                                    <p class="mb-0">Quer organizar essa rotina de acordo com a realidade da sua empresa? <a href="index.html#faleconosco">Agende uma demonstração do Sistema Laser</a>.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo</h2>
-                                    <aside style="text-align:right;"><small>Postado em 04/08/2026</small></aside>
-                                    <p>Na locação de equipamentos, um reparo não é apenas uma tarefa técnica: ele também é uma decisão de gestão. Antes de autorizar uma intervenção, o proprietário da locadora precisa entender o contexto do ativo, o impacto do custo e o próximo cuidado necessário para manter a operação organizada.</p>
-                                    <h3 class="h5 mt-4">1. O que o histórico do equipamento mostra?</h3>
-                                    <p>Comece pelo histórico do equipamento. Ele ajuda a reunir as informações da trajetória do ativo em vez de depender somente de memória, conversas dispersas ou planilhas paralelas. Essa visão dá mais contexto para avaliar recorrências e orientar a conferência antes da próxima locação.</p>
-                                    <h3 class="h5 mt-4">2. Quais custos estão associados à manutenção?</h3>
-                                    <p>Custos de manutenção e reparos merecem ser registrados junto à rotina de controle de equipamentos. Para uma locadora, essa organização facilita a análise do ciclo de vida do ativo e apoia decisões responsáveis sobre manutenção, operação e patrimônio.</p>
-                                    <h3 class="h5 mt-4">3. O que precisa ser acompanhado depois do reparo?</h3>
-                                    <p>A intervenção não encerra o cuidado com o equipamento. Definir o próximo responsável, registrar o que foi feito e acompanhar a condição do ativo ajuda a equipe a manter o processo claro enquanto a gestão se concentra nas exceções e nas decisões que exigem critério humano.</p>
-                                    <h3 class="h5 mt-4">Como um software para locadora ajuda</h3>
-                                    <p>O Sistema Laser reúne recursos para acompanhar o histórico do equipamento, custos de manutenção e reparos. Com as informações organizadas, a gestão de locação de equipamentos pode conduzir a conversa sobre cada ativo com mais contexto, sem substituir a conferência de quem conhece a operação.</p>
-                                    <p class="mb-0">Quer conhecer uma forma de organizar o controle de equipamentos da sua locadora? <a href="index.html#faleconosco">Agende uma demonstração do Sistema Laser</a>.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4><strong>Um novo layout para uma rotina mais clara, em qualquer tela</strong></h4>
-                                    <aside style="text-align:right;"><small>Postado em 31/07/2026</small></aside>
-                                    <p>O Sistema Laser ganhou um novo layout pensado para acompanhar a operação onde ela acontece. A interface reúne escolhas modernas de tipografia, hierarquia visual e organização de conteúdo para tornar as informações importantes mais fáceis de localizar e compreender.</p>
-                                    <p>No computador, no tablet ou no celular, cada tela se adapta ao espaço disponível sem perder contexto. Menus, formulários, indicadores e recursos do dia a dia foram organizados para oferecer uma navegação fluida tanto para quem trabalha no escritório quanto para quem consulta a operação na rua.</p>
-                                    <p>O novo visual também conta com modos claro e escuro, para que cada pessoa escolha o tema mais confortável conforme o ambiente e o horário de trabalho. É uma evolução de experiência que mantém o foco no essencial: ajudar a equipe a operar com mais clareza, agilidade e segurança.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4><strong>Um novo site para apresentar o novo momento do Sistema Laser</strong></h4>
-                                    <aside style="text-align:right;"><small>Postado em 20/07/2026</small></aside>
-                                    <p>O novo site do Sistema Laser está no ar. A experiência foi reformulada para apresentar com mais clareza como o software apoia empresas de locação de equipamentos médicos, hospitalares, estéticos, lasers, construção civil e outros segmentos.</p>
-                                    <p>Funcionalidades, integrações, soluções e planos agora estão organizados em páginas próprias, facilitando a pesquisa e a comparação das informações. A navegação também foi aprimorada para funcionar de forma consistente em computadores, celulares e tablets, nos modos claro e escuro.</p>
-                                    <p>Esta nova estrutura acompanha a evolução contínua do Sistema Laser e aproxima cada visitante das informações mais importantes para sua operação.</p>
-                                </div>
-                            </div>
-                        </article>
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4><strong>Cadastros de clientes atualizados: a base de uma operação de locação eficiente</strong></h4>
-                                    <aside style="text-align:right;"><small>Postado em 06/03/2026</small></aside>
-                                    <p>Um cadastro de clientes completo e atualizado evita erros de comunicação, cobrança e emissão de documentos. Também reduz registros duplicados e ajuda as equipes comercial, operacional e financeira a trabalhar com a mesma informação.</p>
-                                    <p>Trocar de sistema não precisa significar começar do zero. No Sistema Laser, é possível importar dados provenientes de outros sistemas ou de planilhas em Excel. Mesmo empresas com poucos clientes podem organizar uma planilha simples e trazer essas informações para uma base centralizada.</p>
-                                    <p>O caminho inverso também está disponível: todos os dados podem ser exportados quando necessário, seja para análises complementares, conferências ou integração com outros fluxos da empresa. Assim, a organização dos cadastros melhora a rotina sem prender as informações a um único formato.</p>
-                                </div>
-                            </div>
-                        </article><!-- Start: Como a Automação de Agenda Pode Transformar Seu Ne -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4><strong>Somos um Meta Partner Oficial</strong></h4>
-                                    <aside style="text-align:right;"><small>Postado em 22/06/2025</small></aside>
-                                    <p>O Sistema Laser já possui integração com o Whatsapp Cloud API há vários meses. Mas a partir de agora a Aliasoft, empresa do Sistema, é também um Meta Solution Partner oficial. Veja os detalhes na página do <a href="https://www.facebook.com/business/partner-directory/search?solution_type=campaign_management&amp;id=24895639710025385&amp;section=overview" target="_blank">diretório de parceiros da Meta</a>.&nbsp;</p>
-                                </div>
-                                <div class="card-body">
-                                    <h4><strong>Potencialize sua Geração de Leads: Conheça os Novos Formulários do Sistema Laser!</strong></h4>
-                                    <aside style="text-align:right;"><small>Postado em 17/06/2025</small></aside>
-                                    <p>Em um mercado digital cada vez mais competitivo, capturar a atenção e, principalmente, as informações de contato de potenciais clientes é um dos maiores desafios para qualquer negócio. Transformar visitantes do seu site em oportunidades reais de venda é a chave para o crescimento sustentável. Pensando nisso, o Sistema Laser tem o prazer de anunciar uma funcionalidade que vai revolucionar a sua estratégia de marketing e vendas: os <strong>Formulários de Coleta de Leads</strong>!</p>
-                                    <p>Chega de planilhas descentralizadas, processos manuais e leads que se perdem pelo caminho. Com a nossa nova ferramenta, você cria formulários inteligentes e os integra diretamente ao seu ecossistema de gestão, centralizando e automatizando a sua geração de leads de forma nunca antes vista.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle"><strong>Por que sua empresa PRECISA de um formulário de leads integrado?</strong></h5>
-                                    <p>A geração de leads é o motor que impulsiona o funil de vendas. É o primeiro passo para construir um relacionamento com seu futuro cliente. No entanto, não basta apenas ter um formulário de "Fale Conosco" escondido no seu site. Uma estratégia eficaz exige formulários otimizados e estrategicamente posicionados para converter visitantes em contatos qualificados.</p>
-                                    <p>A grande vantagem de ter essa funcionalidade integrada ao Sistema Laser é a <strong>eliminação de barreiras entre o marketing e as vendas</strong>. Quando um lead é capturado, ele não fica em uma lista de espera. Ele entra instantaneamente no seu fluxo de trabalho, pronto para ser abordado pela sua equipe comercial com agilidade e contexto.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle"><strong>Por que sua empresa PRECISA de um formulário de leads integrado?</strong></h5>
-                                    <p>Nossa nova funcionalidade foi desenvolvida com dois pilares em mente: ser incrivelmente fácil de usar e, ao mesmo tempo, poderosa para impulsionar seus resultados.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle"><strong>Confira os principais benefícios:</strong></h5>
-                                    <ul>
-                                        <li><strong>Centralização Total:</strong> Dê adeus à importação manual de dados. Cada lead capturado pelo formulário é automaticamente cadastrado no seu banco de dados do Sistema Laser, garantindo que nenhuma oportunidade seja perdida.</li>
-                                        <li><strong>Agilidade que Gera Vendas:</strong> Assim que um formulário é preenchido, sua equipe comercial pode ser notificada instantaneamente. Essa rapidez no primeiro contato aumenta drasticamente as taxas de conversão.</li>
-                                        <li><strong>Criação Intuitiva e Personalizável:</strong> Crie formulários com os campos que você precisa em poucos cliques. Personalize o design para que ele se alinhe perfeitamente à identidade visual da sua marca, transmitindo mais profissionalismo e confiança.</li>
-                                        <li><strong>Integração Nativa com seu Site e Landing Pages:</strong> Gerar um novo formulário no Sistema Laser é simples. Ao finalizar, você obtém um código para incorporar facilmente em qualquer página do seu site, blog ou landing page.</li>
-                                        <li><strong>Otimização da Nutrição de Leads:</strong> Com os leads centralizados, fica muito mais fácil criar fluxos de nutrição, segmentar seus contatos e enviar comunicações relevantes, guiando o potencial cliente pela jornada de compra.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4>Fotos de equipamentos de locações e assinatura eletrônica de documentos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 20/01/2025</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p>Agora você pode contar com a comodidade de solicitar assinaturas eletrônicas de documentos de seus clientes. As assinaturas podem incluir inclusive fotos dos equipamentos instalados, antes e depois das locações</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Automação de Agenda Pode Transformar Seu Ne -->
-                        <hr><!-- Start: Como a Automação de Agenda Pode Transformar Seu Ne -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4>Como a Automação de Agenda Pode Transformar Seu Negócio de Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 04/07/2024</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p>No competitivo mercado de locação de equipamentos estéticos, a eficiência operacional é crucial. Uma das áreas que mais pode se beneficiar da automação é a gestão de agenda. Neste artigo, vamos explorar como a automação de agenda oferecida pelo Sistema Laser pode transformar seu negócio, aumentando a produtividade e melhorando o atendimento ao cliente.</p>
-                                    <h5 class="mb-2">Benefícios da Automação de Agenda</h5>
-                                    <ul>
-                                        <li>1.&nbsp;<strong>Redução de Erros Humanos</strong>: A automação minimiza a possibilidade de erros de agendamento, garantindo que os equipamentos estejam sempre disponíveis quando necessários.</li>
-                                        <li>2.&nbsp;<strong>Economia de Tempo</strong>: Com a agenda automatizada, sua equipe pode se concentrar em tarefas mais estratégicas, deixando o sistema cuidar dos agendamentos.</li>
-                                        <li>3.&nbsp;<strong>Melhor Atendimento ao Cliente</strong>: Notificações e lembretes automáticos garantem que seus clientes nunca percam um agendamento, melhorando a satisfação e fidelização.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Agendamento Online</strong>: Permite que os clientes façam reservas diretamente pelo sistema, a qualquer hora e de qualquer lugar.</li>
-                                        <li><strong>Notificações Automáticas</strong>: Envio de lembretes por e-mail para confirmar agendamentos e evitar no-shows.</li>
-                                        <li><strong>Visualização de Disponibilidade</strong>: Interface intuitiva que mostra a disponibilidade dos equipamentos em tempo real.</li>
-                                        <li><strong>Confirmação automática via Whatsapp</strong>: A&nbsp;LILA é sua nova colaboradora eletrônica para confirmações de agendamento via Whatsapp.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A automação de agenda é uma ferramenta poderosa que pode transformar a forma como você gerencia seu negócio de locação de equipamentos estéticos. Com o Sistema Laser, você terá uma solução completa que não só melhora a eficiência operacional, mas também eleva a qualidade do atendimento ao cliente. Experimente e veja a diferença!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Automação de Agenda Pode Transformar Seu Ne -->
-                        <hr><!-- Start: Gestão Financeira Eficiente: O Segredo para o Suce -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Gestão Financeira Eficiente: O Segredo para o Sucesso na Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 08/04/2024</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A gestão financeira é um dos pilares para o sucesso de qualquer negócio, especialmente no setor de locação de equipamentos estéticos. Neste artigo, vamos discutir como o Sistema Laser pode ajudar você a manter suas finanças em ordem, proporcionando uma visão clara e detalhada do seu fluxo de caixa.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Gestão Financeira</h5>
-                                    <ul>
-                                        <li>1.&nbsp;<strong>Tomada de Decisões Informadas</strong>: Com relatórios financeiros detalhados, você pode tomar decisões estratégicas baseadas em dados concretos.</li>
-                                        <li>2. <strong>Controle de Inadimplência</strong>: Ferramentas de cobrança e faturamento ajudam a manter o controle sobre os pagamentos, reduzindo a inadimplência.</li>
-                                        <li>3. <strong>Planejamento Financeiro</strong>: Uma visão clara das receitas e despesas permite um planejamento financeiro mais eficaz, garantindo a sustentabilidade do negócio.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Emissão de Faturas</strong>: Geração automática de faturas, facilitando o processo de cobrança.</li>
-                                        <li><strong>Relatórios Financeiros</strong>: Relatórios detalhados que mostram o desempenho financeiro da sua empresa.</li>
-                                        <li><strong>Gestão de Pagamentos</strong>: Controle de pagamentos recebidos e pendentes, com notificações automáticas para clientes inadimplentes.</li>
-                                        <li><strong>Cobrança via PIX, Cartão de Crédito e Boleto Bancário</strong>: Com a integração nativa com o Asaas, a cobrança e a baixa dos recebimentos é totalmente online e com taxas competitivas.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">Uma gestão financeira eficiente é essencial para o sucesso de qualquer negócio de locação de equipamentos estéticos. Com o Sistema Laser, você terá todas as ferramentas necessárias para manter suas finanças em ordem, permitindo que você se concentre no crescimento do seu negócio. Não deixe de experimentar!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Gestão Financeira Eficiente: O Segredo para o Suce -->
-                        <hr><!-- Start: Logística Inteligente: Como Otimizar a Entrega e C -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Logística Inteligente: Como Otimizar a Entrega e Coleta de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 15/03/2024</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A logística é um dos maiores desafios para empresas de locação de equipamentos estéticos. A eficiência na entrega e coleta dos equipamentos pode fazer toda a diferença na satisfação do cliente e na rentabilidade do negócio. Neste artigo, vamos explorar como o Sistema Laser pode otimizar sua logística, tornando seu processo mais eficiente e confiável.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Desafios da Logística na Locação de Equipamentos</h5>
-                                    <ul>
-                                        <li>1. <strong>Rastreamento de Equipamentos</strong>: Saber exatamente onde seus equipamentos estão em tempo real é crucial para evitar perdas e garantir a disponibilidade.</li>
-                                        <li>2. <strong>Otimização de Rotas</strong>: Planejar rotas eficientes para entrega e coleta pode economizar tempo e reduzir custos operacionais.</li>
-                                        <li>3. <strong>Gestão de Inventário</strong>: Manter um controle rigoroso do inventário para garantir que todos os equipamentos estejam em boas condições e disponíveis quando necessários.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Rastreamento em Tempo Real</strong>: Monitoramento contínuo da localização dos equipamentos, garantindo segurança e eficiência.</li>
-                                        <li><strong>Planejamento de Rotas</strong>: Ferramentas de otimização de rotas que ajudam a planejar as entregas e coletas de forma mais eficiente.</li>
-                                        <li><strong>Gestão de Inventário</strong>: Controle detalhado do inventário, com informações sobre a condição e disponibilidade dos equipamentos.</li>
-                                        <li><strong>Permissionamento</strong>: Um sistema avançado de permissionamento que permite definir exatamente o acesso que cada técnico, motorista ou vendedor pode ter dos clientes, do financeiro e das locações.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A logística eficiente é fundamental para o sucesso de qualquer negócio de locação de equipamentos estéticos. Com o Sistema Laser, você terá todas as ferramentas necessárias para otimizar suas operações logísticas, garantindo a satisfação do cliente e a rentabilidade do seu negócio. Experimente e veja como podemos ajudar!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Logística Inteligente: Como Otimizar a Entrega e C -->
-                        <hr><!-- Start: Organização de Clientes: A Chave para um Atendimen -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Organização de Clientes: A Chave para um Atendimento Personalizado na Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 20/01/2024</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">No setor de locação de equipamentos estéticos, conhecer bem seus clientes é essencial para oferecer um atendimento personalizado e de qualidade. Neste artigo, vamos explorar como a funcionalidade de organização de clientes do Sistema Laser pode ajudar sua empresa a construir relacionamentos mais fortes e duradouros com seus clientes.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Organização de Clientes</h5>
-                                    <ul>
-                                        <li>1. <strong>Conhecimento do Cliente</strong>: Ter informações detalhadas sobre cada cliente permite oferecer um atendimento mais personalizado e eficiente.</li>
-                                        <li>2. <strong>Histórico de Locações</strong>: Manter um registro das locações anteriores ajuda a entender as preferências e necessidades dos clientes.</li>
-                                        <li>3. <strong>Comunicação Eficiente</strong>: Ferramentas de comunicação integradas permitem enviar mensagens personalizadas, melhorando a experiência do cliente.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Cadastro Completo de Clientes</strong>: Armazenamento de informações detalhadas, como dados de contato, histórico de locações e preferências.</li>
-                                        <li><strong>Histórico de Interações</strong>: Registro de todas as interações com o cliente, facilitando o acompanhamento e a personalização do atendimento.</li>
-                                        <li><strong>Comunicação Personalizada</strong>: Envio de e-mails e mensagens personalizados diretamente pelo sistema, mantendo os clientes informados e engajados.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A organização de clientes é fundamental para oferecer um atendimento de qualidade e construir relacionamentos duradouros. Com o Sistema Laser, você terá todas as ferramentas necessárias para conhecer melhor seus clientes e oferecer um serviço personalizado que se destaca no mercado. Experimente e veja a diferença!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Organização de Clientes: A Chave para um Atendimen -->
-                        <hr><!-- Start: Gestão de Tarefas: Como Aumentar a Produtividade n -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Gestão de Tarefas: Como Aumentar a Produtividade na Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 05/12/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A gestão eficiente de tarefas é essencial para garantir a produtividade e a eficiência operacional em qualquer negócio. No setor de locação de equipamentos estéticos, isso não é diferente. Neste artigo, vamos explorar como a funcionalidade de gestão de tarefas do Sistema Laser pode ajudar sua empresa a organizar e monitorar as atividades diárias, aumentando a produtividade da equipe.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Organização de Clientes</h5>
-                                    <ul>
-                                        <li>1. <strong>Organização e Planejamento</strong>: Atribuir tarefas com prazos e prioridades definidos ajuda a manter a equipe organizada e focada.</li>
-                                        <li>2. <strong>Monitoramento de Progresso</strong>: Acompanhar o status de cada tarefa permite identificar e resolver problemas rapidamente.</li>
-                                        <li>3. <strong>Aumento da Produtividade</strong>: Uma equipe bem organizada e monitorada tende a ser mais produtiva e eficiente.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Atribuição de Tarefas</strong>: Distribuição de tarefas entre os membros da equipe, com prazos e prioridades definidos.</li>
-                                        <li><strong>Monitoramento em Tempo Real</strong>: Acompanhamento do status de cada tarefa em tempo real, facilitando a gestão e a tomada de decisões.</li>
-                                        <li><strong>Relatórios de Produtividade</strong>: Geração de relatórios detalhados sobre a produtividade da equipe, ajudando a identificar áreas de melhoria.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A gestão eficiente de tarefas é crucial para aumentar a produtividade e a eficiência operacional no setor de locação de equipamentos estéticos. Com o Sistema Laser, você terá todas as ferramentas necessárias para organizar e monitorar as atividades diárias da sua equipe, garantindo um serviço de alta qualidade. Experimente e veja como podemos ajudar!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Gestão de Tarefas: Como Aumentar a Produtividade n -->
-                        <hr><!-- Start: Segurança de Dados: Proteja as Informações Sensíve -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Segurança de Dados: Proteja as Informações Sensíveis dos Seus Clientes com o Sistema Laser</h4>
-                                    <aside style="text-align:right;"><small>Postado em 10/10/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A segurança de dados é uma preocupação crescente em todos os setores, especialmente quando lidamos com informações sensíveis de clientes. No setor de locação de equipamentos estéticos, garantir a segurança dos dados é essencial para manter a confiança dos clientes e cumprir com as regulamentações. Neste artigo, vamos explorar como o Sistema Laser protege as informações sensíveis dos seus clientes.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Segurança de Dados</h5>
-                                    <ul>
-                                        <li>1. <strong>Proteção de Informações Sensíveis</strong>: Garantir que os dados dos clientes estejam seguros é fundamental para manter a confiança e a reputação da empresa.</li>
-                                        <li>2. <strong>Conformidade com Regulamentações</strong>: Cumprir com as leis e regulamentações de proteção de dados é essencial para evitar multas e penalidades.</li>
-                                        <li>3. <strong>Prevenção de Ameaças</strong>: Implementar medidas de segurança robustas ajuda a prevenir ataques cibernéticos e vazamentos de dados.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Criptografia de Dados</strong>: Todos os dados armazenados são criptografados, garantindo que apenas pessoas autorizadas possam acessá-los.</li>
-                                        <li><strong>Nuvem segura</strong>: Todos os dados são armazenados em nuvem segura na <a href="https://aws.amazon.com" target="_blank">AWS</a>.</li>
-                                        <li><strong>Acesso Controlado</strong>: Controle de acesso rigoroso, permitindo que apenas usuários autorizados acessem informações sensíveis.</li>
-                                        <li><strong>Backups Regulares</strong>: Realização de backups regulares para garantir que os dados possam ser recuperados em caso de perda ou ataque.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A segurança de dados é uma prioridade para qualquer empresa que lida com informações sensíveis de clientes. Com o Sistema Laser, você terá todas as ferramentas necessárias para proteger os dados dos seus clientes, garantindo a confiança e a conformidade com as regulamentações. Experimente e veja como podemos ajudar a manter seus dados seguros!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Segurança de Dados: Proteja as Informações Sensíve -->
-                        <hr><!-- Start: Como a Integração de Sistemas Pode Melhorar a Gest -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Como a Integração de Sistemas Pode Melhorar a Gestão de Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 08/08/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A integração de sistemas é uma estratégia poderosa para melhorar a eficiência operacional e a gestão de negócios. No setor de locação de equipamentos estéticos, a integração de diferentes sistemas pode simplificar processos e melhorar a experiência do cliente. Neste artigo, vamos explorar como o Sistema Laser pode ser integrado com outras ferramentas e sistemas para otimizar a gestão do seu negócio.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Segurança de Dados</h5>
-                                    <ul>
-                                        <li>1. <strong>Centralização de Informações</strong>: A integração permite que todas as informações sejam centralizadas em um único sistema, facilitando o acesso e a gestão.</li>
-                                        <li>2. <strong>Automatização de Processos</strong>: A integração de sistemas automatiza tarefas repetitivas, economizando tempo e reduzindo erros.</li>
-                                        <li>3. <strong>Melhoria na Experiência do Cliente</strong>: Com sistemas integrados, é possível oferecer um serviço mais rápido e eficiente, melhorando a satisfação do cliente.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Integração com Sistemas de Pagamento Asaas</strong>: Facilita a gestão financeira, permitindo que pagamentos sejam processados diretamente pelo sistema.</li>
-                                        <li><strong>Integração com Ferramentas de Marketing</strong>: Permite a criação de campanhas de marketing personalizadas com base nos dados dos clientes por meio de APIs.</li>
-                                        <li><strong>Integração com Sistemas de Logística</strong>: Otimiza a gestão de entregas e coletas, garantindo que os equipamentos cheguem aos clientes no prazo.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A integração de sistemas é uma estratégia essencial para melhorar a eficiência operacional e a gestão de negócios no setor de locação de equipamentos estéticos. Com o Sistema Laser, você pode integrar diferentes ferramentas e sistemas, centralizando informações e automatizando processos. Experimente e veja como a integração pode transformar seu negócio!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Integração de Sistemas Pode Melhorar a Gest -->
-                        <hr><!-- Start: A Importância do Suporte ao Cliente na Locação de -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">A Importância do Suporte ao Cliente na Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 03/06/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">O suporte ao cliente é um dos pilares para o sucesso de qualquer negócio, especialmente no setor de locação de equipamentos estéticos. Um suporte eficiente pode fazer toda a diferença na satisfação e fidelização dos clientes. Neste artigo, vamos explorar como o Sistema Laser oferece um suporte ao cliente de alta qualidade, garantindo que seus clientes estejam sempre bem atendidos.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Importância da Segurança de Dados</h5>
-                                    <ul>
-                                        <li>1. <strong>Resolução Rápida de Problemas</strong>: Um suporte eficiente garante que os problemas dos clientes sejam resolvidos rapidamente, evitando insatisfações.</li>
-                                        <li>2. <strong>Fidelização de Clientes</strong>: Clientes bem atendidos tendem a ser mais fiéis e a recomendar seus serviços a outras pessoas.</li>
-                                        <li>3. <strong>Melhoria Contínua</strong>: O feedback dos clientes pode ser utilizado para melhorar continuamente os serviços oferecidos.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Atendimento Multicanal</strong>: Suporte disponível por diversos canais, como telefone, e-mail e chat, garantindo que os clientes possam entrar em contato da forma mais conveniente para eles.</li>
-                                        <li><strong>Base de Conhecimento</strong>: Uma base de conhecimento completa com artigos e tutoriais que ajudam os clientes a resolverem problemas comuns por conta própria.</li>
-                                        <li><strong>Feedback e Avaliações</strong>: Ferramentas para coletar feedback dos clientes, permitindo que você identifique áreas de melhoria e ajuste seus serviços conforme necessário.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">Um suporte ao cliente eficiente é essencial para garantir a satisfação e a fidelização dos clientes no setor de locação de equipamentos estéticos. Com o Sistema Laser, você terá todas as ferramentas necessárias para oferecer um suporte de alta qualidade, garantindo que seus clientes estejam sempre bem atendidos. Experimente e veja como podemos ajudar!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: A Importância do Suporte ao Cliente na Locação de -->
-                        <hr><!-- Start: Como a Análise de Dados Pode Impulsionar Seu Negóc -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Como a Análise de Dados Pode Impulsionar Seu Negócio de Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 30/05/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A análise de dados é uma ferramenta poderosa para qualquer negócio, permitindo tomar decisões informadas e estratégicas. No setor de locação de equipamentos estéticos, a análise de dados pode ajudar a identificar tendências, otimizar operações e melhorar a satisfação do cliente. Neste artigo, vamos explorar como o Sistema Laser utiliza a análise de dados para impulsionar seu negócio.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Benefícios da Análise de Dados</h5>
-                                    <ul>
-                                        <li><strong>Tomada de Decisões Informadas</strong>: A análise de dados fornece insights valiosos que ajudam a tomar decisões estratégicas baseadas em informações concretas.</li>
-                                        <li><strong>Identificação de Tendências</strong>: Analisar dados históricos permite identificar tendências e padrões, ajudando a prever a demanda e ajustar a oferta de equipamentos.</li>
-                                        <li><strong>Otimização de Operações</strong>: A análise de dados pode identificar áreas de ineficiência, permitindo otimizar processos e reduzir custos.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades de Análise de Dados do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Relatórios Personalizados</strong>: Geração de relatórios detalhados e personalizados que fornecem insights sobre o desempenho do negócio.</li>
-                                        <li><strong>Dashboards Interativos</strong>: Dashboards interativos que permitem visualizar dados em tempo real, facilitando a tomada de decisões rápidas.</li>
-                                        <li><strong>Análise Preditiva</strong>: Ferramentas de análise preditiva que ajudam a prever a demanda e ajustar a oferta de equipamentos de acordo.</li>
-                                        <li><strong>Fluxo de Caixa</strong>: Dashboard especializado na visualização de fluxos de entradas, saídas e saldos de caixas futuros</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A análise de dados é uma ferramenta essencial para impulsionar o sucesso de qualquer negócio de locação de equipamentos estéticos. Com o Sistema Laser, você terá acesso a ferramentas avançadas de análise de dados que permitem tomar decisões informadas, identificar tendências e otimizar operações. Experimente e veja como a análise de dados pode transformar seu negócio!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Análise de Dados Pode Impulsionar Seu Negóc -->
-                        <hr><!-- Start: Como a Gestão de Inventário Pode Melhorar a Eficiê -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Como a Gestão de Inventário Pode Melhorar a Eficiência na Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 15/05/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A gestão de inventário é um componente crucial para o sucesso de qualquer negócio de locação de equipamentos estéticos. Manter um controle rigoroso do inventário garante que os equipamentos estejam sempre disponíveis e em boas condições para os clientes. Neste artigo, vamos explorar como o Sistema Laser pode ajudar a otimizar a gestão de inventário, melhorando a eficiência e a satisfação do cliente.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Benefícios da Gestão de Inventário</h5>
-                                    <ul>
-                                        <li><strong>Disponibilidade de Equipamentos</strong>: Um controle eficiente do inventário garante que os equipamentos estejam sempre disponíveis quando necessários.</li>
-                                        <li><strong>Redução de Custos</strong>: A gestão de inventário ajuda a evitar a compra excessiva de equipamentos, reduzindo custos operacionais.</li>
-                                        <li><strong>Manutenção Preventiva</strong>: Monitorar o estado dos equipamentos permite realizar manutenções preventivas, evitando falhas e prolongando a vida útil dos equipamentos.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades de Gestão de Inventário do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Monitoramento em Tempo Real</strong>: Acompanhamento contínuo do status e da localização dos equipamentos, garantindo que estejam sempre disponíveis.</li>
-                                        <li><strong>Alertas de Manutenção</strong>: Notificações automáticas para manutenções preventivas, garantindo que os equipamentos estejam sempre em boas condições.</li>
-                                        <li><strong>Relatórios de Inventário</strong>: Geração de relatórios detalhados sobre o inventário, facilitando a tomada de decisões estratégicas.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A gestão eficiente de inventário é essencial para garantir a disponibilidade e a qualidade dos equipamentos na locação de equipamentos estéticos. Com o Sistema Laser, você terá todas as ferramentas necessárias para otimizar a gestão de inventário, melhorando a eficiência operacional e a satisfação do cliente. Experimente e veja como podemos ajudar!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Gestão de Inventário Pode Melhorar a Eficiê -->
-                        <hr><!-- Start: Como a Personalização de Serviços Pode Diferenciar -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Como a Personalização de Serviços Pode Diferenciar Seu Negócio de Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 25/04/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">No competitivo mercado de locação de equipamentos estéticos, oferecer serviços personalizados pode ser um grande diferencial. A personalização não só melhora a experiência do cliente, mas também aumenta a fidelização e a satisfação. Neste artigo, vamos explorar como o Sistema Laser permite personalizar seus serviços para atender melhor às necessidades dos seus clientes.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Benefícios da Personalização de Serviços</h5>
-                                    <ul>
-                                        <li><strong>Melhoria na Experiência do Cliente</strong>: Serviços personalizados atendem melhor às necessidades e preferências dos clientes, melhorando a satisfação.</li>
-                                        <li><strong>Aumento da Fidelização</strong>: Clientes que recebem um atendimento personalizado tendem a ser mais fiéis e a recomendar seus serviços.</li>
-                                        <li><strong>Diferenciação no Mercado</strong>: Oferecer serviços personalizados pode ser um grande diferencial competitivo, destacando seu negócio no mercado.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades de Personalização do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Perfis de Clientes</strong>: Armazenamento de informações detalhadas sobre cada cliente, permitindo oferecer serviços personalizados.</li>
-                                        <li><strong>Comunicação Personalizada</strong>: Envio de e-mails e mensagens personalizados com base nas preferências e histórico de cada cliente.</li>
-                                        <li><strong>Ofertas e Promoções Personalizadas</strong>: Criação de ofertas e promoções exclusivas para cada cliente, aumentando a satisfação e a fidelização.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A personalização de serviços é uma estratégia poderosa para diferenciar seu negócio de locação de equipamentos estéticos e melhorar a satisfação do cliente. Com o Sistema Laser, você terá todas as ferramentas necessárias para oferecer um atendimento personalizado e de alta qualidade. Experimente e veja como a personalização pode transformar seu negócio!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Personalização de Serviços Pode Diferenciar -->
-                        <hr><!-- Start: Como a Personalização de Serviços Pode Diferenciar -->
-                        <article>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Como a Mobilidade Pode Facilitar a Gestão de Locação de Equipamentos Estéticos</h4>
-                                    <aside style="text-align:right;"><small>Postado em 22/03/2023</small></aside>
-                                    <h5 class="text-muted mb-2 card-subtitle">Introdução</h5>
-                                    <p class="card-text">A mobilidade é uma tendência crescente em todos os setores, permitindo que os negócios sejam gerenciados de qualquer lugar e a qualquer hora. No setor de locação de equipamentos estéticos, a mobilidade pode facilitar a gestão e melhorar a eficiência operacional. Neste artigo, vamos explorar como o Sistema Laser oferece soluções móveis para facilitar a gestão do seu negócio.</p>
-                                    <h5 class="text-muted mb-2 card-subtitle">Benefícios da Mobilidade na Gestão de Negócios</h5>
-                                    <ul>
-                                        <li><strong>Acesso Remoto</strong>: A mobilidade permite que você gerencie seu negócio de qualquer lugar, facilitando a tomada de decisões rápidas.</li>
-                                        <li><strong>Maior Flexibilidade</strong>: Com soluções móveis, você pode acessar informações importantes e realizar tarefas administrativas a qualquer hora.</li>
-                                        <li><strong>Melhoria na Comunicação</strong>: Ferramentas móveis facilitam a comunicação com a equipe e os clientes, melhorando a eficiência operacional.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Funcionalidades Móveis do Sistema Laser</h5>
-                                    <ul>
-                                        <li><strong>Acesso via celular</strong>: Acesso ao sistema por meio de um celular, permitindo gerenciar o negócio de qualquer lugar.</li>
-                                        <li><strong>Notificações em Tempo Real</strong>: Recebimento de notificações em tempo real sobre agendamentos, pagamentos e outras informações importantes.</li>
-                                        <li><strong>Gestão de Tarefas Móvel</strong>: Atribuição e monitoramento de tarefas diretamente pelo aplicativo, facilitando a gestão da equipe.</li>
-                                    </ul>
-                                    <h5 class="text-muted mb-2 card-subtitle">Conclusão</h5>
-                                    <p class="card-text">A mobilidade é uma tendência essencial para facilitar a gestão de negócios no setor de locação de equipamentos estéticos. Com o Sistema Laser, você terá acesso a soluções móveis que permitem gerenciar seu negócio de qualquer lugar e a qualquer hora, melhorando a eficiência operacional e a satisfação do cliente. Experimente e veja como a mobilidade pode transformar seu negócio!</p>
-                                </div>
-                            </div>
-                        </article><!-- End: Como a Personalização de Serviços Pode Diferenciar -->
-                    </div>
-                </div>
+        <div id="blogStatus" class="section-lead">Carregando postagens...</div>
+        <div id="blogGrid" class="row g-4" aria-live="polite"></div>
+        <nav class="mt-5" aria-label="Paginação do blog">
+          <ul class="pagination justify-content-center" id="blogPagination"></ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <span class="eyebrow">Guias principais</span>
+            <h2 class="section-title">Comece pelos temas mais buscados.</h2>
+          </div>
+          <div class="col-lg-7">
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-surface" href="agenda-locacoes.html">Agenda de locações</a>
+              <a class="btn btn-surface" href="erp-locadora.html">ERP para locadora</a>
+              <a class="btn btn-surface" href="sistema-locadora-laser.html">Locadora de laser</a>
+              <a class="btn btn-surface" href="software-locadora-medica.html">Locadora médica</a>
+              <a class="btn btn-surface" href="software-locadora-construcao.html">Construção civil</a>
             </div>
-        </div><!-- End: Hero Clean Reverse -->
-    </section><!-- End: Contact Details --><!-- Start: Footer Multi Column -->
-    <footer>
-        <div class="container py-4 py-lg-5">
-            <hr>
-            <div class="row justify-content-center"><!-- Start: Services -->
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Sistema Laser</h3>
-                    <p>O Sistema Laser<sup>®</sup>&nbsp;é um ERP&nbsp;completo para gerenciamento de locações de equipamentos e aparelhos médicos estéticos. Aperfeiçoado por 20 anos por quem entende de logística de equipamentos</p>
-                    <ul class="list-unstyled">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div><!-- End: Services --><!-- Start: About -->
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Conheça</h3>
-                    <ul class="list-unstyled"><!-- Start: Funcionalidades -->
-                        <li><a class="link-secondary" href="index.html#funcionalidades">Funcionalidades</a></li><!-- End: Funcionalidades --><!-- Start: Planos -->
-                        <li><a class="link-secondary" href="index.html#planos">Planos</a></li><!-- End: Planos --><!-- Start: Agende -->
-                        <li><a class="link-secondary" href="index.html#faleconosco">Agende uma apresentação</a></li><!-- End: Agende --><!-- Start: Whatsapp Meta -->
-                        <li><a class="link-secondary" href="whatsapp.html">Parceiro oficial Meta Whatsapp</a></li><!-- End: Whatsapp Meta -->
-                    </ul>
-                </div><!-- End: About --><!-- Start: Careers -->
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Sobre nós</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="termos-uso.html">Termos de Uso</a></li>
-                        <li><a class="link-secondary" href="termos-privacidade.html">Política de Privacidade</a></li>
-                        <li><a class="link-secondary" href="blog.html">Blog</a></li>
-                        <li><a class="link-secondary" href="jobs.html">Trabalhe conosco</a></li>
-                    </ul>
-                </div><!-- End: Careers --><!-- Start: Social Icons -->
-                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                    <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/icons/Aliasoft2.svg?h=c54ffb451b8af1fa426a2b6230b0849b" style="width: 26px;" alt="Logotipo da Aliasoft"></span><span>Aliasoft Ltda.</span></div><!-- Start: CNPJ -->
-                    <p class="text-muted copyright cnpj-inpi">CNPJ:&nbsp;54.344.272/0001-38<br>INPI:&nbsp; BR512019003013-3</p><!-- End: CNPJ -->
-                </div><!-- End: Social Icons -->
-            </div>
-            <div class="d-flex justify-content-between align-items-center pt-3">
-                <p class="text-muted mb-0">Copyright © 2005-2026 Sistema Laser<small><sup>®</sup></small>&nbsp;| Aliasoft Ltda.</p>
-            </div>
+          </div>
         </div>
-    </footer><!-- End: Footer Multi Column -->
-    <script src="assets/js/jquery.min.js?h=6bcc3684f18aa21874fa709f122723cf"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js?h=9b160b415b961aeb41b64305a23d2953"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/script.min.js?h=ca7e41eaea5bc153e31adb368bd20a53"></script>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  (function(){
+    var posts = [];
+    var page = 1;
+    var perPage = 8;
+    var category = "";
+    var grid = document.getElementById("blogGrid");
+    var status = document.getElementById("blogStatus");
+    var pagination = document.getElementById("blogPagination");
+    var categorySelect = document.getElementById("blogCategory");
+    function formatDate(value){
+      var date = new Date(value + "T12:00:00");
+      return date.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric"});
+    }
+    function filtered(){
+      return posts.filter(function(post){return !category || post.category === category;});
+    }
+    function renderCategories(){
+      var categories = Array.from(new Set(posts.map(function(post){return post.category;}).filter(Boolean))).sort();
+      categories.forEach(function(name){
+        var option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        categorySelect.appendChild(option);
+      });
+    }
+    function renderPosts(){
+      var list = filtered();
+      var totalPages = Math.max(1, Math.ceil(list.length / perPage));
+      if(page > totalPages) page = totalPages;
+      var start = (page - 1) * perPage;
+      var items = list.slice(start, start + perPage);
+      status.textContent = list.length ? list.length + " postagens encontradas" : "Nenhuma postagem encontrada nesta categoria.";
+      grid.innerHTML = items.map(function(post){
+        return '<div class="col-md-6 col-xl-3"><article class="module-card"><span class="eyebrow">'+post.category+'</span><h3>'+post.title+'</h3><p>'+post.description+'</p><p class="legal-note mt-3 mb-0"><time datetime="'+post.date+'">'+formatDate(post.date)+'</time></p><a href="'+post.url+'">Ler postagem</a></article></div>';
+      }).join("");
+      renderPagination(totalPages);
+    }
+    function renderPagination(totalPages){
+      var html = "";
+      for(var i=1;i<=totalPages;i++){
+        html += '<li class="page-item '+(i===page?'active':'')+'"><button class="page-link" type="button" data-page="'+i+'">'+i+'</button></li>';
+      }
+      pagination.innerHTML = html;
+    }
+    categorySelect.addEventListener("change", function(){
+      category = categorySelect.value;
+      page = 1;
+      renderPosts();
+    });
+    pagination.addEventListener("click", function(event){
+      var button = event.target.closest("[data-page]");
+      if(!button) return;
+      page = Number(button.dataset.page);
+      renderPosts();
+      document.getElementById("blogGrid").scrollIntoView({behavior:"smooth",block:"start"});
+    });
+    fetch("blog/posts.json")
+      .then(function(response){if(!response.ok) throw new Error("posts.json indisponível"); return response.json();})
+      .then(function(data){
+        posts = data.posts || [];
+        renderCategories();
+        renderPosts();
+      })
+      .catch(function(){
+        status.textContent = "Não foi possível carregar as postagens agora.";
+      });
+  })();
+  </script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 </html>
