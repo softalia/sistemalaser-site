@@ -229,7 +229,7 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
     <article>
       <header class="subhero">
         <div class="container">
-          <a href="../blog.html" class="btn btn-surface mb-4">Voltar ao Blog</a>
+          <div class="mb-4"><a href="../blog.html" class="btn btn-surface">Voltar ao Blog</a></div>
           <span class="eyebrow">${escapeHtml(post.category)}</span>
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>

@@ -45,6 +45,34 @@ make validate
 Executa o build e valida páginas geradas, Schema.org, links internos e scripts
 Node.
 
+```sh
+make serve
+```
+
+Gera `dist/` e sobe um servidor local em `http://localhost:8080`.
+
+## Teste local
+
+Não teste abrindo `index.html` diretamente pelo navegador, porque páginas como
+`blog.html` usam `fetch("blog/posts.json")`. Navegadores bloqueiam esse tipo de
+requisição quando o arquivo é aberto via `file://`.
+
+Use um servidor HTTP local:
+
+```sh
+make serve
+```
+
+Depois acesse:
+
+```text
+http://localhost:8080/
+http://localhost:8080/blog.html
+```
+
+Esse teste serve o conteúdo de `dist/`, ou seja, a mesma estrutura que será
+publicada no GitHub Pages.
+
 ## GitHub Pages
 
 O site continua estático e compatível com GitHub Pages. O workflow
