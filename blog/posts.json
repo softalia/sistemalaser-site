@@ -3,6 +3,7 @@
   "posts": [
     {
       "slug": "controle-disparos-ponteiras-locadora",
+      "author": "Geovana",
       "title": "Controle de disparos e ponteiras: 3 passos para conciliar o uso real na locação de laser",
       "heroTitle": "Controle de disparos e ponteiras: 3 passos para conciliar o uso real na locação de laser",
       "description": "Veja como registrar a contagem de disparos na saída e devolução, vincular o consumo ao contrato e dar acesso seguro de campo para técnicos.",
@@ -10,7 +11,7 @@
       "seoDescription": "Saiba como controlar o consumo de disparos de ponteiras por locação, conciliar cobranças e dar acesso de campo sem expor dados financeiros.",
       "ogTitle": "Controle de disparos e ponteiras na locação de laser",
       "ogDescription": "3 passos para conciliar o uso real da ponteira sem depender do papel.",
-      "date": "2026-08-05",
+      "date": "2026-08-05T14:25:00-03:00",
       "modified": "2026-08-05",
       "category": "Controle de equipamentos",
       "tags": [
@@ -27,6 +28,7 @@
     },
     {
       "slug": "consultar-disponibilidade-equipamentos",
+      "author": "Olívia",
       "title": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
       "heroTitle": "Como consultar a disponibilidade de equipamentos antes de confirmar uma locação",
       "description": "Transforme pedidos em consultas claras, confira o período inteiro e reduza conflitos de agenda na locadora.",
@@ -50,6 +52,7 @@
     },
     {
       "slug": "formalizacao-contratos-locadora",
+      "author": "",
       "title": "Formalização de contratos na locadora: 3 conferências antes da saída",
       "heroTitle": "Formalização de contratos na locadora: 3 conferências antes da saída",
       "description": "Contrato, minuta, recibo e assinatura eletrônica precisam caminhar junto da locação para reduzir dúvidas na saída do equipamento.",
@@ -73,6 +76,7 @@
     },
     {
       "slug": "controle-manutencao-equipamentos",
+      "author": "",
       "title": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
       "heroTitle": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
       "description": "Histórico, custos e acompanhamento posterior ajudam a controlar manutenção de equipamentos alugados.",
@@ -96,6 +100,7 @@
     },
     {
       "slug": "ponto-reposicao-locadora",
+      "author": "",
       "title": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
       "heroTitle": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
       "description": "Ponto de reposição ajuda a transformar saldo de estoque em rotina de decisão antes da saída do equipamento.",
@@ -119,6 +124,7 @@
     },
     {
       "slug": "novo-layout-sistema-laser",
+      "author": "",
       "title": "Um novo layout para uma rotina mais clara, em qualquer tela",
       "heroTitle": "Um novo layout para uma rotina mais clara, em qualquer tela",
       "description": "A interface do Sistema Laser ganhou organização visual para facilitar consultas em computador, celular e tablet.",
@@ -142,6 +148,7 @@
     },
     {
       "slug": "novo-site-sistema-laser",
+      "author": "",
       "title": "Um novo site para apresentar o novo momento do Sistema Laser",
       "heroTitle": "Um novo site para apresentar o novo momento do Sistema Laser",
       "description": "A experiência do site foi reformulada para apresentar melhor soluções, funcionalidades, integrações e planos.",
@@ -164,6 +171,7 @@
     },
     {
       "slug": "cadastros-clientes-locadora",
+      "author": "",
       "title": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
       "heroTitle": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
       "description": "Cadastro completo reduz erros de comunicação, cobrança, emissão de documentos e duplicidade de registros.",
@@ -187,6 +195,7 @@
     },
     {
       "slug": "meta-partner-whatsapp",
+      "author": "",
       "title": "Somos um Meta Partner Oficial",
       "heroTitle": "Somos um Meta Partner Oficial",
       "description": "A Aliasoft, empresa do Sistema Laser, é Meta Solution Partner oficial com integração ao WhatsApp Cloud API.",
@@ -210,6 +219,7 @@
     },
     {
       "slug": "fotos-assinatura-eletronica-locacao",
+      "author": "",
       "title": "Fotos de equipamentos de locações e assinatura eletrônica de documentos",
       "heroTitle": "Fotos de equipamentos e assinatura eletrônica de documentos",
       "description": "Fotos e assinatura eletrônica ajudam a preservar evidências e formalizar documentos no fluxo da locação.",
@@ -233,6 +243,7 @@
     },
     {
       "slug": "formularios-leads-locadora",
+      "author": "",
       "title": "Potencialize sua geração de leads: conheça os formulários do Sistema Laser",
       "heroTitle": "Potencialize sua geração de leads com formulários integrados",
       "description": "Formulários integrados ajudam a capturar oportunidades e cadastrar leads automaticamente na plataforma.",
@@ -256,6 +267,7 @@
     },
     {
       "slug": "automacao-agenda-locacao-equipamentos-esteticos",
+      "author": "",
       "title": "Como a automação de agenda pode transformar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Como a automação de agenda pode transformar a locação de equipamentos estéticos",
       "description": "Automação de agenda ajuda a evitar conflitos, lembrar clientes e aumentar produtividade na locadora.",
@@ -279,6 +291,7 @@
     },
     {
       "slug": "gestao-financeira-locacao-equipamentos-esteticos",
+      "author": "",
       "title": "Gestão financeira eficiente: o segredo para o sucesso na locação de equipamentos estéticos",
       "heroTitle": "Gestão financeira eficiente para locadoras de equipamentos",
       "description": "Contas a receber, fluxo de caixa, DRE e cobranças precisam estar conectados à locação correta.",
@@ -302,6 +315,7 @@
     },
     {
       "slug": "logistica-entrega-coleta-equipamentos",
+      "author": "",
       "title": "Logística inteligente: como otimizar a entrega e coleta de equipamentos estéticos",
       "heroTitle": "Logística inteligente: entrega e coleta de equipamentos",
       "description": "Entrega e coleta ficam mais confiáveis quando agenda, responsáveis, documentos e protocolos estão conectados.",
@@ -325,6 +339,7 @@
     },
     {
       "slug": "organizacao-clientes-locacao-equipamentos",
+      "author": "",
       "title": "Organização de clientes: a chave para um atendimento personalizado na locação de equipamentos estéticos",
       "heroTitle": "Organização de clientes na locação de equipamentos",
       "description": "Cadastro, histórico e comunicação com clientes ajudam a melhorar atendimento e reduzir erros na locadora.",
@@ -348,6 +363,7 @@
     },
     {
       "slug": "gestao-tarefas-locacao-equipamentos",
+      "author": "",
       "title": "Gestão de tarefas: como aumentar a produtividade na locação de equipamentos estéticos",
       "heroTitle": "Gestão de tarefas para aumentar produtividade na locadora",
       "description": "Responsáveis, permissões e fluxo operacional ajudam a aumentar produtividade na rotina da locadora.",
@@ -371,6 +387,7 @@
     },
     {
       "slug": "seguranca-dados-locadora",
+      "author": "",
       "title": "Segurança de dados: proteja as informações sensíveis dos seus clientes com o Sistema Laser",
       "heroTitle": "Segurança de dados para locadoras de equipamentos",
       "description": "Dados de clientes, documentos e locações precisam de organização, permissão de acesso e infraestrutura adequada.",
@@ -394,6 +411,7 @@
     },
     {
       "slug": "integracao-sistemas-locacao-equipamentos",
+      "author": "",
       "title": "Como a integração de sistemas pode melhorar a gestão de locação de equipamentos estéticos",
       "heroTitle": "Integração de sistemas na gestão de locação",
       "description": "API, webhooks, formulários e cobranças integradas reduzem retrabalho entre operação e outros sistemas.",
@@ -417,6 +435,7 @@
     },
     {
       "slug": "suporte-cliente-locacao-equipamentos",
+      "author": "",
       "title": "A importância do suporte ao cliente na locação de equipamentos estéticos",
       "heroTitle": "A importância do suporte ao cliente na locação de equipamentos",
       "description": "Histórico, comunicação e atendimento com contexto ajudam a melhorar satisfação e fidelização em locadoras.",
@@ -440,6 +459,7 @@
     },
     {
       "slug": "analise-dados-locacao-equipamentos",
+      "author": "",
       "title": "Como a análise de dados pode impulsionar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Análise de dados para locadoras de equipamentos",
       "description": "Dashboards e relatórios ajudam a entender ocupação, faturamento, caixa e desempenho da locadora.",
@@ -463,6 +483,7 @@
     },
     {
       "slug": "gestao-inventario-locacao-equipamentos",
+      "author": "",
       "title": "Como a gestão de inventário pode melhorar a eficiência na locação de equipamentos estéticos",
       "heroTitle": "Gestão de inventário na locação de equipamentos",
       "description": "Inventário organizado melhora disponibilidade, qualidade, consumíveis e controle dos ativos alugados.",
@@ -486,6 +507,7 @@
     },
     {
       "slug": "personalizacao-servicos-locacao-equipamentos",
+      "author": "",
       "title": "Como a personalização de serviços pode diferenciar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Personalização de serviços na locação de equipamentos",
       "description": "Histórico, preferências e comunicação personalizada ajudam a melhorar experiência e fidelização do cliente.",
@@ -509,6 +531,7 @@
     },
     {
       "slug": "mobilidade-gestao-locacao-equipamentos",
+      "author": "",
       "title": "Como a mobilidade pode facilitar a gestão de locação de equipamentos estéticos",
       "heroTitle": "Mobilidade na gestão de locação de equipamentos",
       "description": "Acesso online por celular, tablet e computador facilita consulta de agenda, equipamentos e financeiro.",

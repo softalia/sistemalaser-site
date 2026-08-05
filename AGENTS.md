@@ -41,6 +41,7 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   - `seoDescription`
   - `date`
   - `modified`
+  - `author`
   - `category`
   - `tags`
   - `heroCopy`
