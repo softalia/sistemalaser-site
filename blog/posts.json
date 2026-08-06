@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+      "slug": "2026-08-06-tarde-rastreabilidade-obras-antigravity",
+      "author": "Geovana",
+      "title": "Rastreabilidade de equipamentos e máquinas em obras no Sistema Laser",
+      "heroTitle": "Rastreabilidade de equipamentos e máquinas em obras no Sistema Laser",
+      "description": "Veja como controlar a localização de ativos alugados, prazos de devolução e históricos de manutenção sem perdas operacionais.",
+      "seoTitle": "Rastreabilidade de Equipamentos em Obras | Sistema Laser",
+      "seoDescription": "Saiba como associar máquinas e ferramentas a contratos, clientes e obras com agenda de disponibilidade no Sistema Laser.",
+      "ogTitle": "Rastreabilidade de Equipamentos e Máquinas por Obra",
+      "ogDescription": "Evite atrasos na devolução e mantenha o controle de frotas e ativos operacionais em locadoras.",
+      "date": "2026-08-06T13:16:27.013076-03:00",
+      "modified": "2026-08-06T13:16:27.013076-03:00",
+      "category": "Gestão Operacional",
+      "tags": [
+        "rastreabilidade",
+        "equipamentos",
+        "construção civil",
+        "gestão de locações",
+        "sistema laser"
+      ],
+      "heroCopy": "Em vez de controlar equipamentos alugados por planilhas ou mensagens dispersas, o Sistema Laser associa cada ativo ao cliente, obra e período do contrato com rastreabilidade completa.",
+      "readingTime": 3,
+      "image": "https://www.sistemalaser.com.br/assets/img/sistema/sll-locacoes-contrato.webp",
+      "url": "blog/2026-08-06-tarde-rastreabilidade-obras-antigravity.html",
+      "contentHtml": "<h2>1. Visibilidade total do paradeiro dos equipamentos alugados</h2><p>Nas locadoras de construção civil e ativos operacionais, saber onde cada máquina ou ferramenta está alocada evita atrasos nas devoluções, perdas no estoque e cobranças incorretas de diárias ou fretes.</p><h2>2. Agenda de disponibilidade e prevenção de reservas duplicadas</h2><p>Com a consulta de disponibilidade integrada ao cadastro de ativos, sua equipe valida os períodos livres antes de fechar novos contratos. O histórico registra a movimentação de cada item desde o envio até a vistoria de devolução.</p><h2>3. Delegação com controle de permissões por função</h2><p>Os gerentes e motoristas registram a movimentação no pátio com autonomia, enquanto os diretores preservam o sigilo sobre contas bancárias, caixas e indicadores financeiros da empresa.</p><h2>Como o Sistema Laser apoia sua locadora</h2><p>O Sistema Laser integra controle de frota, agenda de disponibilidade, minuta de contrato com assinatura digital e gestão financeira completa.</p><p><a href=\"../software-locadora-construcao.html\">Conheça as soluções para locadoras de construção</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/DbtHv0IIF-Y/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>"
+    },
+    {
       "slug": "2026-08-06-manha-captacao-leads-antigravity",
       "author": "Geovana",
       "title": "Captação de leads com formulários configuráveis no Sistema Laser",
