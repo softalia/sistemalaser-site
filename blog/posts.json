@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+      "slug": "2026-08-06-manha-captacao-leads-antigravity",
+      "author": "Geovana",
+      "title": "Captação de leads com formulários configuráveis no Sistema Laser",
+      "heroTitle": "Captação de leads com formulários configuráveis no Sistema Laser",
+      "description": "Veja como organizar o primeiro contato do cliente, coletar dados essenciais antes da proposta e eliminar a digitação manual de orçamentos.",
+      "seoTitle": "Captação de Leads para Locadoras de Equipamentos | Sistema Laser",
+      "seoDescription": "Saiba como padronizar a entrada de solicitações de locação com formulários digitais configuráveis e cadastro automático no Sistema Laser.",
+      "ogTitle": "Captação de Leads com Formulários Configuráveis para Locadoras",
+      "ogDescription": "Elimine o retrabalho manual e padronize a entrada de solicitações de locação desde o primeiro contato.",
+      "date": "2026-08-06T10:04:16.090756-03:00",
+      "modified": "2026-08-06T10:04:16.090756-03:00",
+      "category": "Gestão e Vendas",
+      "tags": [
+        "leads",
+        "formulários",
+        "gestão de locações",
+        "automação",
+        "sistema laser"
+      ],
+      "heroCopy": "Em vez de receber solicitações dispersas e digitar dados manualmente para montar orçamentos, os formulários configuráveis do Sistema Laser padronizam a coleta de informações essenciais desde a primeira conversa.",
+      "readingTime": 3,
+      "image": "https://www.sistemalaser.com.br/assets/img/sistema/sll-links.webp",
+      "url": "blog/2026-08-06-manha-captacao-leads-antigravity.html",
+      "contentHtml": "<h2>1. Padronização dos dados essenciais na captação</h2><p>Com formulários digitais configuráveis, sua locadora define antecipadamente quais campos são obrigatórios — como CNPJ, endereço exato de entrega, modelo do equipamento e período da locação. Isso evita trocas intermináveis de mensagens para levantar informações básicas.</p><h2>2. Cadastro automático e sem retrabalho de digitação</h2><p>Quando o cliente responde ao formulário, a oportunidade entra cadastrada diretamente no Sistema Laser. A equipe comercial atende com velocidade e precisão, aproveitando os dados já preenchidos para gerar o orçamento sem digitação manual.</p><h2>3. Compartilhamento simples e segurança de acesso</h2><p>O link do formulário pode ser compartilhado por WhatsApp ou incorporado ao seu site oficial. Por meio do permissionamento por função, os atendentes operam os orçamentos com autonomia sem visualizar relatórios estratégicos ou contas bancárias da locadora.</p><h2>Como o Sistema Laser apoia sua locadora</h2><p>O Sistema Laser integra formulários configuráveis, agenda de disponibilidade, minuta de contrato com assinatura eletrônica e controle financeiro completo.</p><p><a href=\"../funcionalidades.html#formularios-leads\">Conheça o módulo de formulários e leads</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/DbsxwGroNlE/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>"
+    },
+    {
       "slug": "controle-serie-equipamentos-hospitalares",
       "title": "Rastreabilidade por número de série em equipamentos hospitalares e de home care",
       "heroTitle": "Rastreabilidade por número de série em equipamentos hospitalares e de home care",
