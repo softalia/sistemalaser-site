@@ -7,6 +7,8 @@ const blogDir = path.join(root, "blog");
 const distDir = path.join(root, "dist");
 const distBlogDir = path.join(distDir, "blog");
 const postsFile = path.join(blogDir, "posts.json");
+const blogImagesDir = path.join(blogDir, "images");
+const distBlogImagesDir = path.join(distBlogDir, "images");
 const sitemapFile = path.join(distDir, "sitemap.xml");
 const rssFile = path.join(distBlogDir, "feed.xml");
 const today = process.env.SITE_LASTMOD || new Date().toISOString().slice(0, 10);
@@ -60,7 +62,7 @@ function copyRecursive(source, target) {
   fs.copyFileSync(source, target);
 }
 
-function prepareDist() {
+function prepareDist(posts) {
   fs.rmSync(distDir, { recursive: true, force: true });
   ensureDir(distBlogDir);
 
@@ -77,7 +79,10 @@ function prepareDist() {
     copyRecursive(path.join(root, dir), path.join(distDir, dir));
   }
 
-  fs.copyFileSync(postsFile, path.join(distBlogDir, "posts.json"));
+  fs.writeFileSync(path.join(distBlogDir, "posts.json"), `${JSON.stringify({ version: 1, posts }, null, 2)}\n`);
+  if (fs.existsSync(blogImagesDir)) {
+    copyRecursive(blogImagesDir, distBlogImagesDir);
+  }
   fs.writeFileSync(path.join(distDir, ".nojekyll"), "");
 }
 
@@ -92,6 +97,32 @@ function stripHtml(value) {
 
 function absolute(url) {
   return `${siteUrl}/${url.replace(/^\/+/, "")}`;
+}
+
+function isAbsoluteUrl(url) {
+  return /^[a-z][a-z0-9+.-]*:\/\//i.test(String(url ?? ""));
+}
+
+function normalizePostImage(image) {
+  const fallback = `${siteUrl}/assets/img/og-sistema-laser-2026.png`;
+  const value = String(image || "").trim();
+  if (!value) return { image: fallback, imagePath: "" };
+  if (isAbsoluteUrl(value)) return { image: value, imagePath: value };
+
+  const normalized = value
+    .replace(/^\/+/, "")
+    .replace(/^\.\/+/, "")
+    .replace(/^\.\.\/+/, "blog/images/");
+  const rootRelativePath = normalized.startsWith("blog/images/")
+    ? normalized
+    : normalized.startsWith("images/")
+      ? `blog/${normalized}`
+      : normalized;
+
+  return {
+    image: absolute(rootRelativePath),
+    imagePath: `../${rootRelativePath.replace(/^blog\//, "")}`,
+  };
 }
 
 function formatDate(date) {
@@ -133,7 +164,7 @@ function readPosts() {
         modified: post.modified || post.date,
         tags: post.tags || [],
         readingTime: post.readingTime || Math.max(1, Math.ceil(stripHtml(post.contentHtml).split(/\s+/).length / 200)),
-        image: post.image || `${siteUrl}/assets/img/og-sistema-laser-2026.png`,
+        ...normalizePostImage(post.image),
         url: post.url || `blog/${post.slug}.html`,
       };
     })
@@ -202,6 +233,8 @@ function postHtml(post, posts) {
     author: post.author,
     category: post.category,
     tags: post.tags,
+    image: post.image,
+    imagePath: post.imagePath,
   };
 
   return `<!doctype html>
@@ -251,6 +284,7 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>
           <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ""} · ${post.readingTime} min de leitura</p>
+          ${post.imagePath && !isAbsoluteUrl(post.imagePath) ? `<img class="mt-4 w-100" style="border-radius:12px;max-height:480px;object-fit:cover" src="${escapeHtml(post.imagePath)}" alt="${escapeHtml(post.title)}" loading="eager" fetchpriority="high">` : ""}
         </div>
       </header>
       <section class="section-space">
@@ -278,7 +312,7 @@ ${related.map((item) => `          <div class="col-md-4"><article class="module-
 function buildSitemap(posts) {
   const entries = [
     ...staticSitemapEntries,
-    ...posts.map((post) => [`/${post.url}`, post.modified, "yearly", "0.55"]),
+    ...posts.map((post) => [`/${post.url}`, post.modified, "yearly", "0.55", post.image]),
   ];
   const seen = new Set();
   const urls = entries
@@ -287,11 +321,14 @@ function buildSitemap(posts) {
       seen.add(loc);
       return true;
     })
-    .map(([loc, lastmod, changefreq, priority]) => `    <url><loc>${absolute(loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`)
+    .map(([loc, lastmod, changefreq, priority, image]) => {
+      const imageXml = image ? `<image:image><image:loc>${escapeHtml(image)}</image:loc></image:image>` : "";
+      return `    <url><loc>${absolute(loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${imageXml}</url>`;
+    })
     .join("\n");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 ${urls}
 </urlset>
 `;
@@ -322,7 +359,7 @@ ${items}
 }
 
 const posts = readPosts();
-prepareDist();
+prepareDist(posts);
 for (const post of posts) {
   fs.writeFileSync(path.join(distBlogDir, `${post.slug}.html`), postHtml(post, posts));
 }

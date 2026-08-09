@@ -5,6 +5,8 @@ const root = process.cwd();
 const dist = path.join(root, "dist");
 const postsData = JSON.parse(fs.readFileSync(path.join(root, "blog/posts.json"), "utf8"));
 const posts = postsData.posts || [];
+const distPostsData = JSON.parse(fs.readFileSync(path.join(dist, "blog/posts.json"), "utf8"));
+const distPosts = distPostsData.posts || [];
 const errors = [];
 
 function read(file) {
@@ -21,6 +23,8 @@ for (const post of posts) {
   if (!fs.existsSync(path.join(dist, file))) continue;
   const html = read(file);
   assert(html.includes(`<link rel="canonical" href="https://www.sistemalaser.com.br/${file}">`), `dist/${file} missing canonical`);
+  assert(html.includes('<meta property="og:image" content="https://www.sistemalaser.com.br/'), `dist/${file} missing absolute og:image`);
+  assert(html.includes('<meta name="twitter:image" content="https://www.sistemalaser.com.br/'), `dist/${file} missing absolute twitter:image`);
   assert(html.includes('"@type":"BlogPosting"') || html.includes('"@type": "BlogPosting"'), `dist/${file} missing BlogPosting schema`);
   assert(html.includes('"@type":"BreadcrumbList"') || html.includes('"@type": "BreadcrumbList"'), `dist/${file} missing BreadcrumbList schema`);
   assert(html.includes(`datetime="${post.date}"`), `dist/${file} missing semantic date`);
@@ -29,13 +33,28 @@ for (const post of posts) {
   }
 }
 
+for (const post of distPosts) {
+  assert(/^https:\/\/www\.sistemalaser\.com\.br\//.test(String(post.image || "")), `dist/blog/posts.json has non-absolute image for ${post.slug}`);
+  if (post.imagePath && !/^[a-z][a-z0-9+.-]*:\/\//i.test(post.imagePath)) {
+    assert(fs.existsSync(path.join(dist, "blog", post.imagePath)), `dist/blog/posts.json imagePath missing for ${post.slug}: ${post.imagePath}`);
+  }
+}
+
 const sitemap = read("sitemap.xml");
+assert(sitemap.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'), "sitemap missing image namespace");
 for (const post of posts) {
   assert(sitemap.includes(`https://www.sistemalaser.com.br/blog/${post.slug}.html`), `sitemap missing ${post.slug}`);
+}
+for (const post of distPosts) {
+  assert(sitemap.includes(`<image:loc>${post.image}</image:loc>`), `sitemap missing image for ${post.slug}`);
 }
 
 for (const file of ["CNAME", "robots.txt", "llms.txt", "blog.html", "blog/posts.json", "blog/feed.xml", "assets/js/header-2026.js", "assets/js/footer-2026.js"]) {
   assert(fs.existsSync(path.join(dist, file)), `dist/${file} missing`);
+}
+
+if (fs.existsSync(path.join(root, "blog/images"))) {
+  assert(fs.existsSync(path.join(dist, "blog/images")), "dist/blog/images missing");
 }
 
 const htmlFiles = fs
