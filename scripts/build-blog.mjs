@@ -99,6 +99,11 @@ function absolute(url) {
   return `${siteUrl}/${url.replace(/^\/+/, "")}`;
 }
 
+function relativeFromBlogPage(rootRelativePath) {
+  const relativePath = path.posix.relative("blog", rootRelativePath.replace(/\\/g, "/"));
+  return relativePath || path.posix.basename(rootRelativePath);
+}
+
 function isAbsoluteUrl(url) {
   return /^[a-z][a-z0-9+.-]*:\/\//i.test(String(url ?? ""));
 }
@@ -121,7 +126,7 @@ function normalizePostImage(image) {
 
   return {
     image: absolute(rootRelativePath),
-    imagePath: `../${rootRelativePath.replace(/^blog\//, "")}`,
+    imagePath: relativeFromBlogPage(rootRelativePath),
   };
 }
 
