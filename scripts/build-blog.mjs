@@ -298,11 +298,10 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>
           <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ""} · ${formatReadingTime(post.readingTime)} de leitura</p>
-          ${post.imagePath && !isAbsoluteUrl(post.imagePath) ? `<img class="mt-4 w-100" style="border-radius:12px;max-height:480px;object-fit:cover" src="${escapeHtml(post.imagePath)}" alt="${escapeHtml(post.title)}" loading="eager" fetchpriority="high">` : ""}
         </div>
       </header>
       <section class="section-space">
-        <div class="container" style="max-width:860px">
+        <div class="container blog-post-content" style="max-width:860px">
 ${post.contentHtml}
         </div>
       </section>
