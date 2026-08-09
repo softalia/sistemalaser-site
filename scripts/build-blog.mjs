@@ -143,8 +143,17 @@ function parseDate(date) {
   const value = String(date ?? "");
   if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return new Date(`${value}T12:00:00-03:00`);
   if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(value)) return new Date(`${value.replace(" ", "T")}-03:00`);
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{4,}(?:Z|[+-]\d{2}:\d{2})?$/.test(value)) {
+    return new Date(value.replace(/\.(\d{3})\d+/, ".$1"));
+  }
   if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?$/.test(value)) return new Date(`${value}-03:00`);
   return new Date(value);
+}
+
+function formatReadingTime(readingTime) {
+  const value = String(readingTime ?? "").trim();
+  if (!value) return "";
+  return /\bmin\b/i.test(value) ? value : `${value} min`;
 }
 
 function readPosts() {
@@ -283,7 +292,7 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
           <span class="eyebrow">${escapeHtml(post.category)}</span>
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>
-          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ""} · ${post.readingTime} min de leitura</p>
+          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ""} · ${formatReadingTime(post.readingTime)} de leitura</p>
           ${post.imagePath && !isAbsoluteUrl(post.imagePath) ? `<img class="mt-4 w-100" style="border-radius:12px;max-height:480px;object-fit:cover" src="${escapeHtml(post.imagePath)}" alt="${escapeHtml(post.title)}" loading="eager" fetchpriority="high">` : ""}
         </div>
       </header>

@@ -95,8 +95,20 @@
     var status = document.getElementById("blogStatus");
     var pagination = document.getElementById("blogPagination");
     var categorySelect = document.getElementById("blogCategory");
+    function parseDate(value){
+      var raw = String(value || "");
+      var dateOnly = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if(dateOnly) return new Date(Number(dateOnly[1]), Number(dateOnly[2]) - 1, Number(dateOnly[3]), 12);
+      if(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(raw)) raw = raw.replace(" ", "T") + "-03:00";
+      if(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{4,}(?:Z|[+-]\d{2}:\d{2})?$/.test(raw)) {
+        raw = raw.replace(/\.(\d{3})\d+/, ".$1");
+      }
+      if(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?$/.test(raw)) raw += "-03:00";
+      return new Date(raw);
+    }
     function formatDate(value){
-      var date = new Date(value + "T12:00:00");
+      var date = parseDate(value);
+      if(isNaN(date.getTime())) return "";
       return date.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric"});
     }
     function filtered(){
