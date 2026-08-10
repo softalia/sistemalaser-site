@@ -54,6 +54,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 .media-panel img{display:block;width:100%;height:auto;object-fit:contain}
 .blog-post-hero-image{display:block;width:auto;max-width:100%;max-height:760px;margin:2rem auto 0;border-radius:.85rem;object-fit:contain;background:var(--sl-surface-raised);box-shadow:var(--sl-shadow)}
+.blog-post-content{font-size:1.15rem;line-height:1.75}
 .blog-post-content figure{margin:2.75rem auto;text-align:center}
 .blog-post-content figure img{display:block;width:auto;max-width:100%;max-height:760px;margin:0 auto;border-radius:.85rem;object-fit:contain;background:var(--sl-surface-raised)}
 .blog-post-content figcaption{max-width:680px;margin:.85rem auto 0;color:var(--sl-text-faint);font-size:.86rem;line-height:1.45}
