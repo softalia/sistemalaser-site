@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+      "slug": "2026-08-10-tarde-permissoes-funcao-construcao-antigravity",
+      "title": "Permissionamento por função na locadora de equipamentos",
+      "heroTitle": "Como configurar níveis de permissão por função para proteger dados da locadora",
+      "description": "Veja como delegar rotinas à equipe operacional, comercial e de transporte sem expor saldos bancários ou relatórios estratégicos no Sistema Laser.",
+      "seoTitle": "Permissionamento por Função em Locadoras de Equipamentos | Sistema Laser",
+      "seoDescription": "Configure níveis de acesso sob medida para motoristas, assistentes e gestores de locadoras de equipamentos com o Sistema Laser.",
+      "ogTitle": "Permissionamento por Função para Locadoras | Sistema Laser",
+      "ogDescription": "Saiba como proteger dados sensíveis e bancários enquanto sua equipe operacional gerencia locações com autonomia no Sistema Laser.",
+      "date": "2026-08-10T15:01:50.885632-03:00",
+      "modified": "2026-08-10T15:01:50.885632-03:00",
+      "category": "Gestão de Locações",
+      "tags": [
+        "Permissionamento por Função",
+        "Segurança Operacional",
+        "Gestão de Locadoras",
+        "Delegação com Controle",
+        "Sistema Laser"
+      ],
+      "heroCopy": "Delegar rotinas sem perder a governança da empresa é um desafio constante nas locadoras. Descubra como estruturar acessos seguros por função.",
+      "readingTime": "3 min",
+      "image": "../2026-08-10-tarde-permissoes-funcao-construcao-antigravity-feed-01.png",
+      "url": "blog/2026-08-10-tarde-permissoes-funcao-construcao-antigravity.html",
+      "contentHtml": "<h2>O desafio da delegação na gestão de locadoras</h2>\n<p>Conforme a frota de equipamentos aumenta e a operação da locadora se torna mais complexa, centralizar todas as aprovações e lançamentos no proprietário se torna um gargalo operacional. É preciso permitir que motoristas confirmem entregas, que assistentes emitam contratos e que técnicos registrem a triagem dos ativos.</p>\n<p>No entanto, abrir acessos irrestritos ao sistema pode expor relatórios de faturamento, margem financeira e contas bancárias estratégicas da empresa, gerando insegurança para o empresário.</p>\n\n<h2>Como funciona o permissionamento refinado no Sistema Laser</h2>\n<p>O Sistema Laser foi desenvolvido para resolver o dilema entre delegação e controle. A plataforma permite configurar regras de acesso por perfil e função, garantindo que cada colaborador visualize apenas as informações indispensáveis ao seu trabalho.</p>\n<ul>\n  <li><strong>Operacional e logística:</strong> motoristas e técnicos visualizam rotas, comprovantes e especificações de triagem dos equipamentos sem acesso à área financeira.</li>\n  <li><strong>Comercial e atendimento:</strong> assistentes geram propostas, contratos e recibos das locações sem visualizar extratos bancários ou relatórios gerais de saldo.</li>\n  <li><strong>Supervisão e diretoria:</strong> gestores mantêm controle completo de caixa, DRE, conciliação e indicadores de desempenho da locadora.</li>\n</ul>\n\n<h2>Benefícios estratégicos para o proprietário</h2>\n<p>Com a matriz de acessos devidamente configurada, a locadora ganha agilidade no atendimento e eficiência operacional sem comprometer a confidencialidade dos dados do negócio. O proprietário reduz a necessidade de microgerenciamento e pode focar na expansão da frota, no relacionamento com clientes estratégicos e na tomada de decisões com serenidade.</p>\n<p>Veja também esta publicação no Instagram: <a href=\"https://www.instagram.com/p/Db3m-SVCcc_/\" target=\"_blank\" rel=\"noopener\">Ver publicação completa no Instagram</a>.</p>\n<p>Para conhecer todas as funcionalidades de segurança e gestão do Sistema Laser, agende uma demonstração no <a href=\"../index.html#demonstracao\">Sistema Laser</a>.</p>",
+      "author": "Geovana"
+    },
+    {
       "slug": "controle-caixa-locadora-motoristas-parceiros",
       "title": "Controle de caixa para locadoras: motoristas e parceiros",
       "heroTitle": "Como conferir caixas de motoristas e parceiros com contexto operacional",
