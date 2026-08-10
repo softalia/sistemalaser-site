@@ -101,3 +101,5 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 - Treat a dirty worktree as user work unless you know the changes are yours.
 - Before finishing, run `make validate` when changes affect pages, blog content,
   assets used by pages, build scripts, SEO metadata, links or shared layout.
+- Use this meta property for Open Graph images in new pages and blog posts:
+`<meta property="og:image" content="https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png">`
