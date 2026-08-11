@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "gestao-equipamentos-parceiros",
+      "title": "Gestão de equipamentos de parceiros: como manter o contexto",
+      "heroTitle": "Como organizar equipamentos de parceiros na locadora",
+      "description": "Um processo prático para registrar proprietário, comodato e contexto comercial dos ativos de parceiros.",
+      "seoTitle": "Gestão de equipamentos de parceiros | Sistema Laser",
+      "seoDescription": "Veja como organizar equipamentos de parceiros, comodatos e fechamentos na locadora, preservando o contexto de cada ativo.",
+      "ogTitle": "Quem é o proprietário de cada equipamento?",
+      "ogDescription": "O contexto do ativo ajuda a organizar comodatos, comissões e fechamentos por parceiro na locadora.",
+      "date": "2026-08-11T15:12:44.273176-03:00",
+      "modified": "2026-08-11T15:12:44.273176-03:00",
+      "category": "Gestão de ativos",
+      "tags": [
+        "gestão de equipamentos de parceiros",
+        "equipamentos em comodato",
+        "fechamento por parceiro",
+        "gestão de ativos"
+      ],
+      "heroCopy": "Identificar o proprietário de cada ativo preserva o contexto da rede antes de comodatos, comissões e fechamentos.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/11/2026-08-11-tarde-proprietario-ativo-parceiro-root-feed-1.png",
+      "url": "blog/gestao-equipamentos-parceiros.html",
+      "contentHtml": "<p>Quando uma locadora cresce com parceiros, representantes ou ativos de terceiros, a primeira pergunta não deveria ficar restrita à planilha: quem é o proprietário de cada equipamento? A resposta dá contexto a decisões que aparecem depois, como a conferência de um comodato, o cálculo de uma comissão ou o fechamento por parceiro. Registrar esse vínculo desde o cadastro torna a conversa operacional mais objetiva e evita depender de memória, mensagens dispersas ou consultas paralelas.</p>\n<h2>Comece pelo vínculo do ativo</h2>\n<p>Um mesmo modelo de equipamento pode ter origens comerciais diferentes. Por isso, o proprietário precisa acompanhar cada ativo individualmente, junto das demais informações usadas pela operação. Esse cuidado não substitui a conferência humana nem os acordos comerciais, mas oferece um ponto de partida claro para quem atende, movimenta ou supervisiona a locação.</p>\n<p>Na prática, o responsável pode revisar três pontos antes de ampliar a rede: identificar o proprietário do equipamento, confirmar se o ativo está em comodato quando for o caso e registrar qual parceiro participa da relação. Quanto mais cedo esse contexto fica organizado, mais simples tende a ser a consulta posterior.</p>\n<h2>Relacione a rotina comercial ao histórico</h2>\n<p>O proprietário da locadora não precisa acompanhar cada etapa sozinho. A equipe pode executar sua parte quando encontra a informação certa no processo, enquanto a gestão mantém a visão necessária para revisar exceções. Em vez de procurar dados em vários lugares no fechamento, o gestor pode partir do ativo e da relação comercial já registrada.</p>\n<p>Esse método também ajuda a separar o que é decisão comercial do que é mera conferência operacional. Uma comissão, por exemplo, continua exigindo regras claras e validação responsável. O sistema contribui ao manter os elementos da operação relacionados, e não ao substituir o julgamento do proprietário.</p>\n<h2>Como o Sistema Laser apoia a rede de parceiros</h2>\n<p>O Sistema Laser oferece cadastro do proprietário de cada equipamento, controle de equipamentos cedidos em comodato, gerenciamento de comissões e fechamento por parceiro. Esses recursos se somam a uma base que também reúne locações, clientes e dados financeiros ligados à operação. Para equipes com unidades ou diferentes responsabilidades, os perfis específicos de usuário e o permissionamento refinado ajudam a estruturar acessos compatíveis com cada função.</p>\n<p>Antes de expandir, vale desenhar o fluxo com seus parceiros e testar quais informações precisam estar presentes desde o cadastro. Conheça as <a href=\"../solucoes-locadoras.html#rede\">soluções para locadoras</a>, veja as <a href=\"../funcionalidades.html#rede\">funcionalidades para filiais, parceiros e usuários</a>, explore o <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadora</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a> para discutir a estrutura da sua operação.</p>\n<p><a href=\"https://www.instagram.com/p/Db6NEzlCVH3/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "agenda-locacoes-responsavel-execucao",
       "title": "Agenda de locações: como definir o responsável pela execução",
       "heroTitle": "Uma agenda com responsável para cada etapa da locação",
