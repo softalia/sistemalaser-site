@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "agenda-locacoes-responsavel-execucao",
+      "title": "Agenda de locações: como definir o responsável pela execução",
+      "heroTitle": "Uma agenda com responsável para cada etapa da locação",
+      "description": "Três perguntas para confirmar equipamento, período e responsável antes de prometer uma locação.",
+      "seoTitle": "Agenda de locações com responsável | Sistema Laser",
+      "seoDescription": "Saiba como definir o responsável pela execução ao confirmar equipamento e período na agenda de locações.",
+      "ogTitle": "Agenda de locações: quem acompanha a execução?",
+      "ogDescription": "Definir ativo, período e responsável ajuda a delegar confirmações com mais contexto operacional.",
+      "date": "2026-08-11T09:12:29.386844-03:00",
+      "modified": "2026-08-11T09:12:29.386844-03:00",
+      "category": "Gestão de locações",
+      "tags": [
+        "agenda de locações",
+        "gestão de equipe",
+        "delegação",
+        "equipamentos alugados"
+      ],
+      "heroCopy": "Ativo, período e responsável deixam a confirmação mais clara para a equipe e para a gestão.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/11/2026-08-11-manha-responsavel-agenda-locacao-root-feed-1.png",
+      "url": "blog/agenda-locacoes-responsavel-execucao.html",
+      "contentHtml": "<p>Quando uma locação é confirmada, o proprietário não deveria precisar descobrir no grupo de mensagens quem acompanha a entrega, a retirada ou uma exceção. Uma agenda de locações com responsável não substitui a liderança da equipe, mas deixa claro o que foi combinado e quem precisa agir. Isso reduz a dependência de memória e dá à gestão uma base mais confiável para delegar.</p>\n<p>Antes de prometer um ativo ao cliente, vale reunir três informações no mesmo ponto de consulta: o equipamento, o período e o responsável pela execução. A pergunta não é “quem será culpado se algo mudar?”, mas “quem tem o contexto para conduzir o próximo passo?”.</p>\n<h2>Três perguntas antes de confirmar a locação</h2>\n<ol>\n  <li><strong>Qual ativo está disponível?</strong> A confirmação começa com a consulta ao equipamento certo, e não com uma resposta baseada em lembrança.</li>\n  <li><strong>Qual período foi combinado?</strong> Saída, retorno e uma possível mudança de data precisam ser entendidos junto da reserva.</li>\n  <li><strong>Quem acompanha a execução?</strong> Definir uma pessoa responsável ajuda a equipe a saber quem coordena a etapa, sem centralizar toda decisão no dono.</li>\n</ol>\n<figure><img src=\"images/2026/08/11/2026-08-11-manha-responsavel-agenda-locacao-root-feed-2.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três informações a conferir na agenda: equipamento, período e responsável\"><figcaption>Equipamento, período e responsável formam uma confirmação com mais contexto.</figcaption></figure>\n<h2>Como a agenda de locações apoia a delegação</h2>\n<p>O Sistema Laser informa que sua agenda possui diferentes visões, consultas rápidas e filtros por equipamento, modelo, cliente ou responsável. Também há restrição de agenda por usuário. Essas possibilidades permitem configurar uma rotina em que cada pessoa consulte o contexto necessário para executar sua parte, enquanto gestores acompanham o que pede atenção.</p>\n<p>O recurso não elimina conferências humanas nem cria um processo pronto para toda empresa. A definição de responsáveis, regras de aprovação e exceções continua sendo uma decisão da locadora. A tecnologia pode apoiar a disciplina operacional ao concentrar a informação que normalmente fica dividida entre calendário, mensagens e anotações.</p>\n<figure><img src=\"images/2026/08/11/2026-08-11-manha-responsavel-agenda-locacao-root-feed-3.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Fluxo visual para verificar disponibilidade, definir responsável e acompanhar exceções\"><figcaption>Uma rotina curta facilita a visão sobre o que a equipe precisa executar.</figcaption></figure>\n<h2>Um processo simples para começar</h2>\n<p>Escolha uma situação recorrente, como uma entrega externa ou uma retirada, e combine o mínimo necessário antes da confirmação: ativo, período e responsável. Depois, revise as exceções que voltam a aparecer. Se uma informação costuma se perder, ela provavelmente precisa entrar na agenda ou no procedimento da equipe.</p>\n<p>Para aprofundar, conheça a <a href=\"../agenda-locacoes.html\">agenda de locações</a>, as <a href=\"../funcionalidades.html#agenda\">funcionalidades de agenda</a> e o <a href=\"../controle-equipamentos.html\">controle de equipamentos</a> do Sistema Laser. Para avaliar uma configuração adequada à sua operação, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/Db5j2IpHP0I/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "controle-devolucao-equipamentos-alugados",
       "title": "Controle de devolução de equipamentos alugados: 3 confirmações",
       "heroTitle": "Como conferir a devolução antes da próxima locação",
