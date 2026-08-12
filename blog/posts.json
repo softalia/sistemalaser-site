@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "fluxo-caixa-origem-operacao-locadora",
+      "title": "Fluxo de caixa para locadora: como entender a origem dos valores",
+      "heroTitle": "Como ler o caixa da locadora pelo contexto da operação",
+      "description": "Um roteiro de três perguntas para relacionar movimentos financeiros à origem operacional na locadora.",
+      "seoTitle": "Fluxo de caixa para locadora: contexto operacional",
+      "seoDescription": "Entenda como relacionar entradas e saídas à origem operacional e conduzir uma revisão de fluxo de caixa mais clara na locadora.",
+      "ogTitle": "Seu caixa explica de onde cada valor veio?",
+      "ogDescription": "Três perguntas para revisar entradas, saídas e exceções pelo contexto da operação.",
+      "date": "2026-08-12T09:08:09.818424-03:00",
+      "modified": "2026-08-12T09:08:09.818424-03:00",
+      "category": "Gestão financeira",
+      "tags": [
+        "fluxo de caixa para locadora",
+        "gestão financeira de locações",
+        "controle financeiro",
+        "locadora de equipamentos"
+      ],
+      "heroCopy": "Relacionar cada valor à operação que o gerou dá mais contexto para revisar o caixa da locadora.",
+      "readingTime": "2 min",
+      "image": "https://sistemalaser.com.br/blog/images/2026/08/12/2026-08-12-manha-caixa-origem-root-feed-1.png",
+      "url": "blog/fluxo-caixa-origem-operacao-locadora.html",
+      "contentHtml": "<p>O fluxo de caixa para locadora não serve apenas para mostrar o saldo disponível. Para o proprietário, ele também deve ajudar a entender o que gerou cada entrada, saída ou diferença que merece atenção. Quando um valor aparece sem contexto, a revisão costuma migrar para planilhas paralelas, mensagens e memória da equipe. Relacionar o movimento à origem operacional cria um ponto de partida mais claro para investigar antes de decidir.</p>\n<h2>Comece pelo movimento, mas não pare nele</h2>\n<p>O primeiro passo é simples: separar recebimentos, pagamentos e valores previstos. Depois vem a pergunta que muda a qualidade da conversa: qual operação explica este lançamento? Uma receita pode estar ligada a uma locação; uma saída pode decorrer de manutenção, estoque ou de um compromisso da operação. O objetivo não é automatizar julgamento financeiro, e sim evitar que a conferência comece sem contexto.</p>\n<p>Essa leitura é particularmente útil quando a rotina está intensa. Em vez de procurar uma justificativa em vários canais, a gestão pode partir do movimento e chegar ao processo que o originou. Isso tende a tornar a revisão mais objetiva e permite que o dono acompanhe exceções sem precisar centralizar cada tarefa.</p>\n<h2>Três perguntas para o fechamento semanal</h2>\n<ol><li><strong>O que entrou e saiu?</strong> Observe o movimento antes de concluir se ele é esperado ou não.</li><li><strong>Qual operação explica o valor?</strong> Procure o vínculo com locação, cobrança, manutenção, estoque, parceiro ou filial quando ele for relevante.</li><li><strong>O que merece revisão?</strong> Separe o que é rotina do que pede conferência ou uma decisão da gestão.</li></ol>\n<figure><img src=\"images/2026/08/12/2026-08-12-manha-caixa-origem-root-feed-2.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Fluxo visual que diferencia o movimento financeiro da origem operacional\"><figcaption>O valor ganha contexto quando a equipe pode localizar a operação relacionada.</figcaption></figure>\n<h2>Contexto financeiro conectado à operação</h2>\n<p>O Sistema Laser informa que valores de locações, cobranças, manutenção, estoque, comissões, parceiros e filiais permanecem relacionados à origem operacional. A plataforma também reúne contas a receber e a pagar, bancos, caixas, plano de contas, fluxo de caixa, DRE e dashboard financeiro. Esses recursos podem apoiar uma rotina mais organizada, desde que a locadora defina seus próprios critérios de conferência e aprovação.</p>\n<figure><img src=\"images/2026/08/12/2026-08-12-manha-caixa-origem-root-feed-3.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para orientar a revisão semanal do caixa da locadora\"><figcaption>Uma revisão curta ajuda a distinguir rotina, exceção e prioridade.</figcaption></figure>\n<p>Para aprofundar, veja as <a href=\"../funcionalidades.html#financeiro\">funcionalidades financeiras</a>, conheça o <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadora</a>, explore o <a href=\"../controle-equipamentos.html\">controle de equipamentos</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a> do Sistema Laser. <a href=\"https://www.instagram.com/p/Db8IJeakbqo/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "gestao-equipamentos-parceiros",
       "title": "Gestão de equipamentos de parceiros: como manter o contexto",
       "heroTitle": "Como organizar equipamentos de parceiros na locadora",
