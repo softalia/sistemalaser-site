@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "reparo-ou-substituicao-equipamento-locadora",
+      "title": "Reparo ou substituição: como decidir na locadora",
+      "heroTitle": "Três perguntas antes de decidir sobre um equipamento",
+      "description": "Um roteiro prático para analisar histórico, custo e próxima locação antes de reparar ou substituir um ativo.",
+      "seoTitle": "Reparo ou substituição de equipamento na locadora",
+      "seoDescription": "Veja três perguntas para decidir entre reparar ou substituir equipamentos alugados com histórico, custos e agenda em contexto.",
+      "ogTitle": "Reparar ou substituir um equipamento?",
+      "ogDescription": "Histórico, custos e próxima locação ajudam a organizar a decisão.",
+      "date": "2026-08-14T18:36:02.845792-03:00",
+      "modified": "2026-08-14T18:36:02.845792-03:00",
+      "category": "Manutenção",
+      "tags": [
+        "gestão de manutenção de equipamentos",
+        "manutenção de equipamentos alugados",
+        "histórico de reparos",
+        "controle de ativos para locadora"
+      ],
+      "heroCopy": "Antes de aprovar um reparo, reúna o histórico do ativo, os custos associados e o impacto sobre a próxima locação.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/14/2026-08-14-tarde-decidir-reparo-ou-troca-root-feed-1.png",
+      "url": "blog/reparo-ou-substituicao-equipamento-locadora.html",
+      "contentHtml": "<p>A gestão de manutenção de equipamentos começa antes da autorização do reparo. Quando um ativo apresenta problema, o proprietário da locadora precisa decidir com rapidez, mas não precisa decidir sem contexto. Histórico técnico, custos já associados e o compromisso da próxima locação ajudam a separar uma urgência isolada de uma conversa mais ampla sobre o ciclo de vida daquele equipamento.</p>\n<h2>Comece pela pergunta certa</h2>\n<p>Em vez de perguntar apenas quanto custa o serviço de hoje, pergunte o que o histórico daquele ativo revela. O mesmo defeito voltou? Houve outras paradas ou intervenções recentes? Essa consulta não substitui a avaliação técnica, mas ajuda a gestão a organizar os fatos antes de aprovar um gasto, renegociar uma entrega ou considerar outra alternativa para a frota.</p>\n<h2>Três informações antes de decidir</h2>\n<ol><li><strong>Histórico de reparos:</strong> registre revisões e serviços no equipamento correto para que ocorrências recorrentes não dependam de memória ou mensagens dispersas.</li><li><strong>Custos associados:</strong> reúna os valores ligados ao ativo para conversar sobre o ciclo de vida com mais contexto.</li><li><strong>Próxima locação:</strong> confira o impacto na agenda, defina responsável e registre a condição antes de liberar novamente.</li></ol>\n<figure><img src=\"images/2026/08/14/2026-08-14-tarde-decidir-reparo-ou-troca-root-feed-2.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas antes de autorizar manutenção em um equipamento alugado\"><figcaption>O histórico, o custo e a próxima locação formam um roteiro curto para a decisão.</figcaption></figure>\n<h2>A próxima locação também faz parte da análise</h2>\n<p>Um reparo pode resolver a falha e, ainda assim, exigir atenção à disponibilidade, à preparação e à conferência de retorno. Por isso, uma rotina clara deve registrar o que foi feito, quem acompanha a liberação e quais informações precisam chegar ao atendimento. Esse cuidado ajuda a equipe a executar sua parte sem transferir toda a coordenação para o proprietário.</p>\n<figure><img src=\"images/2026/08/14/2026-08-14-tarde-decidir-reparo-ou-troca-root-feed-3.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Checklist editorial para registrar manutenção e conferir o ativo antes de uma nova locação\"><figcaption>Registrar o serviço e conferir a condição deixam a próxima etapa mais clara.</figcaption></figure>\n<h2>Onde o Sistema Laser entra</h2>\n<p>O Sistema Laser informa que permite acompanhar manutenções, reparos e custos associados ao ativo. A plataforma também reúne agenda, controle de equipamentos e histórico operacional. Esses recursos podem apoiar a rastreabilidade da manutenção e uma decisão mais organizada, sem substituir o diagnóstico técnico, as políticas da empresa ou a conferência humana. Para aprofundar, veja as <a href=\"../funcionalidades.html#ativos\">funcionalidades de ativos e estoque</a>, o <a href=\"../controle-equipamentos.html\">guia de controle de equipamentos</a>, a página de <a href=\"../software-locadora-construcao.html\">software para locadora de construção</a> e as <a href=\"../solucoes-locadoras.html#geral\">soluções para diferentes tipos de locadora</a>. <a href=\"../index.html#demonstracao\">Agende uma demonstração</a> para discutir o seu processo. <a href=\"https://www.instagram.com/p/DcCSumVGlxi/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "permissoes-acesso-locadora-funcao",
       "title": "Permissões de acesso para locadora: delegue por função",
       "heroTitle": "Como delegar por função sem abrir acesso além do necessário",
