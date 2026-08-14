@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "relatorios-locadora-proxima-decisao",
+      "title": "Relatórios para locadora: perguntas que orientam decisões",
+      "heroTitle": "Como transformar relatórios em próximas decisões na locadora",
+      "description": "Três perguntas para usar indicadores e relatórios com mais contexto na gestão de uma locadora de equipamentos.",
+      "seoTitle": "Relatórios para locadora: decisões com mais contexto",
+      "seoDescription": "Aprenda a usar relatórios para locadora de equipamentos com três perguntas que conectam indicadores, período e próxima ação de gestão.",
+      "ogTitle": "Seu relatório aponta a próxima decisão?",
+      "ogDescription": "Três perguntas para ler indicadores da locadora com mais contexto e transformar sinais em ações de gestão.",
+      "date": "2026-08-14T10:08:35.911585-03:00",
+      "modified": "2026-08-14T10:08:35.911585-03:00",
+      "category": "Gestão de locadoras",
+      "tags": [
+        "relatórios para locadora de equipamentos",
+        "dashboard para locadora",
+        "indicadores de locação",
+        "gestão por dados"
+      ],
+      "heroCopy": "Dado útil não decide sozinho: ele ajuda o proprietário a formular uma pergunta melhor e escolher o próximo passo.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/13/2026-08-13-manha-relatorios-decisoes-locadora-root-feed-1.png",
+      "url": "blog/relatorios-locadora-proxima-decisao.html",
+      "contentHtml": "<p>Relatórios para locadora de equipamentos ajudam quando conduzem uma pergunta concreta, não quando apenas acumulam números. O proprietário não precisa acompanhar tudo com a mesma profundidade. Precisa enxergar sinais, identificar o período relevante e decidir quem deve agir. Esse método reduz a chance de uma conversa importante começar com dados soltos, planilhas paralelas ou memória da equipe.</p>\n<h2>Defina a decisão antes do relatório</h2>\n<p>Antes de exportar ou abrir um dashboard, formule o que deseja acompanhar: ocupação, caixa, execução ou alguma exceção operacional. Essa escolha orienta o recorte e evita transformar o relatório em uma busca sem fim por qualquer variação. Indicadores de locação funcionam melhor quando apoiam uma decisão já em análise, como revisar uma agenda, conferir uma rotina ou priorizar uma conversa com a equipe.</p>\n<h2>Três perguntas que deixam a leitura mais útil</h2>\n<ol><li><strong>O que preciso acompanhar?</strong> Escolha a informação ligada à decisão atual.</li><li><strong>Qual período revela um padrão?</strong> Compare um intervalo coerente antes de concluir.</li><li><strong>Quem precisa agir?</strong> Transforme o sinal em próxima conversa, revisão ou acompanhamento.</li></ol>\n<figure><img src=\"images/2026/08/13/2026-08-13-manha-relatorios-decisoes-locadora-root-feed-2.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para orientar o uso de relatórios na locadora\"><figcaption>Uma boa leitura começa pelo que a gestão precisa decidir.</figcaption></figure>\n<h2>Indicadores, relatórios e julgamento de gestão</h2>\n<p>O Sistema Laser informa que reúne dashboard operacional, dashboard financeiro e relatórios em Excel, PDF e outros formatos. Também permite consultar a operação em computador, celular ou tablet. Esses recursos podem dar contexto para a análise, mas não substituem a conferência humana, os critérios de aprovação nem o conhecimento do dono sobre seus clientes e ativos.</p>\n<figure><img src=\"images/2026/08/13/2026-08-13-manha-relatorios-decisoes-locadora-root-feed-3.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Painel editorial que mostra sinais para apoiar a próxima decisão da gestão\"><figcaption>O painel mostra sinais; a gestão escolhe o próximo passo.</figcaption></figure>\n<p>Para aprofundar, veja as <a href=\"../funcionalidades.html#indicadores\">funcionalidades de indicadores e relatórios</a>, conheça o <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadora</a>, explore a <a href=\"../agenda-locacoes.html\">agenda de locações</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcBYqMDlLN5/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "fluxo-caixa-origem-operacao-locadora",
       "title": "Fluxo de caixa para locadora: como entender a origem dos valores",
       "heroTitle": "Como ler o caixa da locadora pelo contexto da operação",
