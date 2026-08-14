@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "permissoes-acesso-locadora-funcao",
+      "title": "Permissões de acesso para locadora: delegue por função",
+      "heroTitle": "Como delegar por função sem abrir acesso além do necessário",
+      "description": "Três perguntas para organizar permissões de acesso por função na locadora de equipamentos.",
+      "seoTitle": "Permissões de acesso para locadora por função",
+      "seoDescription": "Veja três perguntas para organizar permissões de acesso por função, delegar com contexto e preservar a supervisão na locadora.",
+      "ogTitle": "Delegar não é abrir tudo para todos",
+      "ogDescription": "Um roteiro prático para estruturar acessos por função na locadora.",
+      "date": "2026-08-14T10:09:09.717245-03:00",
+      "modified": "2026-08-14T10:09:09.717245-03:00",
+      "category": "Gestão de equipe",
+      "tags": [
+        "permissões de acesso para locadora",
+        "permissionamento de usuários",
+        "delegação na locadora",
+        "gestão de equipe"
+      ],
+      "heroCopy": "Acesso por função ajuda a delegar a execução sem expor informações além do necessário.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/14/2026-08-14-manha-acessos-por-funcao-root-feed-1.png",
+      "url": "blog/permissoes-acesso-locadora-funcao.html",
+      "contentHtml": "<p>Permissões de acesso para locadora não deveriam começar pela pergunta sobre quem é mais confiável. A questão útil é outra: qual informação uma pessoa precisa consultar para executar bem sua etapa? Quando o acesso acompanha a função, a equipe encontra o contexto necessário para agir e a gestão preserva a supervisão sobre o que pede decisão, conferência ou visão mais ampla.</p>\n<h2>Comece pela etapa, não pelo nome do cargo</h2>\n<p>Uma mesma pessoa pode apoiar entrega, atendimento, agendamento ou financeiro em momentos diferentes. Por isso, vale desenhar o processo antes de escolher os acessos. Um técnico ou motorista, por exemplo, pode precisar consultar informações ligadas à execução da sua atividade. Já a gestão precisa acompanhar exceções, aprovações e o conjunto da operação. Não é uma regra pronta: é um critério para conversar com clareza.</p>\n<p>Esse cuidado também evita dois extremos: liberar áreas sem necessidade ou concentrar toda consulta no proprietário. A delegação continua exigindo orientação, procedimentos e conferência humana. O permissionamento apenas ajuda a transformar esses combinados em uma rotina mais objetiva.</p>\n<h2>Três perguntas para definir permissões</h2>\n<ol><li><strong>Qual etapa essa função executa?</strong> Identifique a responsabilidade prática antes de pensar no menu ou na tela.</li><li><strong>Que informação é necessária?</strong> Libere o que apoia a execução, sem assumir que toda a base precisa ficar aberta.</li><li><strong>O que permanece com a gestão?</strong> Defina quem acompanha exceções, aprovações e informações estratégicas.</li></ol>\n<figure><img src=\"images/2026/08/14/2026-08-14-manha-acessos-por-funcao-root-feed-2.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para estruturar permissões por função na locadora\"><figcaption>Uma conversa curta sobre responsabilidades torna a configuração mais consciente.</figcaption></figure>\n<h2>Acesso como parte da operação</h2>\n<p>O Sistema Laser informa que oferece perfis específicos de usuário e permissionamento refinado. A agenda também possui restrição por usuário. Esses recursos podem apoiar uma organização em que técnicos e motoristas consultem o necessário à execução, enquanto gestores mantenham a visão adequada para supervisionar a operação. A configuração ideal depende das funções, dos fluxos e das regras da sua locadora.</p>\n<figure><img src=\"images/2026/08/14/2026-08-14-manha-acessos-por-funcao-root-feed-3.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Matriz de acesso com agenda, informações da locação e supervisão de exceções\"><figcaption>O acesso pode acompanhar a responsabilidade de cada etapa.</figcaption></figure>\n<h2>Como colocar a conversa em prática</h2>\n<p>Escolha uma rotina frequente, como confirmar uma locação ou preparar uma entrega. Liste quem executa, o que cada pessoa precisa consultar e o que precisa voltar para revisão da gestão. Depois, avalie os <a href=\"../funcionalidades.html#rede\">recursos para usuários e rede</a>, as <a href=\"../funcionalidades.html#agenda\">funcionalidades da agenda</a>, as <a href=\"../solucoes-locadoras.html#filiais\">soluções para unidades</a> e o <a href=\"../controle-equipamentos.html\">controle de equipamentos</a>. Para discutir uma estrutura compatível com sua operação, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcBYuXRlHSW/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "relatorios-locadora-proxima-decisao",
       "title": "Relatórios para locadora: perguntas que orientam decisões",
       "heroTitle": "Como transformar relatórios em próximas decisões na locadora",
