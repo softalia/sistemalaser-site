@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "disponibilidade-pos-devolucao-locadora",
+      "title": "Disponibilidade de equipamentos após a devolução",
+      "heroTitle": "Como confirmar a disponibilidade após a devolução",
+      "description": "Três confirmações para decidir se um equipamento devolvido está pronto para uma nova reserva na locadora.",
+      "seoTitle": "Disponibilidade após devolução na locadora",
+      "seoDescription": "Veja como confirmar período, condição e responsável antes de liberar equipamentos devolvidos para uma nova locação.",
+      "ogTitle": "Disponibilidade exige mais que uma data livre",
+      "ogDescription": "Período, condição e responsável ajudam a confirmar a próxima reserva.",
+      "date": "2026-08-15T16:27:05.634795-03:00",
+      "modified": "2026-08-15T16:27:05.634795-03:00",
+      "category": "Gestão de locações",
+      "tags": [
+        "disponibilidade de equipamentos para locadora",
+        "agenda de locações",
+        "liberar equipamento para nova reserva",
+        "controle de devolução de equipamentos"
+      ],
+      "heroCopy": "Depois da devolução, período, condição e responsável ajudam a decidir se o ativo está pronto para a próxima reserva.",
+      "readingTime": "2 min",
+      "image": "http://www.sistemalaser.com.br/blog/images/2026/08/15/2026-08-15-manha-disponibilidade-pos-devolucao-root-feed-01.png",
+      "url": "blog/disponibilidade-pos-devolucao-locadora.html",
+      "contentHtml": "<p>A disponibilidade de equipamentos para locadora não deveria começar quando alguém pergunta se há uma data livre. Depois que um ativo retorna, ainda existe uma decisão: ele voltou no período esperado, foi conferido e está claro quem libera a próxima reserva? Reunir essas respostas antes da confirmação ajuda o proprietário a delegar com mais contexto e a evitar que a agenda dependa de mensagens soltas ou de memória.</p>\n\n<h2>Disponibilidade não é só uma data vazia</h2>\n<p>Uma devolução registrada não significa, por si só, que o equipamento está pronto para outra saída. A data de retorno é um ponto importante, mas a operação também precisa considerar a condição observada e a responsabilidade pela próxima etapa. Isso não transforma toda devolução em uma ocorrência nem substitui a conferência humana. Apenas cria um critério simples para diferenciar um ativo devolvido de um ativo efetivamente liberado.</p>\n\n<h2>Três confirmações após o retorno</h2>\n<ol><li><strong>Período concluído:</strong> confira se o retorno foi registrado no contexto correto da locação e da agenda.</li><li><strong>Condição encaminhada:</strong> identifique se há algo a tratar antes de uma nova reserva, conforme o processo definido pela empresa.</li><li><strong>Responsável definido:</strong> deixe visível quem acompanha a liberação ou a exceção para que a decisão não fique presa a uma conversa.</li></ol>\n\n<figure><img src=\"images/2026/08/15/2026-08-15-manha-disponibilidade-pos-devolucao-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Checklist com período, condição do ativo e responsável pela liberação\"><figcaption>Três perguntas curtas deixam a disponibilidade mais contextualizada.</figcaption></figure>\n\n<h2>Proteja a agenda de exceções invisíveis</h2>\n<p>Quando atendimento, operação e gestão consultam informações diferentes, a reserva pode parecer disponível antes de a etapa anterior estar realmente concluída. Uma rotina explícita não elimina imprevistos, mas torna mais fácil sinalizá-los, atribuir o próximo passo e revisar o que merece atenção gerencial. Assim, a equipe executa o combinado sem concentrar cada confirmação no dono da locadora.</p>\n\n<p>O Sistema Laser informa que a agenda de locações permite consultar equipamento, cliente, período e responsável. Também reúne histórico do ativo, fotos, protocolos e reparos conforme os recursos utilizados pela empresa. Essas informações podem apoiar um processo de disponibilidade mais rastreável, sem substituir os critérios técnicos, a política de manutenção ou a decisão de quem supervisiona a operação.</p>\n\n<figure><img src=\"images/2026/08/15/2026-08-15-manha-disponibilidade-pos-devolucao-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Agenda editorial que reúne equipamento, período, cliente e responsável\"><figcaption>Disponibilidade exige contexto sobre o ativo, não apenas espaço no calendário.</figcaption></figure>\n\n<h2>Como começar na sua locadora</h2>\n<p>Escolha um tipo recorrente de devolução e combine quais informações precisam estar concluídas antes da nova reserva. Depois, revise as exceções: se o proprietário ainda precisa procurar confirmações em vários canais, o fluxo pode ser ajustado. Conheça a <a href=\"../agenda-locacoes.html\">agenda de locações</a>, veja as <a href=\"../funcionalidades.html#agenda\">funcionalidades de agenda</a>, explore o <a href=\"../controle-equipamentos.html\">controle de equipamentos alugados</a> e o <a href=\"../software-locacao-equipamentos.html\">software para locação de equipamentos</a>. <a href=\"https://www.instagram.com/p/DcEoxhQiVMz/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a> para conhecer o Sistema Laser.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "reparo-ou-substituicao-equipamento-locadora",
       "title": "Reparo ou substituição: como decidir na locadora",
       "heroTitle": "Três perguntas antes de decidir sobre um equipamento",
