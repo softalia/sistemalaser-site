@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "gestao-filiais-locadora-visao-consolidada",
+      "title": "Gestão de filiais: como expandir sem fragmentar a locadora",
+      "heroTitle": "Expanda a locadora com visão consolidada",
+      "description": "Três definições ajudam a estruturar novas unidades de locação com autonomia local e acompanhamento da gestão.",
+      "seoTitle": "Gestão de filiais para locadora: como expandir",
+      "seoDescription": "Organize autonomia, informações compartilhadas e visão consolidada antes de abrir uma nova unidade da sua locadora.",
+      "ogTitle": "Gestão de filiais para locadora",
+      "ogDescription": "Como estruturar novas unidades sem fragmentar a operação.",
+      "category": "Gestão",
+      "tags": [
+        "gestão de filiais",
+        "locação de equipamentos",
+        "operação",
+        "dashboards"
+      ],
+      "heroCopy": "Uma nova unidade funciona melhor quando responsabilidades locais e visão da gestão são definidas antes da expansão.",
+      "readingTime": 2,
+      "image": "https://sistemalaser.com.br/blog/images/2026/08/15/2026-08-15-tarde-unidades-visao-consolidada-root-feed-01.png",
+      "url": "blog/gestao-filiais-locadora-visao-consolidada.html",
+      "contentHtml": "<p>A gestão de filiais para locadora começa antes de a nova unidade abrir as portas. A questão central não é apenas onde haverá equipamentos e clientes, mas como cada pessoa saberá o que executa, onde buscar contexto e quais exceções precisam chegar à gestão. Quando isso não é combinado, a expansão pode transformar o proprietário em ponto obrigatório de toda confirmação.</p><h2>1. Delimite a autonomia da unidade</h2><p>Liste decisões rotineiras que podem ser resolvidas localmente e as que exigem acompanhamento. Pense em atendimento, reserva, preparação do ativo, entrega, devolução e cobrança. O objetivo não é criar uma hierarquia rígida, e sim evitar que a equipe descubra a responsabilidade por mensagens dispersas. Um critério simples é perguntar: quem executa, quem confere e quem precisa ser informado?</p><h2>2. Mantenha o contexto na mesma base</h2><p>Uma nova unidade não deveria inaugurar uma nova coleção de planilhas e conversas. Cliente, equipamento, locação, documentos e informações necessárias à rotina precisam ser consultáveis dentro do processo correspondente. Assim, uma mudança de turno ou uma dúvida da equipe não exige reconstruir a história da operação. A base compartilhada também ajuda a gestão a identificar onde uma informação está faltando antes de isso afetar o cliente.</p><figure><img src='images/2026/08/15/2026-08-15-tarde-unidades-visao-consolidada-root-feed-02.png' width='1080' height='1350' loading='lazy' alt='Três definições para estruturar uma nova unidade de locação'><figcaption>Autonomia local, informação compartilhada e visão da gestão são decisões complementares.</figcaption></figure><h2>3. Combine a visão que a gestão precisa</h2><p>Consolidar não significa acompanhar cada detalhe local. Significa definir quais perguntas a gestão precisa responder sobre o conjunto: onde há prioridade, qual unidade pede apoio e quais processos merecem revisão. O Sistema Laser informa que reúne filiais e unidades de negócio, perfis específicos de usuário, permissionamento refinado e dashboards. Esses recursos podem apoiar uma estrutura em que a unidade execute sua parte e a gestão tenha uma visão adequada para supervisionar.</p><figure><img src='images/2026/08/15/2026-08-15-tarde-unidades-visao-consolidada-root-feed-03.png' width='1080' height='1350' loading='lazy' alt='Diagrama de duas unidades conectadas à visão de gestão'><figcaption>Uma base organizada pode apoiar responsabilidades locais e acompanhamento consolidado.</figcaption></figure><h2>O próximo passo é desenhar o processo</h2><p>Antes de abrir uma nova unidade, documente as três definições e valide-as com quem executará a rotina. Para aprofundar, veja as <a href='../funcionalidades.html#rede'>funcionalidades para filiais, parceiros e usuários</a>, as <a href='../solucoes-locadoras.html#filiais'>soluções para filiais</a>, a visão de <a href='../software-locacao-equipamentos.html'>software para locação de equipamentos</a> e a <a href='../agenda-locacoes.html'>agenda de locações</a>. <a href='../index.html#demonstracao'>Agende uma demonstração</a> para conversar sobre sua operação. <a href='https://www.instagram.com/p/DcEppZNGrSh/' target='_blank' rel='noopener'>Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia",
+      "date": "2026-08-15T16:34:48.396932-03:00",
+      "modified": "2026-08-15T16:34:48.396932-03:00"
+    },
+    {
       "slug": "disponibilidade-pos-devolucao-locadora",
       "title": "Disponibilidade de equipamentos após a devolução",
       "heroTitle": "Como confirmar a disponibilidade após a devolução",
