@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "delegar-controle-locadora",
+      "title": "Permissões de acesso: como delegar na locadora",
+      "heroTitle": "Delegue a rotina sem perder a clareza",
+      "description": "Um roteiro prático para definir responsabilidades, acessos e supervisão na operação de uma locadora de equipamentos.",
+      "seoTitle": "Permissões de acesso para locadora: como delegar",
+      "seoDescription": "Aprenda a definir tarefa, informação necessária e supervisão para delegar na locadora com mais clareza operacional.",
+      "ogTitle": "Permissões de acesso para delegar na locadora",
+      "ogDescription": "Três perguntas ajudam a configurar responsabilidades e preservar a supervisão da gestão.",
+      "date": "2026-08-20T15:29:56.448187-03:00",
+      "modified": "2026-08-20T15:29:56.448187-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "permissões de acesso para locadora",
+        "delegar na locadora",
+        "controle de acesso na locação",
+        "gestão de equipe em locadora"
+      ],
+      "heroCopy": "Delegar bem começa por definir o que cada função precisa executar, acompanhar e escalar para a gestão.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/20/2026-08-20-tarde-delegar-visao-root-feed-01.png",
+      "url": "blog/delegar-controle-locadora.html",
+      "contentHtml": "<p>Delegar na locadora não significa perder o controle. O risco aparece quando uma tarefa importante depende de memória, recados soltos ou de um acesso amplo demais para a responsabilidade. Isso costuma acontecer na agenda, na confirmação de uma saída, na conferência de documentos ou no acompanhamento de uma rota. O proprietário não precisa executar tudo; precisa conseguir definir o contexto de cada função e saber onde olhar quando surgir uma exceção.</p><h2>Comece pela tarefa, não pela pessoa</h2><p>Antes de liberar um acesso, descreva a tarefa que aquela função realmente executa. Um profissional pode precisar registrar uma etapa, consultar a programação ou acompanhar uma informação ligada à locação. A pergunta útil não é “em quem confiar?”, mas “o que esta responsabilidade exige para ser bem realizada?”. Esse recorte reduz a chance de um processo depender de mensagens dispersas e facilita a conversa quando a equipe muda ou uma nova unidade entra na operação.</p><figure><img src=\"images/2026/08/20/2026-08-20-tarde-delegar-visao-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para definir permissões de acesso em uma locadora\"><figcaption>Definir tarefa, informação necessária e supervisão ajuda a organizar os acessos.</figcaption></figure><h2>Mostre o necessário e preserve a supervisão</h2><p>Depois, defina qual informação basta para a execução e quem acompanha as exceções. Não se trata de transformar a gestão em um gargalo. Trata-se de dar à equipe autonomia compatível com a rotina, enquanto a direção mantém uma visão adequada para supervisionar decisões, mudanças e pontos fora do padrão. A conferência humana continua essencial, mas passa a partir de um processo mais claro e rastreável.</p><h2>Configure a responsabilidade dentro da mesma operação</h2><p>O <a href=\"../funcionalidades.html#rede\">Sistema Laser informa perfis específicos de usuário e permissionamento refinado</a>, além de recursos para filiais, parceiros, proprietários e comodatos. Na prática, a configuração deve acompanhar o desenho da sua locadora, sem presumir que todas as empresas tenham os mesmos papéis. Vale relacionar essa definição de acessos à <a href=\"../agenda-locacoes.html\">agenda de locações</a>, às <a href=\"../solucoes-locadoras.html#filiais\">unidades de negócio</a> e ao <a href=\"../controle-equipamentos.html\">controle de equipamentos</a>. <a href=\"https://www.instagram.com/p/DcRaNR9mRHs/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a> para discutir a configuração adequada à sua operação.</p><figure><img src=\"images/2026/08/20/2026-08-20-tarde-delegar-visao-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Mapa editorial de responsabilidades entre execução, acompanhamento e supervisão\"><figcaption>Uma matriz simples ajuda a separar execução, acompanhamento e supervisão.</figcaption></figure>",
+      "author": "Olívia"
+    },
+    {
       "slug": "caixa-motoristas-parceiros-locadora",
       "title": "Caixa para motoristas e parceiros: controle na rota",
       "heroTitle": "Caixa em rota também pede contexto",
