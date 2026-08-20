@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "caixa-motoristas-parceiros-locadora",
+      "title": "Caixa para motoristas e parceiros: controle na rota",
+      "heroTitle": "Caixa em rota também pede contexto",
+      "description": "Um processo simples para acompanhar responsável, valor e comprovação quando a locadora delega execução fora do escritório.",
+      "seoTitle": "Caixa para motoristas e parceiros na locadora",
+      "seoDescription": "Saiba como acompanhar responsável, valor e comprovação do caixa em rota e manter o contexto financeiro na gestão da locadora.",
+      "ogTitle": "Caixa em rota: como manter contexto na locadora",
+      "ogDescription": "Responsável, valor e comprovação ajudam a delegar rotas com mais clareza.",
+      "date": "2026-08-20T15:05:19.810976-03:00",
+      "modified": "2026-08-20T15:05:19.810976-03:00",
+      "category": "Gestão financeira",
+      "tags": [
+        "caixa para motoristas e parceiros",
+        "controle de valores em rota",
+        "gestão financeira de locadora",
+        "controle de parceiros"
+      ],
+      "heroCopy": "Delegar uma rota não precisa tirar da gestão o contexto dos valores que circulam fora do escritório.",
+      "readingTime": "2 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/18/2026-08-18-manha-caixa-rota-root-feed-01.png",
+      "url": "blog/caixa-motoristas-parceiros-locadora.html",
+      "contentHtml": "<p>O caixa da locadora não fica só no escritório. Em entregas, coletas e atendimentos feitos por parceiros, um valor pode circular junto da execução. O ponto não é impedir a delegação: é garantir que o proprietário consiga entender, depois, quem ficou responsável, qual valor estava em circulação e onde a comprovação foi registrada. Quando essas respostas dependem de memória ou de conversas dispersas, uma conferência simples costuma consumir mais tempo do que deveria.</p><h2>Comece por três definições antes da rota</h2><p>Antes de liberar um valor, combine o responsável pela guarda, a pessoa que confere e o local do registro. Também deixe claro se o valor se refere a troco, despesas de rota, recebimento ou outra necessidade operacional. Esse acordo não precisa burocratizar a equipe. Ele cria uma referência para que cada exceção seja analisada com contexto, em vez de ser reconstruída depois por mensagens e planilhas.</p><figure><img src=\"images/2026/08/18/2026-08-18-manha-caixa-rota-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Checklist com responsável, valor e comprovação para o caixa de uma rota\"><figcaption>Três definições tornam a conferência de caixa mais objetiva.</figcaption></figure><h2>Registre o que precisa permanecer consultável</h2><p>Uma boa rotina de caixa em rota não transforma o gestor em aprovador de cada passo. Ela permite delegar a execução e manter visível o essencial para supervisão: origem do valor, responsável, movimentação e evidência disponível. Assim, quando houver divergência, mudança de rota ou prestação de contas, a conversa parte de informações verificáveis. A conferência humana continua importante, especialmente em situações fora do padrão, mas deixa de começar do zero.</p><h2>Conecte o financeiro à operação que o gerou</h2><p>O Sistema Laser informa que oferece <a href=\"../funcionalidades.html#financeiro\">caixas para motoristas e parceiros</a> dentro do controle financeiro. A página de funcionalidades também descreve valores de locações, cobranças, manutenção, estoque, comissões, parceiros e filiais relacionados à sua origem. Para o dono da locadora, essa conexão pode apoiar uma gestão mais preparada para revisar exceções sem centralizar toda a rotina. Vale conhecer o <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a> e as <a href=\"../solucoes-locadoras.html\">soluções para locadoras de equipamentos</a> antes de definir o fluxo adequado. <a href=\"https://www.instagram.com/p/DcRXYWhmVXS/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>.</p><figure><img src=\"images/2026/08/18/2026-08-18-manha-caixa-rota-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Diagrama ligando rota, caixa e gestão em uma locadora\"><figcaption>O contexto do valor acompanha a operação e apoia a consulta da gestão.</figcaption></figure>",
+      "author": "Olívia"
+    },
+    {
       "slug": "cobranca-locacao-pagamento-confirmado",
       "title": "Cobrança para locadora: o que conferir após o pagamento",
       "heroTitle": "Pagamento confirmado também pede contexto",
