@@ -17,6 +17,7 @@ serve: build ## Inicia um servidor local para testar o site em http://localhost:
 validate: build ## Valida o site gerado, verificando se há erros de sintaxe e links quebrados
 	node scripts/validate-site.mjs
 	node --check scripts/build-blog.mjs
+	node --check scripts/build-faq.mjs
 	node --check scripts/validate-site.mjs
 
 help: ## Exibe a lista de comandos disponíveis

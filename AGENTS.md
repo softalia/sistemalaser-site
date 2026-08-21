@@ -53,6 +53,14 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   such as `../agenda-locacoes.html`.
 - After changing `blog/posts.json`, run `make validate`.
 
+## FAQ
+
+- `faq/faq.json` is the canonical editorial source for frequently asked questions.
+- Each section identifies the related public pages and owns the question IDs, questions and answers for that context.
+- `scripts/build-faq.mjs` generates `dist/faq.html`, copies the public JSON to `dist/faq/faq.json`, and replaces the legacy FAQ blocks and FAQPage schemas in generated pages with the matching section from the JSON source.
+- Do not edit FAQ text directly in rendered page markup. Update `faq/faq.json` and run `make validate`.
+- Whenever a page gains, removes or materially changes a feature, plan, workflow, audience or commercial claim, review its related FAQ section in `faq/faq.json` in the same change. Add, revise or remove questions so the FAQ remains accurate and discoverable.
+
 ## Shared Layout
 
 - The shared top navigation lives in `assets/js/header-2026.js`.
@@ -73,6 +81,7 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   in `dist/`.
 - Keep `robots.txt`, `llms.txt`, sitemap generation and blog feed generation
   consistent with public URLs.
+- Keep `faq.html` and `faq/faq.json` represented in the sitemap, `llms.txt` and validation when changing the FAQ build.
 
 ## Assets
 

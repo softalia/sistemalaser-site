@@ -8,6 +8,7 @@ on:
     paths:
       - "blog/posts.json"
       - "blog/images/**"
+      - "faq/faq.json"
       - "*.html"
       - "assets/**"
       - "assets/js/header-2026.js"

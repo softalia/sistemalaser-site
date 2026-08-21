@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { buildFaq } from "./build-faq.mjs";
 
 const root = process.cwd();
 const siteUrl = "https://www.sistemalaser.com.br";
@@ -23,6 +24,8 @@ const staticSitemapEntries = [
   ["/software-locadora-construcao.html", today, "monthly", "0.8"],
   ["/erp-locadora.html", today, "monthly", "0.85"],
   ["/sistema-financeiro-locadora.html", today, "monthly", "0.9"],
+  ["/crm.html", today, "monthly", "0.9"],
+  ["/nota-fiscal-eletronica.html", today, "monthly", "0.75"],
   ["/controle-equipamentos.html", today, "monthly", "0.85"],
   ["/agenda-locacoes.html", today, "monthly", "0.85"],
   ["/funcionalidades.html", today, "monthly", "0.8"],
@@ -31,6 +34,7 @@ const staticSitemapEntries = [
   ["/planos.html", today, "monthly", "0.8"],
   ["/whatsapp.html", today, "monthly", "0.7"],
   ["/blog.html", today, "weekly", "0.75"],
+  ["/faq.html", today, "monthly", "0.8"],
   ["/jobs.html", today, "yearly", "0.3"],
   ["/termos-privacidade.html", today, "yearly", "0.2"],
   ["/termos-uso.html", today, "yearly", "0.2"],
@@ -378,5 +382,6 @@ for (const post of posts) {
 }
 fs.writeFileSync(sitemapFile, buildSitemap(posts));
 fs.writeFileSync(rssFile, buildRss(posts));
+buildFaq(root);
 
 console.log(`Built dist with ${posts.length} blog pages, sitemap.xml, blog/feed.xml and static assets`);

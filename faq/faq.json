@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "geral",
+      "name": "Conhecendo o Sistema Laser",
+      "pages": ["index.html"],
+      "questions": [
+        {"id":"instalacao","question":"Preciso instalar algum programa?","answer":"Não. O Sistema Laser é online, seguro na nuvem, e funciona em computador, celular e tablet."},
+        {"id":"adesao-fidelidade","question":"Existe taxa de adesão ou fidelidade?","answer":"Não há taxa de adesão e a assinatura pode ser cancelada quando quiser."},
+        {"id":"financeiro-starter","question":"O financeiro está incluído desde o Starter?","answer":"Sim. O Starter já inclui contas a receber e a pagar, bancos, caixas, cheques, plano de contas, fluxo de caixa, DRE e dashboards."},
+        {"id":"pagamentos-integrados","question":"Qual plano inclui PIX, boleto e cartão?","answer":"Os planos Pro e Master incluem PIX, boleto, cartão de crédito e extrato integrado com Asaas."},
+        {"id":"filiais-parceiros","question":"Posso gerenciar filiais e equipamentos de parceiros?","answer":"Sim. O Master inclui filiais, proprietários, permissões avançadas e comissionamento de equipamentos em comodato."},
+        {"id":"migracao","question":"Perderei os dados do meu sistema atual?","answer":"A equipe realiza gratuitamente a migração dos dados compatíveis das suas planilhas ou do seu sistema atual."},
+        {"id":"ramos-atendidos","question":"Quais ramos de locação o Sistema Laser atende?","answer":"O Sistema Laser atende qualquer empresa de locação de equipamentos, sejam equipamentos médicos, estéticos, de construção civil, máquinas de café expresso, máquinas de grande porte ou pequenos equipamentos."}
+      ]
+    },
+    {
+      "id": "planos",
+      "name": "Planos e contratação",
+      "pages": ["planos.html"],
+      "questions": [
+        {"id":"taxa-adesao","question":"Existe taxa de adesão?","answer":"Não. Os planos do Sistema Laser não possuem taxa de adesão."},
+        {"id":"cancelamento","question":"Posso cancelar quando quiser?","answer":"Sim. A contratação pode ser cancelada quando desejar, conforme as condições comerciais vigentes."},
+        {"id":"mudar-plano","question":"É possível mudar de plano?","answer":"Sim. A migração acompanha o crescimento da operação ou a necessidade de ativar novos recursos."},
+        {"id":"atingir-limite","question":"O que acontece ao atingir o limite?","answer":"A equipe orienta a mudança para o plano compatível, sem obrigar você a antecipar uma estrutura maior do que precisa."},
+        {"id":"custos-integracoes","question":"Serviços integrados têm custos adicionais?","answer":"Serviços de terceiros, como meios de pagamento, mensagens ou assinatura eletrônica, podem aplicar suas próprias tarifas. Consulte as condições comerciais."}
+      ]
+    },
+    {
+      "id": "financeiro",
+      "name": "Financeiro e cobranças",
+      "pages": ["sistema-financeiro-locadora.html"],
+      "questions": [
+        {"id":"contas-receber-pagar","question":"O Sistema Laser controla contas a receber e contas a pagar?","answer":"Sim. O sistema controla vencimentos, parcelamentos, recebimentos, pagamentos, plano de contas, bancos, caixas e cheques."},
+        {"id":"pix-boleto-cartao","question":"É possível cobrar locações por PIX, boleto e cartão?","answer":"Sim. Nos planos compatíveis, o Sistema Laser integra PIX, boleto e cartão de crédito pelo Asaas, mantendo a cobrança vinculada à locação e ao cliente."},
+        {"id":"fluxo-caixa","question":"Como funciona o fluxo de caixa para locadoras?","answer":"O fluxo apresenta lado a lado os valores previstos a receber e a pagar e projeta os saldos futuros considerando os caixas selecionados."},
+        {"id":"financeiro-integrado","question":"O financeiro se integra aos outros módulos?","answer":"Sim. Receitas, despesas, cobranças, comissões e resultados podem ser relacionados a locações, clientes, equipamentos, estoque, manutenção, parceiros e filiais."},
+        {"id":"caixas-motoristas","question":"Posso controlar bancos, gavetas e valores com motoristas?","answer":"Sim. Você pode criar caixas para representar contas bancárias, gavetas, valores em espécie, recursos com motoristas e outros controles individuais."}
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "pages": ["crm.html"],
+      "questions": [
+        {"id":"o-que-e-crm","question":"O que é o CRM do Sistema Laser?","answer":"É o módulo que centraliza leads, negócios, jornada de clientes atuais, tarefas, automações, agenda, formulários e relatórios junto aos demais processos da locadora."},
+        {"id":"entrada-leads","question":"Como os leads entram no CRM?","answer":"Além do cadastro pela equipe, formulários configuráveis e compartilháveis podem captar novos leads e encaminhá-los para o fluxo comercial."},
+        {"id":"crm-clientes-atuais","question":"O CRM também acompanha clientes atuais?","answer":"Sim. A Jornada do Cliente reúne pedidos e oportunidades relacionados aos clientes atuais, preservando histórico e contexto."},
+        {"id":"plano-crm","question":"Em qual plano o CRM está disponível?","answer":"O CRM está incluído nos planos Pro e Master do Sistema Laser."}
+      ]
+    },
+    {
+      "id": "agenda",
+      "name": "Agenda e locações",
+      "pages": ["agenda-locacoes.html"],
+      "questions": [
+        {"id":"conflitos-agenda","question":"Como evitar conflitos de agenda em locações?","answer":"Use uma agenda centralizada com filtros por equipamento, cliente, período e responsável antes de confirmar a reserva."},
+        {"id":"agenda-planilha","question":"Agenda de locações substitui planilha?","answer":"Sim. Uma agenda integrada evita reservas duplicadas e conecta o compromisso ao contrato, financeiro e equipamento."},
+        {"id":"lembretes-clientes","question":"Dá para enviar lembrete automático para clientes?","answer":"Sim. O Sistema Laser possui notificações por e-mail, WhatsApp Web e automações via WhatsApp Cloud conforme o plano."}
+      ]
+    },
+    {
+      "id": "equipamentos",
+      "name": "Controle de equipamentos",
+      "pages": ["controle-equipamentos.html"],
+      "questions": [
+        {"id":"controlar-equipamentos","question":"Como controlar equipamentos alugados?","answer":"Cadastre cada ativo, registre locações, clientes, datas, responsáveis, fotos, manutenção, documentos e financeiro em um sistema único."},
+        {"id":"controlar-manutencao","question":"Como controlar manutenção de equipamentos?","answer":"Acompanhe reparos, custos, histórico, observações e disponibilidade para reduzir locações com equipamentos indisponíveis."},
+        {"id":"localizar-equipamento","question":"Como saber onde está cada equipamento?","answer":"Use registros de locação, cliente, período e responsável para consultar o status do equipamento em tempo real."}
+      ]
+    },
+    {
+      "id": "erp",
+      "name": "ERP para locadoras",
+      "pages": ["erp-locadora.html"],
+      "questions": [
+        {"id":"melhor-erp","question":"Qual é o melhor ERP para locadora?","answer":"O melhor ERP para locadora é aquele que conecta agenda, equipamentos, contratos, financeiro, manutenção, estoque, relatórios e atendimento em um fluxo único."},
+        {"id":"erp-generico","question":"ERP genérico atende locadora de equipamentos?","answer":"Um ERP genérico pode resolver parte do financeiro, mas normalmente não cobre disponibilidade, agenda, retirada, devolução, fotos, protocolos e controle técnico do equipamento."},
+        {"id":"preco-erp","question":"Quanto custa um ERP para locadora?","answer":"No Sistema Laser, os planos começam em R$ 399 por mês e variam conforme limites e recursos."}
+      ]
+    },
+    {
+      "id": "laser",
+      "name": "Locadoras de laser",
+      "pages": ["sistema-locadora-laser.html"],
+      "questions": [
+        {"id":"laser-agenda","question":"Como evitar conflitos na agenda de laser?","answer":"Use uma agenda centralizada que mostre disponibilidade por equipamento, data, cliente e responsável. Assim a confirmação acontece antes do compromisso comercial."},
+        {"id":"laser-manutencao","question":"Como controlar manutenção de lasers?","answer":"Registre histórico, custos, reparos, observações e responsáveis. O controle deve ficar conectado ao cadastro do equipamento e à rotina de locação."},
+        {"id":"laser-contrato","question":"Como fazer contrato de locação de laser?","answer":"Use modelos padronizados, minutas automáticas, recibos e assinatura eletrônica, vinculando tudo à locação e ao cliente."},
+        {"id":"lasers-esteticos","question":"Como controlar lasers estéticos alugados?","answer":"Controle disponibilidade, cliente, período, responsável, protocolos, fotos, manutenção, ponteiras, disparos e cobranças em um sistema único."},
+        {"id":"disparos-ponteiras","question":"Dá para controlar disparos e ponteiras?","answer":"Sim. O Sistema Laser possui recursos para acompanhar ponteiras, disparos e consumíveis associados à operação."},
+        {"id":"outros-esteticos","question":"O sistema atende locadoras de equipamentos estéticos além de laser?","answer":"Sim. Também atende ultrassom, radiofrequência, criolipólise, fisioterapia, odontologia e outros equipamentos de clínicas."},
+        {"id":"whatsapp-laser","question":"O WhatsApp pode ser usado para confirmações?","answer":"Sim. Recursos de WhatsApp Web, WhatsApp Cloud e LILA ajudam na comunicação, conforme o plano contratado."}
+      ]
+    },
+    {
+      "id": "locacoes",
+      "name": "Software para locação de equipamentos",
+      "pages": ["software-locacao-equipamentos.html"],
+      "questions": [
+        {"id":"planilha-software","question":"Qual é a diferença entre planilha e software de locação?","answer":"A planilha registra dados, mas não valida disponibilidade, não conecta contrato ao financeiro e não cria fluxo de trabalho. Um software organiza a rotina e reduz dependência de memória operacional."},
+        {"id":"controle-alugados","question":"Como controlar equipamentos alugados?","answer":"Cadastre cada equipamento, acompanhe status, agenda, responsável, cliente, movimentações, manutenção, documentos e valores. O ideal é que tudo esteja associado à locação correspondente."},
+        {"id":"contrato-locacao","question":"O software ajuda no contrato de locação?","answer":"Sim. O Sistema Laser permite trabalhar com contratos, minutas, recibos, protocolos e assinatura eletrônica conforme a estrutura do plano contratado."},
+        {"id":"preco-sistema","question":"Quanto custa um sistema para locadora?","answer":"No Sistema Laser, os planos começam em R$ 399 por mês, sem taxa de adesão. A escolha depende da quantidade de equipamentos, usuários e recursos necessários."},
+        {"id":"software-controla","question":"O que um software para locação de equipamentos precisa controlar?","answer":"Precisa controlar disponibilidade, agenda, cadastro de equipamentos, clientes, contratos, financeiro, manutenção, estoque, documentos, entregas, devoluções e relatórios."},
+        {"id":"outros-segmentos","question":"O Sistema Laser serve para locadoras fora do nicho médico ou laser?","answer":"Sim. A plataforma atende qualquer empresa de locação de equipamentos, incluindo equipamentos médicos e estéticos, construção civil, máquinas de café expresso, máquinas de grande porte, ferramentas, audiovisual e pequenos equipamentos."},
+        {"id":"conflitos-equipamentos","question":"Como evitar conflitos de agenda em equipamentos alugados?","answer":"A equipe deve consultar disponibilidade por equipamento, período, modelo e cliente antes de confirmar a locação, mantendo reservas e movimentações no mesmo sistema."},
+        {"id":"financeiro-locacoes","question":"O financeiro fica integrado às locações?","answer":"Sim. O Sistema Laser conecta contas a receber, contas a pagar, bancos, caixas, fluxo de caixa, DRE e cobranças às locações."}
+      ]
+    },
+    {
+      "id": "construcao",
+      "name": "Locação para construção civil",
+      "pages": ["software-locadora-construcao.html"],
+      "questions": [
+        {"id":"ferramentas-alugadas","question":"Como controlar ferramentas alugadas?","answer":"Use cadastro de ativos, agenda, contratos, recibos, valores por cliente, manutenção e histórico de locações."},
+        {"id":"aluguel-maquinas","question":"O Sistema Laser serve para aluguel de máquinas?","answer":"Sim. A plataforma pode controlar máquinas, ferramentas, geradores, compressores, plataformas e outros equipamentos alugáveis."},
+        {"id":"cobranca-construcao","question":"Como controlar cobrança na locadora de construção?","answer":"O financeiro deve estar vinculado à locação, com contas a receber, contas a pagar, bancos, caixas, fluxo de caixa e relatórios."}
+      ]
+    },
+    {
+      "id": "medica",
+      "name": "Locação médica e hospitalar",
+      "pages": ["software-locadora-medica.html"],
+      "questions": [
+        {"id":"equipamentos-medicos","question":"Como controlar equipamentos médicos alugados?","answer":"Cadastre equipamentos, clientes, responsáveis, contratos, fotos, manutenção, valores, agenda e documentos em uma plataforma centralizada."},
+        {"id":"tecnologias-clinicas","question":"O Sistema Laser atende empresas que alugam tecnologias para clínicas?","answer":"Sim. A plataforma atende empresas que locam equipamentos médicos, hospitalares, estéticos e tecnologias para clínicas."},
+        {"id":"documentos-assinatura","question":"Dá para registrar documentos e assinatura eletrônica?","answer":"Sim. O Sistema Laser possui recursos de documentos, modelos, minutas, recibos e assinatura eletrônica conforme o plano."}
+      ]
+    }
+  ]
+}

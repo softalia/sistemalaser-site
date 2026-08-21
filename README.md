@@ -7,6 +7,10 @@ O arquivo `blog/posts.json` é a fonte de verdade das postagens. Cada entrada te
 metadados de SEO, categoria, tags, chamada, tempo de leitura e o HTML do corpo do
 artigo em `contentHtml`.
 
+O arquivo `faq/faq.json` é a fonte de verdade das perguntas frequentes. O build
+gera `faq.html`, disponibiliza o JSON em `faq/faq.json` no site público e exibe
+em cada página somente as perguntas da seção correspondente.
+
 O comando `make build` gera o site público completo no diretório `dist/`. Esse é
 o diretório que deve ser publicado no GitHub Pages.
 
@@ -21,6 +25,9 @@ dist/
     posts.json
     feed.xml
     nome-do-post.html
+  faq/
+    faq.json
+  faq.html
   assets/
   robots.txt
   sitemap.xml

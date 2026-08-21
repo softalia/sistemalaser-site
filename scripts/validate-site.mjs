@@ -5,6 +5,8 @@ const root = process.cwd();
 const dist = path.join(root, "dist");
 const postsData = JSON.parse(fs.readFileSync(path.join(root, "blog/posts.json"), "utf8"));
 const posts = postsData.posts || [];
+const faqData = JSON.parse(fs.readFileSync(path.join(root, "faq/faq.json"), "utf8"));
+const faqSections = faqData.sections || [];
 const distPostsData = JSON.parse(fs.readFileSync(path.join(dist, "blog/posts.json"), "utf8"));
 const distPosts = distPostsData.posts || [];
 const errors = [];
@@ -49,8 +51,27 @@ for (const post of distPosts) {
   assert(sitemap.includes(`<image:loc>${post.image}</image:loc>`), `sitemap missing image for ${post.slug}`);
 }
 
-for (const file of ["CNAME", "robots.txt", "llms.txt", "blog.html", "blog/posts.json", "blog/feed.xml", "assets/js/header-2026.js", "assets/js/footer-2026.js"]) {
+for (const file of ["CNAME", "robots.txt", "llms.txt", "blog.html", "blog/posts.json", "blog/feed.xml", "faq.html", "faq/faq.json", "assets/js/header-2026.js", "assets/js/footer-2026.js"]) {
   assert(fs.existsSync(path.join(dist, file)), `dist/${file} missing`);
+}
+
+assert(sitemap.includes("https://www.sistemalaser.com.br/faq.html"), "sitemap missing FAQ page");
+const distFaq = JSON.parse(fs.readFileSync(path.join(dist, "faq/faq.json"), "utf8"));
+assert(JSON.stringify(distFaq) === JSON.stringify(faqData), "dist FAQ data differs from faq/faq.json");
+const faqHtml = read("faq.html");
+assert(faqHtml.includes('id="faqSearch"'), "FAQ page missing search input");
+assert(faqHtml.includes('"@type":"FAQPage"') || faqHtml.includes('"@type": "FAQPage"'), "FAQ page missing FAQPage schema");
+for (const section of faqSections) {
+  assert(Array.isArray(section.pages) && section.pages.length, `FAQ section ${section.id} has no pages`);
+  assert(Array.isArray(section.questions) && section.questions.length, `FAQ section ${section.id} has no questions`);
+  for (const page of section.pages) {
+    const pagePath = path.join(dist, page);
+    assert(fs.existsSync(pagePath), `FAQ target page missing: ${page}`);
+    if (!fs.existsSync(pagePath)) continue;
+    const pageHtml = fs.readFileSync(pagePath, "utf8");
+    assert(pageHtml.includes(`data-generated-faq="${section.id}"`), `${page} missing generated FAQ section ${section.id}`);
+    assert(pageHtml.includes(`data-generated-faq-schema="${section.id}"`), `${page} missing generated FAQ schema ${section.id}`);
+  }
 }
 
 if (fs.existsSync(path.join(root, "blog/images"))) {

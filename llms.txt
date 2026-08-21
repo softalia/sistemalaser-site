@@ -1,17 +1,21 @@
 # Sistema Laser
 
-> Software online de gestão de locação de equipamentos médicos, hospitalares, estéticos, lasers, construção civil e qualquer outro tipo de equipamento.
+> Software online de gestão para qualquer empresa de locação de equipamentos: médicos, hospitalares, estéticos, lasers, construção civil, máquinas de café expresso, máquinas de grande porte, pequenos equipamentos e outros ativos alugáveis.
 
 O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, protocolos, financeiro, estoque, parceiros, cobranças, automação via WhatsApp e atendimento. A plataforma funciona em computador, celular e tablet.
 
 ## Páginas principais
 
 - [Visão geral](https://www.sistemalaser.com.br/): proposta de valor, módulos, planos e contato para demonstração.
-- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): recursos detalhados de agenda, financeiro, documentos, equipamentos, estoque, rede, relatórios e acesso.
+- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): recursos detalhados de agenda, indicadores, CRM, financeiro, documentos, protocolos de atendimento, tabelas de preços, rede e acesso.
+- [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
+- [Nota Fiscal Eletrônica Nacional](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): página de pré-lançamento da emissão de notas fiscais eletrônicas diretamente pelo Sistema Laser; recurso ainda não disponível.
 - [Soluções para locadoras](https://www.sistemalaser.com.br/solucoes-locadoras.html): aplicações para equipamentos médicos, hospitalares, estéticos, lasers, construção civil, filiais, parceiros e comodatos.
 - [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud, LILA, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.
 - [Blog](https://www.sistemalaser.com.br/blog.html): artigos sobre gestão de locações.
+- [Perguntas frequentes](https://www.sistemalaser.com.br/faq.html): respostas pesquisáveis sobre planos, CRM, agenda, locações, equipamentos, financeiro, contratos e integrações.
+- [Base JSON de perguntas frequentes](https://www.sistemalaser.com.br/faq/faq.json): fonte canônica das perguntas, respostas, seções e páginas relacionadas.
 - [Base JSON do Blog](https://www.sistemalaser.com.br/blog/posts.json): fonte canônica das postagens, com metadados de SEO e conteúdo HTML dos artigos.
 
 ## Arquitetura do blog
@@ -20,7 +24,7 @@ Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O co
 
 ## Páginas pilar de SEO
 
-- [Software para locação de equipamentos](https://www.sistemalaser.com.br/software-locacao-equipamentos.html): página para buscas sobre software para aluguel de equipamentos, sistema de locação, gestão de locações e controle de locações.
+- [Software para locação de equipamentos](https://www.sistemalaser.com.br/software-locacao-equipamentos.html): página para buscas sobre software para aluguel de equipamentos, sistema de locação, gestão de locações e controle de locações em qualquer segmento, de equipamentos médicos a máquinas de café expresso e grandes ativos.
 - [Sistema para locadora de laser](https://www.sistemalaser.com.br/sistema-locadora-laser.html): página para locadoras de lasers estéticos, equipamentos médicos de alto valor, ponteiras, disparos, protocolos e manutenção.
 - [Software para locadora médica e hospitalar](https://www.sistemalaser.com.br/software-locadora-medica.html): página para locadoras de equipamentos médicos, hospitalares, odontológicos, fisioterapia e empresas que alugam tecnologias para clínicas.
 - [Software para locadora de equipamentos de construção](https://www.sistemalaser.com.br/software-locadora-construcao.html): página para aluguel de máquinas, ferramentas, geradores, compressores, plataformas e equipamentos de construção civil.
