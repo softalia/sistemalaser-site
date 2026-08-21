@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "checklist-saida-equipamento-locado",
+      "title": "Checklist de entrega de equipamentos alugados",
+      "heroTitle": "Antes da saída, preserve o contexto da locação",
+      "description": "Um checklist prático para registrar fotos, protocolo, documentos e responsável antes de entregar um equipamento alugado.",
+      "seoTitle": "Checklist de entrega de equipamentos alugados",
+      "seoDescription": "Veja o que registrar antes de entregar um equipamento alugado e mantenha fotos, protocolo e documentos ligados à locação.",
+      "ogTitle": "Checklist antes da saída do equipamento locado",
+      "ogDescription": "Fotos, protocolo e responsável ajudam a preservar o contexto da locação.",
+      "date": "2026-08-21T15:19:51.889223-03:00",
+      "modified": "2026-08-21T15:19:51.889223-03:00",
+      "category": "Gestão de locações",
+      "tags": [
+        "checklist de entrega de equipamentos alugados",
+        "registro de saída de equipamentos",
+        "protocolo de locação",
+        "controle de equipamentos locados"
+      ],
+      "heroCopy": "Um checklist curto ajuda a equipe a registrar o essencial antes de o equipamento sair.",
+      "readingTime": "2 min",
+      "image": "http://sistemalaser.com.br/blog/images/2026/08/21/2026-08-21-manha-checklist-saida-root-feed-01.png",
+      "url": "blog/checklist-saida-equipamento-locado.html",
+      "contentHtml": "<p>Antes de um equipamento alugado sair, vale fazer uma pergunta simples: se a equipe precisar retomar essa locação amanhã, encontrará o contexto sem reconstruir a história em mensagens e planilhas? Um checklist de entrega de equipamentos alugados não substitui a conferência humana. Ele organiza os registros que ajudam a execução, a devolução e a supervisão do proprietário.</p><h2>Registre o ponto de partida do ativo</h2><p>Comece pelo que precisa ser verificável na saída. Fotos de início podem ajudar a contextualizar a condição do equipamento, desde que a rotina defina o que deve aparecer e onde esse registro ficará associado. O objetivo não é produzir uma galeria sem critério; é deixar uma referência consultável quando a equipe precisar comparar informações ou conduzir uma exceção.</p><figure><img src=\"images/2026/08/21/2026-08-21-manha-checklist-saida-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Dois registros práticos para a saída de um equipamento locado\"><figcaption>Fotos de início e protocolo deixam a saída mais fácil de retomar.</figcaption></figure><h2>Defina o protocolo que acompanha a locação</h2><p>Depois, descreva os pontos técnicos e operacionais que fazem sentido para o seu tipo de ativo: acessórios, condição observada, responsável e eventuais orientações. O melhor protocolo é o que a equipe consegue executar com clareza, sem transformar uma entrega normal em burocracia. Quando houver divergência, a gestão ganha uma base para conversar e decidir com mais contexto.</p><h2>Mantenha documentos e responsáveis no mesmo fluxo</h2><p>Contrato, recibo ou outro documento ligado à operação precisa ser fácil de localizar junto da locação correspondente. Isso ajuda o dono da locadora a delegar a saída sem depender da memória de uma única pessoa. O Sistema Laser informa recursos para <a href=\"../funcionalidades.html#documentos\">documentos e assinaturas vinculados à locação</a>, além de <a href=\"../funcionalidades.html#agenda\">agenda de locações</a> e registros de fotos e protocolos para operações especializadas. Esses recursos podem apoiar um processo configurado de acordo com os ativos e a rotina da empresa.</p><figure><img src=\"images/2026/08/21/2026-08-21-manha-checklist-saida-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Diagrama de documento e responsável associados à locação\"><figcaption>Documentos e responsáveis ficam mais úteis quando acompanham a operação.</figcaption></figure><h2>Um checklist curto para revisar com a equipe</h2><ul><li>O ativo e os acessórios foram identificados?</li><li>As fotos e o protocolo necessários foram registrados?</li><li>O responsável e os documentos estão ligados à locação?</li></ul><p>Revise esse roteiro em uma saída recorrente e ajuste apenas o que realmente ajuda a operação. Conheça as <a href=\"../solucoes-locadoras.html#especializadas\">soluções para locadoras especializadas</a>, veja o <a href=\"../controle-equipamentos.html\">controle de equipamentos</a> e <a href=\"../index.html#demonstracao\">agende uma demonstração</a> para avaliar o fluxo da sua empresa. <a href=\"https://www.instagram.com/p/DcT91xQG_oA/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "delegar-controle-locadora",
       "title": "Permissões de acesso: como delegar na locadora",
       "heroTitle": "Delegue a rotina sem perder a clareza",
