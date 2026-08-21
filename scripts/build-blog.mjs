@@ -1,51 +1,52 @@
-import fs from "node:fs";
-import path from "node:path";
-import { buildFaq } from "./build-faq.mjs";
+import fs from 'node:fs';
+import path from 'node:path';
+import { buildFaq } from './build-faq.mjs';
+import { minifyHtmlDirectory } from './minify-html.mjs';
 
 const root = process.cwd();
-const siteUrl = "https://www.sistemalaser.com.br";
-const blogDir = path.join(root, "blog");
-const distDir = path.join(root, "dist");
-const distBlogDir = path.join(distDir, "blog");
-const postsFile = path.join(blogDir, "posts.json");
-const blogImagesDir = path.join(blogDir, "images");
-const distBlogImagesDir = path.join(distBlogDir, "images");
-const sitemapFile = path.join(distDir, "sitemap.xml");
-const rssFile = path.join(distBlogDir, "feed.xml");
+const siteUrl = 'https://www.sistemalaser.com.br';
+const blogDir = path.join(root, 'blog');
+const distDir = path.join(root, 'dist');
+const distBlogDir = path.join(distDir, 'blog');
+const postsFile = path.join(blogDir, 'posts.json');
+const blogImagesDir = path.join(blogDir, 'images');
+const distBlogImagesDir = path.join(distBlogDir, 'images');
+const sitemapFile = path.join(distDir, 'sitemap.xml');
+const rssFile = path.join(distBlogDir, 'feed.xml');
 const today = process.env.SITE_LASTMOD || new Date().toISOString().slice(0, 10);
-const staticFiles = ["CNAME", "robots.txt", "llms.txt"];
-const staticDirs = ["assets"];
+const staticFiles = ['CNAME', 'robots.txt', 'llms.txt'];
+const staticDirs = ['assets'];
 
 const staticSitemapEntries = [
-  ["/", today, "weekly", "1.0"],
-  ["/software-locacao-equipamentos.html", today, "monthly", "0.9"],
-  ["/sistema-locadora-laser.html", today, "monthly", "0.9"],
-  ["/software-locadora-medica.html", today, "monthly", "0.85"],
-  ["/software-locadora-construcao.html", today, "monthly", "0.8"],
-  ["/erp-locadora.html", today, "monthly", "0.85"],
-  ["/sistema-financeiro-locadora.html", today, "monthly", "0.9"],
-  ["/crm.html", today, "monthly", "0.9"],
-  ["/nota-fiscal-eletronica.html", today, "monthly", "0.75"],
-  ["/controle-equipamentos.html", today, "monthly", "0.85"],
-  ["/agenda-locacoes.html", today, "monthly", "0.85"],
-  ["/funcionalidades.html", today, "monthly", "0.8"],
-  ["/solucoes-locadoras.html", today, "monthly", "0.8"],
-  ["/integracoes.html", today, "monthly", "0.75"],
-  ["/planos.html", today, "monthly", "0.8"],
-  ["/whatsapp.html", today, "monthly", "0.7"],
-  ["/blog.html", today, "weekly", "0.75"],
-  ["/faq.html", today, "monthly", "0.8"],
-  ["/jobs.html", today, "yearly", "0.3"],
-  ["/termos-privacidade.html", today, "yearly", "0.2"],
-  ["/termos-uso.html", today, "yearly", "0.2"],
+  ['/', today, 'weekly', '1.0'],
+  ['/software-locacao-equipamentos.html', today, 'monthly', '0.9'],
+  ['/sistema-locadora-laser.html', today, 'monthly', '0.9'],
+  ['/software-locadora-medica.html', today, 'monthly', '0.85'],
+  ['/software-locadora-construcao.html', today, 'monthly', '0.8'],
+  ['/erp-locadora.html', today, 'monthly', '0.85'],
+  ['/sistema-financeiro-locadora.html', today, 'monthly', '0.9'],
+  ['/crm.html', today, 'monthly', '0.9'],
+  ['/nota-fiscal-eletronica.html', today, 'monthly', '0.75'],
+  ['/controle-equipamentos.html', today, 'monthly', '0.85'],
+  ['/agenda-locacoes.html', today, 'monthly', '0.85'],
+  ['/funcionalidades.html', today, 'monthly', '0.8'],
+  ['/solucoes-locadoras.html', today, 'monthly', '0.8'],
+  ['/integracoes.html', today, 'monthly', '0.75'],
+  ['/planos.html', today, 'monthly', '0.8'],
+  ['/whatsapp.html', today, 'monthly', '0.7'],
+  ['/blog.html', today, 'weekly', '0.75'],
+  ['/faq.html', today, 'monthly', '0.8'],
+  ['/jobs.html', today, 'yearly', '0.3'],
+  ['/termos-privacidade.html', today, 'yearly', '0.2'],
+  ['/termos-uso.html', today, 'yearly', '0.2'],
 ];
 
 function escapeHtml(value) {
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function ensureDir(dir) {
@@ -53,7 +54,7 @@ function ensureDir(dir) {
 }
 
 function copyRecursive(source, target) {
-  if (path.basename(source) === ".DS_Store") return;
+  if (path.basename(source) === '.DS_Store') return;
   const stat = fs.statSync(source);
   if (stat.isDirectory()) {
     ensureDir(target);
@@ -70,61 +71,70 @@ function prepareDist(posts) {
   fs.rmSync(distDir, { recursive: true, force: true });
   ensureDir(distBlogDir);
 
-  for (const file of fs.readdirSync(root).filter((entry) => entry.endsWith(".html"))) {
+  for (const file of fs
+    .readdirSync(root)
+    .filter((entry) => entry.endsWith('.html'))) {
     fs.copyFileSync(path.join(root, file), path.join(distDir, file));
   }
 
   for (const file of staticFiles) {
     const source = path.join(root, file);
-    if (fs.existsSync(source)) fs.copyFileSync(source, path.join(distDir, file));
+    if (fs.existsSync(source))
+      fs.copyFileSync(source, path.join(distDir, file));
   }
 
   for (const dir of staticDirs) {
     copyRecursive(path.join(root, dir), path.join(distDir, dir));
   }
 
-  fs.writeFileSync(path.join(distBlogDir, "posts.json"), `${JSON.stringify({ version: 1, posts }, null, 2)}\n`);
+  fs.writeFileSync(
+    path.join(distBlogDir, 'posts.json'),
+    `${JSON.stringify({ version: 1, posts }, null, 2)}\n`,
+  );
   if (fs.existsSync(blogImagesDir)) {
     copyRecursive(blogImagesDir, distBlogImagesDir);
   }
-  fs.writeFileSync(path.join(distDir, ".nojekyll"), "");
+  fs.writeFileSync(path.join(distDir, '.nojekyll'), '');
 }
 
 function stripHtml(value) {
-  return String(value ?? "")
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
+  return String(value ?? '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
 function absolute(url) {
-  return `${siteUrl}/${url.replace(/^\/+/, "")}`;
+  return `${siteUrl}/${url.replace(/^\/+/, '')}`;
 }
 
 function relativeFromBlogPage(rootRelativePath) {
-  const relativePath = path.posix.relative("blog", rootRelativePath.replace(/\\/g, "/"));
+  const relativePath = path.posix.relative(
+    'blog',
+    rootRelativePath.replace(/\\/g, '/'),
+  );
   return relativePath || path.posix.basename(rootRelativePath);
 }
 
 function isAbsoluteUrl(url) {
-  return /^[a-z][a-z0-9+.-]*:\/\//i.test(String(url ?? ""));
+  return /^[a-z][a-z0-9+.-]*:\/\//i.test(String(url ?? ''));
 }
 
 function normalizePostImage(image) {
   const fallback = `${siteUrl}/assets/img/og-sistema-laser-2026.png`;
-  const value = String(image || "").trim();
-  if (!value) return { image: fallback, imagePath: "" };
+  const value = String(image || '').trim();
+  if (!value) return { image: fallback, imagePath: '' };
   if (isAbsoluteUrl(value)) return { image: value, imagePath: value };
 
   const normalized = value
-    .replace(/^\/+/, "")
-    .replace(/^\.\/+/, "")
-    .replace(/^\.\.\/+/, "blog/images/");
-  const rootRelativePath = normalized.startsWith("blog/images/")
+    .replace(/^\/+/, '')
+    .replace(/^\.\/+/, '')
+    .replace(/^\.\.\/+/, 'blog/images/');
+  const rootRelativePath = normalized.startsWith('blog/images/')
     ? normalized
-    : normalized.startsWith("images/")
+    : normalized.startsWith('images/')
       ? `blog/${normalized}`
       : normalized;
 
@@ -135,110 +145,156 @@ function normalizePostImage(image) {
 }
 
 function formatDate(date) {
-  const value = String(date ?? "");
+  const value = String(date ?? '');
   const hasTime = /(?:T|\s)\d{2}:\d{2}/.test(value);
-  const parts = new Intl.DateTimeFormat("pt-BR", {
-    timeZone: "America/Sao_Paulo",
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-    ...(hasTime ? { hour: "2-digit", minute: "2-digit", hour12: false } : {}),
+  const parts = new Intl.DateTimeFormat('pt-BR', {
+    timeZone: 'America/Sao_Paulo',
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    ...(hasTime ? { hour: '2-digit', minute: '2-digit', hour12: false } : {}),
   }).formatToParts(parseDate(date));
-  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-  return `${values.day}/${values.month}/${values.year}${hasTime ? ` ${values.hour}h${values.minute}` : ""}`;
+  const values = Object.fromEntries(
+    parts.map((part) => [part.type, part.value]),
+  );
+  return `${values.day}/${values.month}/${values.year}${hasTime ? ` ${values.hour}h${values.minute}` : ''}`;
 }
 
 function parseDate(date) {
-  const value = String(date ?? "");
-  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return new Date(`${value}T12:00:00-03:00`);
-  if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(value)) return new Date(`${value.replace(" ", "T")}-03:00`);
-  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{4,}(?:Z|[+-]\d{2}:\d{2})?$/.test(value)) {
-    return new Date(value.replace(/\.(\d{3})\d+/, ".$1"));
+  const value = String(date ?? '');
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value))
+    return new Date(`${value}T12:00:00-03:00`);
+  if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(value))
+    return new Date(`${value.replace(' ', 'T')}-03:00`);
+  if (
+    /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{4,}(?:Z|[+-]\d{2}:\d{2})?$/.test(
+      value,
+    )
+  ) {
+    return new Date(value.replace(/\.(\d{3})\d+/, '.$1'));
   }
-  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?$/.test(value)) return new Date(`${value}-03:00`);
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?$/.test(value))
+    return new Date(`${value}-03:00`);
   return new Date(value);
 }
 
 function formatReadingTime(readingTime) {
-  const value = String(readingTime ?? "").trim();
-  if (!value) return "";
+  const value = String(readingTime ?? '').trim();
+  if (!value) return '';
   return /\bmin\b/i.test(value) ? value : `${value} min`;
 }
 
 function readPosts() {
-  const data = JSON.parse(fs.readFileSync(postsFile, "utf8"));
-  if (!Array.isArray(data.posts)) throw new Error("blog/posts.json must include a posts array");
+  const data = JSON.parse(fs.readFileSync(postsFile, 'utf8'));
+  if (!Array.isArray(data.posts))
+    throw new Error('blog/posts.json must include a posts array');
   const seen = new Set();
   return data.posts
     .map((post) => {
-      const required = ["slug", "title", "description", "date", "category", "contentHtml"];
+      const required = [
+        'slug',
+        'title',
+        'description',
+        'date',
+        'category',
+        'contentHtml',
+      ];
       for (const field of required) {
         if (!post[field]) throw new Error(`Missing ${field} in blog post`);
       }
-      if (seen.has(post.slug)) throw new Error(`Duplicate post slug: ${post.slug}`);
+      if (seen.has(post.slug))
+        throw new Error(`Duplicate post slug: ${post.slug}`);
       seen.add(post.slug);
       return {
         ...post,
         modified: post.modified || post.date,
         tags: post.tags || [],
-        readingTime: post.readingTime || Math.max(1, Math.ceil(stripHtml(post.contentHtml).split(/\s+/).length / 200)),
+        readingTime:
+          post.readingTime ||
+          Math.max(
+            1,
+            Math.ceil(stripHtml(post.contentHtml).split(/\s+/).length / 200),
+          ),
         ...normalizePostImage(post.image),
         url: post.url || `blog/${post.slug}.html`,
       };
     })
-    .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+    .sort(
+      (a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title),
+    );
 }
 
 function relatedPosts(post, posts) {
   return posts
     .filter((candidate) => candidate.slug !== post.slug)
     .map((candidate) => {
-      const tagMatches = candidate.tags.filter((tag) => post.tags.includes(tag)).length;
+      const tagMatches = candidate.tags.filter((tag) =>
+        post.tags.includes(tag),
+      ).length;
       const categoryMatch = candidate.category === post.category ? 2 : 0;
       return { candidate, score: tagMatches + categoryMatch };
     })
     .filter((item) => item.score > 0)
-    .sort((a, b) => b.score - a.score || b.candidate.date.localeCompare(a.candidate.date))
+    .sort(
+      (a, b) =>
+        b.score - a.score || b.candidate.date.localeCompare(a.candidate.date),
+    )
     .slice(0, 3)
     .map((item) => item.candidate);
 }
 
 function jsonScript(data) {
-  return JSON.stringify(data).replace(/</g, "\\u003c");
+  return JSON.stringify(data).replace(/</g, '\\u003c');
 }
 
 function postHtml(post, posts) {
   const canonical = absolute(post.url);
   const related = relatedPosts(post, posts);
-  const keywords = post.tags.join(", ");
+  const keywords = post.tags.join(', ');
   const schema = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "BlogPosting",
-        "@id": `${canonical}#blogposting`,
+        '@type': 'BlogPosting',
+        '@id': `${canonical}#blogposting`,
         headline: post.title,
         description: post.description,
         keywords: post.tags,
         articleSection: post.category,
-        wordCount: stripHtml(post.contentHtml).split(/\s+/).filter(Boolean).length,
+        wordCount: stripHtml(post.contentHtml).split(/\s+/).filter(Boolean)
+          .length,
         datePublished: post.date,
         dateModified: post.modified,
-        inLanguage: "pt-BR",
+        inLanguage: 'pt-BR',
         author: post.author
-          ? { "@type": "Person", name: post.author }
-          : { "@type": "Organization", name: "Sistema Laser", url: siteUrl },
-        publisher: { "@id": `${siteUrl}/#organization` },
+          ? { '@type': 'Person', name: post.author }
+          : { '@type': 'Organization', name: 'Sistema Laser', url: siteUrl },
+        publisher: { '@id': `${siteUrl}/#organization` },
         mainEntityOfPage: canonical,
         image: post.image,
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": `${canonical}#breadcrumb`,
+        '@type': 'BreadcrumbList',
+        '@id': `${canonical}#breadcrumb`,
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Início", item: `${siteUrl}/` },
-          { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog.html` },
-          { "@type": "ListItem", position: 3, name: post.title, item: canonical },
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Início',
+            item: `${siteUrl}/`,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Blog',
+            item: `${siteUrl}/blog.html`,
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: post.title,
+            item: canonical,
+          },
         ],
       },
     ],
@@ -273,7 +329,7 @@ function postHtml(post, posts) {
   <meta property="article:published_time" content="${post.date}">
   <meta property="article:modified_time" content="${post.modified}">
   <meta property="article:section" content="${escapeHtml(post.category)}">
-${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(tag)}">`).join("\n")}
+${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(tag)}">`).join('\n')}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(post.ogTitle || post.title)}">
   <meta name="twitter:description" content="${escapeHtml(post.ogDescription || post.description)}">
@@ -301,7 +357,7 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
           <span class="eyebrow">${escapeHtml(post.category)}</span>
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>
-          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ""} · ${formatReadingTime(post.readingTime)} de leitura</p>
+          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ''} · ${formatReadingTime(post.readingTime)} de leitura</p>
         </div>
       </header>
       <section class="section-space">
@@ -310,16 +366,20 @@ ${post.contentHtml}
         </div>
       </section>
     </article>
-${related.length ? `    <section class="section-space surface-section">
+${
+  related.length
+    ? `    <section class="section-space surface-section">
       <div class="container">
         <span class="eyebrow">Continue lendo</span>
         <h2 class="section-title">Postagens relacionadas.</h2>
         <div class="row g-4">
-${related.map((item) => `          <div class="col-md-4"><article class="module-card"><span class="eyebrow">${escapeHtml(item.category)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><a href="${escapeHtml(item.slug)}.html">Ler postagem</a></article></div>`).join("\n")}
+${related.map((item) => `          <div class="col-md-4"><article class="module-card"><span class="eyebrow">${escapeHtml(item.category)}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><a href="${escapeHtml(item.slug)}.html">Ler postagem</a></article></div>`).join('\n')}
         </div>
       </div>
     </section>
-` : ""}  </main>
+`
+    : ''
+}  </main>
   <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
@@ -329,7 +389,13 @@ ${related.map((item) => `          <div class="col-md-4"><article class="module-
 function buildSitemap(posts) {
   const entries = [
     ...staticSitemapEntries,
-    ...posts.map((post) => [`/${post.url}`, post.modified, "yearly", "0.55", post.image]),
+    ...posts.map((post) => [
+      `/${post.url}`,
+      post.modified,
+      'yearly',
+      '0.55',
+      post.image,
+    ]),
   ];
   const seen = new Set();
   const urls = entries
@@ -339,10 +405,12 @@ function buildSitemap(posts) {
       return true;
     })
     .map(([loc, lastmod, changefreq, priority, image]) => {
-      const imageXml = image ? `<image:image><image:loc>${escapeHtml(image)}</image:loc></image:image>` : "";
+      const imageXml = image
+        ? `<image:image><image:loc>${escapeHtml(image)}</image:loc></image:image>`
+        : '';
       return `    <url><loc>${absolute(loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${imageXml}</url>`;
     })
-    .join("\n");
+    .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
@@ -352,16 +420,19 @@ ${urls}
 }
 
 function buildRss(posts) {
-  const items = posts.slice(0, 20).map((post) => {
-    const canonical = absolute(post.url);
-    return `    <item>
+  const items = posts
+    .slice(0, 20)
+    .map((post) => {
+      const canonical = absolute(post.url);
+      return `    <item>
       <title>${escapeHtml(post.title)}</title>
       <link>${canonical}</link>
       <guid>${canonical}</guid>
       <pubDate>${parseDate(post.date).toUTCString()}</pubDate>
       <description>${escapeHtml(post.description)}</description>
     </item>`;
-  }).join("\n");
+    })
+    .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -378,10 +449,16 @@ ${items}
 const posts = readPosts();
 prepareDist(posts);
 for (const post of posts) {
-  fs.writeFileSync(path.join(distBlogDir, `${post.slug}.html`), postHtml(post, posts));
+  fs.writeFileSync(
+    path.join(distBlogDir, `${post.slug}.html`),
+    postHtml(post, posts),
+  );
 }
 fs.writeFileSync(sitemapFile, buildSitemap(posts));
 fs.writeFileSync(rssFile, buildRss(posts));
 buildFaq(root);
+const minifiedPages = await minifyHtmlDirectory(distDir);
 
-console.log(`Built dist with ${posts.length} blog pages, sitemap.xml, blog/feed.xml and static assets`);
+console.log(
+  `Built dist with ${posts.length} blog pages, ${minifiedPages} minified HTML pages, sitemap.xml, blog/feed.xml and static assets`,
+);

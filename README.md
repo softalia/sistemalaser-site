@@ -40,10 +40,24 @@ como o GitHub Pages espera para manter o domínio personalizado.
 ## Comandos
 
 ```sh
+make install
+```
+
+Instala as dependências Node necessárias para formatar e compactar as páginas.
+
+```sh
 make build
 ```
 
-Gera as páginas HTML do blog, o feed RSS e atualiza o sitemap.
+Gera as páginas HTML do blog, o feed RSS e o sitemap e compacta todos os arquivos
+HTML publicados em `dist/`.
+
+```sh
+make format
+```
+
+Formata os arquivos HTML e JavaScript de origem. Arquivos legados já minificados
+e todo o conteúdo gerado em `dist/` ficam fora dessa formatação.
 
 ```sh
 make validate

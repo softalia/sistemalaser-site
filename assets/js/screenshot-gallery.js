@@ -2,37 +2,166 @@
   'use strict';
 
   const screens = [
-    { src: 'assets/img/sistema/sll-locacoes-dashboard.webp', title: 'Dashboard da operação', description: 'Visão consolidada dos principais indicadores da empresa.' },
-    { src: 'assets/img/sistema/sll-locacoes-calendario.webp', title: 'Agenda de locações', description: 'Programação de equipamentos, clientes e responsáveis em um único calendário.' },
-    { src: 'assets/img/sistema/sll-locacoes-contrato.webp', title: 'Contratos e documentos', description: 'Geração de documentos vinculados diretamente à locação.' },
-    { src: 'assets/img/sistema/sll-locacoes-fotos.webp', title: 'Equipamentos e evidências', description: 'Cadastro de equipamentos e registro de fotos de início e fim da locação.' },
-    { src: 'assets/img/sistema/sll-documento-assinatura.webp', title: 'Assinatura eletrônica', description: 'Formalização e acompanhamento da assinatura de documentos.' },
-    { src: 'assets/img/sistema/sll-financeiro-dashboard.webp', title: 'Dashboard financeiro', description: 'Saldos, valores em aberto, resultados do período e comparação mensal.' },
-    { src: 'assets/img/sistema/sll-financeiro-contas.webp', title: 'Contas a receber e a pagar', description: 'Parcelas, vencimentos, recebimentos, pagamentos e controle de cheques.' },
-    { src: 'assets/img/sistema/sll-financeiro-fluxo-caixa.webp', title: 'Fluxo de caixa', description: 'Previsão de entradas, saídas e saldos futuros em todos os caixas.' },
-    { src: 'assets/img/sistema/sll-financeiro-caixa.webp', title: 'Caixas e movimentações', description: 'Bancos, caixas e indicadores financeiros conectados à operação.' },
-    { src: 'assets/img/sistema/sll-financeiro-pix.webp', title: 'Cobranças integradas', description: 'PIX, boleto, cartão e conciliação de pagamentos pelo Asaas.' },
-    { src: 'assets/img/sistema/locacoes-fechamento-parceiro.webp', title: 'Fechamento de parceiros', description: 'Conferência de repasses, comissões e resultados por parceiro.' },
-    { src: 'assets/img/sistema/sll-links.webp', title: 'Formulários de captação', description: 'Links e formulários configuráveis que cadastram novos clientes automaticamente.' },
-    { src: 'assets/img/sistema/sll-crm-dashboard.webp', title: 'Dashboard do CRM', description: 'Visão consolidada dos leads, oportunidades, tarefas e resultados da operação comercial.' },
-    { src: 'assets/img/sistema/sll-crm-negocios.webp', title: 'Negócios e leads', description: 'Acompanhamento das oportunidades desde a captação até a conversão, sem retrabalho.' },
-    { src: 'assets/img/sistema/sll-crm-jornada.webp', title: 'Jornada do cliente', description: 'Pedidos e oportunidades dos clientes atuais centralizados em uma única visão.' },
-    { src: 'assets/img/sistema/sll-crm-automacao.webp', title: 'Automações do CRM', description: 'Regras que movimentam a operação e ajudam a equipe a executar o próximo passo.' },
-    { src: 'assets/img/sistema/sll-crm-tarefas.webp', title: 'Tarefas da equipe', description: 'Organização das atividades internas e dos acompanhamentos comerciais.' },
-    { src: 'assets/img/sistema/sll-crm-agenda-semanal.webp', title: 'Agenda semanal do CRM', description: 'Compromissos e tarefas em uma visão de calendário para planejar a semana.' },
-    { src: 'assets/img/sistema/sll-crm-configuracoes.webp', title: 'Configurações do CRM', description: 'Campos, etapas e recursos ajustáveis ao processo comercial da empresa.' },
-    { src: 'assets/img/sistema/sll-modelos-precos.webp', title: 'Modelos de preços', description: 'Tabelas por equipamento e condições específicas por cliente registradas na negociação.' },
-    { src: 'assets/img/sistema/sll-nfe-emitir.webp', title: 'Nota Fiscal Eletrônica Nacional', description: 'Em breve, emissão de notas fiscais eletrônicas diretamente pela operação.' },
-    { src: 'assets/img/sistema/sll-lila.webp', title: 'LILA e WhatsApp', description: 'Atendimento automatizado e conversas integradas ao Sistema Laser.' },
-    { src: 'assets/img/sistema/financeiro-mobile-left.webp', title: 'Acesso pelo celular', description: 'Consulta da operação em uma interface responsiva para dispositivos móveis.' },
-    { src: 'assets/img/sistema/sll-layout-acessivel.webp', title: 'Layout acessível', description: 'Alternativa visual que favorece contraste e leitura da interface.' },
-    { src: 'assets/img/sistema/sll-layout-confortavel.webp', title: 'Layout confortável', description: 'Organização visual equilibrada para uma rotina prolongada no sistema.' },
-    { src: 'assets/img/sistema/sll-layout-dark-mode.webp', title: 'Modo escuro', description: 'Interface com tema escuro para mais conforto em ambientes com pouca luz.' }
+    {
+      src: 'assets/img/sistema/sll-locacoes-dashboard.webp',
+      title: 'Dashboard da operação',
+      description: 'Visão consolidada dos principais indicadores da empresa.',
+    },
+    {
+      src: 'assets/img/sistema/sll-locacoes-calendario.webp',
+      title: 'Agenda de locações',
+      description:
+        'Programação de equipamentos, clientes e responsáveis em um único calendário.',
+    },
+    {
+      src: 'assets/img/sistema/sll-locacoes-contrato.webp',
+      title: 'Contratos e documentos',
+      description: 'Geração de documentos vinculados diretamente à locação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-locacoes-fotos.webp',
+      title: 'Equipamentos e evidências',
+      description:
+        'Cadastro de equipamentos e registro de fotos de início e fim da locação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-documento-assinatura.webp',
+      title: 'Assinatura eletrônica',
+      description: 'Formalização e acompanhamento da assinatura de documentos.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-dashboard.webp',
+      title: 'Dashboard financeiro',
+      description:
+        'Saldos, valores em aberto, resultados do período e comparação mensal.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-contas.webp',
+      title: 'Contas a receber e a pagar',
+      description:
+        'Parcelas, vencimentos, recebimentos, pagamentos e controle de cheques.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-fluxo-caixa.webp',
+      title: 'Fluxo de caixa',
+      description:
+        'Previsão de entradas, saídas e saldos futuros em todos os caixas.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-caixa.webp',
+      title: 'Caixas e movimentações',
+      description:
+        'Bancos, caixas e indicadores financeiros conectados à operação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-pix.webp',
+      title: 'Cobranças integradas',
+      description:
+        'PIX, boleto, cartão e conciliação de pagamentos pelo Asaas.',
+    },
+    {
+      src: 'assets/img/sistema/locacoes-fechamento-parceiro.webp',
+      title: 'Fechamento de parceiros',
+      description:
+        'Conferência de repasses, comissões e resultados por parceiro.',
+    },
+    {
+      src: 'assets/img/sistema/sll-links.webp',
+      title: 'Formulários de captação',
+      description:
+        'Links e formulários configuráveis que cadastram novos clientes automaticamente.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-dashboard.webp',
+      title: 'Dashboard do CRM',
+      description:
+        'Visão consolidada dos leads, oportunidades, tarefas e resultados da operação comercial.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-negocios.webp',
+      title: 'Negócios e leads',
+      description:
+        'Acompanhamento das oportunidades desde a captação até a conversão, sem retrabalho.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-jornada.webp',
+      title: 'Jornada do cliente',
+      description:
+        'Pedidos e oportunidades dos clientes atuais centralizados em uma única visão.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-automacao.webp',
+      title: 'Automações do CRM',
+      description:
+        'Regras que movimentam a operação e ajudam a equipe a executar o próximo passo.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-tarefas.webp',
+      title: 'Tarefas da equipe',
+      description:
+        'Organização das atividades internas e dos acompanhamentos comerciais.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-agenda-semanal.webp',
+      title: 'Agenda semanal do CRM',
+      description:
+        'Compromissos e tarefas em uma visão de calendário para planejar a semana.',
+    },
+    {
+      src: 'assets/img/sistema/sll-crm-configuracoes.webp',
+      title: 'Configurações do CRM',
+      description:
+        'Campos, etapas e recursos ajustáveis ao processo comercial da empresa.',
+    },
+    {
+      src: 'assets/img/sistema/sll-modelos-precos.webp',
+      title: 'Modelos de preços',
+      description:
+        'Tabelas por equipamento e condições específicas por cliente registradas na negociação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-nfe-emitir.webp',
+      title: 'Nota Fiscal Eletrônica Nacional',
+      description:
+        'Em breve, emissão de notas fiscais eletrônicas diretamente pela operação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-lila.webp',
+      title: 'LILA e WhatsApp',
+      description:
+        'Atendimento automatizado e conversas integradas ao Sistema Laser.',
+    },
+    {
+      src: 'assets/img/sistema/financeiro-mobile-left.webp',
+      title: 'Acesso pelo celular',
+      description:
+        'Consulta da operação em uma interface responsiva para dispositivos móveis.',
+    },
+    {
+      src: 'assets/img/sistema/sll-layout-acessivel.webp',
+      title: 'Layout acessível',
+      description:
+        'Alternativa visual que favorece contraste e leitura da interface.',
+    },
+    {
+      src: 'assets/img/sistema/sll-layout-confortavel.webp',
+      title: 'Layout confortável',
+      description:
+        'Organização visual equilibrada para uma rotina prolongada no sistema.',
+    },
+    {
+      src: 'assets/img/sistema/sll-layout-dark-mode.webp',
+      title: 'Modo escuro',
+      description:
+        'Interface com tema escuro para mais conforto em ambientes com pouca luz.',
+    },
   ];
 
-  const screenIndexByFile = new Map(screens.map(function (screen, index) {
-    return [screen.src.split('/').pop(), index];
-  }));
+  const screenIndexByFile = new Map(
+    screens.map(function (screen, index) {
+      return [screen.src.split('/').pop(), index];
+    }),
+  );
 
   function createButton(className, label, content) {
     const button = document.createElement('button');
@@ -44,8 +173,13 @@
   }
 
   function initGallery() {
-    const triggers = Array.from(document.querySelectorAll('img[src*="assets/img/sistema/"]')).filter(function (image) {
-      return screenIndexByFile.has(image.currentSrc.split('/').pop().split('?')[0] || image.src.split('/').pop().split('?')[0]);
+    const triggers = Array.from(
+      document.querySelectorAll('img[src*="assets/img/sistema/"]'),
+    ).filter(function (image) {
+      return screenIndexByFile.has(
+        image.currentSrc.split('/').pop().split('?')[0] ||
+          image.src.split('/').pop().split('?')[0],
+      );
     });
 
     if (!triggers.length) {
@@ -68,9 +202,21 @@
     const panel = document.createElement('div');
     panel.className = 'screen-gallery__panel';
 
-    const closeButton = createButton('screen-gallery__close', 'Fechar visualizador', '×');
-    const previousButton = createButton('screen-gallery__control screen-gallery__control--previous', 'Tela anterior', '‹');
-    const nextButton = createButton('screen-gallery__control screen-gallery__control--next', 'Próxima tela', '›');
+    const closeButton = createButton(
+      'screen-gallery__close',
+      'Fechar visualizador',
+      '×',
+    );
+    const previousButton = createButton(
+      'screen-gallery__control screen-gallery__control--previous',
+      'Tela anterior',
+      '‹',
+    );
+    const nextButton = createButton(
+      'screen-gallery__control screen-gallery__control--next',
+      'Próxima tela',
+      '›',
+    );
 
     const figure = document.createElement('figure');
     figure.className = 'screen-gallery__figure';
@@ -122,7 +268,7 @@
       image.alt = screen.title + '. ' + screen.description;
       title.textContent = screen.title;
       description.textContent = screen.description;
-      status.textContent = (activeIndex + 1) + ' de ' + screens.length;
+      status.textContent = activeIndex + 1 + ' de ' + screens.length;
       preloadAdjacentScreens();
     }
 
@@ -158,14 +304,20 @@
     }
 
     triggers.forEach(function (trigger) {
-      const filename = (trigger.currentSrc || trigger.src).split('/').pop().split('?')[0];
+      const filename = (trigger.currentSrc || trigger.src)
+        .split('/')
+        .pop()
+        .split('?')[0];
       const index = screenIndexByFile.get(filename);
 
       trigger.classList.add('system-screen-trigger');
       trigger.tabIndex = 0;
       trigger.setAttribute('role', 'button');
       trigger.setAttribute('aria-haspopup', 'dialog');
-      trigger.setAttribute('aria-label', 'Ampliar ' + screens[index].title + ' e abrir galeria de telas');
+      trigger.setAttribute(
+        'aria-label',
+        'Ampliar ' + screens[index].title + ' e abrir galeria de telas',
+      );
 
       trigger.addEventListener('click', function () {
         openGallery(index, trigger);
@@ -181,24 +333,36 @@
 
     closeButton.addEventListener('click', closeGallery);
     backdrop.addEventListener('click', closeGallery);
-    previousButton.addEventListener('click', function () { showScreen(activeIndex - 1); });
-    nextButton.addEventListener('click', function () { showScreen(activeIndex + 1); });
+    previousButton.addEventListener('click', function () {
+      showScreen(activeIndex - 1);
+    });
+    nextButton.addEventListener('click', function () {
+      showScreen(activeIndex + 1);
+    });
 
-    image.addEventListener('touchstart', function (event) {
-      touchStartX = event.changedTouches[0].clientX;
-    }, { passive: true });
+    image.addEventListener(
+      'touchstart',
+      function (event) {
+        touchStartX = event.changedTouches[0].clientX;
+      },
+      { passive: true },
+    );
 
-    image.addEventListener('touchend', function (event) {
-      if (touchStartX === null) {
-        return;
-      }
+    image.addEventListener(
+      'touchend',
+      function (event) {
+        if (touchStartX === null) {
+          return;
+        }
 
-      const distance = event.changedTouches[0].clientX - touchStartX;
-      if (Math.abs(distance) > 50) {
-        showScreen(activeIndex + (distance < 0 ? 1 : -1));
-      }
-      touchStartX = null;
-    }, { passive: true });
+        const distance = event.changedTouches[0].clientX - touchStartX;
+        if (Math.abs(distance) > 50) {
+          showScreen(activeIndex + (distance < 0 ? 1 : -1));
+        }
+        touchStartX = null;
+      },
+      { passive: true },
+    );
 
     gallery.addEventListener('keydown', function (event) {
       if (event.key === 'Escape') {

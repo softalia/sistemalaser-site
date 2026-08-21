@@ -1,9 +1,18 @@
 .DEFAULT_GOAL := help
 
-.PHONY: build clean help serve validate convert-assets-new-to-webp
+.PHONY: build clean format format-check help install serve validate convert-assets-new-to-webp
+
+install: ## Instala as dependencias Node do build
+	npm ci
 
 build: ## Gera os arquivos finais do site
 	node scripts/build-blog.mjs
+
+format: ## Formata os arquivos HTML e JavaScript de origem
+	npm run format
+
+format-check: ## Verifica a formatacao dos arquivos HTML e JavaScript de origem
+	npm run format:check
 
 clean: ## Remove os arquivos gerados
 	rm -rf dist
@@ -16,8 +25,10 @@ serve: build ## Inicia um servidor local para testar o site em http://localhost:
 
 validate: build ## Valida o site gerado, verificando se há erros de sintaxe e links quebrados
 	node scripts/validate-site.mjs
+	npm run format:check
 	node --check scripts/build-blog.mjs
 	node --check scripts/build-faq.mjs
+	node --check scripts/minify-html.mjs
 	node --check scripts/validate-site.mjs
 
 help: ## Exibe a lista de comandos disponíveis

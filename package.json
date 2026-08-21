@@ -1,0 +1,12 @@
+{
+  "name": "sistemalaser-site",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"*.html\" \"assets/js/!(jquery|*.min).js\" \"scripts/*.mjs\"",
+    "format:check": "prettier --check \"*.html\" \"assets/js/!(jquery|*.min).js\" \"scripts/*.mjs\""
+  },
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "prettier": "^3.6.2"
+  }
+}

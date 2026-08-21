@@ -14,6 +14,8 @@ on:
       - "assets/js/header-2026.js"
       - "assets/js/footer-2026.js"
       - "scripts/**/*.mjs"
+      - "package*.json"
+      - ".prettier*"
       - "Makefile"
       - "CNAME"
       - "robots.txt"
@@ -45,6 +47,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+
+      - name: Install build dependencies
+        run: npm ci
 
       - name: Build and validate static site
         run: make validate
