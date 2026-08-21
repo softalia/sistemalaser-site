@@ -90,6 +90,10 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 - The conversion script removes each original file after a valid WebP is written.
 - Keep final public assets under `assets/`, using descriptive lowercase filenames
   where practical.
+- Register every new or materially changed product screenshot used on a page in
+  `assets/js/screenshot-gallery.js`, with a clear title and description, so it
+  participates in the shared full-screen gallery. `make validate` verifies this
+  for every page that loads the gallery.
 - Avoid committing `.DS_Store` or other local system files.
 
 ## GitHub Pages

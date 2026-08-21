@@ -83,6 +83,12 @@ const htmlFiles = fs
   .filter((file) => file.endsWith(".html"))
   .concat(fs.readdirSync(path.join(dist, "blog")).filter((file) => file.endsWith(".html")).map((file) => `blog/${file}`));
 
+const galleryScript = fs.readFileSync(path.join(dist, "assets/js/screenshot-gallery.js"), "utf8");
+const gallerySources = new Set(Array.from(galleryScript.matchAll(/\bsrc:\s*'([^']+)'/g), (match) => match[1]));
+for (const source of gallerySources) {
+  assert(fs.existsSync(path.join(dist, source)), `gallery references missing screenshot ${source}`);
+}
+
 for (const file of htmlFiles) {
   const html = read(file);
   const currentDir = path.dirname(file) === "." ? "" : `${path.dirname(file)}/`;
@@ -95,6 +101,12 @@ for (const file of htmlFiles) {
     if (!clean || clean.startsWith("//")) continue;
     const target = path.normalize(path.join(dist, currentDir, clean));
     assert(fs.existsSync(target), `${file} links to missing ${link}`);
+  }
+
+  if (!html.includes('assets/js/screenshot-gallery.js')) continue;
+  for (const match of html.matchAll(/<img\b[^>]*\bsrc=(["'])(assets\/img\/sistema\/[^"']+)\1/g)) {
+    const source = match[2].split("?")[0];
+    assert(gallerySources.has(source), `${file} uses ${source}, but it is missing from the screenshot gallery`);
   }
 }
 
