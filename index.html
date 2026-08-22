@@ -73,11 +73,18 @@
       gtag('config', 'G-WS5QS9LS8K');
     </script>
     <link rel="icon" href="assets/img/icons/favicon-32x32.png" />
+    <link
+      rel="preload"
+      href="assets/fonts/lato-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/site-2026.css" />
-    <script src="assets/js/header-2026.js"></script>
-    <script src="assets/js/footer-2026.js"></script>
-    <script src="assets/js/theme-2026.js"></script>
+    <script defer src="assets/js/header-2026.js"></script>
+    <script defer src="assets/js/footer-2026.js"></script>
+    <script defer src="assets/js/theme-2026.js"></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -273,7 +280,15 @@
             <div class="col-lg-6">
               <div class="product-stage">
                 <img
-                  src="assets/img/sistema/sll-locacoes-dashboard.webp"
+                  src="assets/img/sistema/sll-locacoes-dashboard-1280.webp"
+                  srcset="
+                    assets/img/sistema/sll-locacoes-dashboard-1280.webp 1280w,
+                    assets/img/sistema/sll-locacoes-dashboard.webp      3716w
+                  "
+                  sizes="(min-width: 1200px) 590px, (min-width: 992px) 50vw, calc(100vw - 2rem)"
+                  width="1280"
+                  height="972"
+                  fetchpriority="high"
                   alt="Dashboard do software de gestão de locação de equipamentos Sistema Laser"
                 />
                 <div class="stage-note one">
@@ -804,22 +819,40 @@
           </p>
           <div class="logo-cloud mt-4">
             <img
-              src="assets/img/parceiros/brand-eam-laser.png"
+              src="assets/img/parceiros/brand-eam-laser.webp"
+              width="100"
+              height="44"
+              loading="lazy"
               alt="EAM Laser"
             /><img
-              src="assets/img/parceiros/brand-hmglaser.png"
+              src="assets/img/parceiros/brand-hmglaser.webp"
+              width="185"
+              height="74"
+              loading="lazy"
               alt="HMG Laser"
             /><img
               src="assets/img/parceiros/brand-primelasers.webp"
+              width="272"
+              height="73"
+              loading="lazy"
               alt="Prime Lasers"
             /><img
-              src="assets/img/parceiros/brand-eclair.png"
+              src="assets/img/parceiros/brand-eclair.webp"
+              width="180"
+              height="73"
+              loading="lazy"
               alt="Eclair"
             /><img
-              src="assets/img/parceiros/brand-alianca.png"
+              src="assets/img/parceiros/brand-alianca.webp"
+              width="133"
+              height="73"
+              loading="lazy"
               alt="Aliança Laser"
             /><img
               src="assets/img/parceiros/brand-prolaser.webp"
+              width="283"
+              height="52"
+              loading="lazy"
               alt="Prolaser"
             /><a
               class="partner-logo"
@@ -828,16 +861,28 @@
               rel="noopener"
               aria-label="Conhecer a LMG Lasers"
               ><img
-                src="assets/img/parceiros/brand-lmg.png"
+                src="assets/img/parceiros/brand-lmg-260.webp"
+                width="260"
+                height="132"
+                loading="lazy"
                 alt="LMG Lasers" /></a
             ><img
               src="assets/img/parceiros/brand-riopreto.webp"
+              width="202"
+              height="73"
+              loading="lazy"
               alt="Rio Preto Laser"
             /><img
-              src="assets/img/parceiros/brand-helpmedical.jpg"
+              src="assets/img/parceiros/brand-helpmedical.webp"
+              width="246"
+              height="73"
+              loading="lazy"
               alt="Help Medical"
             /><img
-              src="assets/img/parceiros/brand-dermlaser.png"
+              src="assets/img/parceiros/brand-dermlaser.webp"
+              width="115"
+              height="73"
+              loading="lazy"
               alt="DermLaser"
             />
           </div>
@@ -1176,8 +1221,8 @@ Olá, gostaria de conhecer o Sistema Laser.</textarea>
       aria-label="Falar pelo WhatsApp"
       >◔</a
     >
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/screenshot-gallery.js"></script>
-    <script src="assets/js/smart-forms.min.min.js"></script>
+    <script defer src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/screenshot-gallery.js"></script>
+    <script defer src="assets/js/smart-forms.min.min.js"></script>
   </body>
 </html>

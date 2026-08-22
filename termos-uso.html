@@ -196,8 +196,18 @@
       href="assets/bootstrap/css/bootstrap.min.css?h=e7656ec77ab2fd93ddeb0b653f2436d7"
     />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap"
+      rel="preload"
+      href="assets/fonts/lato-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/lato-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
     <link
       rel="stylesheet"
@@ -205,9 +215,9 @@
     />
     <link rel="stylesheet" href="assets/css/site-2026.css" />
     <link rel="stylesheet" href="assets/css/legacy-2026.css" />
-    <script src="assets/js/header-2026.js"></script>
-    <script src="assets/js/footer-2026.js"></script>
-    <script src="assets/js/theme-2026.js"></script>
+    <script defer src="assets/js/header-2026.js"></script>
+    <script defer src="assets/js/footer-2026.js"></script>
+    <script defer src="assets/js/theme-2026.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css"
@@ -1257,7 +1267,10 @@ Formate: https://www.freeformatter.com/html-formatter.html#before-output-->
     </footer>
     <!-- End: Footer Multi Column -->
     <script src="assets/js/jquery.min.js?h=6bcc3684f18aa21874fa709f122723cf"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js?h=9b160b415b961aeb41b64305a23d2953"></script>
+    <script
+      defer
+      src="assets/bootstrap/js/bootstrap.min.js?h=9b160b415b961aeb41b64305a23d2953"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js?h=ca7e41eaea5bc153e31adb368bd20a53"></script>
   </body>

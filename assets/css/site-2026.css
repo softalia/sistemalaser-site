@@ -1,10 +1,11 @@
-@import url("../fonts/fontawesome-all.min.css");
+@font-face{font-family:"Lato";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/lato-400.woff2") format("woff2")}
+@font-face{font-family:"Lato";font-style:normal;font-weight:700;font-display:swap;src:url("../fonts/lato-700.woff2") format("woff2")}
 
 :root,[data-bs-theme="light"]{
   --sl-primary:#5456c7;--sl-primary-strong:#3f42aa;--sl-primary-soft:#eeefff;
   --sl-accent:#7b76ee;--sl-success:#1d9b68;--sl-warning:#d88b2c;
   --sl-bg:#ffffff;--sl-surface:#f7f7fc;--sl-surface-raised:#ffffff;--sl-surface-alt:#eeeef8;
-  --sl-text:#18192f;--sl-text-soft:#5f6175;--sl-text-faint:#7d7f91;--sl-border:#dedfea;
+  --sl-text:#18192f;--sl-text-soft:#5f6175;--sl-text-faint:#686a7b;--sl-border:#dedfea;
   --sl-nav:rgba(255,255,255,.9);--sl-shadow:0 18px 50px rgba(30,32,72,.10);
   --sl-hero:radial-gradient(circle at 82% 24%,#dcdcff 0,#f5f5ff 38%,#fff 72%);
   --sl-dark:#17182f;--sl-dark-soft:#272956;--sl-on-dark:#f7f7ff;--sl-on-dark-soft:#cfd0e5;
@@ -26,7 +27,7 @@
 .system-screen-trigger{cursor:zoom-in;transition:transform .2s ease,box-shadow .2s ease}.system-screen-trigger:hover{transform:scale(1.01)}.system-screen-trigger:focus-visible{outline:3px solid var(--sl-primary);outline-offset:4px}.screen-gallery-open{overflow:hidden}.screen-gallery{position:fixed;inset:0;z-index:3000;display:grid;place-items:center;padding:1.25rem}.screen-gallery[hidden]{display:none}.screen-gallery__backdrop{position:absolute;inset:0;width:100%;height:100%;border:0;background:rgba(7,8,18,.92);backdrop-filter:blur(8px);cursor:zoom-out}.screen-gallery__panel{position:relative;z-index:1;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;width:min(96vw,1800px);max-height:96vh}.screen-gallery__figure{display:flex;flex-direction:column;align-items:center;min-width:0;margin:0}.screen-gallery__image{display:block;width:auto;max-width:100%;height:auto;max-height:calc(96vh - 9rem);object-fit:contain;border-radius:.65rem;background:#fff;box-shadow:0 18px 60px rgba(0,0,0,.42)}.screen-gallery__caption{display:grid;grid-template-columns:1fr auto;gap:.15rem 1.25rem;width:min(100%,900px);padding:1rem 1rem 0;color:#fff;text-align:left}.screen-gallery__caption strong{font-size:1rem}.screen-gallery__caption>span:not(.screen-gallery__status):not(.screen-gallery__help){grid-column:1;color:#d8d9e8;font-size:.86rem}.screen-gallery__status{grid-column:2;grid-row:1;color:#fff;font-size:.82rem;font-weight:800}.screen-gallery__help{grid-column:2;grid-row:2;color:#afb0c4;font-size:.72rem}.screen-gallery__close,.screen-gallery__control{border:1px solid rgba(255,255,255,.3);background:rgba(20,21,40,.78);color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.25)}.screen-gallery__close:hover,.screen-gallery__control:hover,.screen-gallery__close:focus-visible,.screen-gallery__control:focus-visible{background:var(--sl-primary);outline:2px solid #fff;outline-offset:2px}.screen-gallery__close{position:absolute;right:0;top:0;z-index:2;width:2.75rem;height:2.75rem;border-radius:50%;font-size:1.8rem;line-height:1}.screen-gallery__control{width:3rem;height:4.5rem;border-radius:.75rem;font-size:2.5rem;line-height:1}.screen-gallery__control--previous{margin-right:1rem}.screen-gallery__control--next{margin-left:1rem}@media(max-width:767.98px){.screen-gallery{padding:.5rem}.screen-gallery__panel{display:block;width:100%;max-height:98vh;padding-top:3.25rem}.screen-gallery__image{max-height:calc(98vh - 11rem)}.screen-gallery__control{position:absolute;top:50%;z-index:2;width:2.6rem;height:3.8rem;margin:0;transform:translateY(-50%)}.screen-gallery__control--previous{left:.35rem}.screen-gallery__control--next{right:.35rem}.screen-gallery__caption{grid-template-columns:1fr auto;padding:.8rem .5rem 0}.screen-gallery__help{display:none}}@media(prefers-reduced-motion:reduce){.system-screen-trigger{transition:none}}
 .site-footer .footer-other-link{display:inline-flex;color:#fff;font-weight:800}
 .site-footer .footer-social-link{display:inline-flex;align-items:center;gap:.55rem}
-.site-footer .footer-social-link .fab{width:1.1rem;text-align:center;font-size:1.1rem}
+.site-footer .footer-social-icon{width:1.1rem;height:1.1rem;flex:0 0 auto}
 .migration-band{position:relative;overflow:hidden;background:linear-gradient(135deg,#315a8f 0%,#4535a8 58%,#6b48c8 100%);color:#fff}
 .migration-band:before{content:"";position:absolute;width:28rem;height:28rem;right:-10rem;top:-15rem;border-radius:50%;background:rgba(255,255,255,.09)}
 .migration-band .container{position:relative}

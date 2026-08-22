@@ -340,9 +340,9 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
   <link rel="icon" href="../assets/img/icons/favicon-32x32.png">
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/site-2026.css">
-  <script src="../assets/js/header-2026.js"></script>
-  <script src="../assets/js/footer-2026.js"></script>
-  <script src="../assets/js/theme-2026.js"></script>
+  <script defer src="../assets/js/header-2026.js"></script>
+  <script defer src="../assets/js/footer-2026.js"></script>
+  <script defer src="../assets/js/theme-2026.js"></script>
   <script type="application/json" id="post-meta">${jsonScript(postMeta)}</script>
   <script type="application/ld+json">${jsonScript(schema)}</script>
 </head>
@@ -380,7 +380,7 @@ ${related.map((item) => `          <div class="col-md-4"><article class="module-
 `
     : ''
 }  </main>
-  <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+  <script defer src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 `;

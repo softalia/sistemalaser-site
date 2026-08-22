@@ -162,6 +162,10 @@
       return [screen.src.split('/').pop(), index];
     }),
   );
+  screenIndexByFile.set(
+    'sll-locacoes-dashboard-1280.webp',
+    screenIndexByFile.get('sll-locacoes-dashboard.webp'),
+  );
 
   function createButton(className, label, content) {
     const button = document.createElement('button');

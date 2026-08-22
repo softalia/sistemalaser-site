@@ -222,7 +222,8 @@ for (const file of htmlFiles) {
   )) {
     const source = match[2].split('?')[0];
     assert(
-      gallerySources.has(source),
+      gallerySources.has(source) ||
+        gallerySources.has(source.replace(/-1280\.webp$/, '.webp')),
       `${file} uses ${source}, but it is missing from the screenshot gallery`,
     );
   }

@@ -47,7 +47,7 @@
       link('jobs.html') +
       '">Trabalhe conosco</a><a href="' +
       link('whatsapp.html') +
-      '">Meta Partner</a><a class="footer-social-link" href="https://www.instagram.com/meusistemalaser" target="_blank" rel="me noopener" aria-label="Instagram do Sistema Laser"><i class="fab fa-instagram" aria-hidden="true"></i><span>@meusistemalaser</span></a></div><div class="col-6 col-lg-2"><h3>Legal</h3><a href="' +
+      '">Meta Partner</a><a class="footer-social-link" href="https://www.instagram.com/meusistemalaser" target="_blank" rel="me noopener"><svg class="footer-social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm-.17 2A3.03 3.03 0 0 0 4 7.03v9.94A3.03 3.03 0 0 0 7.03 20h9.94A3.03 3.03 0 0 0 20 16.97V7.03A3.03 3.03 0 0 0 16.97 4H7.03ZM18.5 5.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg><span>@meusistemalaser</span></a></div><div class="col-6 col-lg-2"><h3>Legal</h3><a href="' +
       link('termos-uso.html') +
       '">Termos de Uso</a><a href="' +
       link('termos-privacidade.html') +
