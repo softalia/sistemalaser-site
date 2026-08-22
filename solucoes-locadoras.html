@@ -37,6 +37,20 @@
       gtag('config', 'G-WS5QS9LS8K');
     </script>
     <link rel="icon" href="assets/img/icons/favicon-32x32.png" />
+    <link
+      rel="preload"
+      href="assets/fonts/lato-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/lato-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/site-2026.css" />
     <script defer src="assets/js/header-2026.js"></script>
@@ -131,15 +145,17 @@
             <div class="col-lg-6">
               <div class="media-panel">
                 <img
-                  src="assets/img/sistema/sll-locacoes-dashboard-1280.webp"
+                  src="assets/img/sistema/sll-locacoes-dashboard-768.webp"
                   srcset="
+                    assets/img/sistema/sll-locacoes-dashboard-768.webp   768w,
                     assets/img/sistema/sll-locacoes-dashboard-1280.webp 1280w,
                     assets/img/sistema/sll-locacoes-dashboard.webp      3716w
                   "
                   sizes="(min-width: 992px) 50vw, calc(100vw - 2rem)"
                   width="1280"
                   height="972"
-                  loading="lazy"
+                  loading="eager"
+                  fetchpriority="high"
                   alt="Dashboard consolidado da operação"
                 />
               </div>
@@ -202,7 +218,16 @@
             <div class="col-lg-6">
               <div class="media-panel">
                 <img
-                  src="assets/img/sistema/sll-locacoes-fotos.webp"
+                  src="assets/img/sistema/sll-locacoes-fotos-768.webp"
+                  srcset="
+                    assets/img/sistema/sll-locacoes-fotos-768.webp   768w,
+                    assets/img/sistema/sll-locacoes-fotos-1280.webp 1280w,
+                    assets/img/sistema/sll-locacoes-fotos.webp      3776w
+                  "
+                  sizes="(min-width: 992px) 50vw, calc(100vw - 2rem)"
+                  width="768"
+                  height="587"
+                  loading="lazy"
                   alt="Gestão de locação de equipamentos médicos, hospitalares e lasers"
                 />
               </div>
@@ -236,7 +261,16 @@
             <div class="col-lg-6 order-lg-1">
               <div class="media-panel">
                 <img
-                  src="assets/img/sistema/sll-locacoes-contrato.webp"
+                  src="assets/img/sistema/sll-locacoes-contrato-768.webp"
+                  srcset="
+                    assets/img/sistema/sll-locacoes-contrato-768.webp   768w,
+                    assets/img/sistema/sll-locacoes-contrato-1280.webp 1280w,
+                    assets/img/sistema/sll-locacoes-contrato.webp      3682w
+                  "
+                  sizes="(min-width: 992px) 50vw, calc(100vw - 2rem)"
+                  width="768"
+                  height="546"
+                  loading="lazy"
                   alt="Software para locação de equipamentos de construção civil e outros segmentos"
                 />
               </div>
@@ -269,7 +303,16 @@
             <div class="col-lg-6 order-lg-1">
               <div class="media-panel">
                 <img
-                  src="assets/img/sistema/locacoes-fechamento-parceiro.webp"
+                  src="assets/img/sistema/locacoes-fechamento-parceiro-768.webp"
+                  srcset="
+                    assets/img/sistema/locacoes-fechamento-parceiro-768.webp   768w,
+                    assets/img/sistema/locacoes-fechamento-parceiro-1280.webp 1280w,
+                    assets/img/sistema/locacoes-fechamento-parceiro.webp      2928w
+                  "
+                  sizes="(min-width: 992px) 50vw, calc(100vw - 2rem)"
+                  width="768"
+                  height="563"
+                  loading="lazy"
                   alt="Fechamento e comissionamento de parceiros"
                 />
               </div>

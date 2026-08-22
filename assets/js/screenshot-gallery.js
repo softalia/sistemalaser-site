@@ -166,6 +166,42 @@
     'sll-locacoes-dashboard-1280.webp',
     screenIndexByFile.get('sll-locacoes-dashboard.webp'),
   );
+  screenIndexByFile.set(
+    'sll-locacoes-dashboard-768.webp',
+    screenIndexByFile.get('sll-locacoes-dashboard.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-crm-dashboard-1280.webp',
+    screenIndexByFile.get('sll-crm-dashboard.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-crm-dashboard-768.webp',
+    screenIndexByFile.get('sll-crm-dashboard.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-locacoes-fotos-1280.webp',
+    screenIndexByFile.get('sll-locacoes-fotos.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-locacoes-fotos-768.webp',
+    screenIndexByFile.get('sll-locacoes-fotos.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-locacoes-contrato-1280.webp',
+    screenIndexByFile.get('sll-locacoes-contrato.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-locacoes-contrato-768.webp',
+    screenIndexByFile.get('sll-locacoes-contrato.webp'),
+  );
+  screenIndexByFile.set(
+    'locacoes-fechamento-parceiro-1280.webp',
+    screenIndexByFile.get('locacoes-fechamento-parceiro.webp'),
+  );
+  screenIndexByFile.set(
+    'locacoes-fechamento-parceiro-768.webp',
+    screenIndexByFile.get('locacoes-fechamento-parceiro.webp'),
+  );
 
   function createButton(className, label, content) {
     const button = document.createElement('button');
