@@ -11,6 +11,7 @@
   --sl-dark:#17182f;--sl-dark-soft:#272956;--sl-on-dark:#f7f7ff;--sl-on-dark-soft:#cfd0e5;
   color-scheme:light;
 }
+.module-card .module-icon{font-size:1.25rem;font-weight:400}.module-card .module-icon i,.whatsapp-fab i{display:flex;line-height:1}.whatsapp-fab{font-size:1.55rem;transition:transform .2s ease}.whatsapp-fab:hover{color:#fff;transform:translateY(-2px)}
 [data-bs-theme="dark"]{
   --sl-primary:#9d9aff;--sl-primary-strong:#b4b2ff;--sl-primary-soft:#2a2b59;
   --sl-accent:#aaa7ff;--sl-success:#65d3a6;--sl-warning:#f1b768;

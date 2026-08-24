@@ -24,6 +24,10 @@
       '">Agenda de locações</a><a href="' +
       link('controle-equipamentos.html') +
       '">Controle de equipamentos</a><a href="' +
+      link('assinatura-eletronica.html') +
+      '">Assinatura eletrônica</a><a href="' +
+      link('lila-whatsapp.html') +
+      '">LILA e WhatsApp</a><a href="' +
       link('funcionalidades.html') +
       '">Funcionalidades</a><a href="' +
       link('planos.html') +

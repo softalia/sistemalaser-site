@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Integração oficial com WhatsApp | Sistema Laser</title>
+    <title>Integração oficial com WhatsApp Cloud | Sistema Laser</title>
     <meta
       name="description"
-      content="Conheça a integração nativa do Sistema Laser com o WhatsApp Cloud e faça a inscrição oficial da LILA usando sua conta do Facebook."
+      content="Conecte sua conta Meta Business ao WhatsApp Cloud pelo cadastro oficial incorporado do Sistema Laser."
     />
     <link
       rel="canonical"
@@ -20,15 +20,38 @@
     />
     <meta
       property="og:title"
-      content="Integração oficial com WhatsApp | Sistema Laser"
+      content="Integração oficial com WhatsApp Cloud | Sistema Laser"
     />
     <meta
       property="og:description"
-      content="Atendimento e automação conectados à operação da locadora."
+      content="Conecte sua conta Meta Business ao WhatsApp Cloud pelo fluxo oficial de cadastro incorporado."
     />
     <meta
       property="og:image"
-      content="https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png"
+      content="https://www.sistemalaser.com.br/assets/img/whatsapp_partner.webp"
+    />
+    <meta
+      property="og:image:alt"
+      content="Sistema Laser como provedor oficial de soluções para WhatsApp"
+    />
+    <meta property="og:image:width" content="1254" />
+    <meta property="og:image:height" content="1254" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Integração oficial com WhatsApp Cloud | Sistema Laser"
+    />
+    <meta
+      name="twitter:description"
+      content="Conecte sua conta Meta Business ao WhatsApp Cloud pelo cadastro oficial incorporado."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.sistemalaser.com.br/assets/img/whatsapp_partner.webp"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Sistema Laser como provedor oficial de soluções para WhatsApp"
     />
     <script>
       (function (w, d, s, l, i) {
@@ -81,10 +104,21 @@
         "@graph": [
           {
             "@type": "WebPage",
-            "name": "Integração oficial com WhatsApp",
+            "name": "Integração oficial com WhatsApp Cloud",
             "url": "https://www.sistemalaser.com.br/whatsapp.html",
-            "description": "Integração nativa do Sistema Laser com o WhatsApp Cloud e inscrição oficial da LILA.",
+            "description": "Conexão da conta Meta Business ao WhatsApp Cloud pelo cadastro oficial incorporado do Sistema Laser.",
+            "primaryImageOfPage": {
+              "@id": "https://www.sistemalaser.com.br/whatsapp.html#primaryimage"
+            },
             "isPartOf": { "@id": "https://www.sistemalaser.com.br/#website" }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.sistemalaser.com.br/whatsapp.html#primaryimage",
+            "contentUrl": "https://www.sistemalaser.com.br/assets/img/whatsapp_partner.webp",
+            "width": 1254,
+            "height": 1254,
+            "caption": "Sistema Laser como provedor oficial de soluções para WhatsApp"
           },
           {
             "@type": "BreadcrumbList",
@@ -131,11 +165,12 @@
             <div class="col-lg-6">
               <span class="eyebrow">WhatsApp Solution Provider oficial</span>
               <h1 class="display-title">
-                Integração nativa, pelo caminho oficial da Meta.
+                Conecte sua conta pelo caminho oficial da Meta.
               </h1>
               <p class="hero-copy">
-                O Sistema Laser conecta o WhatsApp Cloud à rotina da locadora
-                sem depender de soluções não oficiais sujeitas a bloqueios.
+                Faça o cadastro incorporado da sua conta Meta Business e conecte
+                o WhatsApp Cloud ao Sistema Laser com segurança e dentro do
+                fluxo oficial da plataforma.
               </p>
               <div class="hero-actions">
                 <a class="btn btn-primary btn-lg" href="#inscricao"
@@ -149,7 +184,10 @@
               <div class="media-panel">
                 <img
                   src="assets/img/whatsapp_partner.webp"
-                  alt="Atendimento e automação de mensagens no Sistema Laser"
+                  width="1254"
+                  height="1254"
+                  fetchpriority="high"
+                  alt="Sistema Laser como provedor oficial de soluções para WhatsApp"
                 />
               </div>
             </div>
@@ -170,6 +208,9 @@
                 Quando a conversa pede atenção humana, sua equipe pode assumir o
                 atendimento dentro da plataforma conectada ao WhatsApp Cloud.
               </p>
+              <a class="btn btn-outline-primary mt-4" href="lila-whatsapp.html"
+                >Conhecer a automação da LILA</a
+              >
             </div>
             <div class="col-lg-7">
               <div class="process-line three">
@@ -198,7 +239,7 @@
         <div class="container">
           <div class="row g-5 align-items-center">
             <div class="col-lg-5">
-              <span class="eyebrow">Inscrição da LILA</span>
+              <span class="eyebrow">Cadastro do WhatsApp Cloud</span>
               <h2 class="section-title">
                 Conecte sua conta pelo fluxo oficial.
               </h2>
@@ -262,6 +303,8 @@
               <div class="d-flex flex-wrap gap-3">
                 <a class="btn btn-surface" href="integracoes.html"
                   >Outras integrações</a
+                ><a class="btn btn-surface" href="lila-whatsapp.html"
+                  >Conhecer a LILA</a
                 ><a class="btn btn-surface" href="planos.html#master"
                   >Plano Master</a
                 ><a class="btn btn-surface" href="blog.html">Ler o Blog</a>
@@ -366,5 +409,6 @@
       src="https://connect.facebook.net/en_US/sdk.js"
     ></script>
     <script defer src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/screenshot-gallery.js"></script>
   </body>
 </html>

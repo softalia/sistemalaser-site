@@ -92,6 +92,64 @@ assert(
   ),
   'sitemap missing image namespace',
 );
+for (const page of [
+  {
+    file: 'funcionalidades.html',
+    image:
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-documento-dashboard.webp',
+  },
+  {
+    file: 'integracoes.html',
+    image:
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-lila-dashboard.webp',
+  },
+  {
+    file: 'whatsapp.html',
+    image: 'https://www.sistemalaser.com.br/assets/img/whatsapp_partner.webp',
+  },
+]) {
+  const html = read(page.file);
+  assert(
+    html.includes(`property="og:image" content="${page.image}"`),
+    `${page.file} missing feature-specific og:image`,
+  );
+  assert(
+    html.includes(`name="twitter:image" content="${page.image}"`),
+    `${page.file} missing feature-specific twitter:image`,
+  );
+  assert(
+    sitemap.includes(`<image:loc>${page.image}</image:loc>`),
+    `sitemap missing image for ${page.file}`,
+  );
+}
+for (const page of [
+  {
+    file: 'assinatura-eletronica.html',
+    image:
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-documento-dashboard.webp',
+  },
+  {
+    file: 'lila-whatsapp.html',
+    image:
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-lila-dashboard.webp',
+  },
+]) {
+  const html = read(page.file);
+  const genericImage =
+    'https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png';
+  assert(
+    html.includes(`property="og:image" content="${genericImage}"`),
+    `${page.file} missing generic og:image`,
+  );
+  assert(
+    html.includes(`name="twitter:image" content="${genericImage}"`),
+    `${page.file} missing generic twitter:image`,
+  );
+  assert(
+    sitemap.includes(`<image:loc>${page.image}</image:loc>`),
+    `sitemap missing image for ${page.file}`,
+  );
+}
 for (const post of posts) {
   assert(
     sitemap.includes(`https://www.sistemalaser.com.br/blog/${post.slug}.html`),
@@ -199,6 +257,21 @@ for (const source of gallerySources) {
 
 for (const file of htmlFiles) {
   const html = read(file);
+  const whatsappButtons = html.match(/\bdata-generated-whatsapp-fab\b/g) || [];
+  assert(
+    whatsappButtons.length === 1,
+    `${file} must include exactly one generated WhatsApp button`,
+  );
+  assert(
+    html.includes('fi fi-brands-whatsapp'),
+    `${file} generated WhatsApp button is missing its brand icon`,
+  );
+  assert(
+    html.includes(
+      'https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css',
+    ),
+    `${file} is missing the UIcons brands stylesheet`,
+  );
   const currentDir = path.dirname(file) === '.' ? '' : `${path.dirname(file)}/`;
   for (const match of html.matchAll(/\s(?:href|src)="([^"#:][^"]*)"/g)) {
     const link = match[1];

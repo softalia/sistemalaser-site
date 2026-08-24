@@ -29,11 +29,43 @@ const staticSitemapEntries = [
   ['/nota-fiscal-eletronica.html', today, 'monthly', '0.75'],
   ['/controle-equipamentos.html', today, 'monthly', '0.85'],
   ['/agenda-locacoes.html', today, 'monthly', '0.85'],
-  ['/funcionalidades.html', today, 'monthly', '0.8'],
+  [
+    '/funcionalidades.html',
+    today,
+    'monthly',
+    '0.8',
+    `${siteUrl}/assets/img/sistema/sll-documento-dashboard.webp`,
+  ],
+  [
+    '/assinatura-eletronica.html',
+    today,
+    'monthly',
+    '0.85',
+    `${siteUrl}/assets/img/sistema/sll-documento-dashboard.webp`,
+  ],
+  [
+    '/lila-whatsapp.html',
+    today,
+    'monthly',
+    '0.85',
+    `${siteUrl}/assets/img/sistema/sll-lila-dashboard.webp`,
+  ],
   ['/solucoes-locadoras.html', today, 'monthly', '0.8'],
-  ['/integracoes.html', today, 'monthly', '0.75'],
+  [
+    '/integracoes.html',
+    today,
+    'monthly',
+    '0.75',
+    `${siteUrl}/assets/img/sistema/sll-lila-dashboard.webp`,
+  ],
   ['/planos.html', today, 'monthly', '0.8'],
-  ['/whatsapp.html', today, 'monthly', '0.7'],
+  [
+    '/whatsapp.html',
+    today,
+    'monthly',
+    '0.7',
+    `${siteUrl}/assets/img/whatsapp_partner.webp`,
+  ],
   ['/blog.html', today, 'weekly', '0.75'],
   ['/faq.html', today, 'monthly', '0.8'],
   ['/jobs.html', today, 'yearly', '0.3'],
@@ -65,6 +97,36 @@ function copyRecursive(source, target) {
   }
   ensureDir(path.dirname(target));
   fs.copyFileSync(source, target);
+}
+
+function htmlFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const file = path.join(directory, entry.name);
+    if (entry.isDirectory()) return htmlFiles(file);
+    return entry.isFile() && entry.name.endsWith('.html') ? [file] : [];
+  });
+}
+
+function injectWhatsappFab(directory) {
+  const iconStylesheet =
+    'https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css';
+  const button = `<a class="whatsapp-fab" data-generated-whatsapp-fab href="https://api.whatsapp.com/send?phone=5561991642806&amp;text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Sistema%20Laser" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><i class="fi fi-brands-whatsapp" aria-hidden="true"></i></a>`;
+
+  for (const file of htmlFiles(directory)) {
+    let html = fs.readFileSync(file, 'utf8');
+    html = html.replace(
+      /<a\b[^>]*\bclass=["'][^"']*\bwhatsapp-fab\b[^"']*["'][\s\S]*?<\/a>/gi,
+      '',
+    );
+    if (!html.includes(iconStylesheet)) {
+      html = html.replace(
+        '</head>',
+        `  <link rel="stylesheet" href="${iconStylesheet}">\n</head>`,
+      );
+    }
+    html = html.replace('</body>', `  ${button}\n</body>`);
+    fs.writeFileSync(file, html);
+  }
 }
 
 function prepareDist(posts) {
@@ -457,6 +519,7 @@ for (const post of posts) {
 fs.writeFileSync(sitemapFile, buildSitemap(posts));
 fs.writeFileSync(rssFile, buildRss(posts));
 buildFaq(root);
+injectWhatsappFab(distDir);
 const minifiedPages = await minifyHtmlDirectory(distDir);
 
 console.log(

@@ -7,11 +7,14 @@ O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, p
 ## Páginas principais
 
 - [Visão geral](https://www.sistemalaser.com.br/): proposta de valor, módulos, planos e contato para demonstração.
-- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): recursos detalhados de agenda, indicadores, CRM, financeiro, documentos, protocolos de atendimento, tabelas de preços, rede e acesso.
+- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): recursos detalhados de agenda, indicadores, CRM, financeiro, documentos, assinatura eletrônica, dashboards, protocolos de atendimento, tabelas de preços, rede e acesso.
+- [Assinatura eletrônica](https://www.sistemalaser.com.br/assinatura-eletronica.html): contratos, protocolos com fotos e outros documentos enviados para assinatura ou apenas como notificação, de forma independente ou vinculados às locações.
+- [LILA e automação pelo WhatsApp](https://www.sistemalaser.com.br/lila-whatsapp.html): confirmações de agendamentos, notificações automáticas e acompanhamento separado de mensagens e sessões de conversa.
 - [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
 - [Nota Fiscal Eletrônica Nacional](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): página de pré-lançamento da emissão de notas fiscais eletrônicas diretamente pelo Sistema Laser; recurso ainda não disponível.
 - [Soluções para locadoras](https://www.sistemalaser.com.br/solucoes-locadoras.html): aplicações para equipamentos médicos, hospitalares, estéticos, lasers, construção civil, filiais, parceiros e comodatos.
-- [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud, LILA, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
+- [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud com a LILA, dashboard de mensagens e sessões de conversa, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
+- [Integração oficial com o WhatsApp](https://www.sistemalaser.com.br/whatsapp.html): conexão da conta Meta Business ao WhatsApp Cloud pelo fluxo oficial de cadastro incorporado.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.
 - [Blog](https://www.sistemalaser.com.br/blog.html): artigos sobre gestão de locações.
 - [Perguntas frequentes](https://www.sistemalaser.com.br/faq.html): respostas pesquisáveis sobre planos, CRM, agenda, locações, equipamentos, financeiro, contratos e integrações.

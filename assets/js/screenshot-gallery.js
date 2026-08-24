@@ -25,6 +25,12 @@
         'Cadastro de equipamentos e registro de fotos de início e fim da locação.',
     },
     {
+      src: 'assets/img/sistema/sll-documento-dashboard.webp',
+      title: 'Dashboard de documentos e assinaturas',
+      description:
+        'Modelos ativos, documentos enviados, assinaturas realizadas e situações acompanhados por período.',
+    },
+    {
       src: 'assets/img/sistema/sll-documento-assinatura.webp',
       title: 'Assinatura eletrônica',
       description: 'Formalização e acompanhamento da assinatura de documentos.',
@@ -124,6 +130,12 @@
       title: 'Nota Fiscal Eletrônica Nacional',
       description:
         'Em breve, emissão de notas fiscais eletrônicas diretamente pela operação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-lila-dashboard.webp',
+      title: 'Dashboard da Mensageria LILA',
+      description:
+        'Mensagens automáticas, sessões de conversa, motivos de encerramento e tipos de fluxo do WhatsApp.',
     },
     {
       src: 'assets/img/sistema/sll-lila.webp',

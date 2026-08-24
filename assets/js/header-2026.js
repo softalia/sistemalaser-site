@@ -14,7 +14,7 @@
       link('assets/img/icons/simbolo.svg') +
       '" width="28" height="34" alt=""><span>Sistema Laser<sup>®</sup></span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteMenu" aria-controls="siteMenu" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="siteMenu"><ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item"><a class="nav-link" href="' +
       link('funcionalidades.html') +
-      '">Funcionalidades</a></li><li class="nav-item"><a class="nav-link" href="' +
+      '" data-section="funcionalidades">Funcionalidades</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('crm.html') +
       '">CRM</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('sistema-financeiro-locadora.html') +
@@ -22,7 +22,7 @@
       link('solucoes-locadoras.html') +
       '">Soluções</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('integracoes.html') +
-      '">Integrações</a></li><li class="nav-item"><a class="nav-link" href="' +
+      '" data-section="integracoes">Integrações</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('planos.html') +
       '">Planos</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('blog.html') +
@@ -40,6 +40,10 @@
       var href = link.getAttribute('href').split('/').pop();
       if (
         href === page ||
+        (link.dataset.section === 'funcionalidades' &&
+          page === 'assinatura-eletronica.html') ||
+        (link.dataset.section === 'integracoes' &&
+          page === 'lila-whatsapp.html') ||
         (link.dataset.section === 'blog' &&
           window.location.pathname.indexOf('/blog/') !== -1)
       ) {
