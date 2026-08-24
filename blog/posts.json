@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "tabela-precos-locadora-contexto-comercial",
+      "title": "Tabela de preços para locadora: contexto antes da próxima locação",
+      "heroTitle": "Preço combinado não pode virar uma nova busca",
+      "description": "Organize preço padrão, tabelas e condições negociadas para dar contexto à próxima locação.",
+      "seoTitle": "Tabela de preços para locadora: contexto comercial",
+      "seoDescription": "Organize preço padrão, tabelas e condições negociadas para a equipe consultar antes da próxima locação.",
+      "ogTitle": "Tabela de preços para locadora com contexto comercial",
+      "ogDescription": "Preço padrão, tabela e condição negociada ajudam a dar continuidade à próxima locação.",
+      "date": "2026-08-24T09:11:13.391358-03:00",
+      "modified": "2026-08-24T09:11:13.391358-03:00",
+      "category": "Gestão comercial",
+      "tags": [
+        "tabela de preços para locadora",
+        "preço por equipamento",
+        "gestão comercial",
+        "locação de equipamentos"
+      ],
+      "heroCopy": "A negociação pode continuar flexível; o que não deveria ficar solto é o contexto que orienta a próxima locação.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/24/2026-08-24-manha-preco-contexto-root-feed-01.png",
+      "url": "blog/tabela-precos-locadora-contexto-comercial.html",
+      "contentHtml": "<p>Preço combinado em uma conversa não deveria obrigar a equipe a recomeçar a busca toda vez que a próxima locação aparece. A resposta prática é manter uma referência comercial organizada: preço padrão do equipamento, tabela aplicável e condição específica negociada para o cliente. Assim, a negociação continua humana, mas o contexto não fica preso ao telefone de quem conduziu o atendimento.</p>\n<h2>Preço de locação começa com uma referência clara</h2>\n<p>O proprietário não precisa transformar toda proposta em uma regra fixa. O objetivo é definir o ponto de partida que a equipe pode consultar antes de confirmar uma locação. Um preço padrão por equipamento dá consistência à rotina. Quando a operação pede condições diferentes, as tabelas de preços ajudam a separar critérios sem depender de memória ou de mensagens antigas.</p>\n<p>Esse cuidado também ajuda a tornar as exceções visíveis. Uma condição negociada por cliente pode ser legítima, desde que esteja registrada no contexto certo e seja tratada de acordo com a política comercial da locadora.</p>\n<h2>Três perguntas antes de confirmar a próxima locação</h2>\n<ol><li><strong>Qual é a referência padrão deste equipamento?</strong> Comece pela informação que orienta a rotina comercial.</li><li><strong>Existe uma tabela aplicável?</strong> Verifique se a situação pede uma condição previamente organizada pela empresa.</li><li><strong>Houve uma negociação específica?</strong> Se houver, registre o combinado junto do cliente antes de avançar.</li></ol>\n<figure><img src=\"images/2026/08/24/2026-08-24-manha-preco-contexto-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três referências comerciais: preço padrão, tabela de preços e condição negociada por cliente\"><figcaption>Preço padrão, tabela e negociação específica podem coexistir quando cada uma tem contexto.</figcaption></figure>\n<h2>Negociação flexível não precisa ser informação solta</h2>\n<p>Registrar não é limitar a conversa com o cliente. É permitir que outra pessoa compreenda o que foi combinado, reduza consultas paralelas e mantenha continuidade no atendimento. O proprietário conserva o critério para aprovar exceções, enquanto a equipe trabalha com uma base mais clara.</p>\n<p>O Sistema Laser informa preço padrão por equipamento, múltiplas tabelas de preços, valores específicos por cliente e condições negociadas registradas. Esses recursos podem apoiar uma rotina comercial coerente com a política da empresa, sem substituir o julgamento da gestão.</p>\n<figure><img src=\"images/2026/08/24/2026-08-24-manha-preco-contexto-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Fluxo editorial entre preço padrão, valor negociado e confirmação da locação\"><figcaption>O registro transforma um combinado comercial em contexto para a próxima locação.</figcaption></figure>\n<h2>Um próximo passo prático</h2>\n<p>Escolha um equipamento e revise com a equipe como o preço padrão, a tabela aplicável e uma condição por cliente são consultados hoje. Depois, defina onde cada decisão deve ficar registrada. Conheça os <a href=\"../funcionalidades.html#modelos-precos\">modelos e tabelas de preços</a>, explore as <a href=\"../funcionalidades.html\">funcionalidades do Sistema Laser</a>, veja as <a href=\"../solucoes-locadoras.html\">soluções para locadoras</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcbCCPrILX4/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "restricao-agenda-por-usuario-locadora",
       "title": "Restrição de agenda por usuário: como delegar com critério",
       "heroTitle": "Quem precisa ver toda a agenda da locadora?",
