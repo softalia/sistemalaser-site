@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "restricao-agenda-por-usuario-locadora",
+      "title": "Restrição de agenda por usuário: como delegar com critério",
+      "heroTitle": "Quem precisa ver toda a agenda da locadora?",
+      "description": "Defina visões de agenda por função e delegue a operação com critérios claros, sem expor informações além do necessário.",
+      "seoTitle": "Restrição de agenda por usuário para locadoras",
+      "seoDescription": "Organize a restrição de agenda por usuário na locadora, defina visões por função e delegue com critérios claros e rastreáveis.",
+      "ogTitle": "Agenda por função: delegue sem perder critério",
+      "ogDescription": "A agenda pode atender execução, coordenação e gestão com visões adequadas a cada responsabilidade.",
+      "date": "2026-08-24T08:02:51.329777-03:00",
+      "modified": "2026-08-24T08:02:51.329777-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "restrição de agenda por usuário",
+        "agenda de locações",
+        "permissões de acesso",
+        "gestão de locadora"
+      ],
+      "heroCopy": "Acesso adequado não é acesso amplo: é o contexto necessário para cada função executar, coordenar e supervisionar.",
+      "readingTime": "3 min",
+      "image": "http://sistemalaser.com.br/blog/images/2026/08/22/2026-08-22-tarde-agenda-visao-root-feed-01.png",
+      "url": "blog/restricao-agenda-por-usuario-locadora.html",
+      "contentHtml": "<p>Quem precisa ver toda a agenda da locadora? A resposta depende da decisão que cada pessoa precisa tomar. Uma equipe de execução precisa de contexto para cumprir a programação do dia; a coordenação acompanha distribuição e exceções; a gestão precisa de uma visão que permita supervisionar a operação. O ponto não é liberar tudo por padrão, mas definir acesso com critério.</p>\n<h2>Permissão de agenda começa pelo trabalho</h2>\n<p>Antes de configurar a restrição de agenda por usuário, descreva o que cada função realmente precisa consultar. Uma pergunta simples ajuda: esta pessoa precisa agir, acompanhar uma exceção ou analisar o conjunto? A resposta evita tanto a falta de informação na ponta quanto a exposição desnecessária de dados operacionais.</p>\n<ul><li><strong>Execução:</strong> veja o que precisa realizar e as informações necessárias para essa etapa.</li><li><strong>Coordenação:</strong> acompanhe pendências, responsáveis e conflitos que pedem intervenção.</li><li><strong>Gestão:</strong> mantenha uma visão adequada para supervisão e decisão.</li></ul>\n<figure><img src=\"images/2026/08/22/2026-08-22-tarde-agenda-visao-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Cartões mostram critérios de visualização da agenda para execução, coordenação e gestão\"><figcaption>O acesso fica mais claro quando parte da responsabilidade de cada função.</figcaption></figure>\n<h2>Três perguntas para revisar a configuração</h2>\n<p>Primeiro, qual decisão esta função toma com a agenda? Depois, que exceção precisa chegar até ela? Por fim, o que deve continuar restrito porque não faz parte de sua execução? Registrar essas respostas em uma rotina curta ajuda o proprietário a delegar com mais clareza, sem depender de memória, mensagens dispersas ou acessos genéricos.</p>\n<figure><img src=\"images/2026/08/22/2026-08-22-tarde-agenda-visao-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Checklist com perguntas para definir acessos à agenda de uma locadora\"><figcaption>Uma revisão objetiva transforma permissões em parte do processo de gestão.</figcaption></figure>\n<h2>Visões diferentes, mesma base operacional</h2>\n<p>O Sistema Laser informa diferentes visões de agenda, consultas com filtros e restrição de agenda por usuário. Também apresenta permissionamento refinado. Esses recursos permitem que a locadora configure as visões conforme suas responsabilidades, sem afirmar que existe um perfil pronto para toda operação. A configuração não substitui conferência humana, liderança ou regra interna; ela pode dar mais consistência ao fluxo.</p>\n<p>Conheça a <a href=\"../agenda-locacoes.html\">agenda de locações</a>, veja as <a href=\"../funcionalidades.html#agenda\">funcionalidades de agenda</a> e entenda as <a href=\"../solucoes-locadoras.html\">soluções para locadoras</a>. Para avaliar uma configuração adequada ao seu negócio, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/Dca6Nc2IGfu/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "crm-para-locadoras-do-lead-ao-cliente",
       "title": "CRM para locadoras: do primeiro lead à próxima oportunidade",
       "heroTitle": "O relacionamento começa no lead e continua depois da venda",
