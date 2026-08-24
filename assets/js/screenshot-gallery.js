@@ -183,6 +183,14 @@
     screenIndexByFile.get('sll-locacoes-dashboard.webp'),
   );
   screenIndexByFile.set(
+    'sll-financeiro-dashboard-1280.webp',
+    screenIndexByFile.get('sll-financeiro-dashboard.webp'),
+  );
+  screenIndexByFile.set(
+    'sll-financeiro-dashboard-768.webp',
+    screenIndexByFile.get('sll-financeiro-dashboard.webp'),
+  );
+  screenIndexByFile.set(
     'sll-crm-dashboard-1280.webp',
     screenIndexByFile.get('sll-crm-dashboard.webp'),
   );
