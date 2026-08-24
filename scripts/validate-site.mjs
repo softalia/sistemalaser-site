@@ -86,6 +86,111 @@ for (const post of distPosts) {
 }
 
 const sitemap = read('sitemap.xml');
+for (const route of [
+  {
+    old: 'sistema-locadora-laser.html',
+    current: 'locadora-laser.html',
+  },
+]) {
+  assert(
+    fs.existsSync(path.join(dist, route.current)),
+    `dist/${route.current} landing page missing`,
+  );
+  const landingHtml = read(route.current);
+  assert(
+    landingHtml.includes(
+      `rel="canonical" href="https://www.sistemalaser.com.br/${route.current}"`,
+    ),
+    `${route.current} missing canonical`,
+  );
+  const redirect = read(route.old);
+  assert(
+    redirect.includes(`content="0;url=${route.current}"`),
+    `${route.old} missing redirect to ${route.current}`,
+  );
+  assert(
+    sitemap.includes(`https://www.sistemalaser.com.br/${route.current}`),
+    `sitemap missing ${route.current}`,
+  );
+  assert(
+    !sitemap.includes(`https://www.sistemalaser.com.br/${route.old}`),
+    `sitemap must not include legacy route ${route.old}`,
+  );
+}
+for (const legacyRoute of [
+  'software-locacao-equipamentos.html',
+  'locacao-equipamentos.html',
+  'agenda-locacoes.html',
+  'controle-equipamentos.html',
+  'solucoes-locadoras.html',
+]) {
+  const redirect = read(legacyRoute);
+  assert(
+    redirect.includes('content="0;url=erp-locadora.html"'),
+    `${legacyRoute} missing redirect to erp-locadora.html`,
+  );
+  assert(
+    redirect.includes(
+      'rel="canonical" href="https://www.sistemalaser.com.br/erp-locadora.html"',
+    ),
+    `${legacyRoute} missing consolidated canonical`,
+  );
+  assert(
+    !sitemap.includes(`https://www.sistemalaser.com.br/${legacyRoute}`),
+    `sitemap must not include redundant route ${legacyRoute}`,
+  );
+}
+assert(
+  sitemap.includes('https://www.sistemalaser.com.br/erp-locadora.html'),
+  'sitemap missing consolidated ERP landing page',
+);
+const erpHtml = read('erp-locadora.html');
+assert(
+  erpHtml.includes('id="dashboard"') &&
+    erpHtml.includes('sll-locacoes-dashboard-768.webp'),
+  'ERP landing page missing the locations dashboard section',
+);
+const featuresHtml = read('funcionalidades.html');
+for (const sectionId of [
+  'agenda',
+  'indicadores',
+  'crm',
+  'financeiro',
+  'documentos',
+  'lila',
+  'ativos',
+  'protocolos',
+  'modelos-precos',
+  'rede',
+  'integracoes',
+  'aparencia',
+  'nota-fiscal',
+  'segmentos',
+]) {
+  assert(
+    featuresHtml.includes(`id="${sectionId}"`),
+    `funcionalidades.html missing ${sectionId} section`,
+  );
+}
+assert(
+  sitemap.includes(
+    'https://www.sistemalaser.com.br/software-locadora-eletronicos.html',
+  ),
+  'sitemap missing electronics rental landing page',
+);
+for (const file of ['index.html', 'locadora-laser.html', 'erp-locadora.html']) {
+  const html = read(file);
+  const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] || '';
+  const body = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1] || '';
+  assert(
+    head.toLocaleLowerCase('pt-BR').includes('alternativa ao izziloc'),
+    `${file} missing competitor-intent metadata`,
+  );
+  assert(
+    !body.toLocaleLowerCase('pt-BR').includes('izziloc'),
+    `${file} must not mention the competitor in visible content`,
+  );
+}
 assert(
   sitemap.includes(
     'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"',

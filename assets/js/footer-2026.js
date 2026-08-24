@@ -12,38 +12,34 @@
       '"><img src="' +
       link('assets/img/icons/simbolo.svg') +
       '" width="25" height="30" alt=""><span>Sistema Laser<sup>®</sup></span></a><p class="mt-3">Software para gestão de locação de equipamentos, aperfeiçoado há mais de 20 anos por quem entende de logística.</p><div class="footer-other mt-4"><h3>Outras soluções</h3><a class="footer-other-link" href="https://www.ebrain.clinic" target="_blank" rel="noopener">ebrain.clinic ↗</a></div></div><div class="col-6 col-lg-2"><h3>Plataforma</h3><a href="' +
-      link('software-locacao-equipamentos.html') +
-      '">Software para locação</a><a href="' +
-      link('crm.html') +
-      '">CRM</a><a href="' +
       link('erp-locadora.html') +
       '">ERP para locadora</a><a href="' +
+      link('crm.html') +
+      '">CRM completo</a><a href="' +
       link('sistema-financeiro-locadora.html') +
       '">Sistema financeiro</a><a href="' +
-      link('agenda-locacoes.html') +
-      '">Agenda de locações</a><a href="' +
-      link('controle-equipamentos.html') +
-      '">Controle de equipamentos</a><a href="' +
       link('assinatura-eletronica.html') +
       '">Assinatura eletrônica</a><a href="' +
       link('lila-whatsapp.html') +
       '">LILA e WhatsApp</a><a href="' +
+      link('funcionalidades.html#rede') +
+      '">Parceiros</a><a href="' +
+      link('integracoes.html') +
+      '">Integrações</a><a href="' +
       link('funcionalidades.html') +
       '">Funcionalidades</a><a href="' +
-      link('planos.html') +
-      '">Planos e preços</a></div><div class="col-6 col-lg-2"><h3>Soluções</h3><a href="' +
-      link('sistema-locadora-laser.html') +
+      link('nota-fiscal-eletronica.html') +
+      '">Nota Fiscal</a></div><div class="col-6 col-lg-2"><h3>Soluções</h3><a href="' +
+      link('locadora-laser.html') +
       '">Locadora de laser</a><a href="' +
       link('software-locadora-medica.html') +
       '">Locadora médica</a><a href="' +
       link('software-locadora-construcao.html') +
       '">Construção civil</a><a href="' +
-      link('solucoes-locadoras.html#rede') +
-      '">Parceiros</a><a href="' +
-      link('integracoes.html') +
-      '">Integrações</a><a href="' +
-      link('nota-fiscal-eletronica.html') +
-      '">Nota fiscal · em breve</a></div><div class="col-6 col-lg-2"><h3>Empresa</h3><a href="' +
+      link('software-locadora-eletronicos.html') +
+      '">Equipamentos eletrônicos</a><a href="' +
+      link('planos.html') +
+      '">Planos e preços</a></div><div class="col-6 col-lg-2"><h3>Empresa</h3><a href="' +
       link('blog.html') +
       '">Blog</a><a href="' +
       link('faq.html') +

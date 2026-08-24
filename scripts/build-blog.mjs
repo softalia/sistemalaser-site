@@ -16,19 +16,57 @@ const rssFile = path.join(distBlogDir, 'feed.xml');
 const today = process.env.SITE_LASTMOD || new Date().toISOString().slice(0, 10);
 const staticFiles = ['CNAME', 'robots.txt', 'llms.txt'];
 const staticDirs = ['assets'];
+const landingAliases = [
+  {
+    source: 'sistema-locadora-laser.html',
+    target: 'locadora-laser.html',
+    title: 'Sistema para locadora de laser',
+  },
+];
+const legacyRedirects = [
+  {
+    source: 'software-locacao-equipamentos.html',
+    target: 'erp-locadora.html',
+    title: 'ERP para locadora',
+  },
+  {
+    source: 'locacao-equipamentos.html',
+    target: 'erp-locadora.html',
+    title: 'ERP para locadora',
+  },
+  {
+    source: 'agenda-locacoes.html',
+    target: 'erp-locadora.html',
+    title: 'ERP para locadora',
+  },
+  {
+    source: 'controle-equipamentos.html',
+    target: 'erp-locadora.html',
+    title: 'ERP para locadora',
+  },
+  {
+    source: 'solucoes-locadoras.html',
+    target: 'erp-locadora.html',
+    title: 'ERP para locadora',
+  },
+];
 
 const staticSitemapEntries = [
   ['/', today, 'weekly', '1.0'],
-  ['/software-locacao-equipamentos.html', today, 'monthly', '0.9'],
-  ['/sistema-locadora-laser.html', today, 'monthly', '0.9'],
+  ['/locadora-laser.html', today, 'monthly', '0.9'],
   ['/software-locadora-medica.html', today, 'monthly', '0.85'],
   ['/software-locadora-construcao.html', today, 'monthly', '0.8'],
-  ['/erp-locadora.html', today, 'monthly', '0.85'],
+  [
+    '/software-locadora-eletronicos.html',
+    today,
+    'monthly',
+    '0.8',
+    `${siteUrl}/assets/img/sistema/sll-locacoes-dashboard.webp`,
+  ],
+  ['/erp-locadora.html', today, 'monthly', '0.95'],
   ['/sistema-financeiro-locadora.html', today, 'monthly', '0.9'],
   ['/crm.html', today, 'monthly', '0.9'],
   ['/nota-fiscal-eletronica.html', today, 'monthly', '0.75'],
-  ['/controle-equipamentos.html', today, 'monthly', '0.85'],
-  ['/agenda-locacoes.html', today, 'monthly', '0.85'],
   [
     '/funcionalidades.html',
     today,
@@ -50,7 +88,6 @@ const staticSitemapEntries = [
     '0.85',
     `${siteUrl}/assets/img/sistema/sll-lila-dashboard.webp`,
   ],
-  ['/solucoes-locadoras.html', today, 'monthly', '0.8'],
   [
     '/integracoes.html',
     today,
@@ -126,6 +163,46 @@ function injectWhatsappFab(directory) {
     }
     html = html.replace('</body>', `  ${button}\n</body>`);
     fs.writeFileSync(file, html);
+  }
+}
+
+function redirectHtml(target, title) {
+  const canonical = `${siteUrl}/${target}`;
+  return `<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>${escapeHtml(title)} | Sistema Laser</title>
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="${canonical}">
+  <meta http-equiv="refresh" content="0;url=${target}">
+</head>
+<body><p>Esta página mudou. <a href="${target}">Acessar ${escapeHtml(title)}</a>.</p></body>
+</html>`;
+}
+
+function buildLandingAliases(directory) {
+  for (const alias of landingAliases) {
+    const source = path.join(directory, alias.source);
+    const target = path.join(directory, alias.target);
+    const sourceUrl = `${siteUrl}/${alias.source}`;
+    const targetUrl = `${siteUrl}/${alias.target}`;
+    const html = fs
+      .readFileSync(source, 'utf8')
+      .split(sourceUrl)
+      .join(targetUrl);
+    fs.writeFileSync(target, html);
+    fs.writeFileSync(source, redirectHtml(alias.target, alias.title));
+  }
+}
+
+function buildLegacyRedirects(directory) {
+  for (const redirect of legacyRedirects) {
+    fs.writeFileSync(
+      path.join(directory, redirect.source),
+      redirectHtml(redirect.target, redirect.title),
+    );
   }
 }
 
@@ -510,6 +587,8 @@ ${items}
 
 const posts = readPosts();
 prepareDist(posts);
+buildLandingAliases(distDir);
+buildLegacyRedirects(distDir);
 for (const post of posts) {
   fs.writeFileSync(
     path.join(distBlogDir, `${post.slug}.html`),

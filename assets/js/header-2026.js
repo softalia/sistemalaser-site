@@ -19,8 +19,8 @@
       '">CRM</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('sistema-financeiro-locadora.html') +
       '">Financeiro</a></li><li class="nav-item"><a class="nav-link" href="' +
-      link('solucoes-locadoras.html') +
-      '">Soluções</a></li><li class="nav-item"><a class="nav-link" href="' +
+      link('erp-locadora.html') +
+      '">ERP</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('integracoes.html') +
       '" data-section="integracoes">Integrações</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('planos.html') +

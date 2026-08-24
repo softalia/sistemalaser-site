@@ -50,7 +50,7 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   - `url`
   - `contentHtml`
 - Keep internal links in `contentHtml` relative to the generated post location,
-  such as `../agenda-locacoes.html`.
+  such as `../erp-locadora.html#agenda`.
 - After changing `blog/posts.json`, run `make validate`.
 
 ## FAQ

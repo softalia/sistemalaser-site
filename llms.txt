@@ -7,12 +7,11 @@ O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, p
 ## Páginas principais
 
 - [Visão geral](https://www.sistemalaser.com.br/): proposta de valor, módulos, planos e contato para demonstração.
-- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): recursos detalhados de agenda, indicadores, CRM, financeiro, documentos, assinatura eletrônica, dashboards, protocolos de atendimento, tabelas de preços, rede e acesso.
+- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal em desenvolvimento.
 - [Assinatura eletrônica](https://www.sistemalaser.com.br/assinatura-eletronica.html): contratos, protocolos com fotos e outros documentos enviados para assinatura ou apenas como notificação, de forma independente ou vinculados às locações.
 - [LILA e automação pelo WhatsApp](https://www.sistemalaser.com.br/lila-whatsapp.html): confirmações de agendamentos, notificações automáticas e acompanhamento separado de mensagens e sessões de conversa.
 - [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
 - [Nota Fiscal Eletrônica Nacional](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): página de pré-lançamento da emissão de notas fiscais eletrônicas diretamente pelo Sistema Laser; recurso ainda não disponível.
-- [Soluções para locadoras](https://www.sistemalaser.com.br/solucoes-locadoras.html): aplicações para equipamentos médicos, hospitalares, estéticos, lasers, construção civil, filiais, parceiros e comodatos.
 - [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud com a LILA, dashboard de mensagens e sessões de conversa, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
 - [Integração oficial com o WhatsApp](https://www.sistemalaser.com.br/whatsapp.html): conexão da conta Meta Business ao WhatsApp Cloud pelo fluxo oficial de cadastro incorporado.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.
@@ -27,14 +26,13 @@ Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O co
 
 ## Páginas pilar de SEO
 
-- [Software para locação de equipamentos](https://www.sistemalaser.com.br/software-locacao-equipamentos.html): página para buscas sobre software para aluguel de equipamentos, sistema de locação, gestão de locações e controle de locações em qualquer segmento, de equipamentos médicos a máquinas de café expresso e grandes ativos.
-- [Sistema para locadora de laser](https://www.sistemalaser.com.br/sistema-locadora-laser.html): página para locadoras de lasers estéticos, equipamentos médicos de alto valor, ponteiras, disparos, protocolos e manutenção.
+- [ERP e software para locação de equipamentos](https://www.sistemalaser.com.br/erp-locadora.html): página pilar sobre agenda, disponibilidade, protocolos com fotos, tabelas de preços, contratos, financeiro e gestão de máquinas, ferramentas e outros ativos alugáveis.
+- [Sistema para locadora de laser](https://www.sistemalaser.com.br/locadora-laser.html): página especializada em lasers estéticos, equipamentos médicos de alto valor, kits, ponteiras, disparos, protocolos e manutenção.
 - [Software para locadora médica e hospitalar](https://www.sistemalaser.com.br/software-locadora-medica.html): página para locadoras de equipamentos médicos, hospitalares, odontológicos, fisioterapia e empresas que alugam tecnologias para clínicas.
 - [Software para locadora de equipamentos de construção](https://www.sistemalaser.com.br/software-locadora-construcao.html): página para aluguel de máquinas, ferramentas, geradores, compressores, plataformas e equipamentos de construção civil.
-- [ERP para locadora](https://www.sistemalaser.com.br/erp-locadora.html): página para comparação entre ERP genérico e ERP específico para locadoras.
+- [Software para locadora de equipamentos eletrônicos](https://www.sistemalaser.com.br/software-locadora-eletronicos.html): página para empresas que alugam máquinas de café, equipamentos audiovisuais, eletrônicos para eventos e outros ativos eletroeletrônicos corporativos.
+- [ERP para locadora](https://www.sistemalaser.com.br/erp-locadora.html): página consolidada para comparação entre ERP genérico e ERP específico para locadoras, incluindo o fluxo operacional completo.
 - [Sistema financeiro para locadoras](https://www.sistemalaser.com.br/sistema-financeiro-locadora.html): contas a receber e a pagar, caixas, bancos, cheques, fluxo de caixa, DRE, dashboard, PIX, boleto e cartão integrados à operação.
-- [Controle de equipamentos alugados](https://www.sistemalaser.com.br/controle-equipamentos.html): página para controle de equipamentos, ativos, manutenção, fotos, protocolos e histórico.
-- [Agenda de locações](https://www.sistemalaser.com.br/agenda-locacoes.html): página para agenda de aluguel de equipamentos, disponibilidade e prevenção de conflitos.
 
 ## Informações comerciais
 

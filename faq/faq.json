@@ -135,52 +135,8 @@
       ]
     },
     {
-      "id": "agenda",
-      "name": "Agenda e locações",
-      "pages": ["agenda-locacoes.html"],
-      "questions": [
-        {
-          "id": "conflitos-agenda",
-          "question": "Como evitar conflitos de agenda em locações?",
-          "answer": "Use uma agenda centralizada com filtros por equipamento, cliente, período e responsável antes de confirmar a reserva."
-        },
-        {
-          "id": "agenda-planilha",
-          "question": "Agenda de locações substitui planilha?",
-          "answer": "Sim. Uma agenda integrada evita reservas duplicadas e conecta o compromisso ao contrato, financeiro e equipamento."
-        },
-        {
-          "id": "lembretes-clientes",
-          "question": "Dá para enviar lembrete automático para clientes?",
-          "answer": "Sim. O Sistema Laser possui notificações por e-mail, WhatsApp Web e automações via WhatsApp Cloud conforme o plano."
-        }
-      ]
-    },
-    {
-      "id": "equipamentos",
-      "name": "Controle de equipamentos",
-      "pages": ["controle-equipamentos.html"],
-      "questions": [
-        {
-          "id": "controlar-equipamentos",
-          "question": "Como controlar equipamentos alugados?",
-          "answer": "Cadastre cada ativo, registre locações, clientes, datas, responsáveis, fotos, manutenção, documentos e financeiro em um sistema único."
-        },
-        {
-          "id": "controlar-manutencao",
-          "question": "Como controlar manutenção de equipamentos?",
-          "answer": "Acompanhe reparos, custos, histórico, observações e disponibilidade para reduzir locações com equipamentos indisponíveis."
-        },
-        {
-          "id": "localizar-equipamento",
-          "question": "Como saber onde está cada equipamento?",
-          "answer": "Use registros de locação, cliente, período e responsável para consultar o status do equipamento em tempo real."
-        }
-      ]
-    },
-    {
       "id": "erp",
-      "name": "ERP para locadoras",
+      "name": "ERP e gestão de locações",
       "pages": ["erp-locadora.html"],
       "questions": [
         {
@@ -197,13 +153,68 @@
           "id": "preco-erp",
           "question": "Quanto custa um ERP para locadora?",
           "answer": "No Sistema Laser, os planos começam em R$ 399 por mês e variam conforme limites e recursos."
+        },
+        {
+          "id": "planilha-software",
+          "question": "Qual é a diferença entre planilha e software de locação?",
+          "answer": "A planilha registra dados, mas não valida disponibilidade, não conecta contrato ao financeiro e não cria fluxo de trabalho. Um software organiza a rotina e reduz dependência de memória operacional."
+        },
+        {
+          "id": "software-controla",
+          "question": "O que um software para locação de equipamentos precisa controlar?",
+          "answer": "Precisa controlar disponibilidade, agenda, cadastro de equipamentos, clientes, contratos, financeiro, manutenção, estoque, documentos, entregas, devoluções e relatórios."
+        },
+        {
+          "id": "conflitos-agenda",
+          "question": "Como evitar conflitos de agenda em locações?",
+          "answer": "Use uma agenda centralizada com filtros por equipamento, modelo, cliente, período e responsável antes de confirmar a reserva."
+        },
+        {
+          "id": "agenda-planilha",
+          "question": "Agenda de locações substitui planilha?",
+          "answer": "Sim. Uma agenda integrada evita reservas duplicadas e conecta o compromisso ao contrato, financeiro e equipamento."
+        },
+        {
+          "id": "lembretes-clientes",
+          "question": "Dá para enviar lembrete automático para clientes?",
+          "answer": "Sim. O Sistema Laser possui notificações por e-mail, WhatsApp Web e automações via WhatsApp Cloud conforme o plano."
+        },
+        {
+          "id": "contrato-locacao",
+          "question": "O software ajuda no contrato e nos protocolos da locação?",
+          "answer": "Sim. O Sistema Laser reúne contratos, minutas, recibos, protocolos com fotos e assinatura eletrônica, mantendo os documentos associados à locação."
+        },
+        {
+          "id": "tabelas-precos-locacao",
+          "question": "É possível cadastrar tabelas de preços por equipamento ou cliente?",
+          "answer": "Sim. É possível manter preços padrão por equipamento, múltiplas tabelas e condições específicas por cliente para uso nas próximas locações."
+        },
+        {
+          "id": "financeiro-locacoes",
+          "question": "O financeiro fica integrado às locações?",
+          "answer": "Sim. O Sistema Laser conecta contas a receber, contas a pagar, bancos, caixas, fluxo de caixa, DRE e cobranças às locações."
+        },
+        {
+          "id": "outros-segmentos",
+          "question": "Por que um sistema chamado Sistema Laser atende outros setores?",
+          "answer": "A marca nasceu no mercado de locação de laser, mas a plataforma evoluiu para atender locadoras de máquinas, ferramentas, equipamentos corporativos, construção, audiovisual, eventos e outros ativos alugáveis."
+        },
+        {
+          "id": "controlar-manutencao",
+          "question": "Como controlar manutenção de equipamentos alugados?",
+          "answer": "Acompanhe reparos, custos, histórico, observações e disponibilidade no cadastro do ativo para evitar novas locações enquanto houver uma pendência."
+        },
+        {
+          "id": "localizar-equipamento",
+          "question": "Como saber onde está cada equipamento?",
+          "answer": "Use os registros da locação, cliente, endereço, período e responsável para consultar onde está cada ativo e quando deve retornar."
         }
       ]
     },
     {
       "id": "laser",
       "name": "Locadoras de laser",
-      "pages": ["sistema-locadora-laser.html"],
+      "pages": ["locadora-laser.html"],
       "questions": [
         {
           "id": "laser-agenda",
@@ -243,53 +254,6 @@
       ]
     },
     {
-      "id": "locacoes",
-      "name": "Software para locação de equipamentos",
-      "pages": ["software-locacao-equipamentos.html"],
-      "questions": [
-        {
-          "id": "planilha-software",
-          "question": "Qual é a diferença entre planilha e software de locação?",
-          "answer": "A planilha registra dados, mas não valida disponibilidade, não conecta contrato ao financeiro e não cria fluxo de trabalho. Um software organiza a rotina e reduz dependência de memória operacional."
-        },
-        {
-          "id": "controle-alugados",
-          "question": "Como controlar equipamentos alugados?",
-          "answer": "Cadastre cada equipamento, acompanhe status, agenda, responsável, cliente, movimentações, manutenção, documentos e valores. O ideal é que tudo esteja associado à locação correspondente."
-        },
-        {
-          "id": "contrato-locacao",
-          "question": "O software ajuda no contrato de locação?",
-          "answer": "Sim. O Sistema Laser permite trabalhar com contratos, minutas, recibos, protocolos e assinatura eletrônica conforme a estrutura do plano contratado."
-        },
-        {
-          "id": "preco-sistema",
-          "question": "Quanto custa um sistema para locadora?",
-          "answer": "No Sistema Laser, os planos começam em R$ 399 por mês, sem taxa de adesão. A escolha depende da quantidade de equipamentos, usuários e recursos necessários."
-        },
-        {
-          "id": "software-controla",
-          "question": "O que um software para locação de equipamentos precisa controlar?",
-          "answer": "Precisa controlar disponibilidade, agenda, cadastro de equipamentos, clientes, contratos, financeiro, manutenção, estoque, documentos, entregas, devoluções e relatórios."
-        },
-        {
-          "id": "outros-segmentos",
-          "question": "O Sistema Laser serve para locadoras fora do nicho médico ou laser?",
-          "answer": "Sim. A plataforma atende qualquer empresa de locação de equipamentos, incluindo equipamentos médicos e estéticos, construção civil, máquinas de café expresso, máquinas de grande porte, ferramentas, audiovisual e pequenos equipamentos."
-        },
-        {
-          "id": "conflitos-equipamentos",
-          "question": "Como evitar conflitos de agenda em equipamentos alugados?",
-          "answer": "A equipe deve consultar disponibilidade por equipamento, período, modelo e cliente antes de confirmar a locação, mantendo reservas e movimentações no mesmo sistema."
-        },
-        {
-          "id": "financeiro-locacoes",
-          "question": "O financeiro fica integrado às locações?",
-          "answer": "Sim. O Sistema Laser conecta contas a receber, contas a pagar, bancos, caixas, fluxo de caixa, DRE e cobranças às locações."
-        }
-      ]
-    },
-    {
       "id": "construcao",
       "name": "Locação para construção civil",
       "pages": ["software-locadora-construcao.html"],
@@ -308,6 +272,28 @@
           "id": "cobranca-construcao",
           "question": "Como controlar cobrança na locadora de construção?",
           "answer": "O financeiro deve estar vinculado à locação, com contas a receber, contas a pagar, bancos, caixas, fluxo de caixa e relatórios."
+        }
+      ]
+    },
+    {
+      "id": "eletronicos",
+      "name": "Locação de equipamentos eletrônicos",
+      "pages": ["software-locadora-eletronicos.html"],
+      "questions": [
+        {
+          "id": "maquinas-cafe",
+          "question": "O Sistema Laser atende locadoras de máquinas de café?",
+          "answer": "Sim. A plataforma permite organizar máquinas de café e outros equipamentos eletroeletrônicos por cliente, endereço, período, contrato, manutenção e cobrança."
+        },
+        {
+          "id": "audiovisual-eletronicos",
+          "question": "O sistema atende locação de equipamentos audiovisuais e corporativos?",
+          "answer": "Sim. Projetores, telas, equipamentos de áudio e vídeo, eletrônicos para eventos e outros ativos alugáveis podem ser controlados na mesma plataforma."
+        },
+        {
+          "id": "manutencao-eletronicos",
+          "question": "Como acompanhar manutenção e acessórios dos equipamentos?",
+          "answer": "Registre fotos, protocolos, observações, reparos, custos e itens relacionados ao ativo, mantendo o histórico conectado às locações e à disponibilidade."
         }
       ]
     },
