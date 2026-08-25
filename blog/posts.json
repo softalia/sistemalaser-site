@@ -4,6 +4,31 @@
     {
       "slug": "jornada-cliente-contexto-locadora",
       "title": "Jornada do cliente para locadora: contexto antes do contato",
+      "heroTitle": "Contexto antes da próxima oportunidade",
+      "description": "Três perguntas ajudam a equipe da locadora a recuperar o contexto de clientes atuais antes do próximo contato comercial.",
+      "seoTitle": "Jornada do cliente para locadora: contexto comercial",
+      "seoDescription": "Use a Jornada do Cliente do CRM para recuperar pedidos, histórico e oportunidades antes do próximo contato da locadora.",
+      "ogTitle": "Jornada do cliente para locadora com contexto",
+      "ogDescription": "Antes do próximo contato, recupere pedidos, histórico e oportunidades dos clientes atuais da locadora.",
+      "date": "2026-08-25T09:17:04.420791-03:00",
+      "modified": "2026-08-25T09:17:04.420791-03:00",
+      "category": "Gestão comercial",
+      "tags": [
+        "jornada do cliente para locadora",
+        "CRM para locadoras",
+        "histórico de clientes de locação",
+        "gestão comercial de locadora"
+      ],
+      "heroCopy": "Uma revisão curta de pedidos, histórico e próximos passos pode preparar melhor o próximo contato com clientes atuais.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/25/2026-08-25-manha-jornada-cliente-contexto-root-feed-01.png",
+      "url": "blog/jornada-cliente-contexto-locadora.html",
+      "contentHtml": "<p>Um cliente que já alugou da sua empresa não deveria ser tratado como se cada novo pedido começasse do zero. Antes de propor renovação, outro equipamento ou uma condição comercial, a equipe precisa recuperar o que já aconteceu e identificar o que ainda pede atenção. Essa é uma forma prática de usar a <strong>jornada do cliente para locadora</strong>: preservar contexto para que a próxima conversa seja mais adequada.</p>\n<h2>Comece pelo último pedido, não pela memória</h2>\n<p>Na rotina de uma locadora, o responsável pelo contato pode precisar procurar mensagens, anotações e conversas internas para lembrar detalhes da relação. Isso toma tempo e aumenta a chance de a conversa chegar sem contexto. Uma revisão curta antes do contato ajuda a equipe a começar por uma base mais consistente, sem transformar o processo em burocracia.</p>\n<p>O proprietário pode orientar essa revisão por três perguntas:</p>\n<ol><li><strong>Qual foi o último pedido?</strong> Entenda o ponto mais recente da relação, antes de oferecer algo novo.</li><li><strong>Há algo em andamento?</strong> Verifique se existe pendência, oportunidade ou acompanhamento que merece continuidade.</li><li><strong>Qual é o próximo passo?</strong> Defina uma ação possível, uma pessoa responsável e um prazo compatível com a operação.</li></ol>\n<h2>Histórico para orientar a conversa comercial</h2>\n<p>O objetivo não é criar um roteiro rígido para o relacionamento. Quem conversa com o cliente continua responsável por ouvir, negociar e decidir. O ganho potencial está em reduzir a dependência de lembretes isolados e em dar ao gestor uma trilha mais clara para acompanhar exceções, prioridades e oportunidades recorrentes.</p>\n<figure><img src=\"../images/2026/08/25/2026-08-25-manha-jornada-cliente-contexto-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para a equipe revisar antes de contactar um cliente da locadora\"><figcaption>Uma revisão curta pode preparar o próximo contato comercial.</figcaption></figure>\n<h2>Como o CRM pode apoiar esse processo</h2>\n<p>O <a href=\"../crm.html\">CRM para locadoras do Sistema Laser</a> informa que a Jornada do Cliente reúne pedidos e oportunidades relacionados aos clientes atuais, preservando histórico e contexto. O módulo também apresenta leads, negócios, tarefas, automações, formulários, agenda e relatórios. Conforme a página de <a href=\"../planos.html#pro\">planos Pro e Master</a>, o CRM está indicado nesses dois planos.</p>\n<figure><img src=\"../images/2026/08/25/2026-08-25-manha-jornada-cliente-contexto-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Diagrama editorial que conecta pedidos, histórico e oportunidades do cliente\"><figcaption>Contexto pode apoiar a continuidade do acompanhamento comercial.</figcaption></figure>\n<p>Esses recursos não substituem o relacionamento nem o julgamento de quem negocia. Eles podem apoiar uma rotina com menos buscas repetidas e uma trilha mais clara para a equipe e para a gestão. Para avaliar o encaixe na sua operação, veja as <a href=\"../funcionalidades.html#crm\">funcionalidades de CRM</a>, confira os <a href=\"../planos.html#pro\">planos Pro e Master</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcdngLilI3G/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
+      "slug": "jornada-cliente-contexto-locadora",
+      "title": "Jornada do cliente para locadora: contexto antes do contato",
       "heroTitle": "Cliente atual não é só a última locação",
       "description": "Organize o contexto de pedidos e oportunidades antes do próximo contato comercial da sua locadora.",
       "seoTitle": "Jornada do cliente para locadora: próximo contato",
