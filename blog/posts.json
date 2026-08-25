@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "protocolo-entrega-locadora-evidencias",
+      "title": "Protocolo de entrega para locadora: evidências com critério",
+      "heroTitle": "Antes da saída, registre o ponto de partida",
+      "description": "Use um protocolo de entrega para registrar condição, fotos e responsável antes da saída de um equipamento alugado.",
+      "seoTitle": "Protocolo de entrega para locadora: registros e evidências",
+      "seoDescription": "Aprenda a registrar condição, fotos e assinatura antes da saída para manter a conferência de locação clara, consultável e ligada ao equipamento.",
+      "ogTitle": "Protocolo de entrega para locadora com critério",
+      "ogDescription": "Condição, fotos e assinatura podem dar contexto à conferência antes da saída do equipamento.",
+      "date": "2026-08-25T15:35:09.190652-03:00",
+      "modified": "2026-08-25T15:35:09.190652-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "protocolo de entrega para locadora de equipamentos",
+        "conferência de entrega de equipamentos",
+        "fotos vinculadas à locação",
+        "assinatura do responsável na locação"
+      ],
+      "heroCopy": "Uma conferência bem definida começa antes da saída: registre o que precisa permanecer claro quando a locação for retomada.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/25/2026-08-25-tarde-protocolo-saida-root-feed-01.png",
+      "url": "blog/protocolo-entrega-locadora-evidencias.html",
+      "contentHtml": "<p>Um <strong>protocolo de entrega para locadora de equipamentos</strong> ajuda a registrar o ponto de partida de uma locação antes que o ativo saia. A proposta não é transformar a retirada em burocracia nem substituir a conferência humana. É deixar claro o que foi observado, quem recebeu e quais evidências permanecem associadas à operação para consulta posterior.</p>\n<h2>Defina o que precisa ser conferido na saída</h2>\n<p>O primeiro passo é separar o essencial do acessório. Para cada tipo de equipamento, a equipe pode precisar verificar condição aparente, itens que acompanham o ativo e orientações específicas da entrega. Um roteiro curto e adequado à operação reduz a dependência de memória e evita que a conferência varie apenas conforme a pessoa escalada naquele dia.</p>\n<p>Antes de liberar uma saída, o proprietário pode alinhar três perguntas: qual condição precisa ficar registrada, em que situação as fotos ajudam a evidenciar a entrega e quem confirma o recebimento. Essas definições não substituem o critério técnico; elas dão uma base comum para a equipe executar e para a gestão revisar exceções.</p>\n<h2>Fotos e assinatura têm função quando ficam no contexto certo</h2>\n<p>Uma foto sem vínculo com a locação pode virar apenas mais um arquivo. Uma assinatura isolada também pode ser difícil de retomar quando surge uma dúvida. O valor do registro está em manter fotos, respostas e identificação do responsável conectados à entrega correspondente. Assim, uma devolução, uma orientação ao cliente ou uma divergência pode ser analisada a partir de evidências consultáveis, sem reconstruir o histórico em mensagens dispersas.</p>\n<p>A rotina continua humana: alguém precisa observar, decidir o que merece atenção e conversar quando houver exceção. O protocolo apoia essa decisão ao organizar o que foi registrado antes e depois do uso.</p>\n<h2>Como os protocolos do Sistema Laser podem apoiar</h2>\n<p>O Sistema Laser informa <a href=\"../funcionalidades.html#protocolos\">protocolos de início e fim de atendimento</a> personalizáveis, com registros de condição, fotos vinculadas à locação, assinatura do responsável, conferência de entrega e devolução e histórico de evidências. A página de <a href=\"../erp-locadora.html#protocolos\">ERP para locadoras</a> reforça que fotos, respostas e assinaturas podem formar um histórico consultável associado à locação.</p>\n<p>Na prática, vale começar por uma modalidade de equipamento ou por uma saída recorrente e ajustar o protocolo com a equipe. Depois, verifique como ele se relaciona com os <a href=\"../assinatura-eletronica.html\">documentos e assinaturas</a> usados pela empresa. Para avaliar uma configuração compatível com sua operação, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DceSxPzGOTN/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "jornada-cliente-contexto-locadora",
       "title": "Jornada do cliente para locadora: contexto antes do contato",
       "heroTitle": "Cliente atual não é só a última locação",
