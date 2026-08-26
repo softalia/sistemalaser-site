@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { buildFaq } from './build-faq.mjs';
+import { renderFooter } from './footer-html.mjs';
 import { minifyHtmlDirectory } from './minify-html.mjs';
 
 const root = process.cwd();
@@ -142,6 +143,28 @@ function htmlFiles(directory) {
     if (entry.isDirectory()) return htmlFiles(file);
     return entry.isFile() && entry.name.endsWith('.html') ? [file] : [];
   });
+}
+
+function injectFooter(directory) {
+  for (const file of htmlFiles(directory)) {
+    let html = fs.readFileSync(file, 'utf8');
+    html = html.replace(
+      /\s*<script defer src="(?:\.\.\/)?assets\/js\/footer-2026\.js"><\/script>/,
+      '',
+    );
+    const relative = path.relative(directory, file);
+    const prefix = relative.split(path.sep)[0] === 'blog' ? '../' : '';
+    const footer = renderFooter(prefix);
+    if (/<a\b[^>]*\bdata-generated-whatsapp-fab\b/.test(html)) {
+      html = html.replace(
+        /<a\b[^>]*\bdata-generated-whatsapp-fab\b[\s\S]*?<\/a>/,
+        (fab) => `${footer}${fab}`,
+      );
+    } else {
+      html = html.replace('</body>', `${footer}</body>`);
+    }
+    fs.writeFileSync(file, html);
+  }
 }
 
 function injectWhatsappFab(directory) {
@@ -480,7 +503,6 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/site-2026.css">
   <script defer src="../assets/js/header-2026.js"></script>
-  <script defer src="../assets/js/footer-2026.js"></script>
   <script defer src="../assets/js/theme-2026.js"></script>
   <script type="application/json" id="post-meta">${jsonScript(postMeta)}</script>
   <script type="application/ld+json">${jsonScript(schema)}</script>
@@ -598,6 +620,7 @@ for (const post of posts) {
 fs.writeFileSync(sitemapFile, buildSitemap(posts));
 fs.writeFileSync(rssFile, buildRss(posts));
 buildFaq(root);
+injectFooter(distDir);
 injectWhatsappFab(distDir);
 const minifiedPages = await minifyHtmlDirectory(distDir);
 

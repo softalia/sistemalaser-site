@@ -12,7 +12,6 @@ on:
       - "*.html"
       - "assets/**"
       - "assets/js/header-2026.js"
-      - "assets/js/footer-2026.js"
       - "scripts/**/*.mjs"
       - "package*.json"
       - ".prettier*"

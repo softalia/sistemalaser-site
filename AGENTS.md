@@ -64,8 +64,10 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 ## Shared Layout
 
 - The shared top navigation lives in `assets/js/header-2026.js`.
-- The shared footer lives in `assets/js/footer-2026.js`.
-- Prefer improving these shared scripts over duplicating header or footer markup
+- The shared footer markup is generated at build time by `scripts/footer-html.mjs`
+  and injected into every generated page by `scripts/build-blog.mjs`. It is not
+  rendered by client-side JavaScript.
+- Prefer improving these shared sources over duplicating header or footer markup
   in individual pages.
 - These scripts must work from both root pages and generated `/blog/` pages.
 

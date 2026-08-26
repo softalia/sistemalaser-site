@@ -278,7 +278,6 @@ for (const file of [
   'faq.html',
   'faq/faq.json',
   'assets/js/header-2026.js',
-  'assets/js/footer-2026.js',
 ]) {
   assert(fs.existsSync(path.join(dist, file)), `dist/${file} missing`);
 }
@@ -362,6 +361,15 @@ for (const source of gallerySources) {
 
 for (const file of htmlFiles) {
   const html = read(file);
+  const footers = html.match(/<footer class="site-footer"/g) || [];
+  assert(
+    footers.length === 1,
+    `${file} must include exactly one build-time footer`,
+  );
+  assert(
+    !html.includes('footer-2026.js'),
+    `${file} must not reference the removed runtime footer script`,
+  );
   const whatsappButtons = html.match(/\bdata-generated-whatsapp-fab\b/g) || [];
   assert(
     whatsappButtons.length === 1,

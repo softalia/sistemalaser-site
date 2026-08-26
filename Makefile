@@ -28,6 +28,7 @@ validate: build ## Valida o site gerado, verificando se há erros de sintaxe e l
 	npm run format:check
 	node --check scripts/build-blog.mjs
 	node --check scripts/build-faq.mjs
+	node --check scripts/footer-html.mjs
 	node --check scripts/minify-html.mjs
 	node --check scripts/validate-site.mjs
 
