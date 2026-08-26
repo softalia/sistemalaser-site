@@ -51,7 +51,7 @@
       link('termos-uso.html') +
       '">Termos de Uso</a><a href="' +
       link('termos-privacidade.html') +
-      '">Privacidade</a></div></div><div class="footer-bottom">© 2005–2026 Sistema Laser® · Aliasoft Ltda. · CNPJ 54.344.272/0001-38 · INPI BR512019003013-3</div></div></footer>'
+      '">Privacidade</a><a class="footer-badge-link" href="https://launchbuff.com/products/sistema-laser-t97rjh" target="_blank" rel="noopener noreferrer" title="Featured on LaunchBuff"><img src="https://launchbuff.com/badge-featured-dark.svg" alt="Featured on LaunchBuff" width="128" height="40" loading="lazy"></a></div></div><div class="footer-bottom">© 2005–2026 Sistema Laser® · Aliasoft Ltda. · CNPJ 54.344.272/0001-38 · INPI BR512019003013-3</div></div></footer>'
     );
   }
   function render() {
