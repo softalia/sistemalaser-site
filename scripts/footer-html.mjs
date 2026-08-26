@@ -45,7 +45,7 @@ export function renderFooter(prefix) {
     '">Meta Partner</a><a class="footer-social-link" href="https://www.instagram.com/meusistemalaser" target="_blank" rel="me noopener"><svg class="footer-social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm-.17 2A3.03 3.03 0 0 0 4 7.03v9.94A3.03 3.03 0 0 0 7.03 20h9.94A3.03 3.03 0 0 0 20 16.97V7.03A3.03 3.03 0 0 0 16.97 4H7.03ZM18.5 5.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg><span>@meusistemalaser</span></a></div><div class="col-6 col-lg-2"><h3>Legal</h3><a href="' +
     link('termos-uso.html') +
     '">Termos de Uso</a><a href="' +
-    link('termos-privacidade.html') +
+    link('termos-privacidade.html') + 
     '">Privacidade</a><div class="footer-badges"><a class="footer-badge-link" href="https://launchbuff.com/products/sistema-laser-t97rjh" target="_blank" rel="noopener noreferrer" title="Featured on LaunchBuff"><img src="https://launchbuff.com/badge-featured-dark.svg" alt="Featured on LaunchBuff" width="153" height="48" loading="lazy"></a><a class="footer-badge-link" href="https://www.nxgntools.com/tools/sistema-laser?utm_source=sistema-laser" target="_blank" rel="noopener" title="Featured on NxGn Tools"><img src="https://www.nxgntools.com/api/embed/sistema-laser?type=FEATURED_ON&amp;hideUpvotes=true" alt="Featured on NxGn Tools" height="48" loading="lazy"></a></div></div></div><div class="footer-bottom">© 2005–2026 Sistema Laser® · Aliasoft Ltda. · CNPJ 54.344.272/0001-38 · INPI BR512019003013-3</div></div></footer>'
   );
 }
