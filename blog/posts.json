@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "conferencia-devolucao-evidencias",
+      "title": "Conferência de devolução: como comparar o início e o fim",
+      "heroTitle": "Devolveu? Compare antes de liberar",
+      "description": "Use uma conferência de devolução com contexto para comparar registros, identificar exceções e preparar a próxima locação.",
+      "seoTitle": "Conferência de devolução de equipamentos: guia para locadoras",
+      "seoDescription": "Entenda como comparar início e fim da locação, registrar exceções e manter fotos, respostas e assinatura ligadas ao retorno do equipamento.",
+      "ogTitle": "Conferência de devolução com contexto para locadoras",
+      "ogDescription": "Compare início e fim, trate exceções e mantenha evidências da locação no mesmo processo.",
+      "date": "2026-08-26T09:11:16.322377-03:00",
+      "modified": "2026-08-26T09:11:16.322377-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "conferência de devolução de equipamentos alugados",
+        "protocolo de devolução para locadora",
+        "controle de devolução de equipamentos",
+        "fotos de início e fim da locação"
+      ],
+      "heroCopy": "A devolução prepara a próxima locação quando a equipe consegue comparar o retorno com o que foi registrado na saída.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/08/26/2026-08-26-manha-devolucao-evidencias-root-feed-01.png",
+      "url": "blog/conferencia-devolucao-evidencias.html",
+      "contentHtml": "<p>A <strong>conferência de devolução de equipamentos alugados</strong> ajuda a decidir se o ativo pode seguir para a próxima locação ou se precisa de uma exceção. A resposta não está apenas em marcar “devolvido”: ela depende de comparar o que foi registrado na saída com o que a equipe encontra no retorno. Quando esse contexto fica no mesmo processo, o proprietário acompanha com mais clareza e a equipe não precisa reconstruir a história em mensagens ou pastas separadas.</p>\n<h2>Comece pelo que foi registrado na saída</h2>\n<p>Uma boa devolução começa antes da entrega. Para cada modalidade de equipamento, defina o que merece registro: condição aparente, itens que acompanham o ativo, fotos úteis e quem confirma o recebimento. O objetivo é criar um ponto de partida proporcional à operação, não aumentar burocracia. Esse padrão ajuda quem confere a saber o que procurar no retorno e permite que a gestão analise exceções com mais contexto.</p>\n<h2>Faça três perguntas no retorno</h2>\n<p>Na devolução, a equipe pode seguir uma sequência simples: o que consta no registro de saída, o que mudou no retorno e o que exige encaminhamento. A última pergunta pode levar a limpeza, manutenção, nova análise ou simplesmente à liberação do equipamento. A conferência humana continua indispensável; o protocolo organiza a informação para que a decisão não dependa apenas de memória.</p>\n<figure><img src=\"https://www.sistemalaser.com.br/blog/images/2026/08/26/2026-08-26-manha-devolucao-evidencias-root-feed-02.png\" alt=\"Três perguntas para conferir a devolução de um equipamento alugado\" width=\"1080\" height=\"1350\" loading=\"lazy\"><figcaption>Uma sequência curta ajuda a tornar visíveis as exceções.</figcaption></figure>\n<h2>Guarde as evidências junto da locação</h2>\n<p>Fotos, respostas e assinatura têm mais utilidade quando permanecem vinculadas à locação certa. Isso cria um histórico consultável para comparar início e fim, orientar a conversa com o cliente e recuperar o contexto de um equipamento sem buscar arquivos isolados. Também facilita a supervisão: o dono não precisa executar cada conferência, mas pode definir o padrão e acompanhar os casos que realmente pedem atenção.</p>\n<figure><img src=\"https://www.sistemalaser.com.br/blog/images/2026/08/26/2026-08-26-manha-devolucao-evidencias-root-feed-03.png\" alt=\"Fluxo de evidências entre saída, retorno e histórico da locação\" width=\"1080\" height=\"1350\" loading=\"lazy\"><figcaption>Saída, retorno e histórico podem formar uma mesma trilha operacional.</figcaption></figure>\n<h2>Como o Sistema Laser pode apoiar a rotina</h2>\n<p>O Sistema Laser apresenta <a href=\"../funcionalidades.html#protocolos\">protocolos de início e fim de atendimento</a> personalizáveis, com fotos vinculadas à locação e assinatura do responsável. A página de <a href=\"../erp-locadora.html#protocolos\">ERP para locadoras</a> descreve a conferência de entrega e devolução e um histórico associado ao equipamento e ao cliente. Vale alinhar o protocolo com os <a href=\"../assinatura-eletronica.html\">documentos e assinaturas</a> da operação e revisar o que realmente precisa ser conferido. Para conhecer uma configuração adequada à sua locadora, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcgLogZG5q9/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "protocolo-entrega-locadora-evidencias",
       "title": "Protocolo de entrega para locadora: evidências com critério",
       "heroTitle": "Antes da saída, registre o ponto de partida",
@@ -891,7 +916,11 @@
       "date": "2026-07-31",
       "modified": "2026-07-31",
       "category": "Produto",
-      "tags": ["Sistema Laser", "software para locadora", "modo escuro"],
+      "tags": [
+        "Sistema Laser",
+        "software para locadora",
+        "modo escuro"
+      ],
       "heroCopy": "O Sistema Laser ganhou um novo layout pensado para acompanhar a operação onde ela acontece.",
       "readingTime": 1,
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
@@ -911,7 +940,10 @@
       "date": "2026-07-20",
       "modified": "2026-07-20",
       "category": "Produto",
-      "tags": ["Sistema Laser", "software para locação de equipamentos"],
+      "tags": [
+        "Sistema Laser",
+        "software para locação de equipamentos"
+      ],
       "heroCopy": "A experiência foi reformulada para explicar com mais clareza como o software apoia locadoras de equipamentos.",
       "readingTime": 1,
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
@@ -1171,7 +1203,11 @@
       "date": "2024-04-19",
       "modified": "2024-04-19",
       "category": "Integrações",
-      "tags": ["integração para locadoras", "API locadora", "webhooks"],
+      "tags": [
+        "integração para locadoras",
+        "API locadora",
+        "webhooks"
+      ],
       "heroCopy": "Sistemas integrados reduzem digitação, aceleram cobranças e conectam atendimento, leads e dados internos.",
       "readingTime": 1,
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
