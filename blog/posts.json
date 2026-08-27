@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "documentos-vinculados-locacao",
+      "title": "Documentos vinculados à locação: organize o contexto",
+      "heroTitle": "Documento assinado precisa continuar no contexto",
+      "description": "Entenda como manter documentos, assinatura e locação no mesmo processo para consulta e acompanhamento mais claros.",
+      "seoTitle": "Documentos vinculados à locação para locadoras",
+      "seoDescription": "Veja como manter contratos, assinaturas e histórico ligados à locação para a equipe consultar o contexto sem procurar arquivos dispersos ou reconstruir o processo.",
+      "ogTitle": "Documentos e locação no mesmo contexto",
+      "ogDescription": "Assinatura é só uma etapa: o documento precisa seguir associado à locação, à situação e ao histórico da operação.",
+      "date": "2026-08-27T15:13:49.588-03:00",
+      "modified": "2026-08-27T15:13:49.588-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "documentos vinculados à locação",
+        "assinatura eletrônica para locadora",
+        "histórico de documentos da locação",
+        "contratos de locação organizados"
+      ],
+      "heroCopy": "Assinar é importante, mas a rotina ganha continuidade quando documento, situação e locação permanecem associados para consulta da equipe.",
+      "readingTime": "3 min",
+      "image": "http://sistemalaser.com.br/blog/images/2026/08/27/2026-08-27-tarde-documento-locacao-root-feed-01.png",
+      "url": "blog/documentos-vinculados-locacao.html",
+      "contentHtml": "<p><strong>Documentos vinculados à locação</strong> ajudam a manter o contexto operacional depois da assinatura. Quando um contrato, protocolo ou comunicado fica apenas em uma caixa de e-mail ou pasta separada, a equipe precisa procurar arquivos para responder uma dúvida simples: a que locação ele se refere, em que situação está e o que já aconteceu? O proprietário pode reduzir essa dependência de memória criando uma regra clara: o documento deve acompanhar o processo, não viver fora dele.</p>\n<h2>Por que a assinatura isolada cria retrabalho</h2>\n<p>Assinar um documento é uma etapa importante, mas não encerra a necessidade de acompanhamento. Uma nova pessoa da equipe pode precisar consultar o acordo, confirmar a situação ou recuperar uma evidência antes de uma entrega, uma devolução ou uma conversa com o cliente. Se o arquivo está distante da locação, cada consulta pede uma busca, uma interpretação e, às vezes, uma troca de mensagens para reconstruir o histórico.</p>\n<p>Isso não significa transformar a formalização em burocracia. Significa definir o mínimo de contexto que precisa permanecer visível: documento, locação correspondente, destinatários ou responsáveis, situação e histórico. A conferência humana continua essencial; o vínculo só evita que ela comece do zero.</p>\n<h2>Três vínculos que vale revisar</h2>\n<ul><li><strong>Locação correta:</strong> o documento precisa estar associado ao atendimento ou contrato a que se refere.</li><li><strong>Situação acompanhável:</strong> a equipe precisa saber se o documento aguarda assinatura, foi concluído ou foi enviado apenas para ciência.</li><li><strong>Histórico consultável:</strong> registros e evidências precisam poder ser retomados quando uma exceção exige atenção.</li></ul>\n<h2>Delegue a rotina sem perder o contexto</h2>\n<p>Uma boa delegação não pede que o proprietário acompanhe cada arquivo. Ela define quem prepara, quem confere o andamento e em que caso a gestão precisa ser envolvida. Assim, a equipe executa o fluxo com autonomia proporcional à função, enquanto o gestor olha para pendências e exceções relevantes. Antes de ajustar a rotina, vale alinhar os documentos com a <a href=\"../funcionalidades.html#documentos\">visão de documentos e evidências</a> e com os <a href=\"../funcionalidades.html#protocolos\">protocolos de atendimento</a> usados pela empresa.</p>\n<h2>Como o Sistema Laser pode apoiar</h2>\n<p>O Sistema Laser apresenta documentos enviados para assinatura eletrônica ou notificação, com acompanhamento por situação. Quando usados em uma locação, contratos, protocolos com fotos e outros documentos associados podem permanecer no mesmo registro, formando um histórico centralizado. A página de <a href=\"../assinatura-eletronica.html\">assinatura eletrônica</a> detalha o fluxo de preparar, enviar e acompanhar. Para avaliar uma configuração coerente com a sua operação, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcjZ22GiQJm/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "tarefas-crm-locadora-proximo-passo",
       "title": "Tarefas de CRM para locadoras: próximos passos claros",
       "heroTitle": "Próximo passo sem dono vira pendência",
