@@ -70,7 +70,7 @@ Node.
 make serve
 ```
 
-Gera `dist/` e sobe um servidor local em `http://localhost:8080`.
+Gera `dist/` e sobe um servidor local em `http://localhost:8083`.
 
 ## Teste local
 
@@ -87,8 +87,8 @@ make serve
 Depois acesse:
 
 ```text
-http://localhost:8080/
-http://localhost:8080/blog.html
+http://localhost:8083/
+http://localhost:8083/blog.html
 ```
 
 Esse teste serve o conteúdo de `dist/`, ou seja, a mesma estrutura que será

@@ -20,8 +20,8 @@ clean: ## Remove os arquivos gerados
 convert-assets-new-to-webp: ## Converte arquivos em assets/new para WebP e remove os originais
 	bash scripts/convert-assets-new-to-webp.sh assets/new
 
-serve: build ## Inicia um servidor local para testar o site em http://localhost:8080
-	python3 -m http.server 8080 --directory dist
+serve: build ## Inicia um servidor local para testar o site em http://localhost:8083
+	python3 -m http.server 8083 --directory dist
 
 validate: build ## Valida o site gerado, verificando se há erros de sintaxe e links quebrados
 	node scripts/validate-site.mjs
