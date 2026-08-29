@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "permissoes-responsabilidade-locadora",
+      "title": "Permissões de acesso para locadora: delegar com critério",
+      "heroTitle": "Delegar não é liberar tudo",
+      "description": "Três perguntas para definir permissões por responsabilidade e preservar a supervisão na locadora.",
+      "seoTitle": "Permissões de acesso para locadora: delegue com critério",
+      "seoDescription": "Aprenda a definir permissões de acesso por responsabilidade, dar contexto à equipe e preservar a supervisão da locadora.",
+      "ogTitle": "Permissões por responsabilidade na locadora",
+      "ogDescription": "Um roteiro prático para delegar com contexto sem liberar mais acesso do que a rotina exige.",
+      "date": "2026-08-29T17:41:50.316-03:00",
+      "modified": "2026-08-29T17:41:50.316-03:00",
+      "category": "Gestão operacional",
+      "tags": [
+        "permissões de acesso para locadora",
+        "permissionamento para locadora",
+        "acesso por usuário na locadora",
+        "delegar com controle"
+      ],
+      "heroCopy": "Acesso útil é o que permite executar bem uma responsabilidade, sem transformar a supervisão em um gargalo.",
+      "readingTime": "3 min",
+      "image": "https://sistemalaser.com.br/blog/images/2026/08/29/2026-08-29-manha-permissoes-root-rev2-feed-01.png",
+      "url": "blog/permissoes-responsabilidade-locadora.html",
+      "contentHtml": "<p><strong>Permissões de acesso para locadora</strong> começam pelo trabalho que cada função precisa realizar, não por uma regra genérica de confiança. Quando uma tarefa depende de mensagens, memória ou de acesso amplo demais, o proprietário tende a ser chamado para reconstruir o contexto. O objetivo é outro: dar à equipe a informação necessária para executar a etapa, enquanto a gestão preserva uma visão adequada para supervisionar exceções e áreas estratégicas.</p>\n<h2>Comece pela responsabilidade da rotina</h2>\n<p>Escolha uma rotina frequente, como preparar uma entrega, registrar uma confirmação ou acompanhar uma pendência ligada à locação. Em seguida, descreva o que a pessoa precisa fazer de fato. Um técnico pode precisar consultar informações para executar sua etapa; quem apoia a administração pode acompanhar dados ligados às locações; a gestão precisa visualizar o conjunto e decidir sobre exceções. Esses exemplos não são perfis prontos: são critérios para desenhar a configuração de acordo com a empresa.</p>\n<h2>Faça três perguntas antes de liberar um acesso</h2>\n<ol><li><strong>Qual etapa essa função executa?</strong> Comece pela responsabilidade prática.</li><li><strong>Que informação é necessária?</strong> Libere apenas o contexto que apoia a execução.</li><li><strong>O que permanece com a gestão?</strong> Defina quem acompanha decisões, exceções e informações estratégicas.</li></ol>\n<figure><img src=\"images/2026/08/29/2026-08-29-manha-permissoes-root-rev2-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Três perguntas para definir permissões de acesso na locadora\"><figcaption>Um roteiro curto ajuda a transformar acesso em critério de operação.</figcaption></figure>\n<h2>Delegue a execução e mantenha a supervisão</h2>\n<p>Permissionamento não substitui orientação, conferência humana ou liderança. Ele pode ajudar a tornar os combinados mais consultáveis e reduzir a dependência de repasses informais. A equipe ganha clareza sobre o que cabe à própria etapa, e o dono da locadora não precisa concentrar cada consulta. Em uma revisão periódica, vale verificar se os acessos ainda correspondem às responsabilidades atuais, especialmente quando a rotina, a equipe ou uma unidade mudam.</p>\n<h2>Como o Sistema Laser pode apoiar</h2>\n<p>O Sistema Laser informa <a href=\"../funcionalidades.html#rede\">perfis específicos de usuário e permissionamento refinado</a>. A plataforma também descreve <a href=\"../erp-locadora.html#agenda\">restrição de agenda por usuário</a>, além de recursos para acompanhar locações, equipamentos e protocolos. A configuração deve acompanhar o desenho da sua operação, sem presumir um perfil fixo para todas as empresas. Para avaliar os critérios mais adequados à sua locadora, <a href=\"../index.html#demonstracao\">agende uma demonstração</a> ou <a href=\"https://www.instagram.com/p/Dco0YK_CagP/\" target=\"_blank\" rel=\"noopener\">veja também esta publicação no Instagram</a>.</p>\n<figure><img src=\"images/2026/08/29/2026-08-29-manha-permissoes-root-rev2-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Matriz editorial que separa executar, acompanhar e supervisionar\"><figcaption>Execução, acompanhamento e supervisão podem exigir visões diferentes.</figcaption></figure>",
+      "author": "Olívia"
+    },
+    {
       "slug": "crm-configuravel-locadora",
       "title": "CRM configurável para locadora: processo comercial claro",
       "heroTitle": "Seu processo comercial cabe em um funil pronto?",
