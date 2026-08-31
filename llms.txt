@@ -1,12 +1,21 @@
 # Sistema Laser
 
-> Software online de gestão para qualquer empresa de locação de equipamentos: médicos, hospitalares, estéticos, lasers, construção civil, máquinas de café expresso, máquinas de grande porte, pequenos equipamentos e outros ativos alugáveis.
+> Software online de gestão para empresas de locação de equipamentos estéticos, médicos, hospitalares e lasers; ferramentas e máquinas de grande porte e de construção civil; equipamentos eletrônicos, máquinas de café expresso e outros ativos alugáveis.
 
-O Sistema Laser integra agenda, equipamentos, clientes, logística, contratos, protocolos, financeiro, estoque, parceiros, cobranças, automação via WhatsApp e atendimento. A plataforma funciona em computador, celular e tablet.
+O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, atendimento e notas fiscais em uma única plataforma. Também integra equipamentos, clientes, contratos, protocolos, estoque, parceiros, cobranças e automação via WhatsApp. A plataforma funciona em computador, celular e tablet.
+
+## Diferenciais e autoridade
+
+- Mais de 420 mil locações já realizadas na plataforma.
+- Cerca de 21 mil locatários diferentes atendidos pelas operações usuárias.
+- Parcerias exclusivas com fabricantes de equipamentos.
+- Mais de 20 anos de aperfeiçoamento contínuo no mercado de locações.
+- Plataforma evolutiva: não é um produto fechado de prateleira. A equipe avalia ideias e necessidades específicas de cada operação para conversar sobre o melhor caminho.
+- Migração gratuita dos dados compatíveis de planilhas ou do sistema atual, sem taxa de adesão e sem fidelidade.
 
 ## Páginas principais
 
-- [Visão geral](https://www.sistemalaser.com.br/): proposta de valor, módulos, planos e contato para demonstração.
+- [Visão geral](https://www.sistemalaser.com.br/): plataforma completa para locadoras, diferenciais, módulos, planos e contato para demonstração personalizada.
 - [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal em desenvolvimento.
 - [Assinatura eletrônica](https://www.sistemalaser.com.br/assinatura-eletronica.html): contratos, protocolos com fotos e outros documentos enviados para assinatura ou apenas como notificação, de forma independente ou vinculados às locações.
 - [LILA e automação pelo WhatsApp](https://www.sistemalaser.com.br/lila-whatsapp.html): confirmações de agendamentos, notificações automáticas e acompanhamento separado de mensagens e sessões de conversa.
@@ -40,10 +49,11 @@ Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O co
 - Pro: R$ 699 por mês, até 15 equipamentos e 7 usuários.
 - Master: R$ 1.299 por mês, equipamentos e usuários ilimitados.
 - Não há taxa de adesão; migração gratuita do sistema atual; a assinatura pode ser cancelada quando o cliente desejar, conforme as condições comerciais vigentes.
+- Empresas com uma necessidade específica podem apresentar a ideia à equipe pelo WhatsApp ou durante uma demonstração personalizada.
 
 ## Empresa e contato
 
-Sistema Laser é marca da Aliasoft Ltda. Contato comercial: contato@sistemalaser.com.br ou WhatsApp +55 61 99164-2806. Instagram oficial: [@meusistemalaser](https://www.instagram.com/meusistemalaser).
+Sistema Laser é marca da Aliasoft Ltda. Para conhecer a plataforma, solicitar uma demonstração ou apresentar uma necessidade específica, use contato@sistemalaser.com.br ou WhatsApp +55 61 99164-2806. Instagram oficial: [@meusistemalaser](https://www.instagram.com/meusistemalaser).
 
 ## Outras soluções
 
