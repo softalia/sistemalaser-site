@@ -280,7 +280,9 @@
           grid.innerHTML = items
             .map(function (post) {
               return (
-                '<div class="col-md-6 col-xl-3"><article class="module-card"><span class="eyebrow">' +
+                '<div class="col-md-6 col-xl-3"><a class="blog-card-link" href="' +
+                post.url +
+                '"><article class="module-card"><span class="eyebrow">' +
                 post.category +
                 '</span><h3>' +
                 post.title +
@@ -290,9 +292,7 @@
                 post.date +
                 '">' +
                 formatDate(post.date) +
-                '</time></p><a href="' +
-                post.url +
-                '">Ler postagem</a></article></div>'
+                '</time></p><span class="blog-card-cta">Ler postagem</span></article></a></div>'
               );
             })
             .join('');

@@ -37,6 +37,11 @@
           "answer": "A equipe realiza gratuitamente a migração dos dados compatíveis das suas planilhas ou do seu sistema atual."
         },
         {
+          "id": "necessidade-especifica",
+          "question": "O Sistema Laser pode atender uma necessidade específica da minha locadora?",
+          "answer": "O Sistema Laser não é um produto fechado de prateleira. A plataforma recebe aperfeiçoamentos contínuos e a equipe avalia ideias e necessidades específicas de cada operação para conversar sobre o melhor caminho."
+        },
+        {
           "id": "ramos-atendidos",
           "question": "Quais ramos de locação o Sistema Laser atende?",
           "answer": "O Sistema Laser atende qualquer empresa de locação de equipamentos, sejam equipamentos médicos, estéticos, de construção civil, máquinas de café expresso, máquinas de grande porte ou pequenos equipamentos."
