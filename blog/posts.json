@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "nfse-nacional-municipios-aderentes-locadoras",
+      "title": "NFS-e Nacional para locadoras em municípios aderentes",
+      "heroTitle": "NFS-e no Sistema Laser: o alcance previsto no lançamento",
+      "description": "Entenda como a adesão municipal ao Sistema Nacional se relaciona com a futura emissão de NFS-e pelo Sistema Laser.",
+      "seoTitle": "NFS-e Nacional para locadoras em municípios aderentes",
+      "seoDescription": "Entenda como municípios aderentes ao Sistema Nacional se relacionam com a futura emissão de NFS-e para locadoras brasileiras no Sistema Laser.",
+      "ogTitle": "NFS-e Nacional para locadoras: recurso em breve",
+      "ogDescription": "O Sistema Laser prepara a emissão integrada ao Emissor Nacional para municípios aderentes, com disponibilidade futura aos clientes.",
+      "date": "2026-09-01T09:24:58.980-03:00",
+      "modified": "2026-09-01T09:24:58.980-03:00",
+      "category": "Novidades",
+      "tags": [
+        "NFS-e Nacional para locadoras",
+        "municípios aderentes à NFS-e",
+        "Emissor Nacional da NFS-e",
+        "nota fiscal no Sistema Laser"
+      ],
+      "heroCopy": "A emissão fiscal está sendo preparada para integrar a operação da locadora, respeitando o alcance do Sistema Nacional e a adesão de cada município.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/01/2026-09-01-nfse-nacional-em-breve-root-feed-01.png",
+      "url": "blog/nfse-nacional-municipios-aderentes-locadoras.html",
+      "contentHtml": "<p>A futura <strong>NFS-e Nacional para locadoras</strong> dentro do Sistema Laser depende de um ponto importante: a adesão do município ao Sistema Nacional. A plataforma está sendo preparada para emitir a nota no mesmo ambiente em que a empresa já organiza clientes, locações, documentos, cobranças e financeiro. O recurso, porém, continua classificado como <strong>em breve</strong> e ainda não está disponível aos clientes.</p>\n<h2>O que significa integração com o Emissor Nacional</h2>\n<p>A proposta anunciada é emitir a Nota Fiscal de Serviço eletrônica diretamente pelo Sistema Laser, com integração ao Emissor Nacional. Isso aproxima o documento fiscal das informações da operação que já existem na plataforma e pode reduzir a necessidade de repetir dados em ferramentas separadas. A emissão não transforma o Sistema Laser em órgão fiscal: ela utiliza o padrão e o serviço nacional conforme as regras aplicáveis.</p>\n<figure><img src=\"images/2026/09/01/2026-09-01-nfse-nacional-em-breve-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Prévia anonimizada da emissão de NFS-e Nacional no Sistema Laser\"><figcaption>A tela divulgada é uma prévia do recurso que será disponibilizado futuramente.</figcaption></figure>\n<h2>Por que a adesão do município importa</h2>\n<p>No lançamento, a funcionalidade está prevista para os municípios que constarem como aderentes ao Sistema Nacional da NFS-e. Essa lista é mantida pelo serviço oficial e pode mudar. Por isso, a empresa deve confirmar a situação do próprio município e aguardar a comunicação de disponibilidade e condições do Sistema Laser. Não há, nesta publicação, promessa de data ou liberação imediata.</p>\n<p>A página de <a href=\"../nota-fiscal-eletronica.html\">Nota Fiscal Eletrônica Nacional</a> apresenta o estado atual da novidade e direciona para o monitoramento oficial de adesões.</p>\n<h2>O que sua locadora pode conhecer hoje</h2>\n<p>Enquanto a NFS-e não chega, a plataforma já oferece recursos para agenda, locações, clientes, documentos, cobranças e <a href=\"../sistema-financeiro-locadora.html\">gestão financeira para locadoras</a>. Você também pode consultar o conjunto de <a href=\"../funcionalidades.html\">funcionalidades disponíveis</a> para avaliar o encaixe na sua operação.</p>\n<figure><img src=\"images/2026/09/01/2026-09-01-nfse-nacional-em-breve-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Proprietário de locadora convidado a conhecer a plataforma disponível hoje\"><figcaption>Conheça a operação atual e acompanhe a evolução da emissão fiscal.</figcaption></figure>\n<p>Para ver o Sistema Laser em funcionamento, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/Dcvp-NioJ6e/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "software-locadora-equipamentos-eletronicos",
       "title": "Software para locadora de equipamentos eletrônicos",
       "heroTitle": "Sua operação de eletrônicos pode trabalhar conectada",
