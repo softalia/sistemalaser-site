@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "cobranca-digital-locadora-construcao",
+      "title": "Cobrança digital para locadora de construção",
+      "heroTitle": "Pix, boleto e cartão ligados à locação de equipamentos",
+      "description": "Veja como manter cobranças por Pix, boleto e cartão vinculadas ao cliente e à locação de máquinas e ferramentas.",
+      "seoTitle": "Cobrança digital para locadora de equipamentos de construção",
+      "seoDescription": "Entenda como integrar Pix, boleto e cartão à locação de máquinas e ferramentas, mantendo cobrança, cliente e financeiro no mesmo contexto operacional.",
+      "ogTitle": "Pix, boleto e cartão para locadoras de construção",
+      "ogDescription": "Conheça a integração de cobranças do Sistema Laser para empresas que alugam máquinas, ferramentas e equipamentos de construção.",
+      "date": "2026-09-02T09:28:28.845-03:00",
+      "modified": "2026-09-02T09:28:28.845-03:00",
+      "category": "Financeiro",
+      "tags": [
+        "cobrança digital para locadora de construção",
+        "Pix para locadora de equipamentos",
+        "boleto para aluguel de máquinas",
+        "integração Asaas para locadora"
+      ],
+      "heroCopy": "A cobrança ganha contexto quando permanece associada ao cliente, à locação e ao financeiro da empresa.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/02/2026-09-02-cobrancas-construcao-root-feed-01.png",
+      "url": "blog/cobranca-digital-locadora-construcao.html",
+      "contentHtml": "<p>Uma <strong>cobrança digital para locadora de construção</strong> precisa continuar ligada ao aluguel que a originou. Quando máquinas, ferramentas, geradores, compressores ou plataformas saem para clientes e obras diferentes, o proprietário precisa identificar com clareza quem deve pagar, qual locação está relacionada e como acompanhar o recebimento. O Sistema Laser conecta esse contexto operacional à cobrança e ao financeiro.</p>\n<h2>Pix, boleto e cartão dentro do fluxo da locação</h2>\n<p>Nos planos compatíveis, a integração com o Asaas permite gerar cobranças por Pix, boleto e cartão de crédito. O registro permanece associado ao cliente e à locação, ajudando a equipe a consultar a origem do valor sem depender apenas de mensagens, comprovantes ou controles paralelos. A escolha do meio de pagamento pode seguir a negociação realizada com cada cliente.</p>\n<figure><img src=\"images/2026/09/02/2026-09-02-cobrancas-construcao-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Proprietária de locadora de construção consultando cobranças por Pix, boleto e cartão\"><figcaption>Os meios de pagamento podem permanecer conectados à operação que gerou a cobrança.</figcaption></figure>\n<h2>O papel da integração financeira</h2>\n<p>O Sistema Laser não atua como instituição financeira. O processamento ocorre por meio da <a href=\"../integracoes.html#asaas\">integração com o Asaas</a>, conforme a disponibilidade do plano e as condições do parceiro. A plataforma aproxima geração de cobrança, acompanhamento de pagamento e atualização do caixa. Isso oferece ao gestor uma referência comum para conversar com o cliente e supervisionar pendências.</p>\n<h2>Financeiro ligado a máquinas, clientes e contratos</h2>\n<p>Além das cobranças digitais, o <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a> reúne contas a receber e a pagar, caixas, bancos, fluxo de caixa, DRE e outras visões confirmadas no site. Receitas e despesas podem se relacionar a locações, equipamentos, manutenção, parceiros e filiais, preservando o contexto empresarial.</p>\n<figure><img src=\"images/2026/09/02/2026-09-02-cobrancas-construcao-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Cobrança e cliente apresentados no mesmo contexto de uma locadora de construção\"><figcaption>O acompanhamento financeiro pode partir da própria locação.</figcaption></figure>\n<h2>Conheça a solução para sua locadora</h2>\n<p>O Sistema Laser possui uma solução específica para <a href=\"../software-locadora-construcao.html\">locadoras de equipamentos de construção</a>. Para avaliar os recursos e os planos compatíveis com sua empresa, <a href=\"../index.html#demonstracao\">agende uma demonstração</a>. <a href=\"https://www.instagram.com/p/DcyPKuooDeo/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "nfse-nacional-municipios-aderentes-locadoras",
       "title": "NFS-e Nacional para locadoras em municípios aderentes",
       "heroTitle": "NFS-e no Sistema Laser: o alcance previsto no lançamento",
