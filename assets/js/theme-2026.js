@@ -7,9 +7,28 @@
   function resolved(value) {
     return value === 'auto' ? (media.matches ? 'dark' : 'light') : value;
   }
+  function sendThemeToPublicForm(iframe) {
+    var targetOrigin = iframe.getAttribute('data-sll-public-form-origin');
+    if (!targetOrigin || !iframe.contentWindow) return;
+    iframe.contentWindow.postMessage(
+      {
+        type: 'sll-public-form:set-theme',
+        version: 1,
+        theme:
+          document.documentElement.getAttribute('data-bs-theme') || 'light',
+      },
+      targetOrigin,
+    );
+  }
+  function syncPublicFormThemes() {
+    document
+      .querySelectorAll('iframe[data-sll-public-form]')
+      .forEach(sendThemeToPublicForm);
+  }
   function apply(value) {
     document.documentElement.setAttribute('data-bs-theme', resolved(value));
     document.documentElement.setAttribute('data-theme-preference', value);
+    syncPublicFormThemes();
   }
   function update() {
     var value = preference();
@@ -25,6 +44,14 @@
   });
   document.addEventListener('DOMContentLoaded', function () {
     update();
+    document
+      .querySelectorAll('iframe[data-sll-public-form]')
+      .forEach(function (iframe) {
+        iframe.addEventListener('load', function () {
+          sendThemeToPublicForm(iframe);
+        });
+      });
+    syncPublicFormThemes();
     document.querySelectorAll('[data-theme-set]').forEach(function (button) {
       button.addEventListener('click', function () {
         var value = button.getAttribute('data-theme-set');
@@ -34,5 +61,15 @@
         update();
       });
     });
+  });
+  window.addEventListener('message', function (event) {
+    var data = event.data || {};
+    if (data.type !== 'sll-public-form:ready' || data.version !== 1) return;
+    document
+      .querySelectorAll('iframe[data-sll-public-form]')
+      .forEach(function (iframe) {
+        if (iframe.contentWindow === event.source)
+          sendThemeToPublicForm(iframe);
+      });
   });
 })();
