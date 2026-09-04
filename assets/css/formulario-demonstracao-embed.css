@@ -3,24 +3,9 @@
  * Configure esta URL no formulário do tipo "Incorporar":
  * https://www.sistemalaser.com.br/assets/css/formulario-demonstracao-embed.css
  */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://www.sistemalaser.com.br/assets/fonts/lato-400.woff2") format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("https://www.sistemalaser.com.br/assets/fonts/lato-700.woff2") format("woff2");
-}
-
-.sll-public-form-page,
-.sll-public-form {
+.sll-public-form--theme-light {
   color-scheme: light;
   --sl-primary: #5456c7;
   --sl-primary-strong: #3f42aa;
@@ -30,6 +15,18 @@
   --sl-text-faint: #686a7b;
   --sl-border: #dedfea;
   --sl-shadow: 0 18px 50px rgba(30, 32, 72, 0.1);
+}
+
+.sll-public-form--theme-dark {
+  color-scheme: dark;
+  --sl-primary: #9d9aff;
+  --sl-primary-strong: #b4b2ff;
+  --sl-bg: #151621;
+  --sl-surface-raised: #222334;
+  --sl-text: #f4f4fa;
+  --sl-text-faint: #9b9dac;
+  --sl-border: #37384b;
+  --sl-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
 }
 
 *,
@@ -134,6 +131,10 @@
   border-color: var(--sl-primary-strong);
 }
 
+.sll-public-form--theme-dark .sll-public-form__submit {
+  color: #17182f;
+}
+
 .sll-public-form__submit:focus-visible {
   outline: 3px solid rgb(84 86 199 / 35%);
   outline-offset: 2px;
@@ -183,15 +184,6 @@
   background: #f8d7da;
 }
 
-/* Mantém a área do iframe sem bordas próprias no documento hospedeiro. */
-.demonstracao-form-embed {
-  display: block;
-  width: 100%;
-  height: 37.5rem;
-  border: 0;
-  background: transparent;
-}
-
 @media (min-width: 768px) {
   .sll-public-form__form .col-md-2 {
     width: 16.666667%;
@@ -219,11 +211,5 @@
 
   .sll-public-form__form .col-md-12 {
     width: 100%;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .demonstracao-form-embed {
-    height: 42rem;
   }
 }
