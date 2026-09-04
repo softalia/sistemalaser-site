@@ -5,6 +5,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
+.sll-public-form-page--theme-light,
 .sll-public-form--theme-light {
   color-scheme: light;
   --sl-primary: #5456c7;
@@ -17,6 +18,7 @@
   --sl-shadow: 0 18px 50px rgba(30, 32, 72, 0.1);
 }
 
+.sll-public-form-page--theme-dark,
 .sll-public-form--theme-dark {
   color-scheme: dark;
   --sl-primary: #9d9aff;
@@ -37,7 +39,8 @@
 
 .sll-public-form-page {
   margin: 0;
-  background: transparent !important;
+  min-height: 100vh;
+  background: var(--sl-bg) !important;
   color: var(--sl-text);
   font-family: "Lato", system-ui, -apple-system, sans-serif;
   font-size: 16px;
@@ -155,6 +158,37 @@
   height: 1rem;
   margin: 0.36rem 0 0;
   accent-color: var(--sl-primary);
+}
+
+.sll-public-form__validation-feedback {
+  margin: 0 0 1rem;
+  padding: 0.8rem 1rem;
+  color: #842029;
+  background: #f8d7da;
+  border: 1px solid #f1aeb5;
+  border-radius: 0.65rem;
+  font-weight: 700;
+}
+
+.sll-public-form--theme-dark .sll-public-form__validation-feedback {
+  color: #ffb8c1;
+  background: #4a2028;
+  border-color: #8d3b4b;
+}
+
+.sll-public-form__form.was-validated .form-control:invalid,
+.sll-public-form__form.was-validated .sll-public-form__control:invalid {
+  border-color: #dc3545;
+}
+
+.sll-public-form__form.was-validated .form-control:invalid:focus,
+.sll-public-form__form.was-validated .sll-public-form__control:invalid:focus {
+  box-shadow: 0 0 0 0.2rem rgb(220 53 69 / 25%);
+}
+
+.sll-public-form__form.was-validated .form-check-input:invalid {
+  outline: 2px solid #dc3545;
+  outline-offset: 2px;
 }
 
 .sll-public-form__form a {
