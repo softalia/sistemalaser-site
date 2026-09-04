@@ -1,0 +1,229 @@
+/*
+ * Formulário público do Sistema Laser incorporado por iframe.
+ * Configure esta URL no formulário do tipo "Incorporar":
+ * https://www.sistemalaser.com.br/assets/css/formulario-demonstracao-embed.css
+ */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://www.sistemalaser.com.br/assets/fonts/lato-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://www.sistemalaser.com.br/assets/fonts/lato-700.woff2") format("woff2");
+}
+
+.sll-public-form-page,
+.sll-public-form {
+  color-scheme: light;
+  --sl-primary: #5456c7;
+  --sl-primary-strong: #3f42aa;
+  --sl-bg: #ffffff;
+  --sl-surface-raised: #ffffff;
+  --sl-text: #18192f;
+  --sl-text-faint: #686a7b;
+  --sl-border: #dedfea;
+  --sl-shadow: 0 18px 50px rgba(30, 32, 72, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sll-public-form-page {
+  margin: 0;
+  background: transparent !important;
+  color: var(--sl-text);
+  font-family: "Lato", system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.sll-public-form__form {
+  margin: 0;
+  padding: 1.4rem;
+  background: var(--sl-surface-raised);
+  border: 1px solid var(--sl-border);
+  border-radius: 1rem;
+  box-shadow: var(--sl-shadow);
+}
+
+/* O título e subtítulo já são apresentados ao lado do formulário no site. */
+.sll-public-form__title,
+.sll-public-form__subtitle {
+  display: none;
+}
+
+.sll-public-form__form .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem 1rem;
+}
+
+.sll-public-form__form .row > [class^="col-"],
+.sll-public-form__form .row > [class*=" col-"] {
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.sll-public-form__label,
+.sll-public-form__form .form-label,
+.sll-public-form__form .form-check-label {
+  color: var(--sl-text);
+  font-weight: 700;
+}
+
+.sll-public-form__control,
+.sll-public-form__form .form-control {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + 1.6rem + 2px);
+  padding: 0.8rem;
+  color: var(--sl-text);
+  font: inherit;
+  line-height: 1.5;
+  background: var(--sl-bg);
+  border: 1px solid var(--sl-border);
+  border-radius: 0.65rem;
+  outline: 0;
+}
+
+.sll-public-form__control:focus,
+.sll-public-form__form .form-control:focus {
+  border-color: var(--sl-primary);
+  box-shadow: 0 0 0 0.2rem rgb(84 86 199 / 18%);
+}
+
+.sll-public-form__control::placeholder,
+.sll-public-form__form .form-control::placeholder {
+  color: var(--sl-text-faint);
+  opacity: 1;
+}
+
+.sll-public-form__form textarea.sll-public-form__control,
+.sll-public-form__form textarea.form-control {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.sll-public-form__submit {
+  display: block;
+  width: 100%;
+  padding: 0.72rem 1.1rem;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+  background: var(--sl-primary);
+  border: 1px solid var(--sl-primary);
+  border-radius: 0.7rem;
+}
+
+.sll-public-form__submit:hover,
+.sll-public-form__submit:focus-visible {
+  background: var(--sl-primary-strong);
+  border-color: var(--sl-primary-strong);
+}
+
+.sll-public-form__submit:focus-visible {
+  outline: 3px solid rgb(84 86 199 / 35%);
+  outline-offset: 2px;
+}
+
+.sll-public-form__form .form-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.sll-public-form__form .form-check + .form-check {
+  margin-top: 0.5rem;
+}
+
+.sll-public-form__form .form-check-input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.36rem 0 0;
+  accent-color: var(--sl-primary);
+}
+
+.sll-public-form__form a {
+  color: var(--sl-primary);
+}
+
+.sll-public-form__field-example,
+.sll-public-form__section-example {
+  margin-top: 0.25rem;
+  color: var(--sl-text-faint);
+  font-size: 0.875rem;
+}
+
+.sll-public-form__form .alert {
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.65rem;
+}
+
+.sll-public-form__form .alert-success {
+  color: #0f5132;
+  background: #d1e7dd;
+}
+
+.sll-public-form__form .alert-danger {
+  color: #842029;
+  background: #f8d7da;
+}
+
+/* Mantém a área do iframe sem bordas próprias no documento hospedeiro. */
+.demonstracao-form-embed {
+  display: block;
+  width: 100%;
+  height: 37.5rem;
+  border: 0;
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  .sll-public-form__form .col-md-2 {
+    width: 16.666667%;
+  }
+
+  .sll-public-form__form .col-md-3 {
+    width: 25%;
+  }
+
+  .sll-public-form__form .col-md-4 {
+    width: 33.333333%;
+  }
+
+  .sll-public-form__form .col-md-6 {
+    width: 50%;
+  }
+
+  .sll-public-form__form .col-md-7 {
+    width: 58.333333%;
+  }
+
+  .sll-public-form__form .col-md-8 {
+    width: 66.666667%;
+  }
+
+  .sll-public-form__form .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .demonstracao-form-embed {
+    height: 42rem;
+  }
+}
