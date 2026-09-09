@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "manutencao-laser-antes-nova-locacao",
+      "title": "Manutenção de laser antes de uma nova locação",
+      "heroTitle": "O histórico do ativo ajuda a decidir a próxima locação",
+      "description": "Veja quais registros consultar antes de liberar um laser ou equipamento médico para uma nova locação.",
+      "seoTitle": "Manutenção de laser antes de uma nova locação",
+      "seoDescription": "Saiba como consultar cadastro, histórico de locações, reparos, custos e disponibilidade antes de liberar um equipamento laser alugado.",
+      "ogTitle": "Seu laser está pronto para uma nova locação?",
+      "ogDescription": "Um processo prático para usar histórico e manutenção na decisão de liberar equipamentos médicos e estéticos.",
+      "date": "2026-09-09T09:35:11.834-03:00",
+      "modified": "2026-09-09T09:35:11.834-03:00",
+      "category": "Gestão de Equipamentos",
+      "tags": [
+        "manutenção de laser",
+        "locadora de equipamentos médicos",
+        "histórico do ativo",
+        "gestão de locações"
+      ],
+      "heroCopy": "Cadastro, histórico, reparos e disponibilidade formam o contexto operacional antes de uma nova locação.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/09/2026-09-09-feed-01-historico-manutencao-laser-root.png",
+      "url": "blog/manutencao-laser-antes-nova-locacao.html",
+      "contentHtml": "<p>Antes de liberar um laser ou equipamento médico para uma nova locação, o proprietário precisa verificar se o ativo está disponível e se o histórico recente permite uma decisão segura. A manutenção de laser não deve ficar isolada em mensagens ou lembranças: ela precisa fazer parte do contexto da operação.</p><h2>O que consultar antes de liberar o equipamento</h2><p>Comece pelo cadastro individual do ativo. Confirme qual equipamento será enviado, onde ele esteve, quem foi responsável pela última locação e se existe algum registro de reparo ou custo que mereça atenção. Em uma locadora de equipamentos médicos, essa consulta ajuda a separar a pressão comercial da decisão operacional.</p><p>Também vale relacionar manutenção e disponibilidade. Um horário livre na agenda não significa, por si só, que o laser esteja pronto para uso. O critério de liberação deve considerar o histórico conhecido e a conferência humana da equipe.</p><figure><img src=\"images/2026/09/09/2026-09-09-feed-02-historico-manutencao-laser-root.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Fluxo editorial com cadastro, histórico de locações, reparos e custos antes da liberação do equipamento\"><figcaption>O histórico do ativo oferece contexto para a decisão operacional.</figcaption></figure><h2>Transforme registros em critério de liberação</h2><ul><li>Identifique o equipamento pelo cadastro individual.</li><li>Consulte o histórico das locações anteriores.</li><li>Revise manutenções, reparos e custos registrados.</li><li>Confirme a disponibilidade conectada à agenda.</li></ul><p>Esse processo não substitui inspeção técnica, liderança ou conferência humana. Ele organiza as informações que sustentam essas decisões e reduz a dependência de conversas dispersas.</p><h2>Como o Sistema Laser apoia essa rotina</h2><p>O <a href=\"../software-locadora-medica.html\">software para locadoras médicas e hospitalares</a> reúne agenda, equipamentos, responsáveis, manutenção, protocolos e documentos. Na área de <a href=\"../funcionalidades.html#ativos\">equipamentos, estoque e manutenção</a>, o Sistema Laser apresenta cadastro individual, localização por cliente e período, histórico de locações, reparos, custos, consumíveis e disponibilidade conectada à agenda.</p><figure><img src=\"images/2026/09/09/2026-09-09-feed-03-historico-manutencao-laser-root.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Disponibilidade, histórico e manutenção reunidos como contexto para uma nova locação\"><figcaption>Informação organizada pode apoiar uma liberação mais consciente.</figcaption></figure><p>Para conhecer o fluxo completo, veja o <a href=\"../erp-locadora.html\">ERP especializado em locações</a>. <a href=\"https://www.instagram.com/p/DdERgDuFdRk/\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "agenda-disponibilidade-locadora-construcao",
       "title": "Agenda para locadora de construção: consulte antes de prometer",
       "heroTitle": "Consulte a disponibilidade antes de confirmar a locação",
