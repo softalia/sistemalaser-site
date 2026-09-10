@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "comodato-laser-proprietario-locacao",
+      "title": "Comodato de equipamentos laser: vincule proprietário e locação",
+      "heroTitle": "De quem é cada laser da sua operação?",
+      "description": "Veja como relacionar proprietário, equipamento em comodato e locações para organizar a conferência com parceiros.",
+      "seoTitle": "Comodato de laser: proprietário e locação conectados",
+      "seoDescription": "Organize o comodato de equipamentos laser relacionando proprietário, ativo e locações para dar contexto ao fechamento operacional de cada parceiro.",
+      "ogTitle": "De quem é cada laser da sua operação?",
+      "ogDescription": "Um processo prático para organizar proprietário, equipamento em comodato, locações e fechamento por parceiro.",
+      "date": "2026-09-10T17:23:58-03:00",
+      "modified": "2026-09-10T17:23:58-03:00",
+      "category": "Gestão de Equipamentos",
+      "tags": [
+        "comodato de equipamentos laser",
+        "laser de parceiro",
+        "locadora de equipamentos médicos",
+        "gestão de locações"
+      ],
+      "heroCopy": "Identificar o proprietário e relacionar o ativo às locações preserva o contexto de cada parceria.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/10/2026-09-10-comodato-lasers-root-feed-01.png",
+      "url": "blog/comodato-laser-proprietario-locacao.html",
+      "contentHtml": "<p>No comodato de equipamentos laser, identificar o proprietário do ativo é o primeiro passo para organizar a parceria. O vínculo precisa acompanhar o equipamento e as locações relacionadas a ele. Dessa forma, o dono da locadora consulta o contexto da operação antes de conferir o fechamento de cada parceiro.</p><h2>Comece pelo proprietário do equipamento</h2><p>Uma locadora pode administrar ativos próprios e equipamentos de terceiros. Por isso, o cadastro deve deixar claro quem responde por cada laser em comodato. Essa identificação ajuda a equipe a encontrar o equipamento certo e dá ao gestor uma referência objetiva para revisar movimentações, períodos e responsabilidades.</p><p>O processo fica mais consistente quando três informações permanecem conectadas: proprietário, equipamento e locações. A tecnologia organiza esses registros, mas a conferência humana continua essencial para tratar exceções, validar acordos e tomar decisões.</p><figure><img src=\"images/2026/09/10/2026-09-10-comodato-lasers-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Diagrama que relaciona proprietário, equipamento em comodato e locações\"><figcaption>Três vínculos preservam o contexto operacional da parceria.</figcaption></figure><h2>Relacione o ativo às locações</h2><p>Depois de identificar o proprietário, associe o equipamento às locações em que ele participou. Esse histórico permite entender onde o ativo foi utilizado e oferece uma base organizada para o fechamento por parceiro. Também reduz a dependência de mensagens dispersas e controles paralelos que podem perder contexto com o tempo.</p><p>Para o proprietário da locadora, o benefício potencial é acompanhar a parceria com mais rastreabilidade, sem centralizar cada detalhe na própria memória. A equipe pode executar a rotina com registros estruturados, enquanto a liderança mantém a visão necessária para supervisão e conferência.</p><h2>Como o Sistema Laser apoia comodatos e parceiros</h2><p>O <a href=\"../software-locadora-medica.html\">software para locadoras médicas e estéticas</a> atende operações com equipamentos médicos, hospitalares e tecnologias para clínicas. Entre as <a href=\"../funcionalidades.html#ativos\">funções de equipamentos e ativos</a>, o Sistema Laser permite administrar proprietários e equipamentos em comodato. Na área de <a href=\"../funcionalidades.html#rede\">filiais, parceiros e comodatos</a>, também contempla equipamentos de proprietários parceiros e fechamento por parceiro.</p><figure><img src=\"images/2026/09/10/2026-09-10-comodato-lasers-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Gestora e técnico conferindo um equipamento laser em uma operação organizada\"><figcaption>Informações reunidas apoiam uma conferência mais contextualizada.</figcaption></figure><p><a href=\"https://www.instagram.com/p/DdHr8AAHztJ/\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a> para conhecer esse fluxo.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "fluxo-de-caixa-projetado-locadora-equipamentos",
       "title": "Fluxo de caixa projetado para locadoras de equipamentos",
       "heroTitle": "Antecipe o saldo futuro antes de comprometer o caixa da locadora",
