@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "confirmacao-automatica-locacao-laser-lila",
+      "title": "Confirmação automática de locação de laser com a LILA",
+      "heroTitle": "Confirme locações de laser sem sobrecarregar a equipe",
+      "description": "Entenda como confirmações e notificações automáticas podem organizar a comunicação de uma locadora de lasers.",
+      "seoTitle": "Confirmação automática de locação de laser | LILA",
+      "seoDescription": "Veja como a LILA organiza confirmações de locações de lasers, notificações pelo WhatsApp e resultados de conversas na operação da locadora.",
+      "ogTitle": "Confirme locações de laser com a LILA",
+      "ogDescription": "Automação para confirmações, notificações e acompanhamento de conversas em locadoras de lasers médicos e estéticos.",
+      "date": "2026-09-11T09:29:33-03:00",
+      "modified": "2026-09-11T09:29:33-03:00",
+      "category": "Automação",
+      "tags": [
+        "confirmação automática de locação",
+        "LILA",
+        "locadora de laser",
+        "automação pelo WhatsApp"
+      ],
+      "heroCopy": "A LILA conduz confirmações e notificações automáticas, enquanto a equipe acompanha resultados e exceções.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/11/2026-09-11-lila-confirmacoes-laser-root-feed-01.png",
+      "url": "blog/confirmacao-automatica-locacao-laser-lila.html",
+      "contentHtml": "<p>A confirmação automática de locação de laser pode organizar uma etapa que costuma consumir atenção diária da equipe. No Sistema Laser, a LILA conduz fluxos automáticos pelo WhatsApp, incluindo confirmações de agendamentos e notificações. Para a locadora, o objetivo é dar visibilidade ao andamento das conversas sem transformar cada confirmação em uma troca manual.</p><h2>Confirmações conectadas à rotina da locadora</h2><p>Antes da entrega de um laser médico ou estético, a equipe precisa saber se o agendamento continua válido e se existe alguma exceção a tratar. Quando a confirmação fica dispersa em conversas individuais, o proprietário depende da memória de quem atendeu. Um fluxo automático pode padronizar o contato inicial e deixar o atendimento humano disponível para situações que exigem contexto, negociação ou mudança operacional.</p><p>A automação não substitui o julgamento da equipe. Ela apoia uma rotina definida pela empresa e torna mais visível quando é necessário assumir a conversa.</p><figure><img src=\"images/2026/09/11/2026-09-11-lila-confirmacoes-laser-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Confirmação de agendamento e notificação pelo WhatsApp com resultado registrado\"><figcaption>Confirmação, notificação e resultado permanecem no mesmo fluxo.</figcaption></figure><h2>Acompanhe mensagens, sessões e resultados</h2><p>A página de <a href=\"../lila-whatsapp.html\">automação com a LILA</a> informa que mensagens automáticas e sessões de conversa são acompanhadas separadamente. O sistema também registra resultados como sucesso, ausência de resposta ou erro. Essa separação pode ajudar a gestão a reconhecer o que foi concluído e o que ainda pede intervenção.</p><p>Em uma locadora de equipamentos para clínicas, isso pode apoiar a comunicação antes da saída, reduzir consultas repetitivas e facilitar a supervisão das exceções. A equipe continua responsável por conferir horários, ajustar a operação e atender o cliente quando necessário.</p><h2>Como aplicar à locação de lasers</h2><p>Comece pelo momento em que a confirmação mais afeta a logística: por exemplo, antes da preparação do equipamento ou da definição da rota. Depois, combine quem acompanha resultados e como tratar reagendamentos ou cancelamentos. O <a href=\"../software-locadora-medica.html\">software para locadoras médicas e estéticas</a> reúne agenda, clientes, equipamentos, responsáveis e documentos; as <a href=\"../funcionalidades.html#lila\">funcionalidades da LILA</a> acrescentam automação e acompanhamento da mensageria.</p><figure><img src=\"images/2026/09/11/2026-09-11-lila-confirmacoes-laser-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Mensagens e sessões da LILA acompanhadas separadamente na locadora\"><figcaption>A gestão consulta o contexto e direciona a atenção para as exceções.</figcaption></figure><p><a href=\"https://www.instagram.com/p/DdJacYOFb4s/\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a> para conhecer o fluxo.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "comodato-laser-proprietario-locacao",
       "title": "Comodato de equipamentos laser: vincule proprietário e locação",
       "heroTitle": "De quem é cada laser da sua operação?",
