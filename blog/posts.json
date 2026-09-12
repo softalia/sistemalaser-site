@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+      "slug": "contrato-locacao-equipamentos-construcao",
+      "title": "Contrato de locação para construção civil: como formalizar antes da entrega na obra",
+      "heroTitle": "Contrato de locação para construção civil: segurança antes da entrega",
+      "description": "Veja como formalizar contratos de locação e termos de responsabilidade vinculados diretamente aos equipamentos de construção civil antes do envio à obra.",
+      "seoTitle": "Contrato de locação para construção civil: como formalizar antes da entrega",
+      "seoDescription": "Descubra como locadoras de equipamentos geram minutas e contratos integrados à locação, com assinatura eletrônica e respaldo jurídico para a entrega na obra.",
+      "ogTitle": "Contrato de locação para construção civil: como formalizar antes da entrega na obra",
+      "ogDescription": "Evite atritos na devolução de máquinas e ferramentas com contratos vinculados à locação e assinatura eletrônica no Sistema Laser.",
+      "date": "2026-09-12T14:26:40.471-03:00",
+      "modified": "2026-09-12T14:26:40.471-03:00",
+      "category": "Operacional",
+      "tags": [
+        "Construção civil",
+        "Contratos",
+        "Assinatura eletrônica",
+        "Gestão de locação",
+        "Equipamentos"
+      ],
+      "heroCopy": "Liberar máquinas para a obra sem contrato formalizado amplia riscos operacionais. Veja como integrar minutas, termos de responsabilidade e recibos diretamente ao aluguel.",
+      "readingTime": "3 min",
+      "image": "https://www.sistemalaser.com.br/blog/images/2026/09/12/2026-09-12-feed-01-contrato-locacao-construcao-geo.png",
+      "url": "blog/contrato-locacao-equipamentos-construcao.html",
+      "contentHtml": "<p>No setor de locação de máquinas, ferramentas e equipamentos pesados, a agilidade para despachar o ativo para o canteiro de obras não pode comprometer a segurança jurídica da empresa. Liberar um gerador, uma miniescavadeira ou um compactador sem contrato formalizado e sem recibo detalhado transfere para a locadora todos os riscos de divergências sobre avarias, prazos e responsabilidades de manutenção.</p><h2>Minutas e termos vinculados diretamente à locação</h2><p>Quando a locadora não conta com modelos integrados, qualquer alteração exige edição manual em arquivos externos, aumentando a chance de erros em números de série, horímetros, valores de frete e prazos acordados. Conforme apresentado na página de <a href=\"../software-locadora-construcao.html\">software para locadora de construção</a>, o Sistema Laser permite emitir contratos, recibos e termos diretamente na ficha da locação, com dados preenchidos de forma automática.</p><figure><img src=\"images/2026/09/12/2026-09-12-feed-02-contrato-locacao-construcao-geo.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Geração de contratos e documentos vinculados à locação no Sistema Laser\"><figcaption>A minuta traz automaticamente os dados do cliente, do equipamento e as condições comerciais negociadas.</figcaption></figure><p>Dessa forma, o atendente ou gestor de pátio emite minutas padronizadas, termos de responsabilidade por danos de terceiros e recibos provisórios em poucos cliques, mantendo o histórico de cada contrato salvo no cadastro do cliente e na respectiva locação para consultas futuras.</p><h2>Assinatura eletrônica antes da saída para a obra</h2><p>Com canteiros de obras distantes e gestores em deslocamento contínuo, coletar assinaturas físicas em papel atrasa a entrega e gera custos com deslocamento de malotes. Através da funcionalidade de <a href=\"../assinatura-eletronica.html\">assinatura eletrônica</a>, disponível nos planos Pro e Master, a locadora envia a minuta diretamente para o responsável pela obra formalizar digitalmente pelo celular.</p><figure><img src=\"images/2026/09/12/2026-09-12-feed-03-contrato-locacao-construcao-geo.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Formalização de contratos antes da liberação dos equipamentos para a obra\"><figcaption>Segurança jurídica e transparência mútua antes da máquina entrar em operação no canteiro.</figcaption></figure><p>O documento conta com validade jurídica e registro auditável, permitindo acompanhar em tempo real quais contratos já foram assinados e quais ainda estão pendentes. Isso protege o patrimônio da empresa e estabelece regras claras sobre responsabilidade civil, conservação e devolução de cada máquina alugada.</p><p><a href=\"https://www.instagram.com/p/DdMhPrPlTA9/\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a> para ver como formalizar suas locações com total segurança.</p>",
+      "author": "Geovana"
+    },
+    {
       "slug": "protocolo-vistoria-locacao-laser",
       "title": "Protocolo com fotos na locação de laser: como evitar divergências na devolução",
       "heroTitle": "Elimine atritos e proteja seus equipamentos com fotos e protocolos",
