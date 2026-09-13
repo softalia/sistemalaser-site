@@ -2,6 +2,31 @@
   "version": 1,
   "posts": [
     {
+      "slug": "dashboard-locadora-laser-visao-gerencial",
+      "title": "Dashboard para locadora de laser: uma visão gerencial diária",
+      "heroTitle": "Veja a operação da locadora antes de decidir",
+      "description": "Entenda como indicadores de locações, equipamentos e clientes ajudam o proprietário a começar o dia com mais contexto.",
+      "seoTitle": "Dashboard para locadora de laser: visão gerencial",
+      "seoDescription": "Saiba como um dashboard para locadora de laser reúne indicadores por período e ajuda o proprietário a acompanhar locações, equipamentos e clientes.",
+      "ogTitle": "Uma visão diária para a gestão da locadora de laser",
+      "ogDescription": "Use indicadores consolidados como ponto de partida para comparar períodos, reconhecer exceções e direcionar a análise da operação.",
+      "date": "2026-09-13T09:32:26-03:00",
+      "modified": "2026-09-13T09:32:26-03:00",
+      "category": "Gestão",
+      "tags": [
+        "dashboard para locadora de laser",
+        "indicadores de locações",
+        "gestão de equipamentos médicos",
+        "visão gerencial"
+      ],
+      "heroCopy": "Indicadores consolidados ajudam o proprietário a localizar exceções e escolher onde aprofundar a análise.",
+      "readingTime": "3 min",
+      "image": "https://sistemalaser.com.br/blog/images/2026/09/13/2026-09-13-dashboard-locacoes-laser-root-feed-01.png",
+      "url": "blog/dashboard-locadora-laser-visao-gerencial.html",
+      "contentHtml": "<p>Um dashboard para locadora de laser ajuda o proprietário a começar o dia com uma visão consolidada da operação. Em vez de abrir várias conversas ou relatórios sem uma pergunta definida, ele pode observar locações, equipamentos e clientes no período escolhido, comparar o contexto e decidir onde aprofundar a análise.</p><h2>Comece com as perguntas que orientam a gestão</h2><p>O painel não decide pelo gestor. Sua função é organizar o ponto de partida. Antes de entrar em cada agenda ou contrato, vale perguntar: quantas locações estão no período, quais equipamentos aparecem com mais destaque e quais clientes concentram movimento? A resposta indica onde conferir detalhes, conversar com a equipe ou ajustar prioridades.</p><p>Para uma locadora de lasers médicos e estéticos, essa leitura pode ser especialmente útil quando diferentes ativos, responsáveis e clientes movimentam a rotina ao mesmo tempo. O <a href=\"../sistema-locadora-laser.html\">sistema para locadora de laser</a> conecta essa visão à operação especializada do segmento.</p><figure><img src=\"images/2026/09/13/2026-09-13-dashboard-locacoes-laser-root-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Representação editorial de dashboard com indicadores de locações, equipamentos e clientes por período\"><figcaption>O painel reúne categorias confirmadas sem expor valores ou dados reais.</figcaption></figure><h2>Compare períodos e investigue exceções</h2><p>Um número isolado oferece pouco contexto. Ao acompanhar períodos, o proprietário consegue reconhecer mudanças e escolher o próximo passo: consultar uma agenda, verificar um equipamento, analisar um cliente ou revisar um relatório. Essa sequência reduz o risco de transformar todo indicador em urgência.</p><p>O dashboard operacional descrito no <a href=\"../erp-locadora.html\">ERP para locadoras</a> reúne quantidade e valor de locações, equipamentos e clientes em destaque e acompanhamento por período. Para operações clínicas, o <a href=\"../software-locadora-medica.html\">software para locadoras médicas e estéticas</a> também centraliza agenda, clientes, contratos, evidências, financeiro e manutenção.</p><h2>Transforme a visão em um ritual curto</h2><p>Defina um horário, escolha o período de comparação e registre quais exceções precisam de responsável e prazo. Depois, use as <a href=\"../funcionalidades.html\">funcionalidades de gestão de locações</a> para aprofundar apenas o que merece atenção. Essa disciplina pode diminuir a dependência de mensagens dispersas sem eliminar a conferência humana.</p><figure><img src=\"images/2026/09/13/2026-09-13-dashboard-locacoes-laser-root-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Fluxo visual para comparar períodos, identificar exceções e direcionar decisões\"><figcaption>Compare, reconheça a exceção e direcione a próxima análise.</figcaption></figure><p><a href=\"https://www.instagram.com/p/DdOkXagmwp1/\">Veja também esta publicação no Instagram</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a> para conhecer o dashboard na prática.</p>",
+      "author": "Olívia"
+    },
+    {
       "slug": "contrato-locacao-equipamentos-construcao",
       "title": "Contrato de locação para construção civil: como formalizar antes da entrega na obra",
       "heroTitle": "Contrato de locação para construção civil: segurança antes da entrega",
