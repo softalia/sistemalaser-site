@@ -2,6 +2,33 @@
   "version": 1,
   "posts": [
     {
+      "slug": "assinatura-eletronica-contrato-locacao-laser",
+      "title": "Assinatura eletrônica para locadora de laser: contratos formalizados sem papel",
+      "heroTitle": "Assinatura eletrônica para locadora de laser: contratos formalizados sem papel e sem deslocamento",
+      "description": "Saiba como a assinatura eletrônica do Sistema Laser permite enviar contratos, protocolos com fotos e documentos para formalização online, vinculados à locação.",
+      "seoTitle": "Assinatura eletrônica para locadora de laser: contratos sem papel | Sistema Laser",
+      "seoDescription": "Envie contratos e protocolos de locação de lasers para assinatura eletrônica. Acompanhe o status, vincule à operação e elimine papel da rotina.",
+      "ogTitle": "Assinatura eletrônica para locadora de laser: contratos sem papel | Sistema Laser",
+      "ogDescription": "Contratos de locação de laser formalizados online com assinatura eletrônica, protocolos com fotos e acompanhamento integrado no Sistema Laser.",
+      "date": "2026-09-15T16:55:02.942-03:00",
+      "modified": "2026-09-15T16:55:02.942-03:00",
+      "category": "Documentos e assinatura",
+      "tags": [
+        "assinatura eletrônica",
+        "locação de laser",
+        "contrato digital",
+        "documentos de locação",
+        "protocolo com fotos",
+        "Sistema Laser"
+      ],
+      "heroCopy": "Formalize contratos de locação de lasers e equipamentos estéticos com assinatura eletrônica, acompanhe o status de cada documento e mantenha tudo vinculado à operação.",
+      "readingTime": "3 min",
+      "image": "images/2026/09/15/2026-09-15-feed-01-assinatura-eletronica-contrato-locacao-geo.png",
+      "url": "blog/assinatura-eletronica-contrato-locacao-laser.html",
+      "contentHtml": "<p>Em locadoras de lasers e equipamentos estéticos, cada contrato de locação envolve prazos curtos, valores expressivos e a necessidade de documentar as condições do equipamento antes e depois do uso. Quando esse processo depende de papel impresso, assinatura presencial ou envio pelos Correios, o tempo de formalização compete com a agilidade que o mercado exige.</p>\n\n<p>Com a <a href=\"../assinatura-eletronica.html\">assinatura eletrônica do Sistema Laser</a>, o documento nasce dentro do sistema e pode ser enviado para formalização em poucos cliques, sem impressão, sem deslocamento e sem espera.</p>\n\n<h2>Como funciona o fluxo de assinatura</h2>\n\n<p>O processo foi projetado para ser direto e repetível. A locadora prepara o documento a partir de um modelo reutilizável com campos personalizados ou anexa um arquivo próprio. Em seguida, define os destinatários e escolhe entre solicitar assinatura eletrônica ou enviar apenas como notificação, quando não há necessidade de formalização.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-02-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Tela de acompanhamento de assinatura eletrônica do Sistema Laser com status de assinantes e data de envio\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Envio e acompanhamento de documentos com assinatura eletrônica integrada à operação de locação.</figcaption>\n</figure>\n\n<p>Após o envio, o sistema exibe o andamento de cada assinante: quem já assinou, quem está pendente e qual é o prazo de validade do documento. A gestão acompanha tudo em uma visão única, sem precisar ligar ou enviar mensagens cobrando retorno.</p>\n\n<h2>Documentos vinculados à locação</h2>\n\n<p>O diferencial operacional está na integração com o restante da plataforma. Contratos, protocolos com fotos e outros documentos podem ser vinculados diretamente ao registro da locação correspondente. Isso significa que a equipe consulta o contrato assinado, as fotos do protocolo de entrega e o histórico completo sem sair do contexto da operação.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-03-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Cartões de benefícios com assinatura online e integração à locação\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Assinatura 100% online e documentos integrados à locação de equipamentos.</figcaption>\n</figure>\n\n<p>A funcionalidade também pode ser utilizada de forma independente, sem associação a uma locação. Termos de responsabilidade, autorizações internas, declarações de recebimento e comunicados podem ser enviados e acompanhados da mesma maneira.</p>\n\n<h2>Disponibilidade e planos</h2>\n\n<p>O módulo de assinatura eletrônica está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> do Sistema Laser. Com modelos reutilizáveis, campos configuráveis, acompanhamento por situação e vinculação à operação, a locadora ganha agilidade na formalização sem abrir mão do controle documental.</p>\n\n<p><a href=\"https://www.instagram.com/p/DdUgmoYn5Su/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box\">\n  <h3>Formalize locações sem papel e sem espera</h3>\n  <p>Envie contratos e protocolos para assinatura eletrônica diretamente do Sistema Laser e acompanhe o status em tempo real.</p>\n  <a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Agendar demonstração gratuita</a>\n</div>",
+      "author": "Geovana"
+    },
+    {
       "slug": "cobranca-integrada-locacao-laser",
       "title": "Cobrança para locadora de laser: Pix, boleto e baixa automática",
       "heroTitle": "Cobrança para locadora de laser: Pix, boleto e baixa automática no caixa",
