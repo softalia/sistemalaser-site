@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+        "slug": "agenda-disponibilidade-locacao-laser",
+        "title": "Agenda e disponibilidade na locação de laser: como evitar conflito de reservas",
+        "heroTitle": "Agenda de laser sem conflito: controle de disponibilidade em tempo real para locadoras",
+        "description": "Como organizar a agenda de locação de lasers, evitar duplicidade de reservas por equipamento e dar visibilidade total à equipe em tempo real.",
+        "seoTitle": "Agenda e disponibilidade para locação de laser | Sistema Laser",
+        "seoDescription": "Evite duplicidade de reservas, consulte equipamentos livres e ocupados em tempo real e organize sua locadora de laser com o Sistema Laser.",
+        "ogTitle": "Agenda e disponibilidade na locação de laser: como evitar conflito de reservas",
+        "ogDescription": "Controle disponibilidade em tempo real, evite reservas duplicadas de lasers e organize sua equipe com o Sistema Laser.",
+        "date": "2026-09-17T14:28:12.103-03:00",
+        "modified": "2026-09-17T14:28:12.103-03:00",
+        "category": "Gestão de locações",
+        "tags": [
+            "locação de laser",
+            "agenda de locações",
+            "software para locadora",
+            "disponibilidade de equipamentos",
+            "gestão de locações"
+        ],
+        "heroCopy": "Saiba como o módulo de agenda do Sistema Laser elimina o risco de prometer o mesmo laser para duas clínicas no mesmo horário.",
+        "readingTime": "3 min",
+        "image": "images/2026/09/17/2026-09-17-feed-01-agenda-disponibilidade-locacao-laser-geo.png",
+        "url": "blog/agenda-disponibilidade-locacao-laser.html",
+        "contentHtml": "<p>Locadoras de equipamentos estéticos e médicos enfrentam um desafio diário de alta precisão: coordenar dezenas de ponteiras, consoles e transdutores com agendas apertadas de clínicas e consultórios. Quando dois atendentes consultam controles paralelos ou planilhas descentralizadas, o risco de confirmar a mesma máquina para dois clientes na mesma data torna-se quase inevitável, gerando cancelamentos de última hora e desgaste comercial irremediável.</p>\n<h2>Visibilidade em tempo real para toda a equipe</h2>\n<p>A base de uma operação escalável é a centralização da informação. No <a href=\"../sistema-locadora-laser.html\">software para locadora de laser</a> do Sistema Laser, a equipe visualiza o calendário completo com filtros dinâmicos por modelo de laser, cliente e responsável operacional. Com um simples clique, é possível identificar quais equipamentos estão efetivamente livres, quais estão alugados e quais estão reservados para procedimentos futuros.</p>\n<p><img src=\"images/2026/09/17/2026-09-17-feed-02-agenda-disponibilidade-locacao-laser-geo.png\" alt=\"Interface de calendário e controle de disponibilidade do Sistema Laser\" width=\"1080\" height=\"1350\" loading=\"lazy\" /></p>\n<h2>Prevenção automática de duplicidade de reservas</h2>\n<p>Diferente de agendas genéricas ou anotações em papel, o <a href=\"../erp-locadora.html\">ERP para locadora</a> do Sistema Laser valida os conflitos no momento do preenchimento. Ao tentar vincular um equipamento já alocado para aquele período, o sistema emite um alerta impeditivo, protegendo a equipe comercial de promessas inviáveis.</p>\n<p>Além da validação técnica, o sistema permite configurar perfis de acesso individualizados. Vendedores, atendentes e operadores acessam apenas os módulos e as unidades de negócio permitidas pela diretoria, garantindo segurança na delegação das tarefas diárias.</p>\n<ul>\n<li>Visualização clara por dia, semana ou mês com identificação visual dos ativos;</li>\n<li>Bloqueio automático de sobreposição de datas e horários para o mesmo equipamento;</li>\n<li>Filtros refinados por modelo de máquina, clínica atendida e atendente responsável;</li>\n<li>Permissões de acesso granulares por usuário para proteger dados sensíveis.</li>\n</ul>\n<p><img src=\"images/2026/09/17/2026-09-17-feed-03-agenda-disponibilidade-locacao-laser-geo.png\" alt=\"Benefícios do módulo de agenda do Sistema Laser para locadoras\" width=\"1080\" height=\"1350\" loading=\"lazy\" /></p>\n<h2>Disponível em todos os planos com implantação simples</h2>\n<p>O módulo de Agenda e Locações faz parte de todos os <a href=\"../planos.html\">planos do Sistema Laser</a> — do Starter ao Pro e Master —, sem taxa de adesão e com migração gratuita da sua planilha atual. Isso garante que locadoras iniciantes ou consolidadas tenham o mesmo nível de governança sobre a sua frota.</p>\n<p><a href=\"https://www.instagram.com/p/DdZZY-2CUY7/\" target=\"_blank\" rel=\"noopener noreferrer\">Veja também esta publicação no Instagram</a>.</p>\n<p>Quer eliminar o conflito de reservas e dar previsibilidade total à sua locadora? <a href=\"../index.html#demonstracao\">Agende uma demonstração gratuita do Sistema Laser</a> com nossos especialistas.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "manutencao-equipamentos-locadora-construcao",
         "title": "Manutenção de equipamentos para construção civil: controle de reparos e disponibilidade",
         "heroTitle": "Manutenção de equipamentos para locadora de construção: controle reparos e custos sem falhas na agenda",
