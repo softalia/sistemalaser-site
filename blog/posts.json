@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+        "slug": "gestao-financeira-locadora-medica",
+        "title": "Gestão financeira para locadora de equipamentos médicos e hospitalares | Sistema Laser",
+        "heroTitle": "Gestão financeira para locadora de equipamentos médicos e hospitalares",
+        "description": "Como organizar contas a pagar e receber, fluxo de caixa e DRE em locadoras de equipamentos médicos e hospitalares com o Sistema Laser.",
+        "seoTitle": "Gestão financeira para locadora de equipamentos médicos | Sistema Laser",
+        "seoDescription": "Organize contas a pagar e receber, fluxo de caixa e DRE na sua locadora de equipamentos médicos com o Sistema Laser.",
+        "ogTitle": "Gestão financeira para locadora de equipamentos médicos e hospitalares",
+        "ogDescription": "Controle contas a pagar, receber, fluxo de caixa e DRE na locação de equipamentos médicos.",
+        "date": "2026-09-18T16:14:38.955-03:00",
+        "modified": "2026-09-18T16:14:38.955-03:00",
+        "category": "Gestão e Finanças",
+        "tags": [
+            "gestão financeira",
+            "locadora de equipamentos médicos",
+            "fluxo de caixa",
+            "DRE",
+            "locação de equipamentos"
+        ],
+        "heroCopy": "Conecte contratos de locação a contas a pagar e receber, caixas, bancos e projeções de fluxo de caixa para dar previsibilidade à sua empresa.",
+        "readingTime": 3,
+        "image": "https://sistemalaser.com.br/blog/images/2026/09/18/2026-09-18-feed-01-gestao-financeira-locadora-medica-geo.png",
+        "url": "https://sistemalaser.com.br/blog/gestao-financeira-locadora-medica.html",
+        "contentHtml": "<p>A gestão financeira de uma empresa que aluga tecnologias para clínicas e hospitais possui particularidades que planilhas genéricas e sistemas tradicionais não conseguem atender. Em uma locadora de equipamentos médicos, hospitalares ou estéticos, cada contrato envolve faturamento por período, logística de entrega, vistorias e custos operacionais diretos, como manutenções preventivas e calibrações técnicas periódicas.</p>\n<p>Quando esses registros operacionais não conversam diretamente com o setor financeiro, a empresa enfrenta descompasso de caixa, dificuldade de conciliação bancária e falta de previsibilidade para novos investimentos no parque de aparelhos.</p>\n<h2>Contas a pagar e a receber conectadas aos contratos</h2>\n<p>No Sistema Laser, o módulo financeiro foi projetado especificamente para operações de locação. Em vez de lançar valores manualmente em sistemas desconectados, cada conta a receber nasce vinculada ao contrato de locação, ao cliente e ao equipamento alugado. O mesmo ocorre com as despesas operacionais: custos com peças, frete e suporte técnico podem ser direcionados a cada ativo, garantindo controle detalhado de custos.</p>\n<p>Para conhecer os detalhes específicos desse modelo operacional, veja nossa página dedicada ao <a href=\"../software-locadora-medica.html\">software para locadora médica</a> e entenda como centralizar cadastros, clientes e contratos.</p>\n<figure><img src=\"images/2026/09/18/2026-09-18-feed-02-gestao-financeira-locadora-medica-geo.png\" alt=\"Caixa, bancos e locações integrados no Sistema Laser\" width=\"1080\" height=\"1350\"><figcaption>Visualização integrada de fluxo de caixa mensal e controle de saldos.</figcaption></figure>\n<h2>Fluxo de caixa diário e DRE gerencial</h2>\n<p>A previsibilidade é o fator determinante para o crescimento sustentável de qualquer locadora de tecnologia em saúde. O Sistema Laser disponibiliza fluxo de caixa diário e projetado, permitindo que a diretoria enxergue receitas confirmadas, previsões de entradas e saídas futuras antes de assumir novos compromissos financeiros.</p>\n<p>Além disso, o demonstrativo de resultado (DRE gerencial) consolida o desempenho econômico da locadora por categoria e plano de contas. Essa visão estratégica permite identificar quais equipamentos geram maior margem líquida e quais demandam custos excessivos de reparo. Saiba mais sobre todas as funcionalidades na página do <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a>.</p>\n<figure><img src=\"images/2026/09/18/2026-09-18-feed-03-gestao-financeira-locadora-medica-geo.png\" alt=\"Previsibilidade e planos do Sistema Laser\" width=\"1080\" height=\"1350\"><figcaption>Previsibilidade financeira e ferramentas de gestão em todos os planos.</figcaption></figure>\n<h2>Estrutura completa em todos os planos</h2>\n<p>Uma grande vantagem do Sistema Laser é que o módulo financeiro essencial — incluindo contas a pagar e receber, controle de caixas, bancos, cheques, fluxo de caixa e DRE — está presente desde o plano Starter (R$ 399/mês), sem qualquer taxa de adesão. Para empresas que buscam automação avançada de cobranças e integração com meios de pagamento, os planos Pro e Master oferecem recursos adicionais integrados.</p>\n<p>Confira todos os recursos detalhados na tabela comparativa em <a href=\"../planos.html\">planos do Sistema Laser</a>.</p>\n<p><a href=\"https://www.instagram.com/p/DdcKXsUiTPa/\">Veja também esta publicação no Instagram</a>.</p>\n<p>Pronto para transformar o controle financeiro da sua locadora de equipamentos médicos? <a href=\"../index.html#demonstracao\">Agende uma demonstração com nossos especialistas</a> e conheça o sistema na prática.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "reguas-de-cobranca-locadora",
         "title": "Régua de cobrança para locadoras: lembretes automáticos e menos inadimplência",
         "heroTitle": "Nova régua de cobrança: lembre o cliente no momento certo sem cobrança manual",
