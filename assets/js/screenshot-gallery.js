@@ -25,6 +25,12 @@
         'Cadastro de equipamentos e registro de fotos de início e fim da locação.',
     },
     {
+      src: 'assets/img/sistema/sll-locacoes-multiplos-modelos.webp',
+      title: 'Múltiplos equipamentos por locação',
+      description:
+        'Vários modelos ou equipamentos reunidos no mesmo lançamento de locação.',
+    },
+    {
       src: 'assets/img/sistema/sll-documento-dashboard.webp',
       title: 'Dashboard de documentos e assinaturas',
       description:
@@ -64,6 +70,12 @@
       title: 'Cobranças integradas',
       description:
         'PIX, boleto, cartão e conciliação de pagamentos pelo Asaas.',
+    },
+    {
+      src: 'assets/img/sistema/sll-financeiro-cobranca-regua.webp',
+      title: 'Régua de cobrança',
+      description:
+        'Notificações automáticas antes e depois do vencimento por e-mail e WhatsApp.',
     },
     {
       src: 'assets/img/sistema/locacoes-fechamento-parceiro.webp',

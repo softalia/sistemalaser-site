@@ -94,8 +94,10 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   where practical.
 - Register every new or materially changed product screenshot used on a page in
   `assets/js/screenshot-gallery.js`, with a clear title and description, so it
-  participates in the shared full-screen gallery. `make validate` verifies this
-  for every page that loads the gallery.
+  participates in the shared full-screen gallery. Add the title and description
+  in the same change; do not consider the page image work complete until its
+  click-to-open gallery entry is registered. `make validate` verifies this for
+  every page that loads the gallery.
 - Avoid committing `.DS_Store` or other local system files.
 
 ## GitHub Pages
