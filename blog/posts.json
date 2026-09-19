@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+        "slug": "multiplos-equipamentos-locacao",
+        "title": "Múltiplos equipamentos por locação: como organizar pedidos combinados na locadora | Sistema Laser",
+        "heroTitle": "Múltiplos equipamentos por locação: como gerenciar pedidos combinados na locadora",
+        "description": "Descubra como gerenciar múltiplos modelos e equipamentos na mesma locação, unificando contratos, logística e cobrança com o Sistema Laser.",
+        "seoTitle": "Múltiplos equipamentos por locação: pedidos combinados | Sistema Laser",
+        "seoDescription": "Reúna vários modelos e equipamentos na mesma locação no Sistema Laser. Simplifique contratos, logística e faturamento.",
+        "ogTitle": "Múltiplos equipamentos por locação: pedidos combinados na locadora",
+        "ogDescription": "Gerencie múltiplos modelos na mesma locação com contrato e logística unificados no Sistema Laser.",
+        "date": "2026-09-19T19:18:14.737-03:00",
+        "modified": "2026-09-19T19:18:14.737-03:00",
+        "category": "Operação e Logística",
+        "tags": [
+            "múltiplos equipamentos",
+            "locação de equipamentos",
+            "gestão de locadora",
+            "contrato de locação",
+            "logística de locação"
+        ],
+        "heroCopy": "Reúna diferentes modelos e equipamentos no mesmo pedido, unificando contrato digital, romaneio de expedição e faturamento na sua locadora.",
+        "readingTime": 3,
+        "image": "images/2026/09/19/2026-09-19-feed-01-multiplos-equipamentos-locacao-geo.png",
+        "url": "blog/multiplos-equipamentos-locacao.html",
+        "contentHtml": "<p>No dia a dia de uma locadora de equipamentos a laser e tecnologias médicas, é comum que uma mesma clínica solicite dois ou mais aparelhos para a mesma data. Seja para realizar uma maratona de procedimentos de depilação a laser junto com rejuvenescimento facial ou para atender a uma escala com diferentes especialistas, a locadora precisa atender essa demanda com agilidade e máxima precisão.</p>\n<p>No entanto, sistemas tradicionais e controles paralelos forçam a equipe operacional a abrir pedidos separados para cada máquina. Isso cria uma sucessão de retrabalhos desnecessários: múltiplos contratos para o cliente assinar, romaneios de transporte desmembrados, conferência confusa no retorno dos itens e faturamento fragmentado que sobrecarrega a equipe financeira.</p>\n<h2>Um único pedido para múltiplos modelos e equipamentos</h2>\n<p>Para eliminar esse gargalo operacional, o Sistema Laser conta com a funcionalidade de múltiplos equipamentos por locação. Em vez de duplicar lançamentos no sistema, você reúne diferentes modelos — como Crystal 3D Plus, Lavieen e Criodermis —, bem como ponteiras e acessórios adicionais, dentro do mesmo pedido de atendimento.</p>\n<p>Essa organização centralizada permite que a equipe de expedição separe todos os itens em uma única lista de conferência, garantindo que nenhum cabo, pedal ou ponteira seja esquecido no envio. Para entender como o sistema estrutura esse fluxo do início ao fim, acesse nossa documentação sobre o <a href=\"../erp-locadora.html#multiplos-equipamentos\">recurso de múltiplos equipamentos por locação</a> e conheça o fluxo integrado.</p>\n<figure><img src=\"images/2026/09/19/2026-09-19-feed-02-multiplos-equipamentos-locacao-geo.png\" alt=\"Múltiplos modelos e equipamentos cadastrados no mesmo pedido no Sistema Laser\" width=\"1080\" height=\"1350\"><figcaption>Visualização de múltiplos modelos na mesma locação no ERP Sistema Laser.</figcaption></figure>\n<h2>Contrato unificado e logística sem falhas</h2>\n<p>Outro benefício direto dessa abordagem é a simplificação jurídica e logística. Ao consolidar vários equipamentos no mesmo lançamento, o sistema gera automaticamente um único contrato de locação com validade jurídica e <a href=\"../assinatura-eletronica.html\">assinatura eletrônica integrada</a>. O cliente assina um único termo claro, contendo todos os números de série, valores acordados e condições de entrega.</p>\n<p>Na rota de transporte, o motorista realiza a entrega e a devolução com um romaneio unificado. Saiba como estruturar sua frota e termos com o nosso <a href=\"../sistema-locadora-laser.html\">sistema para locadora de laser</a> especializado.</p>\n<figure><img src=\"images/2026/09/19/2026-09-19-feed-03-multiplos-equipamentos-locacao-geo.png\" alt=\"Benefícios comerciais e operacionais de múltiplos equipamentos por locação\" width=\"1080\" height=\"1350\"><figcaption>Eficiência operacional e faturamento integrado em todos os planos.</figcaption></figure>\n<h2>Cobrança consolidada e disponível em todos os planos</h2>\n<p>O setor financeiro da locadora também ganha produtividade: em vez de conciliar vários pagamentos picados, a locadora emite uma única cobrança contendo o somatório das diárias, frete e consumíveis. O recurso de múltiplos equipamentos está disponível nativamente em todos os planos do Sistema Laser (Starter, Pro e Master), sem qualquer custo adicional por equipamento cadastrado no pedido.</p>\n<p>Conheça os detalhes e compare as funcionalidades na tabela em <a href=\"../planos.html\">planos do Sistema Laser</a>.</p>\n<p><a href=\"https://www.instagram.com/p/DdfEK4tH64R/\">Veja também esta publicação no Instagram</a>.</p>\n<p>Quer simplificar os pedidos combinados e profissionalizar a logística da sua empresa? <a href=\"../index.html#demonstracao\">Agende uma demonstração gratuita com nossa equipe</a> e experimente o Sistema Laser na prática.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "gestao-financeira-locadora-medica",
         "title": "Gestão financeira para locadora de equipamentos médicos e hospitalares | Sistema Laser",
         "heroTitle": "Gestão financeira para locadora de equipamentos médicos e hospitalares",
