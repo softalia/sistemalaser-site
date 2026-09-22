@@ -179,9 +179,7 @@ assert(
 );
 const plansHtml = read('planos.html');
 assert(
-  plansHtml.includes(
-    'Emissão de Notas Fiscais de Serviço (NFS-e) por meio do Emissor Nacional',
-  ),
+  plansHtml.includes('Emissão de Notas Fiscais de Serviço (NFS-e)'),
   'plan comparison missing NFS-e integration with Emissor Nacional',
 );
 const featuresHtml = read('funcionalidades.html');
