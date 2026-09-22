@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+        "slug": "controle-ativos-locadora-construcao",
+        "title": "Controle de Ativos e Rastreabilidade por Obra na Locação para Construção Civil",
+        "heroTitle": "Controle de Ativos e Rastreabilidade por Obra na Locação para Construção Civil",
+        "description": "Saiba como locadoras de equipamentos e máquinas para construção civil eliminam conflitos de agenda, rastreiam ativos por canteiro e organizam a frota com o Sistema Laser.",
+        "seoTitle": "Controle de Ativos para Locadora de Construção Civil | Sistema Laser",
+        "seoDescription": "Gerencie a disponibilidade de escavadeiras, geradores, andaimes e ferramentas por canteiro de obras com agenda visual e contratos integrados no Sistema Laser.",
+        "ogTitle": "Controle de Ativos para Locadora de Construção Civil | Sistema Laser",
+        "ogDescription": "Gerencie a disponibilidade de escavadeiras, geradores, andaimes e ferramentas por canteiro de obras com agenda visual e contratos integrados no Sistema Laser.",
+        "date": "2026-09-22T08:52:23.092-03:00",
+        "modified": "2026-09-22T08:52:23.092-03:00",
+        "category": "Construção Civil",
+        "tags": [
+            "Construção Civil",
+            "Locação de Equipamentos",
+            "Controle de Ativos",
+            "Agenda de Locações",
+            "Gestão de Frotas"
+        ],
+        "heroCopy": "Elimine máquinas paradas no pátio e atrasos na devolução organizando a agenda de locações e a rastreabilidade de cada equipamento por canteiro de obras.",
+        "readingTime": 3,
+        "image": "images/2026/09/22/2026-09-22-controle-ativos-locadora-construcao-geo-feed-01.png",
+        "url": "blog/controle-ativos-locadora-construcao.html",
+        "contentHtml": "<p>A gestão de uma locadora de equipamentos para construção civil envolve desafios logísticos e operacionais intensos. Ao administrar simultaneamente contratos de escavadeiras hidráulicas, geradores silenciados, plataformas elevatórias, betoneiras, compactadores de solo e andaimes fachadeiros, a pergunta mais frequente da diretoria e da equipe comercial é simples: <em>onde está cada máquina e quando ela retorna ao pátio?</em></p>\n\n<p>Quando essa resposta depende de planilhas manuais, anotações em papel ou consultas a motoristas no WhatsApp, o risco operacional dispara. Ocorrem promessas de entrega para clientes que não podem ser cumpridas, máquinas ficam ociosas em canteiros sem faturamento após o término do período contratado e fretes de retorno deixam de ser cobrados. Para sanar essa dor, o <a href=\"../software-locadora-construcao.html\">software para locadoras de construção civil</a> do Sistema Laser oferece uma estrutura especializada em rastreabilidade de ativos e controle visual de locações.</p>\n\n<h2>Agenda visual de locações e disponibilidade em tempo real</h2>\n\n<p>Com o módulo de calendário e agenda do Sistema Laser, a equipe visualiza com clareza o status de toda a frota por período, cliente e canteiro de obras. Antes de fechar uma nova proposta ou emitir um contrato, basta consultar a linha do tempo do ativo desejado para verificar se ele estará liberado e revisado na data combinada.</p>\n\n<figure class=\"post-figure\">\n  <img src=\"images/2026/09/22/2026-09-22-controle-ativos-locadora-construcao-geo-feed-02.png\" alt=\"Tela do Sistema Laser demonstrando a agenda semanal de locações por máquina e obra\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption>Agenda visual de locações no Sistema Laser: controle de ocupação de maquinário pesado e ferramentas por canteiro.</figcaption>\n</figure>\n\n<p>Essa previsibilidade reduz drasticamente o tempo de atendimento comercial e impede o pior cenário da locadora: fechar uma locação e descobrir no dia do envio que o equipamento ainda está retido em outra obra.</p>\n\n<h2>Rastreabilidade por canteiro, contratos e faturamento integrados</h2>\n\n<p>Além da consulta visual na agenda, o sistema vincula cada máquina a um endereço específico de obra e a um responsável técnico no cliente. Isso permite emitir termos de entrega precisos, monitorar renovações automáticas e programar as coletas de retorno de forma otimizada.</p>\n\n<figure class=\"post-figure\">\n  <img src=\"images/2026/09/22/2026-09-22-controle-ativos-locadora-construcao-geo-feed-03.png\" alt=\"Síntese dos benefícios operacionais e chamada para demonstração do Sistema Laser\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption>Mais controle no pátio e previsibilidade financeira para o crescimento da sua locadora.</figcaption>\n</figure>\n\n<p>O módulo de locações, agenda e cadastro de ativos está disponível em todos os <a href=\"../planos.html\">planos do Sistema Laser</a> (a partir do Plano Starter por R$ 399/mês para até 8 equipamentos, com planos Pro por R$ 699/mês para até 15 equipamentos e Plano Master por R$ 1.299/mês para frota ilimitada). A contratação não exige taxa de adesão nem fidelidade, e a migração da sua base de dados atual é feita de forma gratuita pela equipe de suporte.</p>\n\n<p>Veja também esta publicação no Instagram: <a href=\"https://www.instagram.com/p/Ddlq8IClSmy/\" target=\"_blank\" rel=\"noopener noreferrer\">post de feed com carrossel</a>.</p>\n\n<p>Quer organizar a frota da sua empresa e ter total controle sobre os equipamentos locados? <a href=\"../index.html#demonstracao\">Agende uma demonstração gratuita com nossos especialistas</a> e descubra como o Sistema Laser pode transformar sua operação.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "protocolos-fotos-locadora-eletronicos",
         "title": "Protocolos com Fotos para Locação de Equipamentos Eletrônicos",
         "heroTitle": "Protocolos com Fotos para Locação de Equipamentos Eletrônicos",
