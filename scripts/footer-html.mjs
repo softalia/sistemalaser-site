@@ -13,6 +13,8 @@ export function renderFooter(prefix) {
     '">CRM completo</a><a href="' +
     link('sistema-financeiro-locadora.html') +
     '">Sistema financeiro</a><a href="' +
+    link('estoque-produtos.html') +
+    '">Produtos e estoque</a><a href="' +
     link('assinatura-eletronica.html') +
     '">Assinatura eletrônica</a><a href="' +
     link('lila-whatsapp.html') +
@@ -22,7 +24,7 @@ export function renderFooter(prefix) {
     link('integracoes.html') +
     '">Integrações</a><a href="' +
     link('funcionalidades.html') +
-    '">Funcionalidades</a><a href="' +
+    '">Visão geral</a><a href="' +
     link('nota-fiscal-eletronica.html') +
     '">Nota Fiscal</a></div><div class="col-6 col-lg-2"><h3>Soluções</h3><a href="' +
     link('locadora-laser.html') +

@@ -67,6 +67,13 @@ const staticSitemapEntries = [
   ['/erp-locadora.html', today, 'monthly', '0.95'],
   ['/sistema-financeiro-locadora.html', today, 'monthly', '0.9'],
   ['/crm.html', today, 'monthly', '0.9'],
+  [
+    '/estoque-produtos.html',
+    today,
+    'monthly',
+    '0.85',
+    `${siteUrl}/assets/img/sistema/sll-produtos-estoque.webp`,
+  ],
   ['/nota-fiscal-eletronica.html', today, 'monthly', '0.75'],
   [
     '/funcionalidades.html',

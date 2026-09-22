@@ -78,6 +78,24 @@
         'Notificações automáticas antes e depois do vencimento por e-mail e WhatsApp.',
     },
     {
+      src: 'assets/img/sistema/sll-produtos-estoque.webp',
+      title: 'Produtos e estoques',
+      description:
+        'Quantidades atuais, estoque mínimo e localidades reunidos em uma única consulta.',
+    },
+    {
+      src: 'assets/img/sistema/sll-produtos-transacao.webp',
+      title: 'Transação de produtos',
+      description:
+        'Entradas, transferências, usos e vendas vinculados ao cliente e à locação.',
+    },
+    {
+      src: 'assets/img/sistema/sll-produtos-ponto-reposicao.webp',
+      title: 'Ponto de reposição',
+      description:
+        'Análise do estoque mínimo, saldo atual, pedidos e quantidade necessária para reposição.',
+    },
+    {
       src: 'assets/img/sistema/locacoes-fechamento-parceiro.webp',
       title: 'Fechamento de parceiros',
       description:

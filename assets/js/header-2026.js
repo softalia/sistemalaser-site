@@ -14,13 +14,13 @@
       link('assets/img/icons/simbolo.svg') +
       '" width="28" height="34" alt=""><span>Sistema Laser<sup>®</sup></span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteMenu" aria-controls="siteMenu" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="siteMenu"><ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item"><a class="nav-link" href="' +
       link('funcionalidades.html') +
-      '" data-section="funcionalidades">Funcionalidades</a></li><li class="nav-item"><a class="nav-link" href="' +
+      '" data-section="funcionalidades">Visão geral</a></li><li class="nav-item"><a class="nav-link" href="' +
+      link('erp-locadora.html') +
+      '" data-section="erp">ERP</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('crm.html') +
       '">CRM</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('sistema-financeiro-locadora.html') +
       '">Financeiro</a></li><li class="nav-item"><a class="nav-link" href="' +
-      link('erp-locadora.html') +
-      '">ERP</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('integracoes.html') +
       '" data-section="integracoes">Integrações</a></li><li class="nav-item"><a class="nav-link" href="' +
       link('planos.html') +
@@ -42,6 +42,7 @@
         href === page ||
         (link.dataset.section === 'funcionalidades' &&
           page === 'assinatura-eletronica.html') ||
+        (link.dataset.section === 'erp' && page === 'estoque-produtos.html') ||
         (link.dataset.section === 'integracoes' &&
           page === 'lila-whatsapp.html') ||
         (link.dataset.section === 'blog' &&

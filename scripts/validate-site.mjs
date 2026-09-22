@@ -150,6 +150,40 @@ assert(
     erpHtml.includes('sll-locacoes-dashboard-768.webp'),
   'ERP landing page missing the locations dashboard section',
 );
+const inventoryHtml = read('estoque-produtos.html');
+assert(
+  inventoryHtml.includes('id="estoques"') &&
+    inventoryHtml.includes('id="rastreabilidade"') &&
+    inventoryHtml.includes('id="transacoes"') &&
+    inventoryHtml.includes('id="reposicao"'),
+  'inventory landing page missing required product lifecycle sections',
+);
+assert(
+  inventoryHtml.includes('sll-produtos-estoque.webp') &&
+    inventoryHtml.includes('sll-produtos-transacao.webp') &&
+    inventoryHtml.includes('sll-produtos-ponto-reposicao.webp'),
+  'inventory landing page missing product screenshots',
+);
+assert(
+  sitemap.includes('https://www.sistemalaser.com.br/estoque-produtos.html'),
+  'sitemap missing inventory landing page',
+);
+assert(
+  read('funcionalidades.html').includes('href="estoque-produtos.html"') &&
+    read('erp-locadora.html').includes('href="estoque-produtos.html"'),
+  'inventory landing page must be linked from funcionalidades.html and erp-locadora.html',
+);
+assert(
+  !read('crm.html').includes('id="produtos-estoque"'),
+  'crm.html must not include an inventory feature section',
+);
+const plansHtml = read('planos.html');
+assert(
+  plansHtml.includes(
+    'Emissão de Notas Fiscais de Serviço (NFS-e) por meio do Emissor Nacional',
+  ),
+  'plan comparison missing NFS-e integration with Emissor Nacional',
+);
 const featuresHtml = read('funcionalidades.html');
 for (const sectionId of [
   'agenda',
@@ -202,6 +236,11 @@ for (const page of [
     file: 'funcionalidades.html',
     image:
       'https://www.sistemalaser.com.br/assets/img/sistema/sll-documento-dashboard.webp',
+  },
+  {
+    file: 'estoque-produtos.html',
+    image:
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-produtos-estoque.webp',
   },
   {
     file: 'integracoes.html',
@@ -345,6 +384,32 @@ const htmlFiles = fs
 const galleryScript = fs.readFileSync(
   path.join(dist, 'assets/js/screenshot-gallery.js'),
   'utf8',
+);
+const headerScript = fs.readFileSync(
+  path.join(dist, 'assets/js/header-2026.js'),
+  'utf8',
+);
+const overviewMenuPosition = headerScript.indexOf('>Visão geral</a>');
+const erpMenuPosition = headerScript.indexOf('>ERP</a>');
+assert(
+  overviewMenuPosition !== -1 &&
+    erpMenuPosition !== -1 &&
+    erpMenuPosition > overviewMenuPosition,
+  'header must show ERP immediately after Visão geral',
+);
+assert(
+  /link\('funcionalidades\.html'\)\s*\+\s*'[^']*>Visão geral<\/a>/.test(
+    headerScript,
+  ),
+  'Visão geral menu item must link to funcionalidades.html',
+);
+assert(
+  /link\('erp-locadora\.html'\)\s*\+\s*'[^']*>ERP<\/a>/.test(headerScript),
+  'ERP menu item must link to erp-locadora.html',
+);
+assert(
+  !headerScript.includes('>Funcionalidades</a>'),
+  'header still uses the old Funcionalidades label',
 );
 const gallerySources = new Set(
   Array.from(

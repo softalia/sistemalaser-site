@@ -77,6 +77,11 @@
           "id": "custos-integracoes",
           "question": "Serviços integrados têm custos adicionais?",
           "answer": "Serviços de terceiros, como meios de pagamento, mensagens ou assinatura eletrônica, podem aplicar suas próprias tarifas. Consulte as condições comerciais."
+        },
+        {
+          "id": "nfse-emissor-nacional",
+          "question": "Qual plano inclui emissão de NFS-e pelo Emissor Nacional?",
+          "answer": "Os planos Pro e Master incluem a emissão de NFS-e integrada ao Emissor Nacional."
         }
       ]
     },
@@ -109,6 +114,38 @@
           "id": "caixas-motoristas",
           "question": "Posso controlar bancos, gavetas e valores com motoristas?",
           "answer": "Sim. Você pode criar caixas para representar contas bancárias, gavetas, valores em espécie, recursos com motoristas e outros controles individuais."
+        }
+      ]
+    },
+    {
+      "id": "produtos-estoque",
+      "name": "Produtos e estoque",
+      "pages": ["estoque-produtos.html"],
+      "questions": [
+        {
+          "id": "multiplos-estoques",
+          "question": "É possível controlar estoques em diferentes localidades?",
+          "answer": "Sim. Você pode organizar depósitos, filiais, estoques principais e pontos de consumo diário, além de registrar transferências entre as localidades."
+        },
+        {
+          "id": "produto-numero-serie",
+          "question": "O sistema rastreia produtos por número de série?",
+          "answer": "Sim. Produtos seriados podem ser acompanhados individualmente desde a entrada, passando por movimentações e venda, até uma eventual devolução."
+        },
+        {
+          "id": "produto-locacao",
+          "question": "Produtos podem ser usados ou vendidos em uma locação?",
+          "answer": "Sim. A transação atualiza o estoque e mantém os produtos vinculados ao cliente e à locação para consultas futuras."
+        },
+        {
+          "id": "reposicao-produtos",
+          "question": "Como funciona a análise de reposição de estoque?",
+          "answer": "O sistema compara o estoque mínimo, o saldo atual e os pedidos existentes para indicar a quantidade necessária para reposição."
+        },
+        {
+          "id": "pedidos-bonificacoes",
+          "question": "O módulo também controla pedidos e bonificações?",
+          "answer": "Sim. É possível organizar pedidos de compra para reposição e controlar bonificações de comissões de vendas por produto."
         }
       ]
     },
