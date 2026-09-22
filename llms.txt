@@ -53,7 +53,7 @@ Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O co
 
 ## Empresa e contato
 
-Sistema Laser é marca da Aliasoft Ltda. Para conhecer a plataforma, solicitar uma demonstração ou apresentar uma necessidade específica, use contato@sistemalaser.com.br ou WhatsApp +55 61 99164-2806. Instagram oficial: [@meusistemalaser](https://www.instagram.com/meusistemalaser).
+Sistema Laser é marca da Aliasoft Ltda. Para conhecer a plataforma, solicitar uma demonstração ou apresentar uma necessidade específica, use contato@sistemalaser.com.br. Instagram oficial: [@meusistemalaser](https://www.instagram.com/meusistemalaser). YouTube oficial: [Sistema Laser](https://www.youtube.com/@sistemalaser/playlists).
 
 ## Outras soluções
 
