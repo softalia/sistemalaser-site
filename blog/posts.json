@@ -2,6 +2,33 @@
   "version": 1,
   "posts": [
     {
+        "slug": "manutencao-equipamentos-medicos",
+        "title": "Manutenção de Equipamentos Médicos na Locadora: Como Controlar Reparos e Calibração",
+        "heroTitle": "Manutenção e Calibração na Locação Médica: Segurança Operacional sem Planilhas Paralelas",
+        "description": "Descubra como locadoras de equipamentos médicos e hospitalares controlam ordens de serviço, calibração periódica e liberação na agenda com o Sistema Laser.",
+        "seoTitle": "Manutenção de Equipamentos Médicos: Controle na Locadora",
+        "seoDescription": "Controle ordens de serviço, laudos de calibração e disponibilidade na agenda para locadoras de equipamentos médicos e hospitalares. Conheça o Sistema Laser.",
+        "ogTitle": "Manutenção de Equipamentos Médicos na Locadora | Sistema Laser",
+        "ogDescription": "Como locadoras de equipamentos médicos controlam manutenções preventivas, calibrações e custos com o Sistema Laser.",
+        "date": "2026-09-28T08:29:33.139-03:00",
+        "modified": "2026-09-28T08:29:33.139-03:00",
+        "category": "Gestão de Equipamentos",
+        "tags": [
+            "locação de equipamentos médicos",
+            "manutenção de equipamentos",
+            "calibração periódica",
+            "software para locadora",
+            "controle de ativos",
+            "ordem de serviço"
+        ],
+        "heroCopy": "Para empresas que alugam tecnologias para clínicas e hospitais, disponibilidade depende de respaldo técnico. Entenda como organizar manutenções preventivas, calibrações e ordens de serviço com rastreabilidade.",
+        "readingTime": "4 min",
+        "image": "images/2026/09/28/2026-09-28-manutencao-equipamentos-medicos-geo-feed-01.png",
+        "url": "https://sistemalaser.com.br/blog/manutencao-equipamentos-medicos.html",
+        "contentHtml": "<p>Para quem atua na <strong>locação de equipamentos médicos, hospitalares e tecnologias para clínicas</strong>, a palavra disponibilidade significa muito mais do que ter uma data sem reservas no calendário. Envolve a certeza documental de que o equipamento passou pelas revisões preventivas necessárias, está com os laudos de calibração em dia e possui condições plenas de funcionamento seguro no ambiente clínico.</p>\n\n<p>Quando a gestão de manutenção é feita em cadernos, planilhas paralelas ou mensagens informais, a locadora assume riscos operacionais graves: falhas de equipamento durante o atendimento de pacientes, retrabalho logístico, desgaste com o corpo clínico e custos imprevistos de reparo sem histórico estruturado.</p>\n\n<h2>Por que a locação médica exige controle técnico rigoroso?</h2>\n\n<p>Equipamentos de alta tecnologia médica — como aparelhos de terapia avançada, lasers cirúrgicos, ultrassons e tecnologias de consultório — exigem histórico auditável. No <a href=\"../software-locadora-medica.html\">software para locadora médica e hospitalar</a> do Sistema Laser, cada ativo conta com uma ficha técnica individualizada por número de série.</p>\n\n<p>Isso permite acompanhar com precisão as horas de uso acumuladas, os ciclos de operação, os laudos de calibração emitidos e todas as manutenções preventivas realizadas ao longo do tempo. Assim, antes de qualquer confirmação comercial, sua equipe sabe exatamente a condição de cada máquina.</p>\n\n<p><img src=\"images/2026/09/28/2026-09-28-manutencao-equipamentos-medicos-geo-feed-02.png\" alt=\"Fluxo operacional de manutenção preventiva e calibração de equipamentos médicos no Sistema Laser\" class=\"img-fluid rounded-4 my-4\" loading=\"lazy\" /></p>\n\n<h2>O ciclo integrado: da ordem de serviço à liberação na agenda</h2>\n\n<p>No <a href=\"../funcionalidades.html#ativos\">módulo de equipamentos e manutenção</a> do Sistema Laser, o ciclo técnico funciona de forma totalmente integrada com a rotina de locação:</p>\n\n<ul>\n<li><strong>Checklist de retorno:</strong> conferência de horas de uso, estado físico dos acessórios e registro fotográfico na devolução de cada clínica;</li>\n<li><strong>Ordem de serviço centralizada:</strong> abertura de O.S. para revisões preventivas, manutenções corretivas e envio para calibração metrológica com fornecedores certificados;</li>\n<li><strong>Bloqueio e liberação automática:</strong> o equipamento em manutenção fica indisponível para reservas e só retorna à agenda após a conclusão formal do serviço.</li>\n</ul>\n\n<p>Essa automação impede conflitos entre comercial e logística, evitando que um vendedor prometa um equipamento que ainda está na bancada técnica aguardando laudo ou peça de reposição.</p>\n\n<h2>Governança técnica e controle financeiro de peças</h2>\n\n<p>Além de respaldar a operação perante exigências clínicas e auditorias hospitalares, o controle de manutenção fornece previsibilidade financeira. Ao lançar os custos de peças substituídas e serviços de terceiros diretamente no ativo, a locadora passa a enxergar a rentabilidade real de cada equipamento em seu fluxo de caixa.</p>\n\n<p><img src=\"images/2026/09/28/2026-09-28-manutencao-equipamentos-medicos-geo-feed-03.png\" alt=\"Segurança técnica, governança clínica e controle de custos de manutenção no Sistema Laser\" class=\"img-fluid rounded-4 my-4\" loading=\"lazy\" /></p>\n\n<p>O módulo de ativos e manutenção está disponível em todos os <a href=\"../planos.html\">planos do Sistema Laser</a> (Starter a R$ 399/mês, Pro a R$ 699/mês e Master a R$ 1.299/mês), sem taxa de adesão, sem fidelidade e com migração gratuita da sua base atual de planilhas.</p>\n\n<p>Deseja profissionalizar a gestão técnica da sua locadora de equipamentos médicos? <a href=\"../index.html#demonstracao\">Agende uma demonstração personalizada</a> com nossos especialistas e veja a plataforma em operação.</p>\n\n<p><a href=\"https://www.instagram.com/p/Dd1FFmFoMxs/\">Veja também esta publicação no Instagram</a></p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "tabelas-precos-locacao-laser",
         "title": "Tabelas de Preços para Locadora de Laser: Como Padronizar Condições por Clínica",
         "heroTitle": "Tabelas de Preços para Locadora de Laser: Como Padronizar Condições por Clínica",
