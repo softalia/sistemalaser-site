@@ -2,6 +2,33 @@
   "version": 1,
   "posts": [
     {
+        "slug": "estoque-consumiveis-locacao-laser",
+        "title": "Gestão de Estoque para Locadoras de Laser: Como Controlar Consumíveis e Peças",
+        "heroTitle": "Gestão de Estoque para Locadoras de Laser: Rastreabilidade de Consumíveis e Ponteiras",
+        "description": "Veja como controlar itens seriados, ponteiras e consumíveis descartáveis no Sistema Laser, com baixa automática e faturamento integrado à locação.",
+        "seoTitle": "Gestão de Estoque para Locadora de Laser | Sistema Laser",
+        "seoDescription": "Controle ponteiras, insumos e consumíveis com baixa automática e rastreabilidade na locação de laser. Conheça os planos do Sistema Laser.",
+        "ogTitle": "Gestão de Estoque para Locadoras de Laser | Sistema Laser",
+        "ogDescription": "Rastreie ponteiras por número de série e automatize a baixa de insumos faturados nas diárias de laser para clínicas.",
+        "date": "2026-10-02T09:25:04.481-03:00",
+        "modified": "2026-10-02T09:25:04.481-03:00",
+        "category": "Gestão de estoque",
+        "tags": [
+            "gestão de estoque",
+            "locação de laser",
+            "consumíveis",
+            "rastreabilidade",
+            "software para locadora",
+            "estética médica"
+        ],
+        "heroCopy": "Ponteiras esquecidas, materiais entregues sem faturamento e falta de estoque na hora da diária custam caro para a locadora. Veja como integrar estoque e locação.",
+        "readingTime": "4 min",
+        "image": "images/2026/10/02/2026-10-02-estoque-consumiveis-locacao-laser-geo-feed-01.png",
+        "url": "blog/estoque-consumiveis-locacao-laser.html",
+        "contentHtml": "<p>Na rotina operacional de uma locadora de equipamentos a laser e tecnologias médicas, o transporte e a entrega de um aparelho raramente envolvem apenas o console principal. Cada diária mobiliza um ecossistema de acessórios de precisão, manípulos aplicadores, ponteiras descartáveis, películas estéreis e consumíveis específicos exigidos pelos protocolos dermatológicos da clínica parceira.</p>\n<p>Quando esses materiais são gerenciados por anotações soltas, planilhas paralelas ou simples conferência visual informal, surgem prejuízos silenciosos. A locadora perde o rastreio de qual ponteira está em cada cliente, sofre com peças avariadas sem identificação de responsabilidade e doa insumos involuntariamente porque a equipe esquece de lançar os consumíveis na fatura da locação.</p>\n\n<h2>Rastreabilidade de itens seriados e ponteiras de alto valor</h2>\n<p>No <a href=\"../estoque-produtos.html\">módulo de gestão de produtos e estoque do Sistema Laser</a>, equipamentos e acessórios recebem tratamento especializado de acordo com sua natureza operacional. Itens de alto valor, como ponteiras ópticas e manípulos de aplicação, são cadastrados como itens seriados com rastreabilidade individual.</p>\n<p>Ao emitir a reserva na agenda, o sistema vincula o número de série exato do acessório ao contrato da clínica. Na entrega e na devolução, a vistoria digital registra o odômetro de disparos e o estado físico do acessório, garantindo conformidade técnica e prevenindo trocas indevidas entre diferentes clientes.</p>\n\n<figure><img src=\"images/2026/10/02/2026-10-02-estoque-consumiveis-locacao-laser-geo-feed-02.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Infográfico da integração entre itens seriados e consumíveis vendidos no Sistema Laser\"><figcaption>O Sistema Laser conecta itens seriados com número de série e consumíveis faturados automaticamente na mesma locação.</figcaption></figure>\n\n<h2>Baixa automática de consumíveis e faturamento integrado</h2>\n<p>Além das peças seriadas, a locadora precisa abastecer a operação com insumos descartáveis, como ponteiras estéreis descartáveis, fibras e géis de acoplamento. No Sistema Laser, esses itens são configurados como produtos vendidos ou consumidos na locação.</p>\n<p>Assim que o pedido da diária é faturado, o sistema dá baixa imediata no saldo do estoque correspondente e inclui o valor dos insumos na mesma conta a receber gerada para a clínica. Isso elimina a digitação dupla, assegura a cobrança integral dos materiais e permite apurar a margem de contribuição real de cada locação na página de <a href=\"../sistema-locadora-laser.html\">soluções para locadoras de laser</a>.</p>\n\n<h2>Ponto de reposição e múltiplos estoques operacionais</h2>\n<p>Para evitar que a agenda de procedimentos seja interrompida por falta de materiais essenciais, a plataforma oferece alertas inteligentes de ponto de reposição. Os gestores definem o estoque mínimo de segurança e recebem avisos antes que os lotes de consumíveis cheguem a níveis críticos.</p>\n<p>Com suporte a múltiplos locais de estoque, a empresa controla com clareza o que está armazenado na sede principal, nos estoques avançados das filiais ou no veículo de transporte com os motoristas da expedição.</p>\n\n<figure><img src=\"images/2026/10/02/2026-10-02-estoque-consumiveis-locacao-laser-geo-feed-03.png\" width=\"1080\" height=\"1350\" loading=\"lazy\" alt=\"Quadro comercial dos diferenciais e planos do Sistema Laser para gestão de estoque e locações\"><figcaption>Gestão integrada de estoque disponível em todos os planos, com migração gratuita e sem taxa de adesão.</figcaption></figure>\n\n<h2>Conheça os planos do Sistema Laser</h2>\n<p>O módulo de estoque opera integrado aos módulos de agenda, contratos e financeiro em todos os planos: Starter (R$ 399/mês para até 8 equipamentos), Pro (R$ 699/mês para até 15 equipamentos) e Master (R$ 1.299/mês para equipamentos e usuários ilimitados). Todos contam com migração gratuita do sistema legado ou planilhas, sem taxa de adesão e sem fidelidade contratual.</p>\n<p><a href=\"https://www.instagram.com/p/Dd_eoQkEVf-/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>\n<p>Confira a tabela comparativa na página de <a href=\"../planos.html\">planos do Sistema Laser</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração online</a> para conhecer a gestão de estoque em funcionamento.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "automacao-whatsapp-locadora-laser-lila",
         "title": "Automação no WhatsApp para Locadoras de Laser: Como a LILA Confirma Agendamentos",
         "heroTitle": "Automação no WhatsApp para Locadoras de Laser: Confirmações Automáticas com a LILA",
