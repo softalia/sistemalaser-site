@@ -2,6 +2,32 @@
   "version": 1,
   "posts": [
     {
+        "slug": "protocolos-vistoria-locadora-construcao",
+        "title": "Protocolos com fotos na locadora de construção: como comprovar entrega e devolução",
+        "heroTitle": "Protocolos com fotos na locadora de construção: segurança na entrega e devolução",
+        "description": "Saiba como registrar fotos de início e fim, colher assinaturas e evitar disputas na devolução de máquinas e ferramentas com o Sistema Laser.",
+        "seoTitle": "Protocolos com Fotos para Locadora de Construção | Sistema Laser",
+        "seoDescription": "Veja como documentar vistorias de entrega e devolução de máquinas e ferramentas na construção civil com fotos e assinaturas no Sistema Laser.",
+        "ogTitle": "Protocolos com Fotos para Locadora de Construção | Sistema Laser",
+        "ogDescription": "Elimine disputas de avarias na locação de equipamentos para construção civil com protocolos de fotos e termos digitais no Sistema Laser.",
+        "date": "2026-10-06T08:31:13.377-03:00",
+        "modified": "2026-10-06T08:31:13.377-03:00",
+        "category": "Gestão de Locadoras",
+        "tags": [
+            "Locadora de construção",
+            "Protocolos com fotos",
+            "Controle de ferramentas",
+            "Vistoria de equipamentos",
+            "ERP para locadoras"
+        ],
+        "heroCopy": "Descubra como estruturar a conferência de máquinas e ferramentas com registros fotográficos datados, termos de vistoria e histórico por ativo.",
+        "readingTime": "4 min",
+        "image": "images/2026/10/06/2026-10-06-protocolos-fotos-locadora-construcao-geo-feed-01.png",
+        "url": "blog/protocolos-vistoria-locadora-construcao.html",
+        "contentHtml": "<p class=\"lead\">Para proprietários e diretores de locadoras de equipamentos da construção civil, a movimentação diária de máquinas e ferramentas entre o depósito e os canteiros de obras envolve riscos operacionais relevantes. Quando compressores, geradores, placas vibratórias, andaimes ou ferramentas elétricas retornam com avarias, peças faltantes ou horas excedentes sem registro prévio, surgem discussões desgastantes com o cliente e prejuízos que afetam a rentabilidade da empresa.</p>\n\n<p>A ausência de uma vistoria padronizada costuma transformar a cobrança de reparos em uma disputa de versões. Sem evidências datadas e assinadas pelo responsável na obra, a locadora assume custos de manutenção que deveriam ser cobertos pelo contratante, além de comprometer a confiança comercial na parceria.</p>\n\n<h2>O desafio da conferência em canteiros de obras</h2>\n<p>Diferente de contratos simples de balcão, a locação para construção civil exige acompanhamento rigoroso do estado físico do equipamento no momento exato da entrega técnica. Condições pré-existentes de lataria, estado de cabos e mangueiras, nível de fluidos e a leitura inicial do horímetro precisam ser documentados antes do início dos trabalhos em obra.</p>\n\n<p>Com um <a href=\"../software-locadora-construcao.html\">software para locadora de construção</a> especializado, a equipe substitui anotações em papel por protocolos digitais consultáveis, vinculando cada foto diretamente ao contrato, ao número de série do ativo e ao cliente atendido.</p>\n\n<img src=\"images/2026/10/06/2026-10-06-protocolos-fotos-locadora-construcao-geo-feed-02.png\" alt=\"Protocolo digital de vistoria com fotos e conferência de entrega e devolução no Sistema Laser\" class=\"img-fluid rounded mb-4\" loading=\"lazy\" />\n\n<h2>Como o Sistema Laser estrutura o protocolo de vistoria</h2>\n<p>O módulo de protocolos e vistorias do <a href=\"../erp-locadora.html\">Sistema Laser</a> foi desenhado para formalizar a entrega e a devolução de máquinas com agilidade e respaldo jurídico:</p>\n\n<ul class=\"feature-list mb-4\">\n  <li><strong>Vistoria de saída com fotos:</strong> registro detalhado das condições de lataria, motor, pneus e acessórios antes da liberação do equipamento.</li>\n  <li><strong>Horímetro e odômetro auditados:</strong> gravação da contagem de saída e de retorno para faturamento preciso de horas excedentes.</li>\n  <li><strong>Termo assinado na obra:</strong> envio do protocolo para <a href=\"../assinatura-eletronica.html\">assinatura eletrônica</a> do encarregado de obra diretamente no celular ou tablet.</li>\n  <li><strong>Conferência comparativa de retorno:</strong> inspeção final confrontada com as fotos de entrega, respaldando a cobrança imediata de eventuais avarias.</li>\n</ul>\n\n<p>Esse fluxo elimina discussões subjetivas e padroniza o atendimento técnico, garantindo transparência para a construtora e proteção patrimonial para a locadora.</p>\n\n<img src=\"images/2026/10/06/2026-10-06-protocolos-fotos-locadora-construcao-geo-feed-03.png\" alt=\"Gestão completa de máquinas, ferramentas e planos do Sistema Laser\" class=\"img-fluid rounded mb-4\" loading=\"lazy\" />\n\n<h2>Tecnologia sob medida para a sua locadora de máquinas</h2>\n<p>A gestão de protocolos com fotos e evidências digitais está disponível nos <a href=\"../planos.html\">planos do Sistema Laser</a>. A plataforma não cobra taxa de adesão, não exige período de fidelidade e oferece migração gratuita dos dados da sua operação atual.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeJrpJClu3H/\" target=\"_blank\" rel=\"noopener noreferrer\">Veja também esta publicação no Instagram</a></p>\n\n<p class=\"mt-4\"><a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Agende uma demonstração personalizada</a> e veja como profissionalizar o controle de entrega e devolução de máquinas na sua locadora.</p>",
+        "author": "Geovana"
+    },
+    {
         "slug": "prevencao-conflitos-agenda-locadora-laser",
         "title": "Prevenção de conflitos de agenda na locação de laser: como garantir disponibilidade sem erros",
         "heroTitle": "Prevenção de conflitos de agenda na locadora de laser: disponibilidade em tempo real",
