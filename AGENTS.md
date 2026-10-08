@@ -79,6 +79,14 @@ Use `make serve` for browser testing. Do not open HTML files directly with
   `BlogPosting` and `BreadcrumbList`.
 - Core pages may include broader Schema.org entities such as `Organization`,
   `SoftwareApplication`, `Product`, `FAQPage`, `Review` and `BreadcrumbList`.
+- Preserve existing structured-data entities when fixing Search Console warnings.
+  Shipping and return metadata must reflect verified commercial conditions; never
+  invent delivery times, refund windows or ratings to silence warnings.
+- Every subscription `Offer` and `AggregateOffer` must include `shippingDetails`
+  and `hasMerchantReturnPolicy`. Digital access has no freight or physical transit;
+  do not infer activation time from transit time. The refund policy follows clause
+  13 of `termos-uso.html`, including its legal exceptions. Keep equivalent offers
+  consistent across pages and run `make validate` to detect missing policy fields.
 - Update source data or build scripts rather than manually patching generated SEO
   in `dist/`.
 - Keep `robots.txt`, `llms.txt`, sitemap generation and blog feed generation

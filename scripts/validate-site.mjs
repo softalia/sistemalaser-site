@@ -422,8 +422,58 @@ for (const source of gallerySources) {
   );
 }
 
+function validateOfferPolicies(value, file) {
+  if (!value || typeof value !== 'object') return;
+  if (['Offer', 'AggregateOffer'].includes(value['@type'])) {
+    const shipping = value.shippingDetails;
+    const returns = value.hasMerchantReturnPolicy;
+    assert(
+      shipping?.['@type'] === 'OfferShippingDetails' &&
+        shipping.shippingRate?.currency === value.priceCurrency &&
+        Number.isFinite(shipping.shippingRate?.value) &&
+        shipping.shippingRate.value >= 0 &&
+        shipping.shippingDestination?.addressCountry &&
+        shipping.deliveryTime?.['@type'] === 'ShippingDeliveryTime',
+      `${file}: offer missing valid shippingDetails`,
+    );
+    const category = returns?.returnPolicyCategory;
+    assert(
+      returns?.['@type'] === 'MerchantReturnPolicy' &&
+        returns.applicableCountry &&
+        [
+          'MerchantReturnNotPermitted',
+          'MerchantReturnFiniteReturnWindow',
+          'MerchantReturnUnlimitedWindow',
+        ].some((name) => category === `https://schema.org/${name}`) &&
+        (category !== 'https://schema.org/MerchantReturnFiniteReturnWindow' ||
+          (Number.isInteger(returns.merchantReturnDays) &&
+            returns.merchantReturnDays >= 0)),
+      `${file}: offer missing valid hasMerchantReturnPolicy`,
+    );
+  }
+  for (const child of Object.values(value)) validateOfferPolicies(child, file);
+}
+
 for (const file of htmlFiles) {
   const html = read(file);
+  const entities = [];
+  for (const block of html.matchAll(
+    /<script\b[^>]*\btype="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g,
+  )) {
+    try {
+      const data = JSON.parse(block[1]);
+      validateOfferPolicies(data, file);
+      entities.push(...(data['@graph'] || [data]));
+    } catch (error) {
+      assert(false, `${file}: invalid JSON-LD: ${error.message}`);
+    }
+  }
+  if (['index.html', 'planos.html'].includes(file)) {
+    assert(
+      entities.some((entity) => entity['@type'] === 'Product' && entity.offers),
+      `${file}: Sistema Laser Product and offers must be preserved`,
+    );
+  }
   const footers = html.match(/<footer class="site-footer"/g) || [];
   assert(
     footers.length === 1,
