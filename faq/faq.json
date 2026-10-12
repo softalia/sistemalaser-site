@@ -80,8 +80,8 @@
         },
         {
           "id": "nfse-emissor-nacional",
-          "question": "Qual plano inclui emissão de NFS-e pelo Emissor Nacional?",
-          "answer": "Os planos Pro e Master incluem a emissão de NFS-e integrada ao Emissor Nacional."
+          "question": "Quais planos incluem emissão de NFS-e sem limites?",
+          "answer": "Os planos Pro e Master incluem emissão de NFS-e sem limites e sem custo adicional, com integração ao emissor da Prefeitura via token de acesso ou ao Emissor Nacional."
         }
       ]
     },
@@ -422,6 +422,28 @@
           "id": "lila-plano",
           "question": "Em qual plano a LILA está disponível?",
           "answer": "A automação com a LILA está disponível no plano Master e utiliza a integração oficial com o WhatsApp Cloud. Custos externos de mensageria podem seguir as condições comerciais aplicáveis."
+        }
+      ]
+    },
+    {
+      "id": "nota-fiscal",
+      "name": "Nota Fiscal Eletrônica",
+      "pages": ["nota-fiscal-eletronica.html"],
+      "questions": [
+        {
+          "id": "nfse-disponivel",
+          "question": "A emissão de nota fiscal já está disponível?",
+          "answer": "Sim. A emissão de NFS-e já está disponível no Sistema Laser, incluída nos planos Pro e Master, sem limites de emissão e sem custo adicional."
+        },
+        {
+          "id": "nfse-prefeituras",
+          "question": "O Sistema Laser emite NFS-e em quais prefeituras?",
+          "answer": "O sistema permite emitir NFS-e em 100% das prefeituras do país, integrado ao emissor da Prefeitura via token de acesso. O Emissor Nacional da NFS-e também está disponível como opção de emissão."
+        },
+        {
+          "id": "nfse-pagamento",
+          "question": "Posso emitir a nota fiscal apenas depois de receber o pagamento?",
+          "answer": "Sim. Você pode enviar uma cobrança por PIX, boleto ou cartão e agendar a emissão da nota apenas após a confirmação do pagamento. Quando o pagamento é confirmado, o Sistema Laser emite a nota automaticamente e a envia ao cliente."
         }
       ]
     }

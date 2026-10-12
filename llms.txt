@@ -16,12 +16,12 @@ O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, a
 ## Páginas principais
 
 - [Visão geral](https://www.sistemalaser.com.br/): plataforma completa para locadoras, diferenciais, módulos, planos e contato para demonstração personalizada.
-- [Visão geral](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal em desenvolvimento.
+- [Visão geral](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal integrada à cobrança.
 - [Assinatura eletrônica](https://www.sistemalaser.com.br/assinatura-eletronica.html): contratos, protocolos com fotos e outros documentos enviados para assinatura ou apenas como notificação, de forma independente ou vinculados às locações.
 - [LILA e automação pelo WhatsApp](https://www.sistemalaser.com.br/lila-whatsapp.html): confirmações de agendamentos, notificações automáticas e acompanhamento separado de mensagens e sessões de conversa.
 - [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
 - [Gestão de produtos e estoque](https://www.sistemalaser.com.br/estoque-produtos.html): múltiplos estoques, transferências, rastreabilidade por número de série, produtos usados ou vendidos em locações, pontos de reposição, pedidos de compra e bonificações.
-- [Nota Fiscal Eletrônica Nacional](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): página de pré-lançamento da emissão de notas fiscais eletrônicas diretamente pelo Sistema Laser; recurso ainda não disponível.
+- [Nota Fiscal Eletrônica](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): emissão de NFS-e em 100% das prefeituras do país via emissor municipal com token de acesso ou Emissor Nacional; incluída nos planos Pro e Master, sem limites e sem custo adicional, com emissão e envio automáticos após a confirmação do pagamento.
 - [Integrações](https://www.sistemalaser.com.br/integracoes.html): WhatsApp Cloud com a LILA, dashboard de mensagens e sessões de conversa, Asaas, API OpenAPI v3, Swagger, webhooks, formulários e Google.
 - [Integração oficial com o WhatsApp](https://www.sistemalaser.com.br/whatsapp.html): conexão da conta Meta Business ao WhatsApp Cloud pelo fluxo oficial de cadastro incorporado.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.

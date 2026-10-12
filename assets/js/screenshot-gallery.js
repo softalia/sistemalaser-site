@@ -157,9 +157,15 @@
     },
     {
       src: 'assets/img/sistema/sll-nfe-emitir.webp',
-      title: 'Nota Fiscal Eletrônica Nacional',
+      title: 'Nota Fiscal Eletrônica',
       description:
-        'Em breve, emissão de notas fiscais eletrônicas diretamente pela operação.',
+        'Emissão de NFS-e integrada à operação e à cobrança, sem limites e sem custo adicional nos planos Pro e Master.',
+    },
+    {
+      src: 'assets/img/sistema/sll-nfe-agendada.webp',
+      title: 'Nota fiscal agendada após o pagamento',
+      description:
+        'Agendamento da emissão de NFS-e vinculada à conta, com emissão automática e envio ao cliente após a confirmação do pagamento.',
     },
     {
       src: 'assets/img/sistema/sll-lila-dashboard.webp',
