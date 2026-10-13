@@ -6,8 +6,8 @@ O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, a
 
 ## Diferenciais e autoridade
 
-- Mais de 420 mil locações já realizadas na plataforma.
-- Cerca de 21 mil locatários diferentes atendidos pelas operações usuárias.
+- 420 mil+ locações já realizadas na plataforma.
+- 21 mil+ locatários atendidos pelas operações usuárias.
 - Parcerias exclusivas com fabricantes de equipamentos.
 - Mais de 20 anos de aperfeiçoamento contínuo no mercado de locações.
 - Plataforma evolutiva: não é um produto fechado de prateleira. A equipe avalia ideias e necessidades específicas de cada operação para conversar sobre o melhor caminho.
@@ -22,7 +22,7 @@ O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, a
 - [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
 - [Gestão de produtos e estoque](https://www.sistemalaser.com.br/estoque-produtos.html): múltiplos estoques, transferências, rastreabilidade por número de série, produtos usados ou vendidos em locações, pontos de reposição, pedidos de compra e bonificações.
 - [Nota Fiscal Eletrônica](https://www.sistemalaser.com.br/nota-fiscal-eletronica.html): emissão de NFS-e em 100% das prefeituras do país via emissor municipal com token de acesso ou Emissor Nacional; incluída nos planos Pro e Master, sem limites e sem custo adicional, com emissão e envio automáticos após a confirmação do pagamento.
-- [Integrações](https://www.sistemalaser.com.br/integracoes.html): API para agentes de IA, sistemas internos, portais e CRM, com OpenAPI v3, Swagger, llms.txt e llms-full.txt; WhatsApp Cloud com a LILA, Asaas com baixa automática, webhooks, formulários e Google.
+- [Integrações](https://www.sistemalaser.com.br/integracoes.html): API ampla para agentes de IA, sistemas internos, portais e CRM, abrangendo pessoas, equipamentos, locações, financeiro, cobranças, documentos, notas fiscais, CRM e demais operações documentadas, conforme plano e permissões da chave, com documentação OpenAPI v3, Swagger, llms.txt e llms-full.txt; WhatsApp Cloud com a LILA, Asaas com baixa automática, webhooks, formulários e Google.
 - [Integração oficial com o WhatsApp](https://www.sistemalaser.com.br/whatsapp.html): conexão da conta Meta Business ao WhatsApp Cloud pelo fluxo oficial de cadastro incorporado.
 - [Planos e preços](https://www.sistemalaser.com.br/planos.html): valores, limites e matriz completa dos planos Starter, Pro e Master.
 - [Blog](https://www.sistemalaser.com.br/blog.html): artigos sobre gestão de locações.

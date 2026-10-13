@@ -45,6 +45,11 @@
           "id": "ramos-atendidos",
           "question": "Quais ramos de locação o Sistema Laser atende?",
           "answer": "O Sistema Laser atende empresas que alugam equipamentos estéticos, médicos, hospitalares e lasers; ferramentas e máquinas de grande porte e de construção civil; equipamentos eletrônicos, máquinas de café expresso e outros ativos alugáveis."
+        },
+        {
+          "id": "geral-api-agentes",
+          "question": "Posso conectar agentes inteligentes e outros sistemas ao Sistema Laser?",
+          "answer": "Sim. Nos planos Pro e Master, a API permite integrar agentes de LLMs como ChatGPT, Codex, Claude, Gemini e outros, além de CRMs, portais e sistemas internos para consultar e criar locações, criar cobranças, emitir notas fiscais e muito mais, conforme as permissões da chave de API. A documentação inclui OpenAPI v3, Swagger, llms.txt e llms-full.txt. Locações, cobranças e notas fiscais são exemplos. A API também abrange outros módulos e operações documentados, como pessoas, equipamentos, financeiro, documentos e CRM, conforme o plano e as permissões da chave."
         }
       ]
     },
@@ -455,12 +460,12 @@
         {
           "id": "api-agentes",
           "question": "Posso integrar o Sistema Laser com agentes de IA?",
-          "answer": "Sim. Agentes como ChatGPT Codex, Claude, Gemini, Grok e outros podem usar a API para consultar e criar locações, criar cobranças, emitir notas fiscais, tratar do CRM e muito mais, conforme as permissões da chave de API e os recursos do plano."
+          "answer": "Sim. Agentes como ChatGPT Codex, Claude, Gemini, Grok e outros podem usar a API para consultar e criar locações, criar cobranças, emitir notas fiscais, tratar do CRM e muito mais, conforme as permissões da chave de API e os recursos do plano. Locações, cobranças e notas fiscais são exemplos. A API também abrange outros módulos e operações documentados, como pessoas, equipamentos, financeiro, documentos e CRM, conforme o plano e as permissões da chave."
         },
         {
           "id": "api-documentacao",
           "question": "Qual documentação está disponível para integrar sistemas e LLMs?",
-          "answer": "A API segue o padrão OpenAPI v3 e oferece Swagger, llms.txt e llms-full.txt. O último é um guia completo para LLMs, com operações, parâmetros e exemplos para que agentes compreendam imediatamente como conectar sistemas internos, portais, CRM e outras automações."
+          "answer": "A API segue o padrão OpenAPI v3 e oferece Swagger, llms.txt e llms-full.txt. O último é um guia completo para LLMs, com operações, parâmetros e exemplos para que agentes compreendam imediatamente como conectar sistemas internos, portais, CRM e outras automações. O guia descreve o alcance amplo da API, incluindo módulos e operações além de locações, cobranças e notas fiscais."
         },
         {
           "id": "api-planos",
