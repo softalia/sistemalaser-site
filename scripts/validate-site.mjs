@@ -243,7 +243,7 @@ for (const page of [
   {
     file: 'integracoes.html',
     image:
-      'https://www.sistemalaser.com.br/assets/img/sistema/sll-lila-dashboard.webp',
+      'https://www.sistemalaser.com.br/assets/img/sistema/sll-integracao-api.webp',
   },
   {
     file: 'whatsapp.html',

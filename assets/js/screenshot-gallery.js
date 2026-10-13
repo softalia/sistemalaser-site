@@ -66,6 +66,12 @@
         'Bancos, caixas e indicadores financeiros conectados à operação.',
     },
     {
+      src: 'assets/img/sistema/sll-integracao-api.webp',
+      title: 'API de integração e agentes de IA',
+      description:
+        'Permissões de consulta e escrita por grupo, com documentação OpenAPI v3, Swagger, llms.txt e llms-full.txt para conectar sistemas e agentes.',
+    },
+    {
       src: 'assets/img/sistema/sll-financeiro-pix.webp',
       title: 'Cobranças integradas',
       description:

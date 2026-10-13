@@ -101,7 +101,7 @@ const staticSitemapEntries = [
     today,
     'monthly',
     '0.75',
-    `${siteUrl}/assets/img/sistema/sll-lila-dashboard.webp`,
+    `${siteUrl}/assets/img/sistema/sll-integracao-api.webp`,
   ],
   ['/planos.html', today, 'monthly', '0.8'],
   [

@@ -446,6 +446,38 @@
           "answer": "Sim. Você pode enviar uma cobrança por PIX, boleto ou cartão e agendar a emissão da nota apenas após a confirmação do pagamento. Quando o pagamento é confirmado, o Sistema Laser emite a nota automaticamente e a envia ao cliente."
         }
       ]
+    },
+    {
+      "id": "integracoes",
+      "name": "Integrações e API",
+      "pages": ["integracoes.html"],
+      "questions": [
+        {
+          "id": "api-agentes",
+          "question": "Posso integrar o Sistema Laser com agentes de IA?",
+          "answer": "Sim. Agentes como ChatGPT Codex, Claude, Gemini, Grok e outros podem usar a API para consultar e criar locações, criar cobranças, emitir notas fiscais, tratar do CRM e muito mais, conforme as permissões da chave de API e os recursos do plano."
+        },
+        {
+          "id": "api-documentacao",
+          "question": "Qual documentação está disponível para integrar sistemas e LLMs?",
+          "answer": "A API segue o padrão OpenAPI v3 e oferece Swagger, llms.txt e llms-full.txt. O último é um guia completo para LLMs, com operações, parâmetros e exemplos para que agentes compreendam imediatamente como conectar sistemas internos, portais, CRM e outras automações."
+        },
+        {
+          "id": "api-planos",
+          "question": "Quais planos incluem a API de integração?",
+          "answer": "A API de integração está incluída nos planos Pro e Master."
+        },
+        {
+          "id": "integracoes-baixa-automatica",
+          "question": "As cobranças por cartão, PIX e boleto têm baixa automática?",
+          "answer": "Sim. Pela integração com o Asaas, a confirmação do pagamento registra o recebimento e realiza a baixa automaticamente no financeiro, mantendo o caixa e o extrato integrados."
+        },
+        {
+          "id": "integracoes-outros-recursos",
+          "question": "Quais outras integrações o Sistema Laser oferece?",
+          "answer": "Além da API, o sistema oferece webhooks, formulários e links de leads, login com Google, cobranças pelo Asaas e WhatsApp Cloud com a LILA, conforme os recursos de cada plano."
+        }
+      ]
     }
   ]
 }
