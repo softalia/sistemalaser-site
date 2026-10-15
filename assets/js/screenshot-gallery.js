@@ -75,7 +75,7 @@
       src: 'assets/img/sistema/sll-financeiro-pix.webp',
       title: 'Cobranças integradas',
       description:
-        'PIX, boleto, cartão e conciliação de pagamentos pelo Asaas.',
+        'PIX e boleto com Asaas e Banco Inter; cartão de crédito pelo Asaas.',
     },
     {
       src: 'assets/img/sistema/sll-financeiro-cobranca-regua.webp',

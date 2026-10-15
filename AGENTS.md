@@ -95,6 +95,9 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 
 ## Assets
 
+- Always link to Asaas using `https://www.asaas.com/r/OKX36LTI`, including logo
+  links and references in pages, blog posts and FAQ source data.
+
 - Place newly received source images under `assets/new/`.
 - Run `make convert-assets-new-to-webp` to convert supported images to WebP.
 - The conversion script removes each original file after a valid WebP is written.

@@ -122,3 +122,33 @@
     grid-row: 1 / 3;
   }
 }
+
+.bank-partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.bank-partners a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid var(--sl-border);
+  border-radius: .7rem;
+}
+.bank-partners a[href="https://www.asaas.com/r/OKX36LTI"] {
+  background: #0030b9;
+}
+.bank-partners img {
+  display: block;
+  width: 150px;
+  height: 28px;
+  object-fit: contain;
+}
+.module-card .bank-partners a {
+  margin-top: 0;
+  padding: 1rem;
+}

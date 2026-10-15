@@ -24,7 +24,7 @@
         {
           "id": "pagamentos-integrados",
           "question": "Qual plano inclui PIX, boleto e cartão?",
-          "answer": "Os planos Pro e Master incluem PIX, boleto, cartão de crédito e extrato integrado com Asaas."
+          "answer": "Os planos Pro e Master incluem PIX e boleto com Asaas e Banco Inter, além de cartão de crédito e extrato integrado com Asaas. O Inter permite cobranças avulsas, parceladas e recorrentes (assinaturas)."
         },
         {
           "id": "filiais-parceiros",
@@ -50,6 +50,16 @@
           "id": "geral-api-agentes",
           "question": "Posso conectar agentes inteligentes e outros sistemas ao Sistema Laser?",
           "answer": "Sim. Nos planos Pro e Master, a API permite integrar agentes de LLMs como ChatGPT, Codex, Claude, Gemini e outros, além de CRMs, portais e sistemas internos para consultar e criar locações, criar cobranças, emitir notas fiscais e muito mais, conforme as permissões da chave de API. A documentação inclui OpenAPI v3, Swagger, llms.txt e llms-full.txt. Locações, cobranças e notas fiscais são exemplos. A API também abrange outros módulos e operações documentados, como pessoas, equipamentos, financeiro, documentos e CRM, conforme o plano e as permissões da chave."
+        },
+        {
+          "id": "geral-tarifas-asaas",
+          "question": "O Sistema Laser cobra tarifas ou limita as cobranças pelo Asaas?",
+          "answer": "Não. Nos planos compatíveis, o Sistema Laser não cobra tarifas por cobrança nem estabelece limites de quantidade para Asaas ou Banco Inter. A assinatura do sistema permanece devida. No Asaas, tarifas se aplicam ao recebimento conforme as condições da conta; consulte https://www.asaas.com/r/OKX36LTI. Limites operacionais e regras do provedor continuam aplicáveis."
+        },
+        {
+          "id": "geral-tarifas-inter",
+          "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
+          "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
         }
       ]
     },
@@ -87,6 +97,16 @@
           "id": "nfse-emissor-nacional",
           "question": "Quais planos incluem emissão de NFS-e sem limites?",
           "answer": "Os planos Pro e Master incluem emissão de NFS-e sem limites e sem custo adicional, com integração ao emissor da Prefeitura via token de acesso ou ao Emissor Nacional."
+        },
+        {
+          "id": "planos-tarifas-asaas",
+          "question": "O Sistema Laser cobra tarifas ou limita as cobranças pelo Asaas?",
+          "answer": "Não. Nos planos compatíveis, o Sistema Laser não cobra tarifas por cobrança nem estabelece limites de quantidade para Asaas ou Banco Inter. A assinatura do sistema permanece devida. No Asaas, tarifas se aplicam ao recebimento conforme as condições da conta; consulte https://www.asaas.com/r/OKX36LTI. Limites operacionais e regras do provedor continuam aplicáveis."
+        },
+        {
+          "id": "planos-tarifas-inter",
+          "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
+          "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
         }
       ]
     },
@@ -103,7 +123,7 @@
         {
           "id": "pix-boleto-cartao",
           "question": "É possível cobrar locações por PIX, boleto e cartão?",
-          "answer": "Sim. Nos planos compatíveis, o Sistema Laser integra PIX, boleto e cartão de crédito pelo Asaas, mantendo a cobrança vinculada à locação e ao cliente."
+          "answer": "Sim. Nos planos Pro e Master, o Sistema Laser integra PIX e boleto pelo Asaas e Banco Inter e cartão de crédito pelo Asaas. No Inter, as cobranças podem ser avulsas, parceladas ou recorrentes (assinaturas), vinculadas ao cliente e à locação."
         },
         {
           "id": "fluxo-caixa",
@@ -119,6 +139,16 @@
           "id": "caixas-motoristas",
           "question": "Posso controlar bancos, gavetas e valores com motoristas?",
           "answer": "Sim. Você pode criar caixas para representar contas bancárias, gavetas, valores em espécie, recursos com motoristas e outros controles individuais."
+        },
+        {
+          "id": "financeiro-tarifas-asaas",
+          "question": "O Sistema Laser cobra tarifas ou limita as cobranças pelo Asaas?",
+          "answer": "Não. Nos planos compatíveis, o Sistema Laser não cobra tarifas por cobrança nem estabelece limites de quantidade para Asaas ou Banco Inter. A assinatura do sistema permanece devida. No Asaas, tarifas se aplicam ao recebimento conforme as condições da conta; consulte https://www.asaas.com/r/OKX36LTI. Limites operacionais e regras do provedor continuam aplicáveis."
+        },
+        {
+          "id": "financeiro-tarifas-inter",
+          "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
+          "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
         }
       ]
     },
@@ -475,12 +505,22 @@
         {
           "id": "integracoes-baixa-automatica",
           "question": "As cobranças por cartão, PIX e boleto têm baixa automática?",
-          "answer": "Sim. Pela integração com o Asaas, a confirmação do pagamento registra o recebimento e realiza a baixa automaticamente no financeiro, mantendo o caixa e o extrato integrados."
+          "answer": "Sim. As integrações com Asaas e Banco Inter permitem acompanhar o recebimento e a baixa automática no financeiro. Boletos e PIX estão disponíveis nos dois provedores; cartão de crédito e extrato integrado estão disponíveis pelo Asaas."
         },
         {
           "id": "integracoes-outros-recursos",
           "question": "Quais outras integrações o Sistema Laser oferece?",
-          "answer": "Além da API, o sistema oferece webhooks, formulários e links de leads, login com Google, cobranças pelo Asaas e WhatsApp Cloud com a LILA, conforme os recursos de cada plano."
+          "answer": "Além da API, o sistema oferece webhooks, formulários e links de leads, login com Google, cobranças pelo Asaas e Banco Inter e WhatsApp Cloud com a LILA, conforme os recursos de cada plano."
+        },
+        {
+          "id": "integracoes-tarifas-asaas",
+          "question": "O Sistema Laser cobra tarifas ou limita as cobranças pelo Asaas?",
+          "answer": "Não. Nos planos compatíveis, o Sistema Laser não cobra tarifas por cobrança nem estabelece limites de quantidade para Asaas ou Banco Inter. A assinatura do sistema permanece devida. No Asaas, tarifas se aplicam ao recebimento conforme as condições da conta; consulte https://www.asaas.com/r/OKX36LTI. Limites operacionais e regras do provedor continuam aplicáveis."
+        },
+        {
+          "id": "integracoes-tarifas-inter",
+          "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
+          "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
         }
       ]
     }
