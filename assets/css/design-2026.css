@@ -528,6 +528,14 @@ details[open] > summary > .disclosure-icon {
 .deep-dive-body {
   padding: 0.5rem 0 2rem;
 }
+/* Preserve Bootstrap row spacing without negative margins covering the summary. */
+.deep-dive-body .row {
+  margin-top: 0;
+  row-gap: var(--bs-gutter-y);
+}
+.deep-dive-body .row > * {
+  margin-top: 0;
+}
 .deep-dive-body > section {
   padding: 2rem 0;
   border: 0;

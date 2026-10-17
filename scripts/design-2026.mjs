@@ -49,7 +49,7 @@ function productDetails(html) {
         heading[0].replace(/^<h2/, '<h3').replace(/<\/h2>$/, '</h3>'),
       )
       .replace(/<span\b[^>]*class="eyebrow"[^>]*>[\s\S]*?<\/span>/, '');
-    return `<section class="product-detail" id="${anchor}"><div class="container"><details class="deep-dive"><summary><h2>${escape(label)}</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="deep-dive-body">${inner}</div></details></div></section>`;
+    return `<section class="product-detail" id="${anchor}"><div class="container"><details open class="deep-dive"><summary><h2>${escape(label)}</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="deep-dive-body">${inner}</div></details></div></section>`;
   });
   if (entries.length > 2) {
     const toc = `<nav class="page-index" aria-label="Nesta página"><div class="container"><span>Nesta página</span>${entries.map(([id, label]) => `<a href="#${id}">${escape(label)}</a>`).join('')}</div></nav>`;
@@ -86,7 +86,7 @@ export function applyDesign(directory, posts) {
           'Carregando postagens...',
           'Explore os artigos sobre gestão de locadoras.',
         );
-        const archive = `<section class="section-space"><div class="container"><details class="deep-dive"><summary><h2>Todos os artigos, por data</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><ul class="article-archive">${posts.map((post) => `<li><time datetime="${post.date}">${post.date.split('-').reverse().join('/')}</time><a href="${escape(post.url)}">${escape(post.title)}</a></li>`).join('')}</ul></details></div></section>`;
+        const archive = `<section class="section-space"><div class="container"><details open class="deep-dive"><summary><h2>Todos os artigos, por data</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><ul class="article-archive">${posts.map((post) => `<li><time datetime="${post.date}">${post.date.split('-').reverse().join('/')}</time><a href="${escape(post.url)}">${escape(post.title)}</a></li>`).join('')}</ul></details></div></section>`;
         html = html.replace('</main>', `${archive}</main>`);
       }
       const prefix = path.relative(directory, file).startsWith('blog/')
