@@ -540,6 +540,9 @@ details[open] > summary > .disclosure-icon {
   padding: 2rem 0;
   border: 0;
 }
+.deep-dive-body > section + section {
+  margin-top: 1.5rem;
+}
 .deep-dive-body .container {
   padding-inline: 0.75rem;
 }
