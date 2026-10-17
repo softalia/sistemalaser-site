@@ -45,7 +45,7 @@ function renderAccordion(items, accordionId) {
   return `<div class="accordion accordion-flush" id="${escapeHtml(accordionId)}">${items
     .map((item, index) => {
       const id = `${accordionId}-${item.id}`;
-      return `<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${escapeHtml(id)}" aria-expanded="${index ? 'false' : 'true'}">${escapeHtml(item.question)}</button></h3><div id="${escapeHtml(id)}" class="accordion-collapse collapse${index ? '' : ' show'}" data-bs-parent="#${escapeHtml(accordionId)}"><div class="accordion-body">${escapeHtml(item.answer)}</div></div></div>`;
+      return `<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${escapeHtml(id)}" aria-expanded="${index ? 'false' : 'true'}">${escapeHtml(item.question)}</button></h3><div id="${escapeHtml(id)}" class="accordion-collapse collapse${index ? '' : ' show'}"><div class="accordion-body">${escapeHtml(item.answer)}</div></div></div>`;
     })
     .join('')}</div>`;
 }
@@ -152,7 +152,7 @@ function faqPageHtml(data) {
 </head>
 <body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPW847MH" height="0" width="0" style="display:none"></iframe></noscript><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
   <main id="conteudo"><header class="subhero"><div class="container"><span class="eyebrow">Central de ajuda</span><h1 class="display-title">Perguntas frequentes sobre o Sistema Laser.</h1><p class="hero-copy">Pesquise por tema ou navegue pelas seções para entender como a plataforma apoia a rotina da sua locadora.</p></div></header>
-    <section class="section-space"><div class="container"><div class="row g-4 align-items-end mb-5"><div class="col-lg-8"><label class="form-label" for="faqSearch">O que você quer saber?</label><input class="form-control form-control-lg" id="faqSearch" type="search" placeholder="Ex.: CRM, PIX, contratos, preços ou agenda" autocomplete="off"></div><div class="col-lg-4"><label class="form-label" for="faqSection">Filtrar por seção</label><select class="form-select form-select-lg" id="faqSection"><option value="">Todas as seções</option>${data.sections.map((section) => `<option value="${escapeHtml(section.id)}">${escapeHtml(section.name)}</option>`).join('')}</select></div></div><p class="section-lead" id="faqStatus" aria-live="polite"></p><div id="faqResults"></div></div></section>
+    <section class="section-space"><div class="container"><div class="row g-4 align-items-end mb-5"><div class="col-lg-8"><label class="form-label" for="faqSearch">O que você quer saber?</label><input class="form-control form-control-lg" id="faqSearch" type="search" placeholder="Ex.: CRM, PIX, contratos, preços ou agenda" autocomplete="off"></div><div class="col-lg-4"><label class="form-label" for="faqSection">Filtrar por seção</label><select class="form-select form-select-lg" id="faqSection"><option value="">Todas as seções</option>${data.sections.map((section) => `<option value="${escapeHtml(section.id)}">${escapeHtml(section.name)}</option>`).join('')}</select></div></div><p class="section-lead" id="faqStatus" aria-live="polite"></p><div id="faqResults">${data.sections.map((section) => `<section id="${escapeHtml(section.id)}" class="mb-5"><h2 class="section-title">${escapeHtml(section.name)}</h2>${renderAccordion(section.questions, `initial-${section.id}`)}</section>`).join('')}</div></div></section>
   </main>
   <script>const faqData=${jsonScript(all)};(${function (faq) {
     const results = document.getElementById('faqResults');
@@ -191,7 +191,7 @@ function faqPageHtml(data) {
           const itemId = `faq-page-${item.id}`;
           const entry = document.createElement('div');
           entry.className = 'accordion-item';
-          entry.innerHTML = `<h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${itemId}">${item.question}</button></h3><div id="${itemId}" class="accordion-collapse collapse${index ? '' : ' show'}" data-bs-parent="#${accordion.id}"><div class="accordion-body"></div></div>`;
+          entry.innerHTML = `<h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${itemId}" aria-expanded="${index ? 'false' : 'true'}">${item.question}</button></h3><div id="${itemId}" class="accordion-collapse collapse${index ? '' : ' show'}"><div class="accordion-body"></div></div>`;
           entry.querySelector('.accordion-body').textContent = item.answer;
           accordion.appendChild(entry);
         });

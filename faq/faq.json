@@ -69,6 +69,11 @@
       "pages": ["planos.html"],
       "questions": [
         {
+          "id": "escolher-plano",
+          "question": "Como usar a sugestão de plano do site?",
+          "answer": "Na página de planos, informe a faixa de equipamentos e usuários e os recursos necessários. A sugestão considera os limites públicos de cada plano. Ela é um ponto de partida: confira a tabela completa e as condições dos serviços integrados ou solicite uma demonstração para validar sua operação."
+        },
+        {
           "id": "taxa-adesao",
           "question": "Existe taxa de adesão?",
           "answer": "Não. Os planos do Sistema Laser não possuem taxa de adesão."

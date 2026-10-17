@@ -158,6 +158,17 @@
               </select>
             </div>
           </div>
+          <div class="mb-4">
+            <label class="form-label" for="blogSearch"
+              >Qual assunto você procura?</label
+            ><input
+              class="form-control"
+              type="search"
+              id="blogSearch"
+              placeholder="Busque por agenda, manutenção, cobrança…"
+              autocomplete="off"
+            />
+          </div>
           <div id="blogStatus" class="section-lead">
             Carregando postagens...
           </div>
@@ -248,7 +259,23 @@
         }
         function filtered() {
           return posts.filter(function (post) {
-            return !category || post.category === category;
+            var term = document
+              .getElementById('blogSearch')
+              .value.trim()
+              .toLocaleLowerCase('pt-BR');
+            return (
+              (!category || post.category === category) &&
+              (!term ||
+                (
+                  post.title +
+                  ' ' +
+                  post.description +
+                  ' ' +
+                  (post.tags || []).join(' ')
+                )
+                  .toLocaleLowerCase('pt-BR')
+                  .includes(term))
+            );
           });
         }
         function renderCategories() {
@@ -312,6 +339,12 @@
           }
           pagination.innerHTML = html;
         }
+        document
+          .getElementById('blogSearch')
+          .addEventListener('input', function () {
+            page = 1;
+            renderPosts();
+          });
         categorySelect.addEventListener('change', function () {
           category = categorySelect.value;
           page = 1;

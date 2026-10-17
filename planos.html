@@ -329,6 +329,46 @@
           </div>
         </div>
       </header>
+      <section class="section-space" aria-label="Encontre seu plano">
+        <div class="container">
+          <div class="advisor" id="plan-advisor" hidden>
+            <div>
+              <span class="eyebrow">Uma ajuda para escolher</span>
+              <h2>Qual plano combina com sua rotina?</h2>
+              <label for="advisor-size">Quantos equipamentos e usuários?</label
+              ><select id="advisor-size">
+                <option value="starter">Até 8 equipamentos e 3 usuários</option>
+                <option value="pro">Até 15 equipamentos e 7 usuários</option>
+                <option value="master">
+                  Mais de 15 equipamentos ou 7 usuários
+                </option></select
+              ><label for="advisor-needs"
+                >O que precisa entrar na operação?</label
+              ><select id="advisor-needs">
+                <option value="starter">Agenda e gestão financeira</option>
+                <option value="pro">
+                  CRM, cobranças, contratos, estoque ou API
+                </option>
+                <option value="master">
+                  Filiais, parceiros ou WhatsApp automático
+                </option>
+              </select>
+            </div>
+            <div class="advisor-result" aria-live="polite" aria-atomic="true">
+              <span class="eyebrow">Plano sugerido</span
+              ><strong id="advisor-plan">Starter</strong>
+              <p id="advisor-reason"></p>
+              <a id="advisor-link" href="#starter"
+                >Conhecer os limites e recursos ↓</a
+              >
+              <p class="legal-note">
+                Sugestão inicial baseada nas opções acima. Confira a comparação
+                completa e as condições dos serviços integrados abaixo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="section-space">
         <div class="container">
