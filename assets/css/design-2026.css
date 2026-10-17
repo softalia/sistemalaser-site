@@ -141,7 +141,7 @@ a {
   gap: 1.2rem;
 }
 .site-brand {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   gap: 0.7rem;
   white-space: nowrap;
 }
@@ -155,7 +155,7 @@ a {
 .nav-direct,
 .nav-dropdown > summary,
 .nav-login {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--sl-text);
   font-weight: 700;
   text-decoration: none;
@@ -244,7 +244,7 @@ summary::-webkit-details-marker {
   line-height: 1.4;
   text-decoration: none;
   color: var(--sl-text);
-  font-size: 0.88rem;
+  font-size: 1rem;
   border-radius: 6px;
   transition:
     color 0.16s ease,
@@ -482,6 +482,9 @@ details[open] > summary > .disclosure-icon {
 .popular {
   border-radius: 2px;
 }
+[data-bs-theme='dark'] .price-card .popular {
+  color: var(--sl-bg);
+}
 .logo-cloud {
   gap: 2.2rem;
 }
@@ -660,6 +663,10 @@ details[open] > summary > .disclosure-icon {
 .site-footer a {
   font-size: 0.85rem;
 }
+.whatsapp-icon {
+  width: 1.55rem;
+  height: 1.55rem;
+}
 .whatsapp-fab {
   background: #306a4e;
   box-shadow: 0 4px 12px #0002;
@@ -695,7 +702,7 @@ details[open] > summary > .disclosure-icon {
     gap: 0.7rem;
   }
   .site-nav .btn {
-    font-size: 0.76rem;
+    font-size: 0.9375rem;
     padding: 0.7rem 0.8rem;
   }
   .site-brand {
@@ -751,7 +758,7 @@ details[open] > summary > .disclosure-icon {
     justify-content: space-between;
   }
   .nav-actions .btn {
-    font-size: 0.86rem;
+    font-size: 1rem;
   }
   .theme-control {
     display: flex;

@@ -31,6 +31,8 @@ validate: build ## Valida o site gerado, verificando se há erros de sintaxe e l
 	node --check scripts/footer-html.mjs
 	node --check scripts/minify-html.mjs
 	node --check scripts/validate-site.mjs
+	node --check scripts/seo.mjs
+	node --check scripts/validate-seo.mjs
 
 help: ## Exibe a lista de comandos disponíveis
 	@awk 'BEGIN {FS = ":.*##"} /^[a-zA-Z0-9_.-]+:.*##/ {printf "\033[36m%-12s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)

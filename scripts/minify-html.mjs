@@ -34,6 +34,31 @@ export async function minifyHtmlDirectory(directory) {
   return files.length;
 }
 
+// Keep readable sources while publishing compact first-party CSS and scripts.
+// Already minified vendor files keep their original licensing and contents.
+export async function minifySiteAssets(directory) {
+  const files = ['css', 'js'].flatMap((kind) => {
+    const folder = path.join(directory, 'assets', kind);
+    return fs
+      .readdirSync(folder)
+      .filter(
+        (name) => name.endsWith(`.${kind}`) && !name.endsWith(`.min.${kind}`),
+      )
+      .map((name) => ({ file: path.join(folder, name), kind }));
+  });
+  await Promise.all(
+    files.map(async ({ file, kind }) => {
+      const tag = kind === 'css' ? 'style' : 'script';
+      const source = fs.readFileSync(file, 'utf8');
+      const output = await minify(`<${tag}>${source}</${tag}>`, {
+        minifyCSS: kind === 'css',
+        minifyJS: kind === 'js',
+      });
+      fs.writeFileSync(file, output.slice(tag.length + 2, -(tag.length + 3)));
+    }),
+  );
+}
+
 if (
   process.argv[1] &&
   path.resolve(process.argv[1]) ===
