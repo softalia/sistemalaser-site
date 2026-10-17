@@ -43,9 +43,9 @@ function readFaq(root) {
 
 function renderAccordion(items, accordionId) {
   return `<div class="accordion accordion-flush" id="${escapeHtml(accordionId)}">${items
-    .map((item) => {
+    .map((item, index) => {
       const id = `${accordionId}-${item.id}`;
-      return `<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${escapeHtml(id)}" aria-expanded="true">${escapeHtml(item.question)}</button></h3><div id="${escapeHtml(id)}" class="accordion-collapse collapse show"><div class="accordion-body">${escapeHtml(item.answer)}</div></div></div>`;
+      return `<div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${escapeHtml(id)}" aria-expanded="${index ? 'false' : 'true'}">${escapeHtml(item.question)}</button></h3><div id="${escapeHtml(id)}" class="accordion-collapse collapse${index ? '' : ' show'}"><div class="accordion-body">${escapeHtml(item.answer)}</div></div></div>`;
     })
     .join('')}</div>`;
 }
@@ -187,11 +187,11 @@ function faqPageHtml(data) {
         const accordion = document.createElement('div');
         accordion.className = 'accordion accordion-flush';
         accordion.id = `faq-page-${sectionId}`;
-        items.forEach((item) => {
+        items.forEach((item, index) => {
           const itemId = `faq-page-${item.id}`;
           const entry = document.createElement('div');
           entry.className = 'accordion-item';
-          entry.innerHTML = `<h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#${itemId}" aria-expanded="true">${item.question}</button></h3><div id="${itemId}" class="accordion-collapse collapse show"><div class="accordion-body"></div></div>`;
+          entry.innerHTML = `<h3 class="accordion-header"><button class="accordion-button${index ? ' collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${itemId}" aria-expanded="${index ? 'false' : 'true'}">${item.question}</button></h3><div id="${itemId}" class="accordion-collapse collapse${index ? '' : ' show'}"><div class="accordion-body"></div></div>`;
           entry.querySelector('.accordion-body').textContent = item.answer;
           accordion.appendChild(entry);
         });
