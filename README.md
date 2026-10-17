@@ -35,7 +35,7 @@ dist/
 ```
 
 O arquivo `CNAME` fica versionado na raiz como fonte e é copiado para `dist/`,
-como o GitHub Pages espera para manter o domínio personalizado.
+para manter a referência do domínio canônico. Com publicação via Actions, o domínio efetivo deve ser configurado também em Settings > Pages; o arquivo CNAME sozinho não altera essa configuração.
 
 ## Comandos
 
@@ -107,7 +107,8 @@ No repositório, configure o Pages para publicar via GitHub Actions:
 1. Acesse `Settings` > `Pages`.
 2. Em `Build and deployment`, selecione `Source: GitHub Actions`.
 3. Mantenha o arquivo `CNAME` na raiz do projeto com o domínio
-   `sistemalaser.com.br`.
+   `www.sistemalaser.com.br`. Em `Settings` > `Pages`, configure o mesmo
+   domínio em `Custom domain` e marque `Enforce HTTPS`.
 4. Faça push para `main` ou `master`.
 5. A Action `Build and publish site` vai executar `make validate`, gerar `dist/`,
    enviar esse diretório como artefato e publicar o conteúdo no GitHub Pages.
@@ -133,3 +134,24 @@ O deploy usa estas Actions oficiais:
 - `actions/configure-pages`
 - `actions/upload-pages-artifact`
 - `actions/deploy-pages`
+
+## SEO e indexação
+
+O build executa `scripts/seo.mjs` depois de gerar conteúdo, FAQ e navegação.
+Padroniza idioma e metadados, completa entidades de página/site/organização e
+gera o sitemap com as URLs canônicas indexáveis e imagens. Datas `lastmod` só
+são emitidas para artigos com data editorial conhecida; não use a data do build
+como se fosse atualização de conteúdo.
+
+`scripts/validate-seo.mjs`, integrado ao `make validate`, verifica todas as
+páginas, títulos/descrições únicos, dimensões e alternativas das imagens,
+canonicals, dados estruturados, sitemap e descoberta por links HTML a partir
+da home. O catálogo completo de artigos fica disponível sem JavaScript.
+
+URLs antigas continuam com redirecionamento HTML imediato, canonical de destino
+e link navegável, compatíveis com GitHub Pages. A versão histórica dos termos
+continua acessível com `noindex,follow`; os termos atuais permanecem indexáveis.
+
+A auditoria de outubro de 2026, incluindo a configuração pendente na hospedagem
+e acompanhamento no Search Console, está em
+[docs/seo-revisao-2026-10.md](docs/seo-revisao-2026-10.md).

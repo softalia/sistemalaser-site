@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { validateSeo } from './validate-seo.mjs';
 
 const root = process.cwd();
 const dist = path.join(root, 'dist');
@@ -426,10 +427,11 @@ for (const section of faqSections) {
 }
 const gallerySources = new Set(
   Array.from(
-    galleryScript.matchAll(/\bsrc:\s*'([^']+)'/g),
-    (match) => match[1],
+    galleryScript.matchAll(/\bsrc:\s*(['"])([^'"]+)\1/g),
+    (match) => match[2],
   ),
 );
+assert(gallerySources.size > 0, 'Screenshot gallery catalog must not be empty');
 for (const source of gallerySources) {
   assert(
     fs.existsSync(path.join(dist, source)),
@@ -548,14 +550,8 @@ for (const file of htmlFiles) {
     `${file} must include exactly one generated WhatsApp button`,
   );
   assert(
-    html.includes('fi fi-brands-whatsapp'),
+    html.includes('class="whatsapp-icon"'),
     `${file} generated WhatsApp button is missing its brand icon`,
-  );
-  assert(
-    html.includes(
-      'https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css',
-    ),
-    `${file} is missing the UIcons brands stylesheet`,
   );
   const currentDir = path.dirname(file) === '.' ? '' : `${path.dirname(file)}/`;
   for (const match of html.matchAll(/\s(?:href|src)="([^"#:][^"]*)"/g)) {
@@ -586,6 +582,8 @@ for (const file of htmlFiles) {
     );
   }
 }
+
+errors.push(...validateSeo(dist, htmlFiles, posts));
 
 if (errors.length) {
   console.error(errors.join('\n'));

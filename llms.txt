@@ -16,7 +16,7 @@ O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, a
 ## Páginas principais
 
 - [Visão geral](https://www.sistemalaser.com.br/): plataforma completa para locadoras, diferenciais, módulos, planos e contato para demonstração personalizada.
-- [Visão geral](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal integrada à cobrança.
+- [Funcionalidades](https://www.sistemalaser.com.br/funcionalidades.html): catálogo completo de agenda, dashboards, equipamentos, estoque, manutenção, CRM, financeiro, documentos, assinatura, LILA, protocolos, preços, rede, integrações, acessibilidade e Nota Fiscal integrada à cobrança.
 - [Assinatura eletrônica](https://www.sistemalaser.com.br/assinatura-eletronica.html): contratos, protocolos com fotos e outros documentos enviados para assinatura ou apenas como notificação, de forma independente ou vinculados às locações.
 - [LILA e automação pelo WhatsApp](https://www.sistemalaser.com.br/lila-whatsapp.html): confirmações de agendamentos, notificações automáticas e acompanhamento separado de mensagens e sessões de conversa.
 - [CRM para locadoras](https://www.sistemalaser.com.br/crm.html): gestão de leads, negócios, jornada do cliente, tarefas, automações, formulários, agenda, dashboard e relatórios; disponível nos planos Pro e Master.
@@ -32,7 +32,7 @@ O Sistema Laser conecta comercial, agenda, logística, documentos, financeiro, a
 
 ## Arquitetura do blog
 
-Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O comando `make build` executa `scripts/build-blog.mjs` e gera o site público completo em `/dist`, incluindo as páginas HTML individuais em `/dist/blog`, canonical próprio, metadados Open Graph, Schema.org `BlogPosting`, `BreadcrumbList`, data semântica, links relacionados, feed RSS e sitemap atualizado. A página `blog.html` carrega `blog/posts.json` no navegador para montar a lista de postagens, filtro por categoria e paginação sem depender de servidor.
+Cada postagem do blog nasce como uma entrada completa em `blog/posts.json`. O comando `make build` executa `scripts/build-blog.mjs` e gera o site público completo em `/dist`, incluindo as páginas HTML individuais em `/dist/blog`, canonical próprio, metadados Open Graph, Schema.org `BlogPosting`, `BreadcrumbList`, data semântica, links relacionados, feed RSS e sitemap atualizado. A página `blog.html` inclui o catálogo de artigos e links no HTML inicial, acessível sem JavaScript. No navegador, `blog/posts.json` permite filtrar por categoria, pesquisar e paginar os resultados.
 
 ## Páginas pilar de SEO
 

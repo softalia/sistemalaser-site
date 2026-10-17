@@ -2,8 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { buildFaq } from './build-faq.mjs';
 import { renderFooter } from './footer-html.mjs';
-import { minifyHtmlDirectory } from './minify-html.mjs';
+import { minifyHtmlDirectory, minifySiteAssets } from './minify-html.mjs';
 import { applyDesign } from './design-2026.mjs';
+import { optimizeSeo } from './seo.mjs';
 
 const root = process.cwd();
 const siteUrl = 'https://www.sistemalaser.com.br';
@@ -13,9 +14,7 @@ const distBlogDir = path.join(distDir, 'blog');
 const postsFile = path.join(blogDir, 'posts.json');
 const blogImagesDir = path.join(blogDir, 'images');
 const distBlogImagesDir = path.join(distBlogDir, 'images');
-const sitemapFile = path.join(distDir, 'sitemap.xml');
 const rssFile = path.join(distBlogDir, 'feed.xml');
-const today = process.env.SITE_LASTMOD || new Date().toISOString().slice(0, 10);
 const staticFiles = ['CNAME', 'robots.txt', 'llms.txt'];
 const staticDirs = ['assets'];
 const landingAliases = [
@@ -51,72 +50,6 @@ const legacyRedirects = [
     target: 'erp-locadora.html',
     title: 'ERP para locadora',
   },
-];
-
-const staticSitemapEntries = [
-  ['/', today, 'weekly', '1.0'],
-  ['/locadora-laser.html', today, 'monthly', '0.9'],
-  ['/software-locadora-medica.html', today, 'monthly', '0.85'],
-  ['/software-locadora-construcao.html', today, 'monthly', '0.8'],
-  [
-    '/software-locadora-eletronicos.html',
-    today,
-    'monthly',
-    '0.8',
-    `${siteUrl}/assets/img/sistema/sll-locacoes-dashboard.webp`,
-  ],
-  ['/erp-locadora.html', today, 'monthly', '0.95'],
-  ['/sistema-financeiro-locadora.html', today, 'monthly', '0.9'],
-  ['/crm.html', today, 'monthly', '0.9'],
-  [
-    '/estoque-produtos.html',
-    today,
-    'monthly',
-    '0.85',
-    `${siteUrl}/assets/img/sistema/sll-produtos-estoque.webp`,
-  ],
-  ['/nota-fiscal-eletronica.html', today, 'monthly', '0.75'],
-  [
-    '/funcionalidades.html',
-    today,
-    'monthly',
-    '0.8',
-    `${siteUrl}/assets/img/sistema/sll-documento-dashboard.webp`,
-  ],
-  [
-    '/assinatura-eletronica.html',
-    today,
-    'monthly',
-    '0.85',
-    `${siteUrl}/assets/img/sistema/sll-documento-dashboard.webp`,
-  ],
-  [
-    '/lila-whatsapp.html',
-    today,
-    'monthly',
-    '0.85',
-    `${siteUrl}/assets/img/sistema/sll-lila-dashboard.webp`,
-  ],
-  [
-    '/integracoes.html',
-    today,
-    'monthly',
-    '0.75',
-    `${siteUrl}/assets/img/sistema/sll-integracao-api.webp`,
-  ],
-  ['/planos.html', today, 'monthly', '0.8'],
-  [
-    '/whatsapp.html',
-    today,
-    'monthly',
-    '0.7',
-    `${siteUrl}/assets/img/whatsapp_partner.webp`,
-  ],
-  ['/blog.html', today, 'weekly', '0.75'],
-  ['/faq.html', today, 'monthly', '0.8'],
-  ['/jobs.html', today, 'yearly', '0.3'],
-  ['/termos-privacidade.html', today, 'yearly', '0.2'],
-  ['/termos-uso.html', today, 'yearly', '0.2'],
 ];
 
 function escapeHtml(value) {
@@ -176,9 +109,11 @@ function injectFooter(directory) {
 }
 
 function injectWhatsappFab(directory) {
-  const iconStylesheet =
-    'https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css';
-  const button = `<a class="whatsapp-fab" data-generated-whatsapp-fab href="https://api.whatsapp.com/send?phone=5561991642806&amp;text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Sistema%20Laser" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><i class="fi fi-brands-whatsapp" aria-hidden="true"></i></a>`;
+  const icon = fs
+    .readFileSync(path.join(root, 'assets/img/icons/whatsapp.svg'), 'utf8')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .trim();
+  const button = `<a class="whatsapp-fab" data-generated-whatsapp-fab href="https://api.whatsapp.com/send?phone=5561991642806&amp;text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Sistema%20Laser" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">${icon}</a>`;
 
   for (const file of htmlFiles(directory)) {
     let html = fs.readFileSync(file, 'utf8');
@@ -186,12 +121,6 @@ function injectWhatsappFab(directory) {
       /<a\b[^>]*\bclass=["'][^"']*\bwhatsapp-fab\b[^"']*["'][\s\S]*?<\/a>/gi,
       '',
     );
-    if (!html.includes(iconStylesheet)) {
-      html = html.replace(
-        '</head>',
-        `  <link rel="stylesheet" href="${iconStylesheet}">\n</head>`,
-      );
-    }
     html = html.replace('</body>', `  ${button}\n</body>`);
     fs.writeFileSync(file, html);
   }
@@ -205,7 +134,7 @@ function redirectHtml(target, title) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>${escapeHtml(title)} | Sistema Laser</title>
-  <meta name="robots" content="noindex,follow">
+  <meta name="robots" content="follow">
   <link rel="canonical" href="${canonical}">
   <meta http-equiv="refresh" content="0;url=${target}">
 </head>
@@ -555,39 +484,6 @@ ${related.map((item) => `          <div class="col-md-4"><article class="module-
 `;
 }
 
-function buildSitemap(posts) {
-  const entries = [
-    ...staticSitemapEntries,
-    ...posts.map((post) => [
-      `/${post.url}`,
-      post.modified,
-      'yearly',
-      '0.55',
-      post.image,
-    ]),
-  ];
-  const seen = new Set();
-  const urls = entries
-    .filter(([loc]) => {
-      if (seen.has(loc)) return false;
-      seen.add(loc);
-      return true;
-    })
-    .map(([loc, lastmod, changefreq, priority, image]) => {
-      const imageXml = image
-        ? `<image:image><image:loc>${escapeHtml(image)}</image:loc></image:image>`
-        : '';
-      return `    <url><loc>${absolute(loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${imageXml}</url>`;
-    })
-    .join('\n');
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-${urls}
-</urlset>
-`;
-}
-
 function buildRss(posts) {
   const items = posts
     .slice(0, 20)
@@ -625,12 +521,13 @@ for (const post of posts) {
     postHtml(post, posts),
   );
 }
-fs.writeFileSync(sitemapFile, buildSitemap(posts));
 fs.writeFileSync(rssFile, buildRss(posts));
 buildFaq(root);
 injectFooter(distDir);
 injectWhatsappFab(distDir);
 applyDesign(distDir, posts);
+optimizeSeo(distDir, posts);
+await minifySiteAssets(distDir);
 const minifiedPages = await minifyHtmlDirectory(distDir);
 
 console.log(

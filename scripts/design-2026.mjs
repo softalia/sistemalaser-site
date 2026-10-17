@@ -72,7 +72,6 @@ export function applyDesign(directory, posts) {
       if (/<meta http-equiv="refresh"/.test(html)) continue;
       if (entry.name === 'blog.html') {
         const cards = posts
-          .slice(0, 8)
           .map(
             (post) =>
               `<div class="col-md-6 col-xl-3"><a class="blog-card-link" href="${escape(post.url)}"><article class="module-card"><span class="eyebrow">${escape(post.category)}</span><h3>${escape(post.title)}</h3><p>${escape(post.description)}</p><span class="blog-card-cta">Ler postagem</span></article></a></div>`,
@@ -86,8 +85,6 @@ export function applyDesign(directory, posts) {
           'Carregando postagens...',
           'Explore os artigos sobre gestão de locadoras.',
         );
-        const archive = `<section class="section-space"><div class="container"><details open class="deep-dive"><summary><h2>Todos os artigos, por data</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><ul class="article-archive">${posts.map((post) => `<li><time datetime="${post.date}">${post.date.split('-').reverse().join('/')}</time><a href="${escape(post.url)}">${escape(post.title)}</a></li>`).join('')}</ul></details></div></section>`;
-        html = html.replace('</main>', `${archive}</main>`);
       }
       const prefix = path.relative(directory, file).startsWith('blog/')
         ? '../'
