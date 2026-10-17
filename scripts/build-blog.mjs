@@ -3,6 +3,7 @@ import path from 'node:path';
 import { buildFaq } from './build-faq.mjs';
 import { renderFooter } from './footer-html.mjs';
 import { minifyHtmlDirectory } from './minify-html.mjs';
+import { applyDesign } from './design-2026.mjs';
 
 const root = process.cwd();
 const siteUrl = 'https://www.sistemalaser.com.br';
@@ -629,6 +630,7 @@ fs.writeFileSync(rssFile, buildRss(posts));
 buildFaq(root);
 injectFooter(distDir);
 injectWhatsappFab(distDir);
+applyDesign(distDir, posts);
 const minifiedPages = await minifyHtmlDirectory(distDir);
 
 console.log(

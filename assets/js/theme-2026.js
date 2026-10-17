@@ -1,5 +1,6 @@
 (function () {
   var key = 'sl-theme';
+  var readyForms = new WeakSet();
   var media = window.matchMedia('(prefers-color-scheme: dark)');
   function preference() {
     return localStorage.getItem('theme') || localStorage.getItem(key) || 'auto';
@@ -9,7 +10,8 @@
   }
   function sendThemeToPublicForm(iframe) {
     var targetOrigin = iframe.getAttribute('data-sll-public-form-origin');
-    if (!targetOrigin || !iframe.contentWindow) return;
+    if (!targetOrigin || !iframe.contentWindow || !readyForms.has(iframe))
+      return;
     iframe.contentWindow.postMessage(
       {
         type: 'sll-public-form:set-theme',
@@ -48,6 +50,7 @@
       .querySelectorAll('iframe[data-sll-public-form]')
       .forEach(function (iframe) {
         iframe.addEventListener('load', function () {
+          readyForms.add(iframe);
           sendThemeToPublicForm(iframe);
         });
       });
@@ -68,8 +71,13 @@
     document
       .querySelectorAll('iframe[data-sll-public-form]')
       .forEach(function (iframe) {
-        if (iframe.contentWindow === event.source)
+        if (
+          iframe.contentWindow === event.source &&
+          event.origin === iframe.getAttribute('data-sll-public-form-origin')
+        ) {
+          readyForms.add(iframe);
           sendThemeToPublicForm(iframe);
+        }
       });
   });
 })();

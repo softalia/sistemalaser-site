@@ -63,7 +63,7 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 
 ## Shared Layout
 
-- The shared top navigation lives in `assets/js/header-2026.js`.
+- The shared top navigation is generated at build time by `scripts/header-html.mjs`. `assets/js/header-2026.js` only enhances menu interactions.
 - The shared footer markup is generated at build time by `scripts/footer-html.mjs`
   and injected into every generated page by `scripts/build-blog.mjs`. It is not
   rendered by client-side JavaScript.
@@ -122,7 +122,7 @@ Use `make serve` for browser testing. Do not open HTML files directly with
 
 ## Editing Guidance
 
-- Preserve the existing visual language in `assets/css/site-2026.css`.
+- Preserve the Laser visual identity. Base styles live in `assets/css/site-2026.css`; the October 2026 editorial design lives in `assets/css/design-2026.css`. `scripts/design-2026.mjs` applies the shared layout and native product disclosures during the build, preserving content and anchor IDs.
 - Keep page changes scoped and avoid unrelated rewrites of minified legacy files.
 - Prefer structured JSON and generator changes over ad hoc string edits for blog
   output.

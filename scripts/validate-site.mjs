@@ -383,32 +383,47 @@ const galleryScript = fs.readFileSync(
   path.join(dist, 'assets/js/screenshot-gallery.js'),
   'utf8',
 );
-const headerScript = fs.readFileSync(
-  path.join(dist, 'assets/js/header-2026.js'),
-  'utf8',
-);
-const overviewMenuPosition = headerScript.indexOf('>Visão geral</a>');
-const erpMenuPosition = headerScript.indexOf('>ERP</a>');
+// Navigation is part of delivered HTML, so visitors and crawlers can use it
+// without waiting for a client-side render.
+const homeHeader =
+  read('index.html').match(/<nav class="navbar[\s\S]*?<\/nav>/)?.[0] || '';
+for (const href of [
+  'funcionalidades.html',
+  'erp-locadora.html',
+  'crm.html',
+  'planos.html',
+  'faq.html',
+  'locadora-laser.html',
+]) {
+  assert(
+    homeHeader.includes(`href="${href}"`),
+    `Static navigation missing ${href}`,
+  );
+}
 assert(
-  overviewMenuPosition !== -1 &&
-    erpMenuPosition !== -1 &&
-    erpMenuPosition > overviewMenuPosition,
-  'header must show ERP immediately after Visão geral',
+  homeHeader.includes('aria-controls="siteMenu"'),
+  'Mobile menu missing controlled region',
 );
-assert(
-  /link\('funcionalidades\.html'\)\s*\+\s*'[^']*>Visão geral<\/a>/.test(
-    headerScript,
-  ),
-  'Visão geral menu item must link to funcionalidades.html',
-);
-assert(
-  /link\('erp-locadora\.html'\)\s*\+\s*'[^']*>ERP<\/a>/.test(headerScript),
-  'ERP menu item must link to erp-locadora.html',
-);
-assert(
-  !headerScript.includes('>Funcionalidades</a>'),
-  'header still uses the old Funcionalidades label',
-);
+for (const post of posts) {
+  assert(
+    read(`blog/${post.slug}.html`).includes('href="../erp-locadora.html"'),
+    `Blog navigation missing root-relative product path: ${post.slug}`,
+  );
+}
+const faqInitial =
+  read('faq.html').match(/<div id="faqResults">([\s\S]*?)<\/main>/)?.[1] || '';
+for (const section of faqSections) {
+  for (const item of section.questions) {
+    const encoded = item.question
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+    assert(
+      faqInitial.includes(encoded),
+      `FAQ is missing from initial HTML: ${item.id}`,
+    );
+  }
+}
 const gallerySources = new Set(
   Array.from(
     galleryScript.matchAll(/\bsrc:\s*'([^']+)'/g),
@@ -472,6 +487,50 @@ for (const file of htmlFiles) {
     assert(
       entities.some((entity) => entity['@type'] === 'Product' && entity.offers),
       `${file}: Sistema Laser Product and offers must be preserved`,
+    );
+  }
+  if (!html.includes('http-equiv="refresh"')) {
+    assert(
+      (html.match(/<h1\b/g) || []).length === 1,
+      `${file}: expected one main heading`,
+    );
+    assert(
+      (html.match(/<nav class="navbar/g) || []).length === 1,
+      `${file}: expected one static header`,
+    );
+    assert(
+      (html.match(/<link rel="canonical"/g) || []).length === 1,
+      `${file}: expected one canonical URL`,
+    );
+    assert(
+      (html.match(/property="og:url"/g) || []).length === 1,
+      `${file}: duplicate or missing social URL`,
+    );
+    assert(
+      html.includes('name="twitter:title"'),
+      `${file}: missing Twitter title`,
+    );
+    const ids = Array.from(html.matchAll(/\bid="([^"]+)"/g), (item) => item[1]);
+    assert(ids.length === new Set(ids).size, `${file}: duplicate anchor IDs`);
+  }
+  for (const match of html.matchAll(
+    /\bhref="([^"#:]*(?:\/[^"#:]*)?#[^"]+)"/g,
+  )) {
+    const [pathname, fragment] = match[1].split('#');
+    const targetFile = path.normalize(
+      path.join(path.dirname(file), pathname || path.basename(file)),
+    );
+    if (
+      !fragment ||
+      !fs.existsSync(path.join(dist, targetFile)) ||
+      !targetFile.endsWith('.html')
+    )
+      continue;
+    const targetHtml = read(targetFile);
+    if (targetHtml.includes('http-equiv="refresh"')) continue;
+    assert(
+      targetHtml.includes(`id="${decodeURIComponent(fragment)}"`),
+      `${file}: missing anchor ${match[1]}`,
     );
   }
   const footers = html.match(/<footer class="site-footer"/g) || [];
