@@ -131,6 +131,7 @@ a {
   padding: 4rem 0;
 }
 .site-nav {
+  background: var(--sl-bg);
   min-height: 82px;
   backdrop-filter: none;
 }
@@ -149,12 +150,12 @@ a {
   align-items: center;
   flex: 1;
   justify-content: flex-end;
-  gap: 1.5rem;
+  gap: 0.35rem;
 }
 .nav-direct,
 .nav-dropdown > summary,
 .nav-login {
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   color: var(--sl-text);
   font-weight: 700;
   text-decoration: none;
@@ -168,33 +169,89 @@ a {
   gap: 0.6rem;
   cursor: pointer;
   list-style: none;
-  padding: 1.6rem 0;
+  padding: 0.65rem 0.75rem;
+  line-height: 1.4;
+  border-radius: 7px;
+  transition:
+    color 0.16s ease,
+    background-color 0.16s ease;
+}
+.nav-direct {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 0.75rem;
+  line-height: 1.4;
+  border-radius: 7px;
+  transition:
+    color 0.16s ease,
+    background-color 0.16s ease;
+}
+.nav-dropdown > summary > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.7rem;
+  font-size: 0.75rem;
+  transition: transform 0.16s ease;
+}
+.nav-dropdown[open] > summary > span {
+  transform: rotate(180deg);
+}
+.nav-dropdown > summary:hover,
+.nav-dropdown[open] > summary,
+.nav-direct:hover {
+  color: var(--sl-primary);
+  background: var(--sl-primary-soft);
+}
+.nav-dropdown > summary.active,
+.nav-direct[aria-current='page'] {
+  color: var(--sl-primary);
+}
+.nav-dropdown > summary.active::after,
+.nav-direct[aria-current='page']::after {
+  content: '';
+  position: absolute;
+  bottom: 0.15rem;
+  left: 0.75rem;
+  width: 1rem;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+.nav-dropdown > summary {
+  position: relative;
 }
 summary::-webkit-details-marker {
   display: none;
 }
 .nav-dropdown-panel {
   position: absolute;
-  top: 100%;
-  left: -1.2rem;
-  padding: 0.7rem;
-  min-width: 260px;
+  top: calc(100% + 0.75rem);
+  left: 0;
+  padding: 0.5rem;
+  min-width: 280px;
   border: 1px solid var(--sl-border);
   background: var(--sl-surface-raised);
-  box-shadow: var(--sl-shadow);
-  border-radius: 12px;
+  box-shadow:
+    0 16px 40px #23273814,
+    0 3px 8px #23273808;
+  border-radius: 10px;
 }
 .nav-dropdown-panel a {
   display: block;
-  padding: 0.65rem 0.8rem;
+  padding: 0.75rem 0.85rem;
+  line-height: 1.4;
   text-decoration: none;
   color: var(--sl-text);
   font-size: 0.88rem;
-  border-radius: 3px;
+  border-radius: 6px;
+  transition:
+    color 0.16s ease,
+    background-color 0.16s ease;
 }
 .nav-dropdown-panel a:hover,
-.nav-dropdown-panel a[aria-current],
-.nav-dropdown > summary.active {
+.nav-dropdown-panel a[aria-current] {
   color: var(--sl-primary);
   background: var(--sl-primary-soft);
 }
@@ -202,7 +259,7 @@ summary::-webkit-details-marker {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  margin-left: 0.4rem;
+  margin-left: 1rem;
 }
 .theme-control {
   border: 0;
@@ -620,7 +677,7 @@ details[open] > summary > .disclosure-icon {
 }
 @media (max-width: 1199px) {
   .site-menu {
-    gap: 1rem;
+    gap: 0.15rem;
   }
   .nav-actions {
     gap: 0.7rem;
@@ -663,11 +720,14 @@ details[open] > summary > .disclosure-icon {
   }
   .nav-dropdown > summary,
   .nav-direct {
-    padding: 0.85rem 0;
-    border-bottom: 1px solid var(--sl-border);
+    padding: 0.85rem 0.75rem;
+    border-bottom: 0;
+    min-height: 48px;
   }
   .nav-dropdown-panel {
     position: static;
+    min-width: 0;
+    margin: 0.25rem 0 0.5rem;
     border: 0;
     box-shadow: none;
     background: var(--sl-surface);
