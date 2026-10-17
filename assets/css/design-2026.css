@@ -885,25 +885,6 @@ details[open] > summary > .disclosure-icon {
   display: none !important;
 }
 
-.article-archive {
-  list-style: none;
-  padding: 0;
-}
-.article-archive li {
-  display: flex;
-  align-items: baseline;
-  gap: 1.5rem;
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--sl-border);
-}
-.article-archive time {
-  font-size: 0.75rem;
-  color: var(--sl-text-faint);
-  white-space: nowrap;
-}
-.article-archive a {
-  font-size: 0.9rem;
-}
 .legacy-content {
   padding-top: 3rem;
 }
@@ -916,14 +897,6 @@ details[open] > summary > .disclosure-icon {
 }
 .legacy-content h4 {
   margin-top: 2rem;
-}
-@media (max-width: 767px) {
-  .article-archive li {
-    display: block;
-  }
-  .article-archive time {
-    display: block;
-  }
 }
 
 @media (max-width: 991px) {
