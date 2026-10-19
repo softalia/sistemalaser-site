@@ -215,14 +215,17 @@ for (const file of ['index.html', 'locadora-laser.html', 'erp-locadora.html']) {
   const html = read(file);
   const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] || '';
   const body = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1] || '';
-  assert(
-    head.toLocaleLowerCase('pt-BR').includes('alternativa ao izziloc'),
-    `${file} missing competitor-intent metadata`,
-  );
-  assert(
-    !body.toLocaleLowerCase('pt-BR').includes('izziloc'),
-    `${file} must not mention the competitor in visible content`,
-  );
+  for (const competitor of ['Izziloc', 'Sisloc', 'Locsis']) {
+    const name = competitor.toLocaleLowerCase('pt-BR');
+    assert(
+      head.toLocaleLowerCase('pt-BR').includes(`alternativa ao ${name}`),
+      `${file} missing alternative metadata for ${competitor}`,
+    );
+    assert(
+      !body.toLocaleLowerCase('pt-BR').includes(name),
+      `${file} must not mention ${competitor} in visible content`,
+    );
+  }
 }
 assert(
   sitemap.includes(
