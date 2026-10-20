@@ -663,6 +663,12 @@ details[open] > summary > .disclosure-icon {
 .site-footer a {
   font-size: 0.85rem;
 }
+.site-footer .footer-social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.25rem;
+}
 .whatsapp-icon {
   width: 1.55rem;
   height: 1.55rem;
