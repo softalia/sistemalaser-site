@@ -442,9 +442,28 @@ for (const source of gallerySources) {
   );
 }
 
+function isValidPrice(value) {
+  return (
+    (typeof value === 'number' ||
+      (typeof value === 'string' && /^\d+(?:\.\d+)?$/.test(value))) &&
+    Number.isFinite(Number(value)) &&
+    Number(value) >= 0
+  );
+}
+
 function validateOfferPolicies(value, file) {
   if (!value || typeof value !== 'object') return;
   if (['Offer', 'AggregateOffer'].includes(value['@type'])) {
+    assert(
+      value.priceCurrency === 'BRL' &&
+        (value['@type'] === 'Offer'
+          ? isValidPrice(value.price)
+          : isValidPrice(value.lowPrice) &&
+            (value.highPrice === undefined ||
+              (isValidPrice(value.highPrice) &&
+                Number(value.highPrice) >= Number(value.lowPrice)))),
+      `${file}: offer missing a valid price and currency`,
+    );
     const shipping = value.shippingDetails;
     const returns = value.hasMerchantReturnPolicy;
     assert(
@@ -486,6 +505,26 @@ for (const file of htmlFiles) {
       entities.push(...(data['@graph'] || [data]));
     } catch (error) {
       assert(false, `${file}: invalid JSON-LD: ${error.message}`);
+    }
+  }
+  for (const entity of entities) {
+    if ([entity['@type']].flat().includes('SoftwareApplication')) {
+      assert(
+        entity.name &&
+          entity.offers?.['@type'] === 'Offer' &&
+          isValidPrice(entity.offers.price) &&
+          entity.offers.url?.startsWith(
+            'https://www.sistemalaser.com.br/planos.html#',
+          ),
+        `${file}: SoftwareApplication needs an explicit offer price and plan URL`,
+      );
+    }
+    if ([entity['@type']].flat().includes('Product')) {
+      assert(
+        entity.name &&
+          (entity.offers || entity.review || entity.aggregateRating),
+        `${file}: Product needs a name and offers, review or aggregateRating`,
+      );
     }
   }
   if (['index.html', 'planos.html'].includes(file)) {
