@@ -463,6 +463,30 @@ details[open] > summary > .disclosure-icon {
   background: var(--sl-bg);
   padding: 1.8rem;
 }
+.pricing-custom-card {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem 2.5rem;
+  padding: 1.8rem;
+  border: 1px solid var(--sl-border);
+  border-radius: 12px;
+  background: var(--sl-surface);
+}
+.pricing-custom-card > div {
+  flex: 1 1 32rem;
+}
+.pricing-custom-card h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+.pricing-custom-card p {
+  max-width: 48rem;
+  margin-bottom: 0;
+}
+.pricing-custom-card > .btn {
+  flex: 0 0 auto;
+}
 .price-card.featured {
   border-color: var(--sl-primary);
   background: var(--sl-primary-soft);

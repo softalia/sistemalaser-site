@@ -69,6 +69,11 @@
       "pages": ["planos.html"],
       "questions": [
         {
+          "id": "planos-necessidades-especiais",
+          "question": "Posso conversar sobre uma estrutura ou necessidade específica para meu negócio?",
+          "answer": "Sim. Fale com a equipe para avaliar necessidades como instalação em rede privada, domínio específico, infraestrutura diferenciada, uma equipe com muitos usuários ou integração especial com plataformas existentes. A viabilidade e as condições de uma proposta adequada são avaliadas com você. Também podemos conversar sobre ideias e necessidades específicas da sua operação."
+        },
+        {
           "id": "escolher-plano",
           "question": "Como usar a sugestão de plano do site?",
           "answer": "Na página de planos, informe a faixa de equipamentos e usuários e os recursos necessários. A sugestão considera os limites públicos de cada plano. Ela é um ponto de partida: confira a tabela completa e as condições dos serviços integrados ou solicite uma demonstração para validar sua operação."
