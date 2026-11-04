@@ -1,3 +1,4 @@
+import { applyCommercialComponents } from './commercial-html.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { renderHeader } from './header-html.mjs';
@@ -51,10 +52,7 @@ function productDetails(html) {
       .replace(/<span\b[^>]*class="eyebrow"[^>]*>[\s\S]*?<\/span>/, '');
     return `<section class="product-detail" id="${anchor}"><div class="container"><details open class="deep-dive"><summary><h2>${escape(label)}</h2><span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="deep-dive-body">${inner}</div></details></div></section>`;
   });
-  if (entries.length > 2) {
-    const toc = `<nav class="page-index" aria-label="Nesta página"><div class="container"><span>Nesta página</span>${entries.map(([id, label]) => `<a href="#${id}">${escape(label)}</a>`).join('')}</div></nav>`;
-    html = html.replace('</header>', `</header>${toc}`);
-  }
+
   return html;
 }
 
@@ -101,13 +99,14 @@ export function applyDesign(directory, posts) {
       );
       html = html.replace(
         '</head>',
-        `<link rel="stylesheet" href="${prefix}assets/css/design-2026.css"><script defer src="${prefix}assets/js/design-2026.js"></script><noscript><style>.site-menu{display:flex!important}.accordion-collapse{display:block!important}.site-nav{position:relative!important}.hero,.subhero{padding-top:3rem}.menu-toggle{display:none!important}</style></noscript></head>`,
+        `<link rel="stylesheet" href="${prefix}assets/css/design-2026.css"><script defer src="${prefix}assets/js/design-2026.js"></script><script defer src="${prefix}assets/js/commercial-2026.js"></script><noscript><style>.site-menu{display:flex!important}.accordion-collapse{display:block!important}.site-nav{position:relative!important}.hero,.subhero{padding-top:3rem}.menu-toggle{display:none!important}</style></noscript></head>`,
       );
       if (
         !prefix &&
         !/^(index|planos|blog|faq|jobs|termos-.*)\.html$/.test(entry.name)
       )
         html = productDetails(html);
+      html = applyCommercialComponents(html, entry.name);
       if (!/<main\b/.test(html)) {
         html = html.replace(
           /(<section\b[^>]*>)/,

@@ -1,8 +1,10 @@
+import { lockBuildOutput } from './build-output.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { validateSeo } from './validate-seo.mjs';
 
 const root = process.cwd();
+await lockBuildOutput(root);
 const dist = path.join(root, 'dist');
 const postsData = JSON.parse(
   fs.readFileSync(path.join(root, 'blog/posts.json'), 'utf8'),

@@ -323,16 +323,38 @@
             <div>
               <span class="eyebrow">Uma ajuda para escolher</span>
               <h2>Qual plano combina com sua rotina?</h2>
-              <label for="advisor-size">Quantos equipamentos e usuários?</label
-              ><select id="advisor-size">
-                <option value="starter">Até 8 equipamentos e 3 usuários</option>
-                <option value="pro">Até 15 equipamentos e 7 usuários</option>
-                <option value="master">
-                  Mais de 15 equipamentos ou 7 usuários
-                </option></select
-              ><label for="advisor-needs"
+              <div class="advisor-fields" id="advisor-size">
+                <div>
+                  <label for="advisor-equipment">Quantos equipamentos?</label
+                  ><input
+                    class="form-control"
+                    id="advisor-equipment"
+                    type="number"
+                    min="1"
+                    max="1000000"
+                    step="1"
+                    inputmode="numeric"
+                    placeholder="Ex.: 12"
+                  />
+                </div>
+                <div>
+                  <label for="advisor-users">Quantos usuários?</label
+                  ><input
+                    class="form-control"
+                    id="advisor-users"
+                    type="number"
+                    min="1"
+                    max="1000000"
+                    step="1"
+                    inputmode="numeric"
+                    placeholder="Ex.: 4"
+                  />
+                </div>
+              </div>
+              <label for="advisor-needs"
                 >O que precisa entrar na operação?</label
               ><select id="advisor-needs">
+                <option value="">Selecione os recursos</option>
                 <option value="starter">Agenda e gestão financeira</option>
                 <option value="pro">
                   CRM, cobranças, contratos, estoque ou API
@@ -344,14 +366,34 @@
             </div>
             <div class="advisor-result" aria-live="polite" aria-atomic="true">
               <span class="eyebrow">Plano sugerido</span
-              ><strong id="advisor-plan">Starter</strong>
-              <p id="advisor-reason"></p>
-              <a id="advisor-link" href="#starter"
+              ><strong id="advisor-plan">Vamos encontrar seu plano.</strong>
+              <p id="advisor-reason">
+                Informe equipamentos, usuários e recursos para receber uma
+                sugestão.
+              </p>
+              <a id="advisor-link" href="#starter" hidden
                 >Conhecer os limites e recursos ↓</a
               >
+              <div class="advisor-actions">
+                <a
+                  class="btn btn-primary"
+                  id="advisor-demo"
+                  href="index.html#demonstracao"
+                  hidden
+                  >Solicitar demonstração deste plano</a
+                ><button
+                  class="btn btn-surface"
+                  type="button"
+                  data-copy-advisor
+                  hidden
+                >
+                  Copiar resumo da avaliação
+                </button>
+              </div>
               <p class="legal-note">
-                Sugestão inicial baseada nas opções acima. Confira a comparação
-                completa e as condições dos serviços integrados abaixo.
+                Sugestão baseada nos limites publicados e nas suas respostas.
+                Confira a comparação completa e as condições dos serviços
+                integrados abaixo.
               </p>
             </div>
           </div>
@@ -372,14 +414,19 @@
               <p class="mt-3 mb-4">
                 <strong>Até 8 equipamentos</strong><br />Até 3 usuários
               </p>
+              <ul class="plan-highlights">
+                <li>Agenda e financeiro</li>
+                <li>Dashboards e relatórios</li>
+                <li>Suporte incluído</li>
+              </ul>
               <a
                 class="btn btn-outline-primary mt-auto"
-                href="index.html#demonstracao"
+                href="index.html?plano=starter#demonstracao"
                 >Quero conhecer o Starter</a
               >
             </article>
             <article class="price-card featured" id="pro">
-              <span class="popular">MAIS ESCOLHIDO</span
+              <span class="popular">PARA INTEGRAR</span
               ><span class="eyebrow">Para vender, automatizar e integrar</span>
               <h2>Pro</h2>
               <p>
@@ -391,7 +438,14 @@
               <p class="mt-3 mb-4">
                 <strong>Até 15 equipamentos</strong><br />Até 7 usuários
               </p>
-              <a class="btn btn-primary mt-auto" href="index.html#demonstracao"
+              <ul class="plan-highlights">
+                <li>CRM e automações</li>
+                <li>Cobranças e NFS-e</li>
+                <li>Estoque, documentos e API</li>
+              </ul>
+              <a
+                class="btn btn-primary mt-auto"
+                href="index.html?plano=pro#demonstracao"
                 >Quero conhecer o Pro</a
               >
             </article>
@@ -408,9 +462,14 @@
                 <strong>Equipamentos ilimitados</strong><br />Usuários
                 ilimitados
               </p>
+              <ul class="plan-highlights">
+                <li>Recursos do Pro</li>
+                <li>Filiais e parceiros</li>
+                <li>LILA e WhatsApp automático</li>
+              </ul>
               <a
                 class="btn btn-outline-primary mt-auto"
-                href="index.html#demonstracao"
+                href="index.html?plano=master#demonstracao"
                 >Quero conhecer o Master</a
               >
             </article>
@@ -428,6 +487,11 @@
                   diferenciada, uma equipe com muitos usuários ou integração
                   especial com plataformas existentes? Conte-nos o que sua
                   operação precisa para avaliarmos uma proposta adequada.
+                </p>
+                <p class="mt-3 legal-note">
+                  O Master já inclui usuários e equipamentos ilimitados. Aqui,
+                  avaliamos também requisitos de infraestrutura e integração
+                  fora da configuração padrão.
                 </p>
               </div>
               <a
@@ -456,14 +520,52 @@
         <div class="container">
           <div class="text-center mb-5">
             <span class="eyebrow">Comparação completa</span>
-            <h2 class="section-title">Nada escondido na hora de escolher.</h2>
+            <h2 class="section-title">
+              Compare recursos, limites e condições de cada plano.
+            </h2>
             <p class="section-lead mx-auto">
               A tabela abaixo concentra os limites e recursos de cada plano para
               evitar informações fragmentadas ou repetidas.
             </p>
           </div>
-          <div class="comparison">
+          <div class="comparison-controls" data-comparison-controls hidden>
+            <div>
+              <label for="comparison-plan">Plano em destaque</label
+              ><select class="form-select" id="comparison-plan">
+                <option value="all">Todos os planos</option>
+                <option value="1">Starter</option>
+                <option value="2">Pro</option>
+                <option value="3">Master</option>
+              </select>
+            </div>
+            <label class="difference-control"
+              ><input type="checkbox" id="comparison-differences" /> Mostrar
+              apenas diferenças</label
+            ><button class="btn btn-surface" type="button" data-share-plans>
+              Copiar link desta comparação
+            </button>
+          </div>
+          <p class="comparison-hint">
+            A tabela completa está abaixo. No celular, role para os lados para
+            ver todos os planos.
+          </p>
+          <p
+            class="visually-hidden"
+            data-comparison-status
+            aria-live="polite"
+          ></p>
+          <div
+            class="comparison"
+            data-plan-comparison
+            tabindex="0"
+            role="region"
+            aria-label="Comparação de recursos por plano"
+          >
             <table class="table align-middle">
+              <caption class="visually-hidden">
+                Recursos e limites dos planos Starter, Pro e Master do Sistema
+                Laser.
+              </caption>
               <thead>
                 <tr>
                   <th scope="col">Limite ou recurso</th>
@@ -973,7 +1075,7 @@
             </div>
             <div class="col-lg-4 text-lg-end">
               <a class="btn btn-light btn-lg" href="index.html#demonstracao"
-                >Agendar demonstração</a
+                >Solicitar demonstração</a
               >
             </div>
           </div>

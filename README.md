@@ -72,6 +72,10 @@ make serve
 
 Gera `dist/` e sobe um servidor local em `http://localhost:8083`.
 
+Para comparar a proposta sem commit com a versão de HEAD, execute `make compare`
+e abra `http://localhost:8084/`. O comando usa uma cópia temporária, sem alterar
+o Git. Veja [a implementação comercial de novembro](docs/evolucao-comercial-2026-11.md).
+
 ## Teste local
 
 Não teste abrindo `index.html` diretamente pelo navegador, porque páginas como

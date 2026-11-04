@@ -9,20 +9,21 @@
       "seoDescription": "O Sistema Laser agora integra cobranças com o Banco Inter. Veja boletos, PIX e assinaturas, com gratuidade PJ conforme os termos e condições do banco.",
       "date": "2026-10-14",
       "modified": "2026-10-14",
-      "author": "",
-      "category": "Novidades",
+      "author": "Sistema Laser",
+      "category": "Produto e novidades",
       "tags": [
         "Banco Inter",
         "Cobranças eletrônicas",
         "Boleto para locadoras",
         "PIX",
-        "Financeiro"
+        "Financeiro",
+        "Novidades"
       ],
       "heroCopy": "Mais uma opção para receber pelas suas locações: boletos e PIX com o Banco Inter, conectados ao financeiro do Sistema Laser.",
       "readingTime": "3 min",
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
       "url": "blog/cobrancas-banco-inter-locadoras.html",
-      "contentHtml": "<p class=\"lead\">O Sistema Laser agora oferece integração de cobranças com o Banco Inter, além do Asaas. Sua locadora pode emitir boletos e receber PIX diretamente no fluxo de gestão, com cobranças vinculadas ao cliente e à locação e acompanhamento do recebimento no financeiro.</p>\n\n<p>A novidade está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> e amplia as opções para organizar o faturamento da empresa. Um dos destaques é a oferta de gratuidade para contas PJ do Inter, conforme os termos e as condições vigentes do próprio banco.</p>\n\n<h2>Boletos e PIX para diferentes formas de alugar</h2>\n\n<p>Nem toda locação tem a mesma condição de pagamento. Uma retirada pontual, um contrato dividido em parcelas e um aluguel com cobrança mensal exigem formas diferentes de organizar os recebíveis. Com a integração ao Inter, a equipe pode criar:</p>\n\n<ul>\n<li><strong>Cobranças avulsas:</strong> para um pagamento único, de acordo com a negociação com o cliente.</li>\n<li><strong>Cobranças parceladas:</strong> para distribuir o valor em parcelas e acompanhar os vencimentos.</li>\n<li><strong>Cobranças recorrentes, do tipo assinatura:</strong> para gerar cobranças periódicas em contratos que se repetem.</li>\n</ul>\n\n<p>A recorrência organiza a emissão das cobranças; ela não significa, por si só, débito automático na conta do cliente. O pagamento continua sujeito à quitação e à confirmação pelo banco.</p>\n\n<h2>Recebimento conectado ao financeiro da locadora</h2>\n\n<p>Quando a cobrança nasce dentro do sistema, fica mais simples identificar de qual cliente e de qual locação veio cada valor. Após a confirmação do pagamento, a baixa automática ajuda a reduzir a conferência manual de comprovantes e a manter o acompanhamento financeiro atualizado.</p>\n\n<p>Isso aproxima o trabalho de quem fecha a locação do trabalho de quem acompanha os recebimentos. A equipe pode consultar pendências com mais contexto, em vez de procurar informações entre planilhas e conversas. Veja como esse fluxo funciona no <a href=\"../sistema-financeiro-locadora.html#cobrancas\">Financeiro do Sistema Laser</a>.</p>\n\n<h2>Gratuidade do Inter: o que sua empresa precisa conferir</h2>\n\n<p>O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Inter divulga conta PJ gratuita e gestão de cobranças com boletos sem tarifa de liquidação</a>. Contas PJ elegíveis podem emitir e receber boletos e PIX sem tarifas de emissão, baixa ou liquidação, conforme a oferta aplicável à conta.</p>\n\n<p>A gratuidade é uma oferta do Banco Inter, não uma garantia do Sistema Laser. Ela depende dos termos, da elegibilidade e das condições vigentes do banco, que podem ser modificados por ele. A <a href=\"https://ajuda.inter.co/conta-digital-pessoa-juridica/como-ocorre-a-tarifacao-de-boletos-de-cobranca-no-inter-empresas/\" target=\"_blank\" rel=\"noopener noreferrer\">central de ajuda do Inter também informa tarifas para liquidações que excedam a franquia mensal gratuita</a>. Antes de utilizar a integração, confirme no banco a oferta da sua conta, eventuais franquias e a tabela de tarifas vigente.</p>\n\n<p class=\"legal-note\">O Sistema Laser não acrescenta tarifas por cobrança nem limita a quantidade de cobranças nos planos compatíveis. No Asaas, tarifas de recebimento se aplicam conforme as condições da conta. A assinatura do Sistema Laser permanece devida.</p>\n\n<h2>Inter e Asaas: escolha conforme sua operação</h2>\n\n<p>O Inter passa a ser mais uma alternativa para boletos e PIX avulsos, parcelados ou recorrentes. O <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a> continua disponível e também oferece cobranças por cartão de crédito. Compare os meios de pagamento e as condições de cada provedor antes de decidir qual atende melhor à rotina da sua locadora.</p>\n\n<p>Conheça as <a href=\"../integracoes.html#asaas\">integrações com Asaas e Banco Inter</a> e consulte as <a href=\"../faq.html#financeiro\">perguntas frequentes sobre financeiro e cobranças</a>.</p>\n\n<h2>Conheça a nova integração</h2>\n\n<p>Se sua locadora já utiliza uma conta PJ no Inter, converse com nossa equipe sobre a integração. Se está avaliando o Sistema Laser, veja os <a href=\"../planos.html\">planos Pro e Master</a> e como as cobranças se conectam à gestão das suas locações.</p>\n\n<p><a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Agendar demonstração</a></p>"
+      "contentHtml": "<p class=\"lead\">O Sistema Laser agora oferece integração de cobranças com o Banco Inter, além do Asaas. Sua locadora pode emitir boletos e receber PIX diretamente no fluxo de gestão, com cobranças vinculadas ao cliente e à locação e acompanhamento do recebimento no financeiro.</p>\n\n<p>A novidade está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> e amplia as opções para organizar o faturamento da empresa. Um dos destaques é a oferta de gratuidade para contas PJ do Inter, conforme os termos e as condições vigentes do próprio banco.</p>\n\n<h2>Boletos e PIX para diferentes formas de alugar</h2>\n\n<p>Nem toda locação tem a mesma condição de pagamento. Uma retirada pontual, um contrato dividido em parcelas e um aluguel com cobrança mensal exigem formas diferentes de organizar os recebíveis. Com a integração ao Inter, a equipe pode criar:</p>\n\n<ul>\n<li><strong>Cobranças avulsas:</strong> para um pagamento único, de acordo com a negociação com o cliente.</li>\n<li><strong>Cobranças parceladas:</strong> para distribuir o valor em parcelas e acompanhar os vencimentos.</li>\n<li><strong>Cobranças recorrentes, do tipo assinatura:</strong> para gerar cobranças periódicas em contratos que se repetem.</li>\n</ul>\n\n<p>A recorrência organiza a emissão das cobranças; ela não significa, por si só, débito automático na conta do cliente. O pagamento continua sujeito à quitação e à confirmação pelo banco.</p>\n\n<h2>Recebimento conectado ao financeiro da locadora</h2>\n\n<p>Quando a cobrança nasce dentro do sistema, fica mais simples identificar de qual cliente e de qual locação veio cada valor. Após a confirmação do pagamento, a baixa automática ajuda a reduzir a conferência manual de comprovantes e a manter o acompanhamento financeiro atualizado.</p>\n\n<p>Isso aproxima o trabalho de quem fecha a locação do trabalho de quem acompanha os recebimentos. A equipe pode consultar pendências com mais contexto, em vez de procurar informações entre planilhas e conversas. Veja como esse fluxo funciona no <a href=\"../sistema-financeiro-locadora.html#cobrancas\">Financeiro do Sistema Laser</a>.</p>\n\n<h2>Gratuidade do Inter: o que sua empresa precisa conferir</h2>\n\n<p>O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Inter divulga conta PJ gratuita e gestão de cobranças com boletos sem tarifa de liquidação</a>. Contas PJ elegíveis podem emitir e receber boletos e PIX sem tarifas de emissão, baixa ou liquidação, conforme a oferta aplicável à conta.</p>\n\n<p>A gratuidade é uma oferta do Banco Inter, não uma garantia do Sistema Laser. Ela depende dos termos, da elegibilidade e das condições vigentes do banco, que podem ser modificados por ele. A <a href=\"https://ajuda.inter.co/conta-digital-pessoa-juridica/como-ocorre-a-tarifacao-de-boletos-de-cobranca-no-inter-empresas/\" target=\"_blank\" rel=\"noopener noreferrer\">central de ajuda do Inter também informa tarifas para liquidações que excedam a franquia mensal gratuita</a>. Antes de utilizar a integração, confirme no banco a oferta da sua conta, eventuais franquias e a tabela de tarifas vigente.</p>\n\n<p class=\"legal-note\">O Sistema Laser não acrescenta tarifas por cobrança nem limita a quantidade de cobranças nos planos compatíveis. No Asaas, tarifas de recebimento se aplicam conforme as condições da conta. A assinatura do Sistema Laser permanece devida.</p>\n\n<h2>Inter e Asaas: escolha conforme sua operação</h2>\n\n<p>O Inter passa a ser mais uma alternativa para boletos e PIX avulsos, parcelados ou recorrentes. O <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a> continua disponível e também oferece cobranças por cartão de crédito. Compare os meios de pagamento e as condições de cada provedor antes de decidir qual atende melhor à rotina da sua locadora.</p>\n\n<p>Conheça as <a href=\"../integracoes.html#asaas\">integrações com Asaas e Banco Inter</a> e consulte as <a href=\"../faq.html#financeiro\">perguntas frequentes sobre financeiro e cobranças</a>.</p>\n\n<h2>Conheça a nova integração</h2>\n\n<p>Se sua locadora já utiliza uma conta PJ no Inter, converse com nossa equipe sobre a integração. Se está avaliando o Sistema Laser, veja os <a href=\"../planos.html\">planos Pro e Master</a> e como as cobranças se conectam à gestão das suas locações.</p>\n\n<p><a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Solicitar demonstração</a></p>"
     },
     {
       "slug": "protocolos-vistoria-locadora-construcao",
@@ -35,13 +36,14 @@
       "ogDescription": "Elimine disputas de avarias na locação de equipamentos para construção civil com protocolos de fotos e termos digitais no Sistema Laser.",
       "date": "2026-10-06T08:31:13.377-03:00",
       "modified": "2026-10-06T08:31:13.377-03:00",
-      "category": "Gestão de Locadoras",
+      "category": "Operação",
       "tags": [
         "Locadora de construção",
         "Protocolos com fotos",
         "Controle de ferramentas",
         "Vistoria de equipamentos",
-        "ERP para locadoras"
+        "ERP para locadoras",
+        "Gestão de Locadoras"
       ],
       "heroCopy": "Descubra como estruturar a conferência de máquinas e ferramentas com registros fotográficos datados, termos de vistoria e histórico por ativo.",
       "readingTime": "4 min",
@@ -61,13 +63,14 @@
       "ogDescription": "Descubra como evitar sobreposição de horários e erros logísticos na locação de lasers estéticos com o Sistema Laser.",
       "date": "2026-10-05T08:24:43.290-03:00",
       "modified": "2026-10-05T08:24:43.290-03:00",
-      "category": "Gestão de Locadoras",
+      "category": "Operação",
       "tags": [
         "Locadora de laser",
         "Agenda de locação",
         "Gestão operacional",
         "Prevenção de conflitos",
-        "ERP para locadoras"
+        "ERP para locadoras",
+        "Gestão de Locadoras"
       ],
       "heroCopy": "Aprenda como estruturar a programação de equipamentos de alto valor com visualização clara de períodos, prevenção de conflitos e confirmações rápidas.",
       "readingTime": "4 min",
@@ -87,13 +90,14 @@
       "ogDescription": "Delegue rotas, vistorias e atendimento comercial em locadoras de laser protegendo a inteligência financeira do negócio.",
       "date": "2026-10-04T08:22:10.360-03:00",
       "modified": "2026-10-04T08:22:10.360-03:00",
-      "category": "Gestão de Locadoras",
+      "category": "Operação",
       "tags": [
         "Locadora de laser",
         "Permissões de usuário",
         "Gestão operacional",
         "Segurança de dados",
-        "ERP para locadoras"
+        "ERP para locadoras",
+        "Gestão de Locadoras"
       ],
       "heroCopy": "Descubra como estruturar perfis operacionais por responsabilidade na locação de equipamentos médicos e lasers, mantendo o controle financeiro centralizado.",
       "readingTime": "4 min",
@@ -113,7 +117,7 @@
       "ogDescription": "Rastreie ponteiras por número de série e automatize a baixa de insumos faturados nas diárias de laser para clínicas.",
       "date": "2026-10-02T09:25:04.481-03:00",
       "modified": "2026-10-02T09:25:04.481-03:00",
-      "category": "Gestão de estoque",
+      "category": "Equipamentos",
       "tags": [
         "gestão de estoque",
         "locação de laser",
@@ -140,14 +144,15 @@
       "ogDescription": "Descubra como o robô inteligente LILA conecta o WhatsApp Cloud oficial à agenda da locadora de laser, reduzindo viagens perdidas e trabalho manual.",
       "date": "2026-10-01T12:15:39.243-03:00",
       "modified": "2026-10-01T12:15:39.243-03:00",
-      "category": "Integrações e atendimento",
+      "category": "Integrações",
       "tags": [
         "automação whatsapp",
         "locação de laser",
         "lila",
         "confirmação de agendamento",
         "software para locadora",
-        "whatsapp cloud"
+        "whatsapp cloud",
+        "Integrações e atendimento"
       ],
       "heroCopy": "Ligar ou mandar mensagens manuais para cada clínica para confirmar a diária do laser sobrecarrega a equipe e abre margem para cancelamentos de surpresa. Conheça a LILA no Sistema Laser.",
       "readingTime": "4 min",
@@ -167,14 +172,15 @@
       "ogDescription": "Saiba o que está alugado, para quem e até quando: controle ativos eletrônicos corporativos com contratos recorrentes e faturamento integrado.",
       "date": "2026-09-30T08:12:28.445-03:00",
       "modified": "2026-10-12T12:00:00-03:00",
-      "category": "Segmentos",
+      "category": "Operação",
       "tags": [
         "locação de eletrônicos",
         "máquinas de café",
         "contratos recorrentes",
         "software para locadora",
         "gestão de ativos",
-        "erp para locadora"
+        "erp para locadora",
+        "Segmentos"
       ],
       "heroCopy": "Empresas que alugam máquinas de café expresso, telas e equipamentos corporativos precisam saber o que está alugado, para quem e até quando. Entenda como o Sistema Laser organiza contratos de longo prazo.",
       "readingTime": "4 min",
@@ -194,14 +200,15 @@
       "ogDescription": "Descubra como o CRM do Sistema Laser ajuda locadoras de equipamentos a laser e estéticos a estruturar o pipeline comercial e converter mais propostas em contratos.",
       "date": "2026-09-29T08:14:28.318-03:00",
       "modified": "2026-09-29T08:14:28.318-03:00",
-      "category": "CRM e vendas",
+      "category": "Comercial",
       "tags": [
         "crm para locadoras",
         "locação de laser",
         "funil de vendas",
         "gestão comercial",
         "software para locadora",
-        "estética médica"
+        "estética médica",
+        "CRM e vendas"
       ],
       "heroCopy": "Na locação de lasers estéticos e tecnologias médicas, responder rápido e fazer o follow-up no momento certo definem quem fica com a data na clínica. Entenda como o CRM integrado estrutura suas vendas.",
       "readingTime": "4 min",
@@ -221,14 +228,15 @@
       "ogDescription": "Como locadoras de equipamentos médicos controlam manutenções preventivas, calibrações e custos com o Sistema Laser.",
       "date": "2026-09-28T08:29:33.139-03:00",
       "modified": "2026-09-28T08:29:33.139-03:00",
-      "category": "Gestão de Equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "locação de equipamentos médicos",
         "manutenção de equipamentos",
         "calibração periódica",
         "software para locadora",
         "controle de ativos",
-        "ordem de serviço"
+        "ordem de serviço",
+        "Gestão de Equipamentos"
       ],
       "heroCopy": "Para empresas que alugam tecnologias para clínicas e hospitais, disponibilidade depende de respaldo técnico. Entenda como organizar manutenções preventivas, calibrações e ordens de serviço com rastreabilidade.",
       "readingTime": "4 min",
@@ -242,7 +250,7 @@
       "slug": "tabelas-precos-locacao-laser",
       "date": "2026-10-20T08:53:30.642-03:00",
       "modified": "2026-10-20T08:53:30.642-03:00",
-      "category": "Gestão Comercial e Precificação",
+      "category": "Financeiro",
       "author": "Geovana",
       "image": "images/2026/10/20/2026-10-20-tabelas-precos-locacao-laser-geo-feed-01.png",
       "description": "Saiba como configurar tabelas de preços por equipamento e valores negociados por cliente no Sistema Laser, garantindo consistência comercial e faturamento sem retrabalho.",
@@ -257,7 +265,8 @@
         "sistema financeiro locadora de equipamentos"
       ],
       "contentHtml": "<p>Na rotina de uma locadora de lasers estéticos e equipamentos médicos dermatológicos, a política comercial raramente é estática. Clínicas com alto volume de reservas negociam valores diferenciados por diária, enquanto novos clientes iniciam o relacionamento pela tabela padrão de catálogo. Quando essa flexibilidade não conta com um sistema estruturado, as condições acordadas ficam dispersas em conversas de aplicativos ou planilhas paralelas, gerando erros recorrentes de faturamento e concessões de desconto sem autorização da diretoria.</p>\n\n<p>Para manter o crescimento sustentável da operação sem comprometer a margem de lucro, a locadora precisa assegurar que a regra comercial negociada seja aplicada automaticamente no momento exato em que a locação é reservada na agenda.</p>\n\n<h2>Padronização de preços por equipamento e modelo</h2>\n\n<p>O primeiro passo para organizar a governança de preços da locadora é definir tabelas padrão por equipamento no <a href=\"../erp-locadora.html\">ERP para locadoras</a>. Cada tecnologia — como lasers de rejuvenescimento, depilação ou ultrassom microfocado — possui custos operacionais, depreciação e demanda próprios. Cadastrar o valor base da diária, turnos de atendimento e regras de finais de semana cria um ponto de partida consistente para toda a equipe comercial.</p>\n\n<p>Com essa referência centralizada, os consultores de locação não precisam recorrer a consultas paralelas para saber quanto cobrar. A tabela de preços oficial do Sistema Laser fica disponível para consulta imediata durante o atendimento, agilizando propostas e impedindo que valores defasados sejam repassados aos locatários.</p>\n\n<div class=\"post-figure my-4\">\n  <img src=\"images/2026/10/20/2026-10-20-tabelas-precos-locacao-laser-geo-feed-02.png\" alt=\"Configuração de modelos e tabelas de preços por equipamento e cliente no Sistema Laser\" class=\"img-fluid rounded border shadow-sm\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n</div>\n\n<h2>Condições comerciais específicas por clínica parceira</h2>\n\n<p>Além das tabelas gerais, o Sistema Laser permite registrar condições comerciais exclusivas para cada cliente cadastrado. Ao fechar um pacote mensal ou uma parceria recorrente com uma clínica dermatológica, o gestor vincula os valores acordados diretamente ao cadastro do parceiro no sistema.</p>\n\n<p>Quando a equipe comercial lança uma nova locação na agenda, o software identifica a clínica selecionada e preenche a tabela de preços correspondente de forma automática. Esse fluxo elimina falhas de digitação, impede cobranças incorretas e protege a rentabilidade planejada para cada contrato em vigor.</p>\n\n<h2>Consistência entre comercial, agenda e faturamento</h2>\n\n<p>Integrar as tabelas de preços à rotina operacional conecta o fechamento da venda à expedição e ao financeiro. As informações sobre valores de diárias, cobranças de frete e consumíveis adicionais alimentam os <a href=\"../sistema-locadora-laser.html\">protocolos de locação</a>, os contratos digitais e as cobranças bancárias sem retrabalho manual.</p>\n\n<div class=\"post-figure my-4\">\n  <img src=\"images/2026/10/20/2026-10-20-tabelas-precos-locacao-laser-geo-feed-03.png\" alt=\"Benefícios da padronização de tabelas de preços para locadoras de laser\" class=\"img-fluid rounded border shadow-sm\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n</div>\n\n<p>Essa consistência garante que a fatura emitida ao final do período corresponda com exatidão ao que foi negociado, fortalecendo a confiança dos médicos e responsáveis técnicos no serviço da locadora.</p>\n\n<p><a href=\"https://www.instagram.com/p/DetxU-pnDsT/\">Veja também esta publicação no Instagram</a></p>\n\n<h2>Descubra o Sistema Laser na prática</h2>\n\n<p>O módulo de modelos e tabelas de preços está incluído nos <a href=\"../planos.html\">planos Starter, Pro e Master</a> do Sistema Laser, sem taxa de adesão, sem cláusula de fidelidade e com suporte gratuito na migração dos seus dados.</p>\n\n<p>Veja como estruturar as tabelas comerciais da sua operação: <a href=\"../index.html#demonstracao\">agende uma demonstração personalizada</a> com nossos especialistas.</p>",
-      "word_count": 533
+      "word_count": 533,
+      "tags": ["Gestão Comercial e Precificação"]
     },
     {
       "slug": "disparos-ponteiras-locacao-laser",
@@ -270,7 +279,7 @@
       "ogDescription": "Elimine dúvidas na devolução e garanta o faturamento correto de disparos excedentes em equipamentos de estética médica.",
       "date": "2026-09-26T20:44:34.493-03:00",
       "modified": "2026-09-26T20:44:34.493-03:00",
-      "category": "Locação de Laser",
+      "category": "Operação",
       "tags": [
         "Locação de Laser",
         "Controle de Disparos",
@@ -296,7 +305,7 @@
       "ogDescription": "Gerencie a disponibilidade de escavadeiras, geradores, andaimes e ferramentas por canteiro de obras com agenda visual e contratos integrados no Sistema Laser.",
       "date": "2026-09-22T08:52:23.092-03:00",
       "modified": "2026-09-22T08:52:23.092-03:00",
-      "category": "Construção Civil",
+      "category": "Operação",
       "tags": [
         "Construção Civil",
         "Locação de Equipamentos",
@@ -322,13 +331,14 @@
       "ogDescription": "Evite prejuízos na devolução de equipamentos audiovisuais e eletrônicos com protocolos digitais, fotos e conferência de acessórios no Sistema Laser.",
       "date": "2026-09-20T08:24:50.998-03:00",
       "modified": "2026-09-20T08:24:50.998-03:00",
-      "category": "Operação e Logística",
+      "category": "Operação",
       "tags": [
         "Locação de Eletrônicos",
         "Audiovisual",
         "Protocolos de Entrega",
         "Checklist",
-        "Gestão de Locadoras"
+        "Gestão de Locadoras",
+        "Operação e Logística"
       ],
       "heroCopy": "Evite discussões na entrega e devolução de equipamentos para eventos corporativos registrando fotos e colhendo assinaturas direto na plataforma.",
       "readingTime": 3,
@@ -348,13 +358,14 @@
       "ogDescription": "Gerencie múltiplos modelos na mesma locação com contrato e logística unificados no Sistema Laser.",
       "date": "2026-09-19T19:18:14.737-03:00",
       "modified": "2026-09-19T19:18:14.737-03:00",
-      "category": "Operação e Logística",
+      "category": "Operação",
       "tags": [
         "múltiplos equipamentos",
         "locação de equipamentos",
         "gestão de locadora",
         "contrato de locação",
-        "logística de locação"
+        "logística de locação",
+        "Operação e Logística"
       ],
       "heroCopy": "Reúna diferentes modelos e equipamentos no mesmo pedido, unificando contrato digital, romaneio de expedição e faturamento na sua locadora.",
       "readingTime": 3,
@@ -374,13 +385,14 @@
       "ogDescription": "Controle contas a pagar, receber, fluxo de caixa e DRE na locação de equipamentos médicos.",
       "date": "2026-09-18T16:14:38.955-03:00",
       "modified": "2026-09-18T16:14:38.955-03:00",
-      "category": "Gestão e Finanças",
+      "category": "Financeiro",
       "tags": [
         "gestão financeira",
         "locadora de equipamentos médicos",
         "fluxo de caixa",
         "DRE",
-        "locação de equipamentos"
+        "locação de equipamentos",
+        "Gestão e Finanças"
       ],
       "heroCopy": "Conecte contratos de locação a contas a pagar e receber, caixas, bancos e projeções de fluxo de caixa para dar previsibilidade à sua empresa.",
       "readingTime": 3,
@@ -400,13 +412,14 @@
       "ogDescription": "Notificações automáticas pré e pós-vencimento por e-mail e WhatsApp LILA. Reduza a inadimplência na sua locadora de equipamentos.",
       "date": "2026-09-18T09:14:30.255-03:00",
       "modified": "2026-09-18T09:14:30.255-03:00",
-      "category": "Gestão financeira",
+      "category": "Financeiro",
       "tags": [
         "locação de equipamentos",
         "régua de cobrança",
         "sistema financeiro",
         "contas a receber",
-        "automação financeira"
+        "automação financeira",
+        "Gestão financeira"
       ],
       "heroCopy": "Saiba como a nova régua de cobrança do Sistema Laser reduz a inadimplência e automatiza a comunicação de faturas por e-mail e WhatsApp.",
       "readingTime": "3 min",
@@ -426,7 +439,7 @@
       "ogDescription": "Controle disponibilidade em tempo real, evite reservas duplicadas de lasers e organize sua equipe com o Sistema Laser.",
       "date": "2026-09-17T14:28:12.103-03:00",
       "modified": "2026-09-17T14:28:12.103-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "locação de laser",
         "agenda de locações",
@@ -452,13 +465,14 @@
       "ogDescription": "Evite promessas de máquinas em manutenção e controle os custos reais de cada ativo com o Sistema Laser.",
       "date": "2026-09-16T14:45:46.035-03:00",
       "modified": "2026-09-16T14:45:46.035-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "manutenção de equipamentos",
         "locadora de equipamentos",
         "construção civil",
         "gestão de ativos",
-        "agenda de locações"
+        "agenda de locações",
+        "Gestão de locações"
       ],
       "heroCopy": "Conecte oficina, pátio e comercial para manter máquinas revisadas, evitar conflitos de reserva e controlar o custo real de cada equipamento.",
       "readingTime": "3 min",
@@ -478,20 +492,21 @@
       "ogDescription": "Contratos de locação de laser formalizados online com assinatura eletrônica, protocolos com fotos e acompanhamento integrado no Sistema Laser.",
       "date": "2026-09-15T16:55:02.942-03:00",
       "modified": "2026-09-15T16:55:02.942-03:00",
-      "category": "Documentos e assinatura",
+      "category": "Documentos",
       "tags": [
         "assinatura eletrônica",
         "locação de laser",
         "contrato digital",
         "documentos de locação",
         "protocolo com fotos",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Documentos e assinatura"
       ],
       "heroCopy": "Formalize contratos de locação de lasers e equipamentos estéticos com assinatura eletrônica, acompanhe o status de cada documento e mantenha tudo vinculado à operação.",
       "readingTime": "3 min",
       "image": "images/2026/09/15/2026-09-15-feed-01-assinatura-eletronica-contrato-locacao-geo.png",
       "url": "blog/assinatura-eletronica-contrato-locacao-laser.html",
-      "contentHtml": "<p>Em locadoras de lasers e equipamentos estéticos, cada contrato de locação envolve prazos curtos, valores expressivos e a necessidade de documentar as condições do equipamento antes e depois do uso. Quando esse processo depende de papel impresso, assinatura presencial ou envio pelos Correios, o tempo de formalização compete com a agilidade que o mercado exige.</p>\n\n<p>Com a <a href=\"../assinatura-eletronica.html\">assinatura eletrônica do Sistema Laser</a>, o documento nasce dentro do sistema e pode ser enviado para formalização em poucos cliques, sem impressão, sem deslocamento e sem espera.</p>\n\n<h2>Como funciona o fluxo de assinatura</h2>\n\n<p>O processo foi projetado para ser direto e repetível. A locadora prepara o documento a partir de um modelo reutilizável com campos personalizados ou anexa um arquivo próprio. Em seguida, define os destinatários e escolhe entre solicitar assinatura eletrônica ou enviar apenas como notificação, quando não há necessidade de formalização.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-02-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Tela de acompanhamento de assinatura eletrônica do Sistema Laser com status de assinantes e data de envio\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Envio e acompanhamento de documentos com assinatura eletrônica integrada à operação de locação.</figcaption>\n</figure>\n\n<p>Após o envio, o sistema exibe o andamento de cada assinante: quem já assinou, quem está pendente e qual é o prazo de validade do documento. A gestão acompanha tudo em uma visão única, sem precisar ligar ou enviar mensagens cobrando retorno.</p>\n\n<h2>Documentos vinculados à locação</h2>\n\n<p>O diferencial operacional está na integração com o restante da plataforma. Contratos, protocolos com fotos e outros documentos podem ser vinculados diretamente ao registro da locação correspondente. Isso significa que a equipe consulta o contrato assinado, as fotos do protocolo de entrega e o histórico completo sem sair do contexto da operação.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-03-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Cartões de benefícios com assinatura online e integração à locação\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Assinatura 100% online e documentos integrados à locação de equipamentos.</figcaption>\n</figure>\n\n<p>A funcionalidade também pode ser utilizada de forma independente, sem associação a uma locação. Termos de responsabilidade, autorizações internas, declarações de recebimento e comunicados podem ser enviados e acompanhados da mesma maneira.</p>\n\n<h2>Disponibilidade e planos</h2>\n\n<p>O módulo de assinatura eletrônica está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> do Sistema Laser. Com modelos reutilizáveis, campos configuráveis, acompanhamento por situação e vinculação à operação, a locadora ganha agilidade na formalização sem abrir mão do controle documental.</p>\n\n<p><a href=\"https://www.instagram.com/p/DdUgmoYn5Su/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box\">\n  <h3>Formalize locações sem papel e sem espera</h3>\n  <p>Envie contratos e protocolos para assinatura eletrônica diretamente do Sistema Laser e acompanhe o status em tempo real.</p>\n  <a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Agendar demonstração gratuita</a>\n</div>",
+      "contentHtml": "<p>Em locadoras de lasers e equipamentos estéticos, cada contrato de locação envolve prazos curtos, valores expressivos e a necessidade de documentar as condições do equipamento antes e depois do uso. Quando esse processo depende de papel impresso, assinatura presencial ou envio pelos Correios, o tempo de formalização compete com a agilidade que o mercado exige.</p>\n\n<p>Com a <a href=\"../assinatura-eletronica.html\">assinatura eletrônica do Sistema Laser</a>, o documento nasce dentro do sistema e pode ser enviado para formalização em poucos cliques, sem impressão, sem deslocamento e sem espera.</p>\n\n<h2>Como funciona o fluxo de assinatura</h2>\n\n<p>O processo foi projetado para ser direto e repetível. A locadora prepara o documento a partir de um modelo reutilizável com campos personalizados ou anexa um arquivo próprio. Em seguida, define os destinatários e escolhe entre solicitar assinatura eletrônica ou enviar apenas como notificação, quando não há necessidade de formalização.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-02-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Tela de acompanhamento de assinatura eletrônica do Sistema Laser com status de assinantes e data de envio\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Envio e acompanhamento de documentos com assinatura eletrônica integrada à operação de locação.</figcaption>\n</figure>\n\n<p>Após o envio, o sistema exibe o andamento de cada assinante: quem já assinou, quem está pendente e qual é o prazo de validade do documento. A gestão acompanha tudo em uma visão única, sem precisar ligar ou enviar mensagens cobrando retorno.</p>\n\n<h2>Documentos vinculados à locação</h2>\n\n<p>O diferencial operacional está na integração com o restante da plataforma. Contratos, protocolos com fotos e outros documentos podem ser vinculados diretamente ao registro da locação correspondente. Isso significa que a equipe consulta o contrato assinado, as fotos do protocolo de entrega e o histórico completo sem sair do contexto da operação.</p>\n\n<figure>\n  <img src=\"images/2026/09/15/2026-09-15-feed-03-assinatura-eletronica-contrato-locacao-geo.png\" alt=\"Cartões de benefícios com assinatura online e integração à locação\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Assinatura 100% online e documentos integrados à locação de equipamentos.</figcaption>\n</figure>\n\n<p>A funcionalidade também pode ser utilizada de forma independente, sem associação a uma locação. Termos de responsabilidade, autorizações internas, declarações de recebimento e comunicados podem ser enviados e acompanhados da mesma maneira.</p>\n\n<h2>Disponibilidade e planos</h2>\n\n<p>O módulo de assinatura eletrônica está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> do Sistema Laser. Com modelos reutilizáveis, campos configuráveis, acompanhamento por situação e vinculação à operação, a locadora ganha agilidade na formalização sem abrir mão do controle documental.</p>\n\n<p><a href=\"https://www.instagram.com/p/DdUgmoYn5Su/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box\">\n  <h3>Formalize locações sem papel e sem espera</h3>\n  <p>Envie contratos e protocolos para assinatura eletrônica diretamente do Sistema Laser e acompanhe o status em tempo real.</p>\n  <a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Solicitar demonstração gratuita</a>\n</div>",
       "author": "Geovana"
     },
     {
@@ -505,20 +520,21 @@
       "ogDescription": "Recebimentos por Pix, boleto e cartão vinculados à locação, com confirmação automática e sem conferência manual no WhatsApp.",
       "date": "2026-09-14T15:05:45.159-03:00",
       "modified": "2026-10-14",
-      "category": "Gestão financeira",
+      "category": "Financeiro",
       "tags": [
         "cobrança para locadoras",
         "locação de laser",
         "integração Asaas e Banco Inter",
         "Pix para locadora",
         "gestão financeira locadora",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Gestão financeira"
       ],
       "heroCopy": "Conecte a emissão de cobranças diretamente aos contratos de locação de lasers e equipamentos estéticos, garantindo recebimento pontual e conciliação instantânea.",
       "readingTime": "3 min",
       "image": "images/2026/09/14/2026-09-14-feed-01-cobranca-integrada-laser-geo.png",
       "url": "blog/cobranca-integrada-locacao-laser.html",
-      "contentHtml": "<p>Na locação de equipamentos médicos, lasers e tecnologias estéticas, o valor de cada diária exige rigor financeiro. No entanto, muitas locadoras ainda operam com cobranças descentralizadas: enviam uma chave Pix genérica pelo WhatsApp, aguardam o comprovante do cliente e dependem de conferência manual no extrato bancário para liberar a entrega do aparelho.</p>\n\n<p>Esse fluxo manual consome tempo da equipe, atrasa a rota de transporte e abre brechas para divergências entre o que foi combinado no contrato e o que realmente entrou na conta. Com a <a href=\"../sistema-financeiro-locadora.html#cobrancas\">cobrança integrada do Sistema Laser</a>, cada recebimento passa a nascer vinculado à locação correspondente.</p>\n\n<h2>Pix, boleto e cartão vinculados à locação</h2>\n\n<p>Ao emitir uma locação no sistema, a cobrança pode ser gerada em poucos cliques com opções de Pix com QR Code e chave dinâmica, boleto bancário ou cartão de crédito. A funcionalidade utiliza a <a href=\"../integracoes.html#asaas\">integração com o Asaas e Banco Inter</a>, homologada para automatizar o ciclo financeiro da locadora com total segurança e sem transformar o software em instituição financeira.</p>\n\n<figure>\n  <img src=\"images/2026/09/14/2026-09-14-feed-02-cobranca-integrada-laser-geo.png\" alt=\"Tela de cobrança integrada do Sistema Laser com Pix, boleto e extrato de recebimentos\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Cobranças com baixa automática e conciliação vinculada à locação de equipamentos.</figcaption>\n</figure>\n\n<p>Assim que o locatário conclui o pagamento, o sistema identifica a quitação automaticamente. A parcela em aberto no contas a receber é baixada sem nenhuma intervenção humana, e o saldo do caixa da locadora é atualizado em tempo real.</p>\n\n<h2>Extrato integrado e caixa em dia</h2>\n\n<p>Além de eliminar o envio de comprovantes em conversas de aplicativo, a automação financeira organiza a prestação de contas. A gestão visualiza o extrato completo diretamente no sistema, separando receitas de locações, tarifas bancárias e saldos disponíveis em cada conta ou carteira da empresa.</p>\n\n<figure>\n  <img src=\"images/2026/09/14/2026-09-14-feed-03-cobranca-integrada-laser-geo.png\" alt=\"Cartões de benefícios da cobrança integrada com baixa imediata e caixa atualizado\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Agilidade na rotina da locadora com histórico financeiro consolidado por contrato.</figcaption>\n</figure>\n\n<p>A cobrança integrada via Asaas e Banco Inter está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> do Sistema Laser, oferecendo a robustez necessária para locadoras em fase de expansão que buscam previsibilidade e controle operacional.</p>\n\n<p><a href=\"https://www.instagram.com/p/DdRvTfRiRmt/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<p>Asaas e Banco Inter estão disponíveis nos planos Pro e Master: boleto e PIX pelos dois provedores, com cobranças avulsas, parceladas e recorrentes; cartão de crédito e extrato integrado pelo Asaas. O Sistema Laser não acrescenta tarifas por cobrança nem limites de quantidade. Tarifas de recebimento se aplicam no <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a>. O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Banco Inter</a> oferece conta PJ, boletos e PIX sem tarifas nas condições de sua oferta vigente, sujeita a alterações pelo banco e à elegibilidade da conta.</p>\n<div class=\"cta-box\">\n  <h3>Sua locadora com financeiro integrado e seguro</h3>\n  <p>Elimine a conferência manual de comprovantes e tenha controle total das receitas de cada equipamento alugado.</p>\n  <a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Agendar demonstração gratuita</a>\n</div>",
+      "contentHtml": "<p>Na locação de equipamentos médicos, lasers e tecnologias estéticas, o valor de cada diária exige rigor financeiro. No entanto, muitas locadoras ainda operam com cobranças descentralizadas: enviam uma chave Pix genérica pelo WhatsApp, aguardam o comprovante do cliente e dependem de conferência manual no extrato bancário para liberar a entrega do aparelho.</p>\n\n<p>Esse fluxo manual consome tempo da equipe, atrasa a rota de transporte e abre brechas para divergências entre o que foi combinado no contrato e o que realmente entrou na conta. Com a <a href=\"../sistema-financeiro-locadora.html#cobrancas\">cobrança integrada do Sistema Laser</a>, cada recebimento passa a nascer vinculado à locação correspondente.</p>\n\n<h2>Pix, boleto e cartão vinculados à locação</h2>\n\n<p>Ao emitir uma locação no sistema, a cobrança pode ser gerada em poucos cliques com opções de Pix com QR Code e chave dinâmica, boleto bancário ou cartão de crédito. A funcionalidade utiliza a <a href=\"../integracoes.html#asaas\">integração com o Asaas e Banco Inter</a>, homologada para automatizar o ciclo financeiro da locadora com total segurança e sem transformar o software em instituição financeira.</p>\n\n<figure>\n  <img src=\"images/2026/09/14/2026-09-14-feed-02-cobranca-integrada-laser-geo.png\" alt=\"Tela de cobrança integrada do Sistema Laser com Pix, boleto e extrato de recebimentos\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Cobranças com baixa automática e conciliação vinculada à locação de equipamentos.</figcaption>\n</figure>\n\n<p>Assim que o locatário conclui o pagamento, o sistema identifica a quitação automaticamente. A parcela em aberto no contas a receber é baixada sem nenhuma intervenção humana, e o saldo do caixa da locadora é atualizado em tempo real.</p>\n\n<h2>Extrato integrado e caixa em dia</h2>\n\n<p>Além de eliminar o envio de comprovantes em conversas de aplicativo, a automação financeira organiza a prestação de contas. A gestão visualiza o extrato completo diretamente no sistema, separando receitas de locações, tarifas bancárias e saldos disponíveis em cada conta ou carteira da empresa.</p>\n\n<figure>\n  <img src=\"images/2026/09/14/2026-09-14-feed-03-cobranca-integrada-laser-geo.png\" alt=\"Cartões de benefícios da cobrança integrada com baixa imediata e caixa atualizado\" width=\"1080\" height=\"1350\" loading=\"lazy\">\n  <figcaption>Agilidade na rotina da locadora com histórico financeiro consolidado por contrato.</figcaption>\n</figure>\n\n<p>A cobrança integrada via Asaas e Banco Inter está disponível nos <a href=\"../planos.html\">planos Pro e Master</a> do Sistema Laser, oferecendo a robustez necessária para locadoras em fase de expansão que buscam previsibilidade e controle operacional.</p>\n\n<p><a href=\"https://www.instagram.com/p/DdRvTfRiRmt/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<p>Asaas e Banco Inter estão disponíveis nos planos Pro e Master: boleto e PIX pelos dois provedores, com cobranças avulsas, parceladas e recorrentes; cartão de crédito e extrato integrado pelo Asaas. O Sistema Laser não acrescenta tarifas por cobrança nem limites de quantidade. Tarifas de recebimento se aplicam no <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a>. O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Banco Inter</a> oferece conta PJ, boletos e PIX sem tarifas nas condições de sua oferta vigente, sujeita a alterações pelo banco e à elegibilidade da conta.</p>\n<div class=\"cta-box\">\n  <h3>Sua locadora com financeiro integrado e seguro</h3>\n  <p>Elimine a conferência manual de comprovantes e tenha controle total das receitas de cada equipamento alugado.</p>\n  <a class=\"btn btn-primary\" href=\"../index.html#demonstracao\">Solicitar demonstração gratuita</a>\n</div>",
       "author": "Geovana"
     },
     {
@@ -532,13 +548,14 @@
       "ogDescription": "Leads, propostas e tarefas comerciais organizadas em um funil visual integrado à operação da locadora de eletrônicos.",
       "date": "2026-09-13T15:44:48.079-03:00",
       "modified": "2026-09-13T15:44:48.079-03:00",
-      "category": "CRM e vendas",
+      "category": "Comercial",
       "tags": [
         "CRM para locadoras",
         "equipamentos eletrônicos",
         "funil de vendas",
         "gestão comercial locadora",
-        "Sistema Laser"
+        "Sistema Laser",
+        "CRM e vendas"
       ],
       "heroCopy": "Leads, propostas e tarefas comerciais organizadas em um funil visual conectado à operação da sua locadora.",
       "readingTime": "3 min",
@@ -558,12 +575,13 @@
       "ogDescription": "Use indicadores consolidados como ponto de partida para comparar períodos, reconhecer exceções e direcionar a análise da operação.",
       "date": "2026-09-13T09:32:26-03:00",
       "modified": "2026-09-13T09:35:27-03:00",
-      "category": "Gestão",
+      "category": "Operação",
       "tags": [
         "dashboard para locadora de laser",
         "indicadores de locações",
         "gestão de equipamentos médicos",
-        "visão gerencial"
+        "visão gerencial",
+        "Gestão"
       ],
       "heroCopy": "Indicadores consolidados ajudam o proprietário a localizar exceções e escolher onde aprofundar a análise.",
       "readingTime": "3 min",
@@ -583,13 +601,14 @@
       "ogDescription": "Evite atritos na devolução de máquinas e ferramentas com contratos vinculados à locação e assinatura eletrônica no Sistema Laser.",
       "date": "2026-09-12T14:26:40.471-03:00",
       "modified": "2026-09-12T14:26:40.471-03:00",
-      "category": "Operacional",
+      "category": "Operação",
       "tags": [
         "Construção civil",
         "Contratos",
         "Assinatura eletrônica",
         "Gestão de locação",
-        "Equipamentos"
+        "Equipamentos",
+        "Operacional"
       ],
       "heroCopy": "Liberar máquinas para a obra sem contrato formalizado amplia riscos operacionais. Veja como integrar minutas, termos de responsabilidade e recibos diretamente ao aluguel.",
       "readingTime": "3 min",
@@ -635,12 +654,13 @@
       "ogDescription": "Automação para confirmações, notificações e acompanhamento de conversas em locadoras de lasers médicos e estéticos.",
       "date": "2026-09-11T09:29:33-03:00",
       "modified": "2026-09-11T09:29:33-03:00",
-      "category": "Automação",
+      "category": "Integrações",
       "tags": [
         "confirmação automática de locação",
         "LILA",
         "locadora de laser",
-        "automação pelo WhatsApp"
+        "automação pelo WhatsApp",
+        "Automação"
       ],
       "heroCopy": "A LILA conduz confirmações e notificações automáticas, enquanto a equipe acompanha resultados e exceções.",
       "readingTime": "3 min",
@@ -660,12 +680,13 @@
       "ogDescription": "Um processo prático para organizar proprietário, equipamento em comodato, locações e fechamento por parceiro.",
       "date": "2026-09-10T17:23:58-03:00",
       "modified": "2026-09-10T17:23:58-03:00",
-      "category": "Gestão de Equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "comodato de equipamentos laser",
         "laser de parceiro",
         "locadora de equipamentos médicos",
-        "gestão de locações"
+        "gestão de locações",
+        "Gestão de Equipamentos"
       ],
       "heroCopy": "Identificar o proprietário e relacionar o ativo às locações preserva o contexto de cada parceria.",
       "readingTime": "3 min",
@@ -685,12 +706,13 @@
       "ogDescription": "Descubra como conciliar recebimentos contratuais e compromissos com previsibilidade consolidada por caixa.",
       "date": "2026-09-09T14:18:53.216-03:00",
       "modified": "2026-09-09T14:18:53.216-03:00",
-      "category": "Gestão Financeira",
+      "category": "Financeiro",
       "tags": [
         "fluxo de caixa para locadora",
         "gestão financeira de locação",
         "previsão de saldos futuros",
-        "DRE locadora de equipamentos"
+        "DRE locadora de equipamentos",
+        "Gestão Financeira"
       ],
       "heroCopy": "Entradas contratuais e compromissos lado a lado oferecem clareza para planejar investimentos e proteger o capital de giro.",
       "readingTime": "3 min",
@@ -710,12 +732,13 @@
       "ogDescription": "Um processo prático para usar histórico e manutenção na decisão de liberar equipamentos médicos e estéticos.",
       "date": "2026-09-09T09:35:11.834-03:00",
       "modified": "2026-09-09T09:35:11.834-03:00",
-      "category": "Gestão de Equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "manutenção de laser",
         "locadora de equipamentos médicos",
         "histórico do ativo",
-        "gestão de locações"
+        "gestão de locações",
+        "Gestão de Equipamentos"
       ],
       "heroCopy": "Cadastro, histórico, reparos e disponibilidade formam o contexto operacional antes de uma nova locação.",
       "readingTime": "3 min",
@@ -735,7 +758,7 @@
       "ogDescription": "Consulte período, ativo e responsável antes de confirmar uma locação de equipamentos de construção.",
       "date": "2026-09-08T23:16:31.481-03:00",
       "modified": "2026-09-08T23:16:31.481-03:00",
-      "category": "Agenda de locações",
+      "category": "Operação",
       "tags": [
         "agenda para locadora de equipamentos de construção",
         "agenda de locações",
@@ -786,12 +809,13 @@
       "ogDescription": "Leads, oportunidades e tarefas comerciais conectados à operação de locação de lasers e equipamentos médicos.",
       "date": "2026-09-03T09:26:33.893-03:00",
       "modified": "2026-09-03T09:26:33.893-03:00",
-      "category": "CRM e vendas",
+      "category": "Comercial",
       "tags": [
         "CRM para locadora de laser",
         "CRM para equipamentos médicos",
         "gestão comercial para locadora",
-        "Sistema Laser"
+        "Sistema Laser",
+        "CRM e vendas"
       ],
       "heroCopy": "Uma oportunidade comercial ganha força quando o acompanhamento permanece conectado aos clientes, equipamentos e locações.",
       "readingTime": "3 min",
@@ -836,12 +860,13 @@
       "ogDescription": "Emissão fiscal integrada à cobrança e disponível em todo o Brasil, sem custo adicional nos planos Pro e Master.",
       "date": "2026-09-01T09:24:58.980-03:00",
       "modified": "2026-10-12T12:00:00-03:00",
-      "category": "Novidades",
+      "category": "Produto e novidades",
       "tags": [
         "NFS-e para locadoras",
         "emissão de nota fiscal",
         "nota fiscal integrada à cobrança",
-        "nota fiscal no Sistema Laser"
+        "nota fiscal no Sistema Laser",
+        "Novidades"
       ],
       "heroCopy": "Emita pelo emissor da Prefeitura ou pelo Emissor Nacional e automatize a emissão após a confirmação do pagamento.",
       "readingTime": "3 min",
@@ -861,12 +886,13 @@
       "ogDescription": "Veja como o Sistema Laser conecta equipamentos, agenda, documentos, manutenção e financeiro na operação de locação.",
       "date": "2026-08-31T09:35:14.349-03:00",
       "modified": "2026-08-31T09:35:14.349-03:00",
-      "category": "Segmentos",
+      "category": "Operação",
       "tags": [
         "software para locadora de equipamentos eletrônicos",
         "sistema para aluguel de equipamentos eletrônicos",
         "gestão de locadora de audiovisual",
-        "ERP para locadora de eletrônicos"
+        "ERP para locadora de eletrônicos",
+        "Segmentos"
       ],
       "heroCopy": "Do cadastro do ativo ao financeiro, a operação ganha mais contexto quando as etapas da locação permanecem conectadas.",
       "readingTime": "3 min",
@@ -886,12 +912,13 @@
       "ogDescription": "Um roteiro prático para delegar com contexto sem liberar mais acesso do que a rotina exige.",
       "date": "2026-08-29T17:41:50.316-03:00",
       "modified": "2026-08-29T17:41:50.316-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "permissões de acesso para locadora",
         "permissionamento para locadora",
         "acesso por usuário na locadora",
-        "delegar com controle"
+        "delegar com controle",
+        "Gestão operacional"
       ],
       "heroCopy": "Acesso útil é o que permite executar bem uma responsabilidade, sem transformar a supervisão em um gargalo.",
       "readingTime": "3 min",
@@ -911,12 +938,13 @@
       "ogDescription": "Etapas, campos, regras e permissões devem servir a decisões reais da equipe comercial.",
       "date": "2026-08-28T15:14:31-03:00",
       "modified": "2026-08-28T15:14:31-03:00",
-      "category": "Gestão comercial",
+      "category": "Comercial",
       "tags": [
         "CRM configurável para locadora",
         "configurar CRM para locadora",
         "funil comercial para locadora",
-        "processo comercial de locação"
+        "processo comercial de locação",
+        "Gestão comercial"
       ],
       "heroCopy": "Um CRM útil não força uma rotina genérica: ele torna o processo comercial da sua locadora mais claro para quem executa e para quem acompanha.",
       "readingTime": "3 min",
@@ -936,12 +964,13 @@
       "ogDescription": "Um processo prático para localizar documentos, responsáveis e situação dentro da rotina de locação.",
       "date": "2026-08-27T15:13:49.588-03:00",
       "modified": "2026-08-27T15:13:49.588-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "documentos vinculados à locação",
         "assinatura eletrônica para locadora",
         "histórico de documentos da locação",
-        "contratos de locação organizados"
+        "contratos de locação organizados",
+        "Gestão operacional"
       ],
       "heroCopy": "O documento ganha valor operacional quando equipe e gestão conseguem encontrá-lo no mesmo contexto da locação, com responsáveis, situação e histórico consultáveis.",
       "readingTime": "3 min",
@@ -961,12 +990,13 @@
       "ogDescription": "Um processo simples para transformar cada conversa comercial em um próximo passo acompanhável.",
       "date": "2026-08-27T09:14:55.016-03:00",
       "modified": "2026-08-27T09:14:55.016-03:00",
-      "category": "Gestão comercial",
+      "category": "Comercial",
       "tags": [
         "tarefas de CRM para locadoras",
         "CRM para locadoras",
         "gestão comercial de locadora",
-        "agenda comercial para locadora"
+        "agenda comercial para locadora",
+        "Gestão comercial"
       ],
       "heroCopy": "Acompanhar uma oportunidade fica mais simples quando o próximo passo tem contexto, responsável e prazo visível para a equipe.",
       "readingTime": "3 min",
@@ -986,12 +1016,13 @@
       "ogDescription": "Compare início e fim, trate exceções e mantenha evidências da locação no mesmo processo.",
       "date": "2026-08-26T09:11:16.322377-03:00",
       "modified": "2026-08-26T09:11:16.322377-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "conferência de devolução de equipamentos alugados",
         "protocolo de devolução para locadora",
         "controle de devolução de equipamentos",
-        "fotos de início e fim da locação"
+        "fotos de início e fim da locação",
+        "Gestão operacional"
       ],
       "heroCopy": "A devolução prepara a próxima locação quando a equipe consegue comparar o retorno com o que foi registrado na saída.",
       "readingTime": "3 min",
@@ -1011,12 +1042,13 @@
       "ogDescription": "Condição, fotos e assinatura podem dar contexto à conferência antes da saída do equipamento.",
       "date": "2026-08-25T15:35:09.190652-03:00",
       "modified": "2026-08-25T15:35:09.190652-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "protocolo de entrega para locadora de equipamentos",
         "conferência de entrega de equipamentos",
         "fotos vinculadas à locação",
-        "assinatura do responsável na locação"
+        "assinatura do responsável na locação",
+        "Gestão operacional"
       ],
       "heroCopy": "Uma conferência bem definida começa antes da saída: registre o que precisa permanecer claro quando a locação for retomada.",
       "readingTime": "3 min",
@@ -1036,12 +1068,13 @@
       "ogDescription": "Três perguntas simples ajudam a equipe a preparar o próximo contato com clientes atuais.",
       "date": "2026-08-25T09:17:04.420791-03:00",
       "modified": "2026-08-25T09:17:04.420791-03:00",
-      "category": "Gestão comercial",
+      "category": "Comercial",
       "tags": [
         "jornada do cliente para locadora",
         "CRM para locadoras",
         "histórico de clientes de locação",
-        "gestão comercial de locadora"
+        "gestão comercial de locadora",
+        "Gestão comercial"
       ],
       "heroCopy": "Antes de oferecer uma nova locação, recupere o pedido anterior, o contexto atual e o próximo passo que faz sentido.",
       "readingTime": "3 min",
@@ -1061,12 +1094,13 @@
       "ogDescription": "Uma leitura comum de leads, negócios e tarefas ajuda a reunião comercial a começar com prioridades claras.",
       "date": "2026-08-24T15:12:19.853828-03:00",
       "modified": "2026-08-24T15:12:19.853828-03:00",
-      "category": "Gestão comercial",
+      "category": "Comercial",
       "tags": [
         "dashboard comercial para locadora",
         "CRM para locadoras",
         "gestão de leads e negócios",
-        "locação de equipamentos"
+        "locação de equipamentos",
+        "Gestão comercial"
       ],
       "heroCopy": "Uma reunião comercial fica mais útil quando começa pela leitura do processo, e não pela busca de atualizações em mensagens dispersas.",
       "readingTime": "3 min",
@@ -1086,7 +1120,7 @@
       "ogDescription": "Preço padrão, tabela e condição negociada ajudam a dar continuidade à próxima locação.",
       "date": "2026-08-24T09:11:13.391358-03:00",
       "modified": "2026-08-24T09:11:13.391358-03:00",
-      "category": "Gestão comercial",
+      "category": "Comercial",
       "tags": [
         "tabela de preços para locadora",
         "preço por equipamento",
@@ -1111,12 +1145,13 @@
       "ogDescription": "A agenda pode atender execução, coordenação e gestão com visões adequadas a cada responsabilidade.",
       "date": "2026-08-24T08:02:51.329777-03:00",
       "modified": "2026-08-24T08:02:51.329777-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "restrição de agenda por usuário",
         "agenda de locações",
         "permissões de acesso",
-        "gestão de locadora"
+        "gestão de locadora",
+        "Gestão operacional"
       ],
       "heroCopy": "Acesso adequado não é acesso amplo: é o contexto necessário para cada função executar, coordenar e supervisionar.",
       "readingTime": "3 min",
@@ -1137,12 +1172,13 @@
       "date": "2026-08-21T16:30:00-03:00",
       "modified": "2026-08-21T16:30:00-03:00",
       "author": "Sistema Laser",
-      "category": "CRM e vendas",
+      "category": "Comercial",
       "tags": [
         "CRM para locadoras",
         "gestão de leads",
         "jornada do cliente",
-        "negócios e oportunidades"
+        "negócios e oportunidades",
+        "CRM e vendas"
       ],
       "heroCopy": "Captar um novo contato é só o começo: uma boa gestão comercial preserva o contexto até a próxima oportunidade.",
       "readingTime": "4 min",
@@ -1162,12 +1198,13 @@
       "date": "2026-08-21T15:45:00-03:00",
       "modified": "2026-08-21T15:45:00-03:00",
       "author": "Sistema Laser",
-      "category": "CRM e vendas",
+      "category": "Comercial",
       "tags": [
         "automação de CRM",
         "tarefas comerciais",
         "agenda de vendas",
-        "gestão de equipe comercial"
+        "gestão de equipe comercial",
+        "CRM e vendas"
       ],
       "heroCopy": "Automação comercial funciona melhor quando tira o peso das repetições e devolve tempo para a equipe cuidar das conversas importantes.",
       "readingTime": "3 min",
@@ -1187,12 +1224,13 @@
       "date": "2026-08-21T15:00:00-03:00",
       "modified": "2026-10-12T12:00:00-03:00",
       "author": "Sistema Laser",
-      "category": "Novidades",
+      "category": "Produto e novidades",
       "tags": [
         "Nota Fiscal Eletrônica",
         "emissão de nota fiscal",
         "novidades Sistema Laser",
-        "software para locadoras"
+        "software para locadoras",
+        "Novidades"
       ],
       "heroCopy": "A nota fiscal já faz parte da operação, integrada à cobrança e sem custo adicional nos planos Pro e Master.",
       "readingTime": "2 min",
@@ -1211,12 +1249,13 @@
       "ogDescription": "Fotos, protocolo e responsável ajudam a preservar o contexto da locação.",
       "date": "2026-08-21T15:19:51.889223-03:00",
       "modified": "2026-08-21T15:19:51.889223-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "checklist de entrega de equipamentos alugados",
         "registro de saída de equipamentos",
         "protocolo de locação",
-        "controle de equipamentos locados"
+        "controle de equipamentos locados",
+        "Gestão de locações"
       ],
       "heroCopy": "Um checklist curto ajuda a equipe a registrar o essencial antes de o equipamento sair.",
       "readingTime": "2 min",
@@ -1236,12 +1275,13 @@
       "ogDescription": "Três perguntas ajudam a configurar responsabilidades e preservar a supervisão da gestão.",
       "date": "2026-08-20T15:29:56.448187-03:00",
       "modified": "2026-08-20T15:29:56.448187-03:00",
-      "category": "Gestão operacional",
+      "category": "Operação",
       "tags": [
         "permissões de acesso para locadora",
         "delegar na locadora",
         "controle de acesso na locação",
-        "gestão de equipe em locadora"
+        "gestão de equipe em locadora",
+        "Gestão operacional"
       ],
       "heroCopy": "Delegar bem começa por definir o que cada função precisa executar, acompanhar e escalar para a gestão.",
       "readingTime": "2 min",
@@ -1261,12 +1301,13 @@
       "ogDescription": "Responsável, valor e comprovação ajudam a delegar rotas com mais clareza.",
       "date": "2026-08-20T15:05:19.810976-03:00",
       "modified": "2026-08-20T15:05:19.810976-03:00",
-      "category": "Gestão financeira",
+      "category": "Financeiro",
       "tags": [
         "caixa para motoristas e parceiros",
         "controle de valores em rota",
         "gestão financeira de locadora",
-        "controle de parceiros"
+        "controle de parceiros",
+        "Gestão financeira"
       ],
       "heroCopy": "Delegar uma rota não precisa tirar da gestão o contexto dos valores que circulam fora do escritório.",
       "readingTime": "2 min",
@@ -1286,12 +1327,13 @@
       "ogDescription": "Um roteiro curto para manter cobrança, recebimento e caixa conectados.",
       "date": "2026-08-18T09:06:46.904818-03:00",
       "modified": "2026-10-14",
-      "category": "Gestão financeira",
+      "category": "Financeiro",
       "tags": [
         "cobrança para locadora",
         "pagamento de locação confirmado",
         "controle de recebimentos da locadora",
-        "caixa integrado à locação"
+        "caixa integrado à locação",
+        "Gestão financeira"
       ],
       "heroCopy": "Depois do pagamento, cobrança, recebimento e caixa precisam continuar ligados à origem da operação.",
       "readingTime": "2 min",
@@ -1311,12 +1353,13 @@
       "ogDescription": "Um roteiro simples para confirmar locações sem dispersar informações.",
       "date": "2026-08-17T15:04:40.019537-03:00",
       "modified": "2026-08-17T15:04:40.019537-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "confirmação de agendamento para locadora",
         "confirmação de locação de equipamentos",
         "agenda de locações",
-        "whatsapp para locadora"
+        "whatsapp para locadora",
+        "Gestão de locações"
       ],
       "heroCopy": "Uma confirmação ganha valor quando reúne período, equipamento e responsável no contexto da operação.",
       "readingTime": "2 min",
@@ -1334,12 +1377,13 @@
       "seoDescription": "Organize autonomia, informações compartilhadas e visão consolidada antes de abrir uma nova unidade da sua locadora.",
       "ogTitle": "Gestão de filiais para locadora",
       "ogDescription": "Como estruturar novas unidades sem fragmentar a operação.",
-      "category": "Gestão",
+      "category": "Operação",
       "tags": [
         "gestão de filiais",
         "locação de equipamentos",
         "operação",
-        "dashboards"
+        "dashboards",
+        "Gestão"
       ],
       "heroCopy": "Uma nova unidade funciona melhor quando responsabilidades locais e visão da gestão são definidas antes da expansão.",
       "readingTime": 2,
@@ -1361,12 +1405,13 @@
       "ogDescription": "Período, condição e responsável ajudam a confirmar a próxima reserva.",
       "date": "2026-08-15T16:27:05.634795-03:00",
       "modified": "2026-08-15T16:27:05.634795-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "disponibilidade de equipamentos para locadora",
         "agenda de locações",
         "liberar equipamento para nova reserva",
-        "controle de devolução de equipamentos"
+        "controle de devolução de equipamentos",
+        "Gestão de locações"
       ],
       "heroCopy": "Depois da devolução, período, condição e responsável ajudam a decidir se o ativo está pronto para a próxima reserva.",
       "readingTime": "2 min",
@@ -1386,12 +1431,13 @@
       "ogDescription": "Histórico, custos e próxima locação ajudam a organizar a decisão.",
       "date": "2026-08-14T18:36:02.845792-03:00",
       "modified": "2026-08-14T18:36:02.845792-03:00",
-      "category": "Manutenção",
+      "category": "Equipamentos",
       "tags": [
         "gestão de manutenção de equipamentos",
         "manutenção de equipamentos alugados",
         "histórico de reparos",
-        "controle de ativos para locadora"
+        "controle de ativos para locadora",
+        "Manutenção"
       ],
       "heroCopy": "Antes de aprovar um reparo, reúna o histórico do ativo, os custos associados e o impacto sobre a próxima locação.",
       "readingTime": "2 min",
@@ -1411,7 +1457,7 @@
       "ogDescription": "Um roteiro prático para estruturar acessos por função na locadora.",
       "date": "2026-08-14T10:09:09.717245-03:00",
       "modified": "2026-08-14T10:09:09.717245-03:00",
-      "category": "Gestão de equipe",
+      "category": "Operação",
       "tags": [
         "permissões de acesso para locadora",
         "permissionamento de usuários",
@@ -1436,12 +1482,13 @@
       "ogDescription": "Três perguntas para ler indicadores da locadora com mais contexto e transformar sinais em ações de gestão.",
       "date": "2026-08-14T10:08:35.911585-03:00",
       "modified": "2026-08-14T10:08:35.911585-03:00",
-      "category": "Gestão de locadoras",
+      "category": "Operação",
       "tags": [
         "relatórios para locadora de equipamentos",
         "dashboard para locadora",
         "indicadores de locação",
-        "gestão por dados"
+        "gestão por dados",
+        "Gestão de locadoras"
       ],
       "heroCopy": "Dado útil não decide sozinho: ele ajuda o proprietário a formular uma pergunta melhor e escolher o próximo passo.",
       "readingTime": "2 min",
@@ -1461,12 +1508,13 @@
       "ogDescription": "Três perguntas para revisar entradas, saídas e exceções pelo contexto da operação.",
       "date": "2026-08-12T09:08:09.818424-03:00",
       "modified": "2026-08-14T09:00:31-03:00",
-      "category": "Gestão financeira",
+      "category": "Financeiro",
       "tags": [
         "fluxo de caixa para locadora",
         "gestão financeira de locações",
         "controle financeiro",
-        "locadora de equipamentos"
+        "locadora de equipamentos",
+        "Gestão financeira"
       ],
       "heroCopy": "Relacionar cada valor à operação que o gerou dá mais contexto para revisar o caixa da locadora.",
       "readingTime": "2 min",
@@ -1486,7 +1534,7 @@
       "ogDescription": "O contexto do ativo ajuda a organizar comodatos, comissões e fechamentos por parceiro na locadora.",
       "date": "2026-08-11T15:12:44.273176-03:00",
       "modified": "2026-08-11T15:12:44.273176-03:00",
-      "category": "Gestão de ativos",
+      "category": "Equipamentos",
       "tags": [
         "gestão de equipamentos de parceiros",
         "equipamentos em comodato",
@@ -1511,12 +1559,13 @@
       "ogDescription": "Definir ativo, período e responsável ajuda a delegar confirmações com mais contexto operacional.",
       "date": "2026-08-11T09:12:29.386844-03:00",
       "modified": "2026-08-11T09:12:29.386844-03:00",
-      "category": "Gestão de locações",
+      "category": "Operação",
       "tags": [
         "agenda de locações",
         "gestão de equipe",
         "delegação",
-        "equipamentos alugados"
+        "equipamentos alugados",
+        "Gestão de locações"
       ],
       "heroCopy": "Ativo, período e responsável deixam a confirmação mais clara para a equipe e para a gestão.",
       "readingTime": "2 min",
@@ -1536,12 +1585,13 @@
       "ogDescription": "Condição, pendências e agenda ajudam a decidir se o equipamento está pronto para a próxima locação.",
       "date": "2026-08-10T17:46:11-03:00",
       "modified": "2026-08-10T17:46:11-03:00",
-      "category": "Gestão de equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "controle de devolução",
         "equipamentos alugados",
         "fotos e protocolos",
-        "agenda de locações"
+        "agenda de locações",
+        "Gestão de equipamentos"
       ],
       "heroCopy": "Uma devolução bem conferida dá mais contexto para decidir se o ativo pode voltar à agenda.",
       "readingTime": "2 min",
@@ -1561,13 +1611,14 @@
       "ogDescription": "Saiba como proteger dados sensíveis e bancários enquanto sua equipe operacional gerencia locações com autonomia no Sistema Laser.",
       "date": "2026-08-10T15:01:50.885632-03:00",
       "modified": "2026-08-10T15:01:50.885632-03:00",
-      "category": "Gestão de Locações",
+      "category": "Operação",
       "tags": [
         "Permissionamento por Função",
         "Segurança Operacional",
         "Gestão de Locadoras",
         "Delegação com Controle",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Gestão de Locações"
       ],
       "heroCopy": "Delegar rotinas sem perder a governança da empresa é um desafio constante nas locadoras. Descubra como estruturar acessos seguros por função.",
       "readingTime": "3 min",
@@ -1587,7 +1638,7 @@
       "ogDescription": "Responsável, origem e comprovantes: três perguntas para uma conferência de caixa mais organizada.",
       "date": "2026-08-10T11:58:35.445143-03:00",
       "modified": "2026-08-10T11:58:35.445143-03:00",
-      "category": "Gestão Financeira",
+      "category": "Financeiro",
       "tags": [
         "Controle de Caixa",
         "Gestão Financeira",
@@ -1613,13 +1664,14 @@
       "ogDescription": "Um guia prático para decidir o que cada função pode consultar, alterar e manter reservado à gestão da locadora.",
       "date": "2026-08-09T16:17:16.910039-03:00",
       "modified": "2026-08-14T09:00:31-03:00",
-      "category": "Gestão Operacional",
+      "category": "Operação",
       "tags": [
         "Permissões de Acesso",
         "Gestão de Locadoras",
         "Segurança Operacional",
         "Delegação",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Gestão Operacional"
       ],
       "heroCopy": "Acesso útil não precisa ser acesso total. Veja como alinhar permissões, responsabilidades e supervisão na rotina da locadora.",
       "readingTime": "2 min",
@@ -1639,13 +1691,14 @@
       "ogDescription": "Saiba como registrar a contagem de disparos, ponteiras e manutenções no cadastro dos ativos para manter a frota estética segura.",
       "date": "2026-08-07T13:47:40.067257-03:00",
       "modified": "2026-08-07T13:47:40.067257-03:00",
-      "category": "Gestão de Locações",
+      "category": "Operação",
       "tags": [
         "Locação de Lasers",
         "Manutenção de Equipamentos",
         "Equipamentos Estéticos",
         "Gestão de Locadoras",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Gestão de Locações"
       ],
       "heroCopy": "Equipamentos de alto valor exigem acompanhamento técnico constante. Descubra como gerenciar disparos e manutenções com total rastreabilidade.",
       "readingTime": "3 min",
@@ -1665,13 +1718,14 @@
       "ogDescription": "Descubra como estruturar tabelas de frete configuráveis por cliente e automatizar valores de entrega e recolhimento sem erros manuais.",
       "date": "2026-08-07T08:12:50.935133-03:00",
       "modified": "2026-08-07T08:12:50.935133-03:00",
-      "category": "Gestão de Locações",
+      "category": "Operação",
       "tags": [
         "Logística de Locação",
         "Frete por Cliente",
         "Gestão de Locadoras",
         "Automação Operacional",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Gestão de Locações"
       ],
       "heroCopy": "Cobranças informais de frete causam divergências nos contratos e reduzem a lucratividade da operação. Veja como configurar regras claras de entrega por cliente.",
       "readingTime": "3 min",
@@ -1692,13 +1746,14 @@
       "ogDescription": "Evite atrasos na devolução e mantenha o controle de frotas e ativos operacionais em locadoras.",
       "date": "2026-08-06T13:16:27.013076-03:00",
       "modified": "2026-08-06T13:16:27.013076-03:00",
-      "category": "Gestão Operacional",
+      "category": "Operação",
       "tags": [
         "rastreabilidade",
         "equipamentos",
         "construção civil",
         "gestão de locações",
-        "sistema laser"
+        "sistema laser",
+        "Gestão Operacional"
       ],
       "heroCopy": "Em vez de controlar equipamentos alugados por planilhas ou mensagens dispersas, o Sistema Laser associa cada ativo ao cliente, obra e período do contrato com rastreabilidade completa.",
       "readingTime": 3,
@@ -1718,13 +1773,14 @@
       "ogDescription": "Elimine o retrabalho manual e padronize a entrada de solicitações de locação desde o primeiro contato.",
       "date": "2026-08-06T10:04:16.090756-03:00",
       "modified": "2026-08-06T10:31:51.492928-03:00",
-      "category": "Gestão e Vendas",
+      "category": "Comercial",
       "tags": [
         "leads",
         "formulários",
         "gestão de locações",
         "automação",
-        "sistema laser"
+        "sistema laser",
+        "Gestão e Vendas"
       ],
       "heroCopy": "Em vez de receber solicitações dispersas e digitar dados manualmente para montar orçamentos, os formulários configuráveis do Sistema Laser padronizam a coleta de informações essenciais desde a primeira conversa.",
       "readingTime": 3,
@@ -1743,18 +1799,20 @@
       "ogDescription": "3 verificações para rastrear higienização e histórico de cada ativo médico.",
       "date": "2026-08-05",
       "modified": "2026-08-05",
-      "category": "Controle de equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "número de série",
         "equipamentos hospitalares",
         "locação de home care",
-        "gestão de locadora"
+        "gestão de locadora",
+        "Controle de equipamentos"
       ],
       "heroCopy": "Em locações de equipamentos hospitalares e de home care, cada cama, bomba ou monitor precisa ter seu histórico individual rastreado antes da próxima saída.",
       "readingTime": 2,
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
       "url": "blog/controle-serie-equipamentos-hospitalares.html",
-      "contentHtml": "<h2>1. Identificação única por série e patrimônio</h2><p>Cadastre cada equipamento por seu número de série e patrimônio individual. Isso evita misturar ativos do mesmo modelo e garante histórico técnico próprio.</p><h2>2. Histórico de higienização e calibração</h2><p>Anexe o laudo de sanitização, teste de segurança elétrica e protocolo de manutenção antes da liberação. O cliente recebe o ativo com documentação clara.</p><h2>3. Visão de campo no celular para equipes técnicas</h2><p>Entregadores e técnicos conferem a prontidão do equipamento direto no smartphone, sem expor dados financeiros ou relatórios estratégicos da empresa.</p><h2>Como o Sistema Laser apoia a locadora de saúde</h2><p>O Sistema Laser oferece controle individual por número de série, laudos técnicos anexados ao contrato e níveis de acesso por perfil.</p><p><a href=\"../erp-locadora.html#protocolos\">Conheça o módulo de controle de equipamentos</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/DbqrwzQCWl6/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>"
+      "contentHtml": "<h2>1. Identificação única por série e patrimônio</h2><p>Cadastre cada equipamento por seu número de série e patrimônio individual. Isso evita misturar ativos do mesmo modelo e garante histórico técnico próprio.</p><h2>2. Histórico de higienização e calibração</h2><p>Anexe o laudo de sanitização, teste de segurança elétrica e protocolo de manutenção antes da liberação. O cliente recebe o ativo com documentação clara.</p><h2>3. Visão de campo no celular para equipes técnicas</h2><p>Entregadores e técnicos conferem a prontidão do equipamento direto no smartphone, sem expor dados financeiros ou relatórios estratégicos da empresa.</p><h2>Como o Sistema Laser apoia a locadora de saúde</h2><p>O Sistema Laser oferece controle individual por número de série, laudos técnicos anexados ao contrato e níveis de acesso por perfil.</p><p><a href=\"../erp-locadora.html#protocolos\">Conheça o módulo de controle de equipamentos</a> ou <a href=\"../index.html#demonstracao\">agende uma demonstração do Sistema Laser</a>.</p><p><a href=\"https://www.instagram.com/p/DbqrwzQCWl6/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a>.</p>",
+      "author": "Sistema Laser"
     },
     {
       "slug": "controle-disparos-ponteiras-locadora",
@@ -1768,12 +1826,13 @@
       "ogDescription": "3 passos para conciliar o uso real da ponteira sem depender do papel.",
       "date": "2026-08-05T14:25:00-03:00",
       "modified": "2026-08-05",
-      "category": "Controle de equipamentos",
+      "category": "Equipamentos",
       "tags": [
         "controle de disparos",
         "locação de laser",
         "ponteiras de laser",
-        "gestão de locadora"
+        "gestão de locadora",
+        "Controle de equipamentos"
       ],
       "heroCopy": "Quando a locação de equipamentos estéticos ou médicos envolve contagem de tiros por ponteira, a conciliação só é tranquila se houver leitura inicial e final registrada.",
       "readingTime": 2,
@@ -1793,7 +1852,7 @@
       "ogDescription": "Evite conflitos antes de confirmar uma locação.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
-      "category": "Agenda de locações",
+      "category": "Operação",
       "tags": [
         "agenda de locações",
         "como evitar conflitos de agenda",
@@ -1807,7 +1866,7 @@
     },
     {
       "slug": "formalizacao-contratos-locadora",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Formalização de contratos na locadora: 3 conferências antes da saída",
       "heroTitle": "Formalização de contratos na locadora: 3 conferências antes da saída",
       "description": "Contrato, minuta, recibo e assinatura eletrônica precisam caminhar junto da locação para reduzir dúvidas na saída do equipamento.",
@@ -1817,11 +1876,12 @@
       "ogDescription": "3 conferências antes da saída do equipamento alugado.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
-      "category": "Contratos e documentos",
+      "category": "Documentos",
       "tags": [
         "contrato de locação digital",
         "assinatura eletrônica locação",
-        "software para locadora"
+        "software para locadora",
+        "Contratos e documentos"
       ],
       "heroCopy": "Em uma locadora, preparar o equipamento é apenas parte da saída. O contrato precisa estar claro, vinculado à locação e acompanhado pela equipe.",
       "readingTime": 1,
@@ -1831,7 +1891,7 @@
     },
     {
       "slug": "controle-manutencao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
       "heroTitle": "Gestão de manutenção de equipamentos: 3 perguntas antes de autorizar um reparo",
       "description": "Histórico, custos e acompanhamento posterior ajudam a controlar manutenção de equipamentos alugados.",
@@ -1841,11 +1901,12 @@
       "ogDescription": "3 perguntas antes de autorizar um reparo.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
-      "category": "Manutenção",
+      "category": "Equipamentos",
       "tags": [
         "controle de manutenção de equipamentos",
         "controle de equipamentos",
-        "como controlar equipamentos alugados"
+        "como controlar equipamentos alugados",
+        "Manutenção"
       ],
       "heroCopy": "Na locação de equipamentos, reparo é decisão de gestão: envolve histórico do ativo, custo, disponibilidade e próximo uso.",
       "readingTime": 1,
@@ -1855,7 +1916,7 @@
     },
     {
       "slug": "ponto-reposicao-locadora",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
       "heroTitle": "Ponto de reposição na locadora: como conectar estoque e disponibilidade",
       "description": "Ponto de reposição ajuda a transformar saldo de estoque em rotina de decisão antes da saída do equipamento.",
@@ -1865,11 +1926,12 @@
       "ogDescription": "Conecte estoque e disponibilidade na locação de equipamentos.",
       "date": "2026-08-04",
       "modified": "2026-08-04",
-      "category": "Estoque e ativos",
+      "category": "Equipamentos",
       "tags": [
         "controle de equipamentos",
         "controle de estoque locadora",
-        "gestão de locações"
+        "gestão de locações",
+        "Estoque e ativos"
       ],
       "heroCopy": "A agenda pode indicar que o equipamento está livre, mas a locação só está preparada quando os itens que acompanham seu uso também estão disponíveis.",
       "readingTime": 1,
@@ -1879,7 +1941,7 @@
     },
     {
       "slug": "novo-layout-sistema-laser",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Um novo layout para uma rotina mais clara, em qualquer tela",
       "heroTitle": "Um novo layout para uma rotina mais clara, em qualquer tela",
       "description": "A interface do Sistema Laser ganhou organização visual para facilitar consultas em computador, celular e tablet.",
@@ -1889,11 +1951,12 @@
       "ogDescription": "Uma rotina mais clara em qualquer tela.",
       "date": "2026-07-31",
       "modified": "2026-07-31",
-      "category": "Produto",
+      "category": "Produto e novidades",
       "tags": [
         "Sistema Laser",
         "software para locadora",
-        "modo escuro"
+        "modo escuro",
+        "Produto"
       ],
       "heroCopy": "O Sistema Laser ganhou um novo layout pensado para acompanhar a operação onde ela acontece.",
       "readingTime": 1,
@@ -1903,7 +1966,7 @@
     },
     {
       "slug": "novo-site-sistema-laser",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Um novo site para apresentar o novo momento do Sistema Laser",
       "heroTitle": "Um novo site para apresentar o novo momento do Sistema Laser",
       "description": "A experiência do site foi reformulada para apresentar melhor soluções, funcionalidades, integrações e planos.",
@@ -1913,10 +1976,11 @@
       "ogDescription": "Um novo momento para apresentar o software de gestão de locações.",
       "date": "2026-07-20",
       "modified": "2026-07-20",
-      "category": "Produto",
+      "category": "Produto e novidades",
       "tags": [
         "Sistema Laser",
-        "software para locação de equipamentos"
+        "software para locação de equipamentos",
+        "Produto"
       ],
       "heroCopy": "A experiência foi reformulada para explicar com mais clareza como o software apoia locadoras de equipamentos.",
       "readingTime": 1,
@@ -1926,7 +1990,7 @@
     },
     {
       "slug": "cadastros-clientes-locadora",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
       "heroTitle": "Cadastros de clientes atualizados: a base de uma operação de locação eficiente",
       "description": "Cadastro completo reduz erros de comunicação, cobrança, emissão de documentos e duplicidade de registros.",
@@ -1950,7 +2014,7 @@
     },
     {
       "slug": "meta-partner-whatsapp",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Somos um Meta Partner Oficial",
       "heroTitle": "Somos um Meta Partner Oficial",
       "description": "A Aliasoft, empresa do Sistema Laser, é Meta Solution Partner oficial com integração ao WhatsApp Cloud API.",
@@ -1960,11 +2024,12 @@
       "ogDescription": "Integração oficial com WhatsApp Cloud API para locadoras.",
       "date": "2025-06-22",
       "modified": "2025-06-22",
-      "category": "WhatsApp e automação",
+      "category": "Integrações",
       "tags": [
         "WhatsApp para locadoras",
         "Meta Partner",
-        "automação de locação"
+        "automação de locação",
+        "WhatsApp e automação"
       ],
       "heroCopy": "O Sistema Laser possui integração com WhatsApp Cloud API e a Aliasoft é Meta Solution Partner oficial.",
       "readingTime": 1,
@@ -1974,7 +2039,7 @@
     },
     {
       "slug": "fotos-assinatura-eletronica-locacao",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Fotos de equipamentos de locações e assinatura eletrônica de documentos",
       "heroTitle": "Fotos de equipamentos e assinatura eletrônica de documentos",
       "description": "Fotos e assinatura eletrônica ajudam a preservar evidências e formalizar documentos no fluxo da locação.",
@@ -1984,11 +2049,12 @@
       "ogDescription": "Documente evidências na saída e devolução do equipamento.",
       "date": "2025-06-17",
       "modified": "2025-06-17",
-      "category": "Contratos e documentos",
+      "category": "Documentos",
       "tags": [
         "assinatura eletrônica locação",
         "fotos de equipamentos",
-        "contrato de locação digital"
+        "contrato de locação digital",
+        "Contratos e documentos"
       ],
       "heroCopy": "Fotos do equipamento e assinatura eletrônica fortalecem a formalização e o histórico da locação.",
       "readingTime": 1,
@@ -1998,7 +2064,7 @@
     },
     {
       "slug": "formularios-leads-locadora",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Potencialize sua geração de leads: conheça os formulários do Sistema Laser",
       "heroTitle": "Potencialize sua geração de leads com formulários integrados",
       "description": "Formulários integrados ajudam a capturar oportunidades e cadastrar leads automaticamente na plataforma.",
@@ -2008,11 +2074,12 @@
       "ogDescription": "Capture oportunidades e cadastre leads diretamente na operação.",
       "date": "2025-06-17",
       "modified": "2025-06-17",
-      "category": "Vendas e leads",
+      "category": "Comercial",
       "tags": [
         "captação de leads",
         "formulários para locadoras",
-        "automação de locação"
+        "automação de locação",
+        "Vendas e leads"
       ],
       "heroCopy": "Transformar visitantes em oportunidades reais exige formulários fáceis de compartilhar e conectados à operação.",
       "readingTime": 1,
@@ -2022,7 +2089,7 @@
     },
     {
       "slug": "automacao-agenda-locacao-equipamentos-esteticos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a automação de agenda pode transformar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Como a automação de agenda pode transformar a locação de equipamentos estéticos",
       "description": "Automação de agenda ajuda a evitar conflitos, lembrar clientes e aumentar produtividade na locadora.",
@@ -2032,7 +2099,7 @@
       "ogDescription": "Produtividade e atendimento com agenda de locações.",
       "date": "2024-06-01",
       "modified": "2024-06-01",
-      "category": "Agenda de locações",
+      "category": "Operação",
       "tags": [
         "agenda de locações",
         "locação de aparelhos estéticos",
@@ -2046,7 +2113,7 @@
     },
     {
       "slug": "gestao-financeira-locacao-equipamentos-esteticos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Gestão financeira eficiente: o segredo para o sucesso na locação de equipamentos estéticos",
       "heroTitle": "Gestão financeira eficiente para locadoras de equipamentos",
       "description": "Contas a receber, fluxo de caixa, DRE e cobranças precisam estar conectados à locação correta.",
@@ -2070,7 +2137,7 @@
     },
     {
       "slug": "logistica-entrega-coleta-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Logística inteligente: como otimizar a entrega e coleta de equipamentos estéticos",
       "heroTitle": "Logística inteligente: entrega e coleta de equipamentos",
       "description": "Entrega e coleta ficam mais confiáveis quando agenda, responsáveis, documentos e protocolos estão conectados.",
@@ -2094,7 +2161,7 @@
     },
     {
       "slug": "organizacao-clientes-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Organização de clientes: a chave para um atendimento personalizado na locação de equipamentos estéticos",
       "heroTitle": "Organização de clientes na locação de equipamentos",
       "description": "Cadastro, histórico e comunicação com clientes ajudam a melhorar atendimento e reduzir erros na locadora.",
@@ -2118,7 +2185,7 @@
     },
     {
       "slug": "gestao-tarefas-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Gestão de tarefas: como aumentar a produtividade na locação de equipamentos estéticos",
       "heroTitle": "Gestão de tarefas para aumentar produtividade na locadora",
       "description": "Responsáveis, permissões e fluxo operacional ajudam a aumentar produtividade na rotina da locadora.",
@@ -2142,7 +2209,7 @@
     },
     {
       "slug": "seguranca-dados-locadora",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Segurança de dados: proteja as informações sensíveis dos seus clientes com o Sistema Laser",
       "heroTitle": "Segurança de dados para locadoras de equipamentos",
       "description": "Dados de clientes, documentos e locações precisam de organização, permissão de acesso e infraestrutura adequada.",
@@ -2152,11 +2219,12 @@
       "ogDescription": "Proteja informações sensíveis de clientes e locações.",
       "date": "2024-04-26",
       "modified": "2024-04-26",
-      "category": "Segurança",
+      "category": "Produto e novidades",
       "tags": [
         "segurança de dados locadora",
         "controle de acesso",
-        "software para locadora"
+        "software para locadora",
+        "Segurança"
       ],
       "heroCopy": "Informações de clientes, documentos e locações precisam de controle de acesso e organização.",
       "readingTime": 1,
@@ -2166,7 +2234,7 @@
     },
     {
       "slug": "integracao-sistemas-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a integração de sistemas pode melhorar a gestão de locação de equipamentos estéticos",
       "heroTitle": "Integração de sistemas na gestão de locação",
       "description": "API, webhooks, formulários e cobranças integradas reduzem retrabalho entre operação e outros sistemas.",
@@ -2177,11 +2245,7 @@
       "date": "2024-04-19",
       "modified": "2024-04-19",
       "category": "Integrações",
-      "tags": [
-        "integração para locadoras",
-        "API locadora",
-        "webhooks"
-      ],
+      "tags": ["integração para locadoras", "API locadora", "webhooks"],
       "heroCopy": "Sistemas integrados reduzem digitação, aceleram cobranças e conectam atendimento, leads e dados internos.",
       "readingTime": 1,
       "image": "https://www.sistemalaser.com.br/assets/img/og-sistema-laser-2026.png",
@@ -2190,7 +2254,7 @@
     },
     {
       "slug": "suporte-cliente-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "A importância do suporte ao cliente na locação de equipamentos estéticos",
       "heroTitle": "A importância do suporte ao cliente na locação de equipamentos",
       "description": "Histórico, comunicação e atendimento com contexto ajudam a melhorar satisfação e fidelização em locadoras.",
@@ -2200,11 +2264,12 @@
       "ogDescription": "Atendimento com contexto melhora a rotina da locadora.",
       "date": "2024-04-12",
       "modified": "2024-04-12",
-      "category": "Atendimento",
+      "category": "Operação",
       "tags": [
         "atendimento locadora",
         "suporte ao cliente",
-        "gestão de locações"
+        "gestão de locações",
+        "Atendimento"
       ],
       "heroCopy": "Atendimento eficiente depende de histórico, contexto e comunicação organizada.",
       "readingTime": 1,
@@ -2214,7 +2279,7 @@
     },
     {
       "slug": "analise-dados-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a análise de dados pode impulsionar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Análise de dados para locadoras de equipamentos",
       "description": "Dashboards e relatórios ajudam a entender ocupação, faturamento, caixa e desempenho da locadora.",
@@ -2224,11 +2289,12 @@
       "ogDescription": "Dashboards e relatórios para decidir com contexto.",
       "date": "2024-04-05",
       "modified": "2024-04-05",
-      "category": "Relatórios",
+      "category": "Financeiro",
       "tags": [
         "dashboard locadora",
         "relatórios locadora",
-        "gestão de locações"
+        "gestão de locações",
+        "Relatórios"
       ],
       "heroCopy": "Dados ajudam a identificar tendências, gargalos, ocupação, faturamento e oportunidades de melhoria.",
       "readingTime": 1,
@@ -2238,7 +2304,7 @@
     },
     {
       "slug": "gestao-inventario-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a gestão de inventário pode melhorar a eficiência na locação de equipamentos estéticos",
       "heroTitle": "Gestão de inventário na locação de equipamentos",
       "description": "Inventário organizado melhora disponibilidade, qualidade, consumíveis e controle dos ativos alugados.",
@@ -2248,11 +2314,12 @@
       "ogDescription": "Controle estoque, ativos e consumíveis.",
       "date": "2024-03-29",
       "modified": "2024-03-29",
-      "category": "Estoque e ativos",
+      "category": "Equipamentos",
       "tags": [
         "gestão de inventário",
         "controle de equipamentos",
-        "controle de estoque locadora"
+        "controle de estoque locadora",
+        "Estoque e ativos"
       ],
       "heroCopy": "Inventário organizado garante disponibilidade e qualidade dos equipamentos alugados.",
       "readingTime": 1,
@@ -2262,7 +2329,7 @@
     },
     {
       "slug": "personalizacao-servicos-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a personalização de serviços pode diferenciar seu negócio de locação de equipamentos estéticos",
       "heroTitle": "Personalização de serviços na locação de equipamentos",
       "description": "Histórico, preferências e comunicação personalizada ajudam a melhorar experiência e fidelização do cliente.",
@@ -2272,11 +2339,12 @@
       "ogDescription": "Use histórico para atender melhor clientes de locadora.",
       "date": "2024-03-22",
       "modified": "2024-03-22",
-      "category": "Atendimento",
+      "category": "Operação",
       "tags": [
         "atendimento locadora",
         "personalização de serviços",
-        "clientes locadora"
+        "clientes locadora",
+        "Atendimento"
       ],
       "heroCopy": "Serviços personalizados atendem melhor às necessidades dos clientes e melhoram fidelização.",
       "readingTime": 1,
@@ -2286,7 +2354,7 @@
     },
     {
       "slug": "mobilidade-gestao-locacao-equipamentos",
-      "author": "",
+      "author": "Sistema Laser",
       "title": "Como a mobilidade pode facilitar a gestão de locação de equipamentos estéticos",
       "heroTitle": "Mobilidade na gestão de locação de equipamentos",
       "description": "Acesso online por celular, tablet e computador facilita consulta de agenda, equipamentos e financeiro.",
@@ -2296,11 +2364,12 @@
       "ogDescription": "Controle a locadora em computador, celular e tablet.",
       "date": "2024-03-15",
       "modified": "2024-03-15",
-      "category": "Produto",
+      "category": "Produto e novidades",
       "tags": [
         "software online para locadora",
         "sistema de locação",
-        "mobilidade"
+        "mobilidade",
+        "Produto"
       ],
       "heroCopy": "Acesso online facilita consulta de informações no escritório, em campo ou durante atendimento ao cliente.",
       "readingTime": 1,
@@ -2310,7 +2379,7 @@
     },
     {
       "slug": "tabela-precos-locadora-equipamentos-corporativos",
-      "author": "Geovana para Google/Gemini/Antigravity",
+      "author": "Geovana",
       "title": "Tabelas de preços para locadoras: como padronizar valores e condições por cliente",
       "heroTitle": "Tabelas de preços personalizadas para locadoras",
       "description": "Configure preços padrão por equipamento, registre condições negociadas por cliente e elimine retrabalho na rotina comercial da locadora.",
@@ -2320,14 +2389,15 @@
       "ogDescription": "Preço padrão, condições por cliente e múltiplas tabelas em um só sistema.",
       "date": "2026-09-10",
       "modified": "2026-09-10",
-      "category": "Produto",
+      "category": "Produto e novidades",
       "tags": [
         "tabela de preços",
         "locadora de equipamentos",
         "equipamentos corporativos",
         "máquinas de café",
         "gestão comercial",
-        "ERP para locadora"
+        "ERP para locadora",
+        "Produto"
       ],
       "heroCopy": "Configure o valor base, registre condições especiais e garanta que toda a equipe aplique o preço certo em cada locação.",
       "readingTime": 2,
@@ -2346,7 +2416,7 @@
       "ogDescription": "Projete recebimentos e despesas operacionais da locadora de lasers estéticos e médicos com conciliação automática no Sistema Laser.",
       "date": "2026-10-06T14:31:00-03:00",
       "modified": "2026-10-06T14:31:00-03:00",
-      "category": "Gestão Financeira",
+      "category": "Financeiro",
       "tags": [
         "Locadora de laser",
         "Fluxo de caixa",
@@ -2372,13 +2442,14 @@
       "ogDescription": "Formalize locações de laser com segurança jurídica: contratos com assinatura eletrônica vinculados ao histórico do ativo no Sistema Laser.",
       "date": "2026-10-07T08:52:54.674-03:00",
       "modified": "2026-10-07T08:52:54.674-03:00",
-      "category": "Gestão de Locadoras",
+      "category": "Operação",
       "tags": [
         "Locadora de laser",
         "Assinatura eletrônica",
         "Contratos de locação",
         "Equipamentos médicos",
-        "Segurança operacional"
+        "Segurança operacional",
+        "Gestão de Locadoras"
       ],
       "heroCopy": "Descubra como eliminar papelada, agilizar o envio de minutas e garantir contratos assinados antes da entrega de lasers e tecnologias médicas.",
       "readingTime": "4 min",
@@ -2398,13 +2469,14 @@
       "ogDescription": "Retenha clínicas parceiras e antecipe a locação de lasers estéticos e médicos com a Jornada do Cliente no Sistema Laser.",
       "date": "2026-10-08T09:18:55.620-03:00",
       "modified": "2026-10-08T09:18:55.620-03:00",
-      "category": "Gestão de Locadoras",
+      "category": "Operação",
       "tags": [
         "Locadora de laser",
         "CRM para locadoras",
         "Jornada do cliente",
         "Equipamentos médicos",
-        "Recorrência comercial"
+        "Recorrência comercial",
+        "Gestão de Locadoras"
       ],
       "heroCopy": "Saiba como acompanhar clientes ativos, programar retornos comerciais com antecedência e manter equipamentos de alto valor em constante locação.",
       "readingTime": "4 min",
@@ -2438,7 +2510,7 @@
       "image": "images/2026/10/09/2026-10-09-cobranca-integrada-asaas-locadora-laser-geo-feed-01.png",
       "url": "blog/cobranca-integrada-asaas-locadora-laser.html",
       "author": "Geovana",
-      "contentHtml": "<p class=\"lead\">Na locação de lasers dermatológicos, equipamentos estéticos e tecnologias médicas de alto valor, cada diária representa um montante financeiro expressivo. Quando a cobrança depende de rotinas manuais — como gerar chaves Pix avulsas, solicitar comprovantes por aplicativo e conferir extratos bancários na ponta do lápis —, a operação perde tempo precioso e assume riscos desnecessários na liberação das máquinas.</p>\n\n<h2>O gargalo da conferência manual de recebíveis na locadora</h2>\n<p>Em dias de alta demanda, como as tradicionais jornadas de Laser Day, a expedição da locadora precisa de respostas imediatas: o pagamento foi liquidado? A locação está autorizada para entrega? A conferência manual de prints ou extratos no internet banking gera atrito entre a equipe financeira e a logística, além de abrir margem para equívocos operacionais e atrasos nas rotas dos motoristas.</p>\n\n<p>Para contornar esse desafio, uma gestão profissional exige que a cobrança nasça conectada à própria locação no <a href=\"../sistema-locadora-laser.html\">software especializado em locadoras de laser</a>, integrando contratos, clientes e valores em um único fluxo de trabalho.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/09/2026-10-09-cobranca-integrada-asaas-locadora-laser-geo-feed-02.png\" alt=\"Cobrança gerada e baixa automática no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Emissão de cobranças vinculadas diretamente à locação com baixa automática no extrato.</figcaption>\n</figure>\n\n<h2>Cobrança integrada com Asaas e Banco Inter: Pix e boleto, além de cartão pelo Asaas</h2>\n<p>Com a integração com Asaas e Banco Inter disponível nos planos compatíveis do Sistema Laser, a equipe emite cobranças completas em poucos cliques diretamente no pedido da locação:</p>\n\n<ul>\n  <li><strong>Pix dinâmico e QR Code:</strong> liquidação instantânea com identificador exclusivo por locação.</li>\n  <li><strong>Boleto bancário registrado:</strong> facilidade para clínicas que priorizam faturamento convencional.</li>\n  <li><strong>Link para cartão de crédito:</strong> flexibilidade de pagamento com conciliação centralizada.</li>\n  <li><strong>Extrato integrado:</strong> histórico financeiro sincronizado sem digitação duplicada.</li>\n</ul>\n\n<p>Dessa forma, o gestor acompanha o status de cada cobrança no <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a> sem depender de mensagens dispersas ou conferências manuais.</p>\n\n<h2>Baixa automática no caixa e liberação segura do equipamento</h2>\n<p>O maior ganho prático da integração é a automatização da baixa: assim que a clínica parceira conclui o pagamento do Pix ou da fatura, o Sistema Laser reconhece a liquidação e atualiza o livro caixa imediatamente. A equipe de expedição visualiza a locação quitada em tempo real e libera o equipamento com segurança absoluta.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/09/2026-10-09-cobranca-integrada-asaas-locadora-laser-geo-feed-03.png\" alt=\"Elimine o retrabalho financeiro na locação de equipamentos\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Previsibilidade de recebíveis e agilidade na expedição da locadora.</figcaption>\n</figure>\n\n<p>A funcionalidade de cobrança integrada Asaas e Banco Inter está disponível nos planos Pro e Master. No plano Starter, a locadora conta com controle completo de contas a pagar, receber e caixas integrados à agenda. O Sistema Laser oferece migração gratuita do sistema atual, sem taxa de adesão e sem fidelidade.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeSHrMyDI3-/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<p>Asaas e Banco Inter estão disponíveis nos planos Pro e Master: boleto e PIX pelos dois provedores, com cobranças avulsas, parceladas e recorrentes; cartão de crédito e extrato integrado pelo Asaas. O Sistema Laser não acrescenta tarifas por cobrança nem limites de quantidade. Tarifas de recebimento se aplicam no <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a>. O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Banco Inter</a> oferece conta PJ, boletos e PIX sem tarifas nas condições de sua oferta vigente, sujeita a alterações pelo banco e à elegibilidade da conta.</p>\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer automatizar as cobranças da sua locadora de lasers?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja como nossa plataforma transforma a gestão da sua operação.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Agendar demonstração gratuita</a>\n</div>"
+      "contentHtml": "<p class=\"lead\">Na locação de lasers dermatológicos, equipamentos estéticos e tecnologias médicas de alto valor, cada diária representa um montante financeiro expressivo. Quando a cobrança depende de rotinas manuais — como gerar chaves Pix avulsas, solicitar comprovantes por aplicativo e conferir extratos bancários na ponta do lápis —, a operação perde tempo precioso e assume riscos desnecessários na liberação das máquinas.</p>\n\n<h2>O gargalo da conferência manual de recebíveis na locadora</h2>\n<p>Em dias de alta demanda, como as tradicionais jornadas de Laser Day, a expedição da locadora precisa de respostas imediatas: o pagamento foi liquidado? A locação está autorizada para entrega? A conferência manual de prints ou extratos no internet banking gera atrito entre a equipe financeira e a logística, além de abrir margem para equívocos operacionais e atrasos nas rotas dos motoristas.</p>\n\n<p>Para contornar esse desafio, uma gestão profissional exige que a cobrança nasça conectada à própria locação no <a href=\"../sistema-locadora-laser.html\">software especializado em locadoras de laser</a>, integrando contratos, clientes e valores em um único fluxo de trabalho.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/09/2026-10-09-cobranca-integrada-asaas-locadora-laser-geo-feed-02.png\" alt=\"Cobrança gerada e baixa automática no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Emissão de cobranças vinculadas diretamente à locação com baixa automática no extrato.</figcaption>\n</figure>\n\n<h2>Cobrança integrada com Asaas e Banco Inter: Pix e boleto, além de cartão pelo Asaas</h2>\n<p>Com a integração com Asaas e Banco Inter disponível nos planos compatíveis do Sistema Laser, a equipe emite cobranças completas em poucos cliques diretamente no pedido da locação:</p>\n\n<ul>\n  <li><strong>Pix dinâmico e QR Code:</strong> liquidação instantânea com identificador exclusivo por locação.</li>\n  <li><strong>Boleto bancário registrado:</strong> facilidade para clínicas que priorizam faturamento convencional.</li>\n  <li><strong>Link para cartão de crédito:</strong> flexibilidade de pagamento com conciliação centralizada.</li>\n  <li><strong>Extrato integrado:</strong> histórico financeiro sincronizado sem digitação duplicada.</li>\n</ul>\n\n<p>Dessa forma, o gestor acompanha o status de cada cobrança no <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a> sem depender de mensagens dispersas ou conferências manuais.</p>\n\n<h2>Baixa automática no caixa e liberação segura do equipamento</h2>\n<p>O maior ganho prático da integração é a automatização da baixa: assim que a clínica parceira conclui o pagamento do Pix ou da fatura, o Sistema Laser reconhece a liquidação e atualiza o livro caixa imediatamente. A equipe de expedição visualiza a locação quitada em tempo real e libera o equipamento com segurança absoluta.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/09/2026-10-09-cobranca-integrada-asaas-locadora-laser-geo-feed-03.png\" alt=\"Elimine o retrabalho financeiro na locação de equipamentos\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Previsibilidade de recebíveis e agilidade na expedição da locadora.</figcaption>\n</figure>\n\n<p>A funcionalidade de cobrança integrada Asaas e Banco Inter está disponível nos planos Pro e Master. No plano Starter, a locadora conta com controle completo de contas a pagar, receber e caixas integrados à agenda. O Sistema Laser oferece migração gratuita do sistema atual, sem taxa de adesão e sem fidelidade.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeSHrMyDI3-/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<p>Asaas e Banco Inter estão disponíveis nos planos Pro e Master: boleto e PIX pelos dois provedores, com cobranças avulsas, parceladas e recorrentes; cartão de crédito e extrato integrado pelo Asaas. O Sistema Laser não acrescenta tarifas por cobrança nem limites de quantidade. Tarifas de recebimento se aplicam no <a href=\"https://www.asaas.com/r/OKX36LTI\" target=\"_blank\" rel=\"noopener noreferrer\">Asaas</a>. O <a href=\"https://inter.co/empresas/gestao-de-cobranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Banco Inter</a> oferece conta PJ, boletos e PIX sem tarifas nas condições de sua oferta vigente, sujeita a alterações pelo banco e à elegibilidade da conta.</p>\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer automatizar as cobranças da sua locadora de lasers?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja como nossa plataforma transforma a gestão da sua operação.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Solicitar demonstração gratuita</a>\n</div>"
     },
     {
       "slug": "manutencao-equipamentos-locadora-eletronicos",
@@ -2451,21 +2523,22 @@
       "ogDescription": "Evite locar equipamentos sem histórico técnico revisado. Saiba como integrar manutenção, custos e agenda na locadora de eletrônicos.",
       "date": "2026-10-11T21:40:12.273-03:00",
       "modified": "2026-10-11T21:40:12.273-03:00",
-      "category": "Manutenção",
+      "category": "Equipamentos",
       "tags": [
         "Locadora de eletrônicos",
         "Manutenção de equipamentos",
         "Máquinas de café",
         "Audiovisual",
         "Disponibilidade",
-        "ERP para locadora"
+        "ERP para locadora",
+        "Manutenção"
       ],
       "heroCopy": "Mantenha o histórico técnico, fotos de intervenções e custos de reparo vinculados ao cadastro do ativo, garantindo disponibilidade segura antes de cada nova reserva.",
       "readingTime": "3 min",
       "image": "images/2026/10/11/2026-10-11-manutencao-equipamentos-locadora-eletronicos-geo-feed-01.png",
       "url": "blog/manutencao-equipamentos-locadora-eletronicos.html",
       "author": "Geovana",
-      "contentHtml": "<p class=\"lead\">Na operação de locação de equipamentos eletrônicos — como máquinas de café expresso corporativas, projetores, painéis de LED e caixas de som para eventos —, a continuidade do ativo alugado depende diretamente da agilidade na manutenção. Quando o histórico de intervenções fica disperso em conversas de equipe ou notas em papel, a locadora corre o risco de prometer na agenda uma máquina que ainda precisa de testes técnicos ou revisão preventiva.</p>\n\n<h2>O desafio de saber a condição exata do ativo corporativo</h2>\n<p>Equipamentos eletrônicos passam por ciclos intensos de uso e exigem cuidados frequentes, desde descalcificação e troca de vedações em máquinas de café até calibração e substituição de lâmpadas ou cabos em projetores. Se a oficina técnica não compartilha o mesmo status em tempo real com o setor comercial, surgem gargalos comuns: equipamentos liberados com pendências mecânicas ou ativos prontos parados sem faturamento.</p>\n\n<p>Para profissionalizar esse processo, a gestão precisa reunir o histórico técnico de cada máquina diretamente em um <a href=\"../software-locadora-eletronicos.html\">software especializado em locação de eletrônicos</a>, onde a ficha do equipamento reflete fielmente sua condição operacional.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/11/2026-10-11-manutencao-equipamentos-locadora-eletronicos-geo-feed-02.png\" alt=\"Histórico de manutenção e reparos no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Registro individual de intervenções, custos e fotos de reparo por equipamento.</figcaption>\n</figure>\n\n<h2>Histórico de reparos, evidências e controle de custos</h2>\n<p>No módulo de equipamentos e manutenção do Sistema Laser, cada intervenção técnica é registrada com contexto detalhado, permitindo à empresa acompanhar a vida útil de cada ativo alugável:</p>\n\n<ul>\n  <li><strong>Ficha individual do equipamento:</strong> registro cronológico de manutenções preventivas, corretivas e peças substituídas.</li>\n  <li><strong>Fotos e laudos anexados:</strong> armazenamento de evidências visuais do reparo para comprovação técnica e auditoria interna.</li>\n  <li><strong>Apuração de custos de manutenção:</strong> consolidação dos valores de mão de obra e peças associados ao ativo, facilitando o cálculo da rentabilidade real da máquina.</li>\n</ul>\n\n<p>Esse acompanhamento detalhado conecta a oficina técnica ao <a href=\"../erp-locadora.html\">ERP para locadoras</a>, assegurando que custos de manutenção alimentem o financeiro sem retrabalho de digitação entre departamentos.</p>\n\n<h2>Disponibilidade conectada à agenda e decisão segura</h2>\n<p>O maior benefício de integrar manutenção e operação é a prevenção de falhas no atendimento ao cliente. Ao marcar um ativo como em manutenção, o sistema sinaliza a restrição na agenda de locação. A equipe de atendimento consulta a disponibilidade real antes de confirmar qualquer contrato, eliminando o risco de atrasos em eventos ou instalações em escritórios.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/11/2026-10-11-manutencao-equipamentos-locadora-eletronicos-geo-feed-03.png\" alt=\"Decisão com histórico e disponibilidade na agenda\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Agenda, manutenção e custos integrados para locadoras de eletrônicos.</figcaption>\n</figure>\n\n<p>O controle de equipamentos e manutenção está disponível em todos os planos do Sistema Laser — Starter, Pro e Master. Para conhecer todas as ferramentas da plataforma, explore nosso catálogo de <a href=\"../funcionalidades.html\">funcionalidades para locadoras</a>. A plataforma conta com migração gratuita do sistema atual, sem taxa de adesão e sem fidelidade contratual.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeX95VLFsW1/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer organizar a manutenção dos seus equipamentos eletrônicos?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja como descomplicar a gestão da sua locadora.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Agendar demonstração gratuita</a>\n</div>"
+      "contentHtml": "<p class=\"lead\">Na operação de locação de equipamentos eletrônicos — como máquinas de café expresso corporativas, projetores, painéis de LED e caixas de som para eventos —, a continuidade do ativo alugado depende diretamente da agilidade na manutenção. Quando o histórico de intervenções fica disperso em conversas de equipe ou notas em papel, a locadora corre o risco de prometer na agenda uma máquina que ainda precisa de testes técnicos ou revisão preventiva.</p>\n\n<h2>O desafio de saber a condição exata do ativo corporativo</h2>\n<p>Equipamentos eletrônicos passam por ciclos intensos de uso e exigem cuidados frequentes, desde descalcificação e troca de vedações em máquinas de café até calibração e substituição de lâmpadas ou cabos em projetores. Se a oficina técnica não compartilha o mesmo status em tempo real com o setor comercial, surgem gargalos comuns: equipamentos liberados com pendências mecânicas ou ativos prontos parados sem faturamento.</p>\n\n<p>Para profissionalizar esse processo, a gestão precisa reunir o histórico técnico de cada máquina diretamente em um <a href=\"../software-locadora-eletronicos.html\">software especializado em locação de eletrônicos</a>, onde a ficha do equipamento reflete fielmente sua condição operacional.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/11/2026-10-11-manutencao-equipamentos-locadora-eletronicos-geo-feed-02.png\" alt=\"Histórico de manutenção e reparos no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Registro individual de intervenções, custos e fotos de reparo por equipamento.</figcaption>\n</figure>\n\n<h2>Histórico de reparos, evidências e controle de custos</h2>\n<p>No módulo de equipamentos e manutenção do Sistema Laser, cada intervenção técnica é registrada com contexto detalhado, permitindo à empresa acompanhar a vida útil de cada ativo alugável:</p>\n\n<ul>\n  <li><strong>Ficha individual do equipamento:</strong> registro cronológico de manutenções preventivas, corretivas e peças substituídas.</li>\n  <li><strong>Fotos e laudos anexados:</strong> armazenamento de evidências visuais do reparo para comprovação técnica e auditoria interna.</li>\n  <li><strong>Apuração de custos de manutenção:</strong> consolidação dos valores de mão de obra e peças associados ao ativo, facilitando o cálculo da rentabilidade real da máquina.</li>\n</ul>\n\n<p>Esse acompanhamento detalhado conecta a oficina técnica ao <a href=\"../erp-locadora.html\">ERP para locadoras</a>, assegurando que custos de manutenção alimentem o financeiro sem retrabalho de digitação entre departamentos.</p>\n\n<h2>Disponibilidade conectada à agenda e decisão segura</h2>\n<p>O maior benefício de integrar manutenção e operação é a prevenção de falhas no atendimento ao cliente. Ao marcar um ativo como em manutenção, o sistema sinaliza a restrição na agenda de locação. A equipe de atendimento consulta a disponibilidade real antes de confirmar qualquer contrato, eliminando o risco de atrasos em eventos ou instalações em escritórios.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/11/2026-10-11-manutencao-equipamentos-locadora-eletronicos-geo-feed-03.png\" alt=\"Decisão com histórico e disponibilidade na agenda\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Agenda, manutenção e custos integrados para locadoras de eletrônicos.</figcaption>\n</figure>\n\n<p>O controle de equipamentos e manutenção está disponível em todos os planos do Sistema Laser — Starter, Pro e Master. Para conhecer todas as ferramentas da plataforma, explore nosso catálogo de <a href=\"../funcionalidades.html\">funcionalidades para locadoras</a>. A plataforma conta com migração gratuita do sistema atual, sem taxa de adesão e sem fidelidade contratual.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeX95VLFsW1/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer organizar a manutenção dos seus equipamentos eletrônicos?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja como descomplicar a gestão da sua locadora.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Solicitar demonstração gratuita</a>\n</div>"
     },
     {
       "slug": "emissao-nota-fiscal-locadora-laser",
@@ -2492,7 +2565,7 @@
       "image": "images/2026/10/12/2026-10-12-emissao-nota-fiscal-locadora-laser-geo-feed-01.png",
       "url": "blog/emissao-nota-fiscal-locadora-laser.html",
       "author": "Geovana",
-      "contentHtml": "<p class=\"lead\">Na rotina acelerada de uma locadora de equipamentos a laser e tecnologias dermatológicas, o faturamento costuma ser um dos pontos mais sensíveis da operação. Depois de negociar a diária de um laser de depilação ou aparelho de radiofrequência, coordenar a entrega e enviar a cobrança à clínica médica, a equipe financeira ainda precisa abrir o portal da prefeitura, digitar manualmente dados cadastrais e emitir a NFS-e. Esse processo gera atrasos, aumenta o risco de inconsistências tributárias e consome horas valiosas da equipe.</p>\n\n<h2>Da confirmação do pagamento à nota fiscal sem retrabalho</h2>\n<p>Para eliminar essa fragmentação entre o faturamento e a rotina da locadora, o Sistema Laser agora oferece <a href=\"../nota-fiscal-eletronica.html\">emissão de Nota Fiscal de Serviço Eletrônica (NFS-e)</a> totalmente conectada ao ecossistema da empresa. Em vez de operar sistemas isolados, a locadora centraliza cliente, contrato de locação, cobrança financeira e documento fiscal na mesma plataforma.</p>\n\n<p>O grande diferencial operacional é o fluxo automatizado da cobrança ao documento fiscal: a locadora envia a cobrança por Pix dinâmico, boleto ou cartão e agenda a emissão da nota para ocorrer assim que o pagamento for liquidado. Confirmado o recebimento, o Sistema Laser gera a NFS-e e já envia o documento diretamente ao cliente, sem exigir nova intervenção manual.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/12/2026-10-12-emissao-nota-fiscal-locadora-laser-geo-feed-02.png\" alt=\"Fluxo integrado de cobrança e nota fiscal no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Cobrança paga e nota fiscal emitida e enviada sem entrar no portal da prefeitura.</figcaption>\n</figure>\n\n<h2>Cobertura em 100% das prefeituras do Brasil</h2>\n<p>A compatibilidade tributária é outro fator essencial para quem atua em nível regional ou nacional na <a href=\"../locadora-laser.html\">locação de equipamentos a laser</a>. O Sistema Laser atende a 100% dos municípios brasileiros por meio de duas frentes de integração:</p>\n\n<ul>\n  <li><strong>Integração com emissor da prefeitura:</strong> conexão direta via token de acesso para os municípios com sistema próprio homologado.</li>\n  <li><strong>Emissor Nacional da NFS-e:</strong> suporte nativo ao padrão nacional unificado instituído pela Receita Federal.</li>\n</ul>\n\n<p>Dessa forma, a locadora tem garantia de conformidade fiscal contínua, unindo a gestão de locações ao módulo de <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a>.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/12/2026-10-12-emissao-nota-fiscal-locadora-laser-geo-feed-03.png\" alt=\"Condições comerciais e emissão de NFS-e sem limites\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Emissão ilimitada e sem custo adicional incluída nos planos Pro e Master.</figcaption>\n</figure>\n\n<h2>Sem limite de notas e incluída no plano</h2>\n<p>Diferente de soluções de mercado que cobram mensalidades extras por pacotes de notas emitidas, o Sistema Laser disponibiliza a emissão de NFS-e sem limite de volume e sem custo adicional pela funcionalidade nos planos Pro e Master. É previsibilidade financeira total para a sua operação faturar quanto precisar.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeaW2T_mw-s/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Pronto para integrar a emissão fiscal da sua locadora de laser?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja a cobrança e a nota fiscal trabalhando juntas na sua empresa.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Agendar demonstração gratuita</a>\n</div>"
+      "contentHtml": "<p class=\"lead\">Na rotina acelerada de uma locadora de equipamentos a laser e tecnologias dermatológicas, o faturamento costuma ser um dos pontos mais sensíveis da operação. Depois de negociar a diária de um laser de depilação ou aparelho de radiofrequência, coordenar a entrega e enviar a cobrança à clínica médica, a equipe financeira ainda precisa abrir o portal da prefeitura, digitar manualmente dados cadastrais e emitir a NFS-e. Esse processo gera atrasos, aumenta o risco de inconsistências tributárias e consome horas valiosas da equipe.</p>\n\n<h2>Da confirmação do pagamento à nota fiscal sem retrabalho</h2>\n<p>Para eliminar essa fragmentação entre o faturamento e a rotina da locadora, o Sistema Laser agora oferece <a href=\"../nota-fiscal-eletronica.html\">emissão de Nota Fiscal de Serviço Eletrônica (NFS-e)</a> totalmente conectada ao ecossistema da empresa. Em vez de operar sistemas isolados, a locadora centraliza cliente, contrato de locação, cobrança financeira e documento fiscal na mesma plataforma.</p>\n\n<p>O grande diferencial operacional é o fluxo automatizado da cobrança ao documento fiscal: a locadora envia a cobrança por Pix dinâmico, boleto ou cartão e agenda a emissão da nota para ocorrer assim que o pagamento for liquidado. Confirmado o recebimento, o Sistema Laser gera a NFS-e e já envia o documento diretamente ao cliente, sem exigir nova intervenção manual.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/12/2026-10-12-emissao-nota-fiscal-locadora-laser-geo-feed-02.png\" alt=\"Fluxo integrado de cobrança e nota fiscal no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Cobrança paga e nota fiscal emitida e enviada sem entrar no portal da prefeitura.</figcaption>\n</figure>\n\n<h2>Cobertura em 100% das prefeituras do Brasil</h2>\n<p>A compatibilidade tributária é outro fator essencial para quem atua em nível regional ou nacional na <a href=\"../locadora-laser.html\">locação de equipamentos a laser</a>. O Sistema Laser atende a 100% dos municípios brasileiros por meio de duas frentes de integração:</p>\n\n<ul>\n  <li><strong>Integração com emissor da prefeitura:</strong> conexão direta via token de acesso para os municípios com sistema próprio homologado.</li>\n  <li><strong>Emissor Nacional da NFS-e:</strong> suporte nativo ao padrão nacional unificado instituído pela Receita Federal.</li>\n</ul>\n\n<p>Dessa forma, a locadora tem garantia de conformidade fiscal contínua, unindo a gestão de locações ao módulo de <a href=\"../sistema-financeiro-locadora.html\">sistema financeiro para locadoras</a>.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/12/2026-10-12-emissao-nota-fiscal-locadora-laser-geo-feed-03.png\" alt=\"Condições comerciais e emissão de NFS-e sem limites\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Emissão ilimitada e sem custo adicional incluída nos planos Pro e Master.</figcaption>\n</figure>\n\n<h2>Sem limite de notas e incluída no plano</h2>\n<p>Diferente de soluções de mercado que cobram mensalidades extras por pacotes de notas emitidas, o Sistema Laser disponibiliza a emissão de NFS-e sem limite de volume e sem custo adicional pela funcionalidade nos planos Pro e Master. É previsibilidade financeira total para a sua operação faturar quanto precisar.</p>\n\n<p><a href=\"https://www.instagram.com/p/DeaW2T_mw-s/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Pronto para integrar a emissão fiscal da sua locadora de laser?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja a cobrança e a nota fiscal trabalhando juntas na sua empresa.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Solicitar demonstração gratuita</a>\n</div>"
     },
     {
       "slug": "api-agentes-ia-locadora-laser",
@@ -2505,20 +2578,21 @@
       "ogDescription": "Integre agentes de IA e sistemas internos à rotina da sua locadora de lasers estéticos e médicos pela API oficial do Sistema Laser.",
       "date": "2026-10-13T08:40:00.126-03:00",
       "modified": "2026-10-13T08:40:00.126-03:00",
-      "category": "Tecnologia e Gestão",
+      "category": "Integrações",
       "tags": [
         "API",
         "Agentes de IA",
         "Locadora de Laser",
         "Integrações",
         "Gestão de Locações",
-        "OpenAPI"
+        "OpenAPI",
+        "Tecnologia e Gestão"
       ],
       "heroCopy": "Conecte agentes inteligentes, portais de clientes e sistemas internos à rotina da sua locadora de equipamentos a laser e tecnologias médicas pela API oficial.",
       "readingTime": "3 min",
       "image": "images/2026/10/13/2026-10-13-api-agentes-ia-locadora-laser-geo-feed-01.png",
       "url": "blog/api-agentes-ia-locadora-laser.html",
-      "contentHtml": "<p class=\"lead\">Na operação diária de uma locadora de equipamentos a laser e tecnologias médicas, o atendimento a clínicas parceiras exige velocidade constante. Consultar se um laser dermatológico de picossegundo ou um aparelho de depilação está livre em determinada data, reservar o equipamento na agenda, gerar a cobrança e emitir a nota fiscal costuma sobrecarregar a equipe comercial. Quando a demanda cresce, os gargalos manuais aumentam e o risco de falhas operacionais se multiplica.</p>\n\n<h2>Seus agentes inteligentes conectados à rotina da locadora</h2>\n<p>Para levar automação em escala ao setor de locação, o Sistema Laser disponibiliza uma <a href=\"../integracoes.html#api\">API aberta para agentes de IA e sistemas</a>. Com ela, a locadora pode integrar assistentes inteligentes baseados em LLMs — como ChatGPT Codex, Claude, Gemini, Grok ou outros —, além de portais de clientes, aplicativos internos e CRMs externos diretamente ao fluxo de trabalho.</p>\n\n<p>Pela integração oficial, os agentes podem consultar a disponibilidade de lasers e ponteiras em tempo real, criar reservas e registrar novas locações diretamente no ERP. Além disso, a API permite automatizar o faturamento com emissão de cobranças por Pix dinâmico, boleto ou cartão e geração de <a href=\"../nota-fiscal-eletronica.html\">Notas Fiscais Eletrônicas (NFS-e)</a> com baixa automática no fluxo de caixa.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/13/2026-10-13-api-agentes-ia-locadora-laser-geo-feed-02.png\" alt=\"Interface de integração de API e documentação OpenAPI no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Configuração de chaves de API com permissões por grupo e documentação técnica unificada.</figcaption>\n</figure>\n\n<h2>Padrão OpenAPI v3, Swagger e guias prontos para LLMs</h2>\n<p>Um dos maiores desafios técnicos ao conectar automações é a complexidade da documentação. O Sistema Laser resolve esse obstáculo fornecendo documentação padronizada no formato OpenAPI v3 com interface Swagger, além dos arquivos <code>llms.txt</code> e <code>llms-full.txt</code>. Esse padrão estruturado permite que qualquer modelo de linguagem compreenda instantaneamente as operações disponíveis, parâmetros e regras da plataforma para a <a href=\"../locadora-laser.html\">locação de equipamentos estéticos</a>.</p>\n\n<p>A segurança operacional permanece sob total controle do gestor da empresa: cada chave de API possui permissões específicas por grupo, garantindo que agentes e integrações executem somente as ações autorizadas pela diretoria.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/13/2026-10-13-api-agentes-ia-locadora-laser-geo-feed-03.png\" alt=\"Benefícios e disponibilidade da API nos planos Pro e Master\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Acesso completo à API incluído nos planos Pro e Master, sem cobrança de taxas adicionais.</figcaption>\n</figure>\n\n<h2>Disponível nos planos Pro e Master</h2>\n<p>A API com suporte a agentes de IA e sistemas está incluída nos planos Pro e Master do Sistema Laser, sem taxa de adesão, sem fidelidade contratual e com migração gratuita de dados da sua operação anterior.</p>\n\n<p><a href=\"https://www.instagram.com/p/DebuNiOnJdo/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer colocar a inteligência artificial para operar na sua locadora?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja a API em funcionamento em uma demonstração personalizada.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Agendar demonstração gratuita</a>\n</div>",
+      "contentHtml": "<p class=\"lead\">Na operação diária de uma locadora de equipamentos a laser e tecnologias médicas, o atendimento a clínicas parceiras exige velocidade constante. Consultar se um laser dermatológico de picossegundo ou um aparelho de depilação está livre em determinada data, reservar o equipamento na agenda, gerar a cobrança e emitir a nota fiscal costuma sobrecarregar a equipe comercial. Quando a demanda cresce, os gargalos manuais aumentam e o risco de falhas operacionais se multiplica.</p>\n\n<h2>Seus agentes inteligentes conectados à rotina da locadora</h2>\n<p>Para levar automação em escala ao setor de locação, o Sistema Laser disponibiliza uma <a href=\"../integracoes.html#api\">API aberta para agentes de IA e sistemas</a>. Com ela, a locadora pode integrar assistentes inteligentes baseados em LLMs — como ChatGPT Codex, Claude, Gemini, Grok ou outros —, além de portais de clientes, aplicativos internos e CRMs externos diretamente ao fluxo de trabalho.</p>\n\n<p>Pela integração oficial, os agentes podem consultar a disponibilidade de lasers e ponteiras em tempo real, criar reservas e registrar novas locações diretamente no ERP. Além disso, a API permite automatizar o faturamento com emissão de cobranças por Pix dinâmico, boleto ou cartão e geração de <a href=\"../nota-fiscal-eletronica.html\">Notas Fiscais Eletrônicas (NFS-e)</a> com baixa automática no fluxo de caixa.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/13/2026-10-13-api-agentes-ia-locadora-laser-geo-feed-02.png\" alt=\"Interface de integração de API e documentação OpenAPI no Sistema Laser\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Configuração de chaves de API com permissões por grupo e documentação técnica unificada.</figcaption>\n</figure>\n\n<h2>Padrão OpenAPI v3, Swagger e guias prontos para LLMs</h2>\n<p>Um dos maiores desafios técnicos ao conectar automações é a complexidade da documentação. O Sistema Laser resolve esse obstáculo fornecendo documentação padronizada no formato OpenAPI v3 com interface Swagger, além dos arquivos <code>llms.txt</code> e <code>llms-full.txt</code>. Esse padrão estruturado permite que qualquer modelo de linguagem compreenda instantaneamente as operações disponíveis, parâmetros e regras da plataforma para a <a href=\"../locadora-laser.html\">locação de equipamentos estéticos</a>.</p>\n\n<p>A segurança operacional permanece sob total controle do gestor da empresa: cada chave de API possui permissões específicas por grupo, garantindo que agentes e integrações executem somente as ações autorizadas pela diretoria.</p>\n\n<figure class=\"my-4 text-center\">\n  <img src=\"images/2026/10/13/2026-10-13-api-agentes-ia-locadora-laser-geo-feed-03.png\" alt=\"Benefícios e disponibilidade da API nos planos Pro e Master\" class=\"img-fluid rounded-4 shadow-sm\" style=\"max-width: 640px;\" loading=\"lazy\" width=\"1080\" height=\"1350\" />\n  <figcaption class=\"text-muted mt-2 small\">Acesso completo à API incluído nos planos Pro e Master, sem cobrança de taxas adicionais.</figcaption>\n</figure>\n\n<h2>Disponível nos planos Pro e Master</h2>\n<p>A API com suporte a agentes de IA e sistemas está incluída nos planos Pro e Master do Sistema Laser, sem taxa de adesão, sem fidelidade contratual e com migração gratuita de dados da sua operação anterior.</p>\n\n<p><a href=\"https://www.instagram.com/p/DebuNiOnJdo/\" target=\"_blank\" rel=\"noopener\">Veja também esta publicação no Instagram</a></p>\n\n<div class=\"cta-box my-5 p-4 rounded-4 bg-light text-center border\">\n  <h3 class=\"h4 mb-2\">Quer colocar a inteligência artificial para operar na sua locadora?</h3>\n  <p class=\"text-muted mb-3\">Conheça os <a href=\"../planos.html\">planos do Sistema Laser</a> e veja a API em funcionamento em uma demonstração personalizada.</p>\n  <a href=\"../index.html#demonstracao\" class=\"btn btn-primary btn-lg\">Solicitar demonstração gratuita</a>\n</div>",
       "author": "Geovana",
       "word_count": 456
     },
@@ -2533,14 +2607,15 @@
       "ogDescription": "Proteja seus lasers e ponteiras com fotos, checklists e assinaturas digitais no início e fim de cada locação pelo Sistema Laser.",
       "date": "2026-10-14T09:18:52.888-03:00",
       "modified": "2026-10-14T09:18:52.888-03:00",
-      "category": "Operação e Logística",
+      "category": "Operação",
       "tags": [
         "Protocolos com Fotos",
         "Locadora de Laser",
         "Gestão de Locações",
         "Vistoria de Equipamentos",
         "Estética Médica",
-        "Segurança Operacional"
+        "Segurança Operacional",
+        "Operação e Logística"
       ],
       "heroCopy": "Descubra como os protocolos personalizados com fotos vinculadas à locação protegem equipamentos de alto valor, organizam o checklist de entrega e eliminam divergências com clínicas.",
       "readingTime": "3 min",
@@ -2555,7 +2630,7 @@
       "slug": "banco-inter-pix-boleto-locadora-laser",
       "date": "2026-10-15T08:35:06.183-03:00",
       "modified": "2026-10-15T08:35:06.183-03:00",
-      "category": "Gestão Financeira",
+      "category": "Financeiro",
       "author": "Geovana",
       "image": "images/2026/10/15/2026-10-15-banco-inter-pix-boleto-locadora-laser-geo-feed-01.png",
       "description": "Descubra como emitir PIX e boletos vinculados às locações com Banco Inter e Asaas, garantindo baixa automática no caixa da locadora e eliminação de conferências manuais.",
@@ -2571,14 +2646,15 @@
         "gestao financeira locadora laser"
       ],
       "word_count": 438,
-      "seoTitle": "Banco Inter e Asaas: cobranças na locadora de laser | Sistema Laser"
+      "seoTitle": "Banco Inter e Asaas: cobranças na locadora de laser | Sistema Laser",
+      "tags": ["Gestão Financeira"]
     },
     {
       "title": "Controle de máquinas na locadora de construção: como rastrear ativos por obra e prazos",
       "slug": "controle-maquinas-locadora-construcao",
       "date": "2026-10-16T08:39:18.209-03:00",
       "modified": "2026-10-16T08:39:18.209-03:00",
-      "category": "Operação e Logística",
+      "category": "Operação",
       "author": "Geovana",
       "image": "images/2026/10/16/2026-10-16-controle-maquinas-locadora-construcao-geo-feed-01.png",
       "description": "Descubra como rastrear máquinas e ferramentas por obra na locadora de construção civil, controlando prazos de devolução, frete e contratos sem planilhas.",
@@ -2594,14 +2670,15 @@
         "gestao de frotas e ferramentas"
       ],
       "word_count": 456,
-      "seoTitle": "Controle de máquinas na locadora de construção | Sistema Laser"
+      "seoTitle": "Controle de máquinas na locadora de construção | Sistema Laser",
+      "tags": ["Operação e Logística"]
     },
     {
       "title": "Fechamento de parceiros na locadora de laser: como apurar comissões e repasses sem planilhas",
       "slug": "fechamento-parceiros-locadora-laser",
       "date": "2026-10-17T13:44:12.119-03:00",
       "modified": "2026-10-17T13:44:12.119-03:00",
-      "category": "Financeiro e Comissões",
+      "category": "Financeiro",
       "author": "Geovana",
       "image": "images/2026/10/17/2026-10-17-fechamento-parceiros-locadora-laser-geo-feed-01.png",
       "description": "Entenda como o Sistema Laser automatiza o fechamento financeiro de parceiros, comissões de aplicadores e repasses de comodato em locadoras de laser e tecnologias médicas.",
@@ -2616,14 +2693,15 @@
         "controle de parceiros e repasses",
         "erp locadora equipamentos esteticos"
       ],
-      "word_count": 473
+      "word_count": 473,
+      "tags": ["Financeiro e Comissões"]
     },
     {
       "title": "Rentabilidade por equipamento na locadora de laser: como cruzar diárias e custos de manutenção",
       "slug": "rentabilidade-manutencao-laser",
       "date": "2026-10-18T19:56:28.777-03:00",
       "modified": "2026-10-18T19:56:28.777-03:00",
-      "category": "Gestão de Ativos e Financeiro",
+      "category": "Financeiro",
       "author": "Geovana",
       "image": "images/2026/10/18/2026-10-18-rentabilidade-manutencao-laser-geo-feed-01.png",
       "description": "Saiba como controlar o histórico de manutenções, bloquear a agenda em dias de revisão e calcular a margem líquida real de cada equipamento na sua locadora de laser.",
@@ -2638,7 +2716,8 @@
         "prontuario de manutencao equipamentos esteticos",
         "sistema financeiro locadora de equipamentos"
       ],
-      "word_count": 458
+      "word_count": 458,
+      "tags": ["Gestão de Ativos e Financeiro"]
     },
     {
       "title": "Régua de cobrança para locadora de laser: como automatizar lembretes e reduzir a inadimplência",
@@ -2646,7 +2725,7 @@
       "heroTitle": "Régua de cobrança para locadora de laser: pontualidade sem desgaste manual",
       "date": "2026-10-21T10:11:56.392-03:00",
       "modified": "2026-10-21T10:11:56.392-03:00",
-      "category": "Gestão Financeira e Cobranças",
+      "category": "Financeiro",
       "author": "Geovana",
       "image": "images/2026/10/21/2026-10-21-regua-cobranca-locadora-laser-geo-feed-01.png",
       "url": "blog/regua-cobranca-locadora-laser.html",
@@ -2663,7 +2742,8 @@
         "Cobranças automáticas",
         "Gestão financeira para locadoras",
         "WhatsApp LILA",
-        "ERP para locadoras"
+        "ERP para locadoras",
+        "Gestão Financeira e Cobranças"
       ],
       "keywords": [
         "regua de cobranca locadora de laser",
@@ -2679,7 +2759,7 @@
     {
       "title": "Dashboard operacional para locadora de laser: controle da frota e locações em tempo real",
       "heroTitle": "Dashboard operacional para locadoras de laser: visão em tempo real da frota e das locações",
-      "category": "Operação e Gestão",
+      "category": "Operação",
       "description": "Veja como um dashboard operacional centralizado ajuda proprietários de locadoras de lasers e equipamentos médicos a acompanhar frotas, entregas e faturamento em tempo real.",
       "seoTitle": "Dashboard Operacional para Locadora de Laser | Sistema Laser",
       "seoDescription": "Descubra como o dashboard operacional do Sistema Laser oferece controle de frota, agenda e faturamento em tempo real para locadoras de equipamentos médicos e estéticos.",
@@ -2690,7 +2770,8 @@
         "Locadora de Laser",
         "Dashboard",
         "Equipamentos Médicos",
-        "Sistema Laser"
+        "Sistema Laser",
+        "Operação e Gestão"
       ],
       "keywords": [
         "dashboard para locadora de laser",
@@ -2709,7 +2790,7 @@
     {
       "title": "Rastreabilidade de Itens Seriados em Locadoras de Laser: Como Controlar Ponteiras e Peças sem Extravios",
       "heroTitle": "Rastreabilidade de Itens Seriados em Locadoras de Laser",
-      "category": "Gestão de Equipamentos e Ativos",
+      "category": "Equipamentos",
       "description": "Descubra como o controle individual por número de série no Sistema Laser protege o patrimônio da sua locadora de equipamentos médicos e estéticos contra extravios e trocas indevidas.",
       "seoTitle": "Rastreabilidade de Itens Seriados para Locadoras de Laser | Sistema Laser",
       "seoDescription": "Controle ponteiras, aplicadores e consumíveis por número de série único em locadoras de laser. Rastreie transferências, saídas em locação e devoluções com o Sistema Laser.",
@@ -2720,7 +2801,8 @@
         "Itens Seriados",
         "Ponteiras Laser",
         "Gestão de Locadoras",
-        "Controle Patrimonial"
+        "Controle Patrimonial",
+        "Gestão de Equipamentos e Ativos"
       ],
       "keywords": [
         "rastreabilidade de itens seriados",
@@ -2738,7 +2820,7 @@
     {
       "title": "Múltiplos Equipamentos na Mesma Locação: Como Gerenciar Combos de Lasers com Contrato e Cobrança Únicos",
       "heroTitle": "Múltiplos Equipamentos na Mesma Locação de Laser",
-      "category": "Operação e Logística",
+      "category": "Operação",
       "description": "Saiba como alugar dois ou mais equipamentos médicos e estéticos no mesmo pedido com o Sistema Laser, unificando reserva na agenda, contrato digital, logística e faturamento.",
       "seoTitle": "Múltiplos Equipamentos na Mesma Locação de Laser | Sistema Laser",
       "seoDescription": "Alugue combos de lasers dermatológicos e tecnologias estéticas em um único contrato. Sincronize agenda, romaneio de entrega, cobrança Pix/boleto e NFS-e no Sistema Laser.",
@@ -2749,7 +2831,8 @@
         "Combos de Locação",
         "Agenda de Lasers",
         "Gestão de Locadoras",
-        "Contratos Digitais"
+        "Contratos Digitais",
+        "Operação e Logística"
       ],
       "keywords": [
         "múltiplos equipamentos na mesma locação",
@@ -2767,7 +2850,7 @@
     {
       "title": "Laser Day e Locações Recorrentes: Como Automatizar a Grade de Equipamentos para Clínicas Parceiras",
       "heroTitle": "Reservas Recorrentes de Laser e Automação de Agenda",
-      "category": "Gestão de Locadoras e Agenda",
+      "category": "Operação",
       "description": "Veja como automatizar reservas recorrentes para eventos de Laser Day e clínicas parceiras no Sistema Laser, eliminando conflitos de agenda e garantindo previsibilidade de faturamento.",
       "seoTitle": "Reservas Recorrentes de Laser e Laser Day | Sistema Laser",
       "seoDescription": "Automatize reservas recorrentes de lasers dermatológicos para Laser Day. Bloqueio de datas, contratos periódicos e faturamento integrado no Sistema Laser.",
@@ -2778,7 +2861,8 @@
         "Locação Recorrente",
         "Agenda de Equipamentos",
         "Gestão de Locadoras",
-        "Estética Médica"
+        "Estética Médica",
+        "Gestão de Locadoras e Agenda"
       ],
       "keywords": [
         "laser day locadora",
@@ -2796,7 +2880,7 @@
     {
       "title": "Gestão de filiais para locadoras de laser: como expandir com controle e visão unificada",
       "heroTitle": "Gestão de filiais para locadoras de laser: controle e visão unificada",
-      "category": "Gestão e Estratégia de Locação",
+      "category": "Operação",
       "description": "Descubra como estruturar múltiplas bases operacionais, transferências de estoques regionais e faturamento consolidado em locadoras de lasers dermatológicos.",
       "seoTitle": "Gestão de Filiais para Locadoras de Laser | Sistema Laser",
       "seoDescription": "Saiba como gerenciar múltiplas filiais, transferências de estoque e faturamento consolidado na locação de equipamentos a laser com o Sistema Laser.",
@@ -2806,7 +2890,8 @@
         "Filiais",
         "Locadora de Laser",
         "Gestão de Equipamentos",
-        "ERP"
+        "ERP",
+        "Gestão e Estratégia de Locação"
       ],
       "keywords": [
         "gestão de filiais locadora de laser",
@@ -2823,7 +2908,7 @@
     {
       "title": "Controle de Devoluções e Prorrogação de Diárias para Locadoras de Audiovisual e Eletrônicos",
       "heroTitle": "Como evitar perdas de periféricos e cobrar diárias extras sem atrito na locadora de tecnologia",
-      "category": "Gestão de Equipamentos e Ativos",
+      "category": "Equipamentos",
       "description": "Descubra como o controle de devoluções, conferência de periféricos e recálculo automático de diárias blindam o caixa da sua locadora de eletrônicos e audiovisual.",
       "seoTitle": "Controle de Devoluções para Locadoras de Eletrônicos | Sistema Laser",
       "seoDescription": "Saiba como o Sistema Laser automatiza a conferência de cabos, prorrogações de diárias e faturamento de devoluções em locadoras de tecnologia.",
@@ -2834,7 +2919,8 @@
         "Eletrônicos",
         "Devoluções",
         "Gestão de Ativos",
-        "Locadoras"
+        "Locadoras",
+        "Gestão de Equipamentos e Ativos"
       ],
       "keywords": [
         "software para locadora de eletronicos",
@@ -2852,7 +2938,7 @@
     {
       "title": "Logística e rotas de entrega para locadoras de laser: como garantir pontualidade e proteger equipamentos",
       "heroTitle": "Logística e rotas de entrega para locadoras de laser: pontualidade e segurança",
-      "category": "Logística e Operações de Locação",
+      "category": "Operação",
       "description": "Veja como organizar rotas de transporte, tabelas de frete e protocolos de entrega para locadoras de equipamentos a laser e tecnologias médicas.",
       "seoTitle": "Logística e Rotas de Entrega para Locadoras de Laser | Sistema Laser",
       "seoDescription": "Saiba como planejar rotas de entrega, controlar fretes e garantir pontualidade no transporte de lasers dermatológicos com o Sistema Laser.",
@@ -2862,7 +2948,8 @@
         "Logística",
         "Locadora de Laser",
         "Laser Day",
-        "Gestão de Frotas"
+        "Gestão de Frotas",
+        "Logística e Operações de Locação"
       ],
       "keywords": [
         "logística locadora de laser",
@@ -2879,7 +2966,7 @@
     {
       "title": "Calibração preventiva de lasers dermatológicos: como evitar quebras e garantir a segurança nas locações",
       "heroTitle": "Calibração preventiva de lasers dermatológicos: segurança e disponibilidade",
-      "category": "Manutenção e Gestão de Ativos",
+      "category": "Equipamentos",
       "description": "Descubra a importância da calibração preventiva e manutenções programadas de lasers dermatológicos para proteger sua frota e garantir locações sem falhas.",
       "seoTitle": "Calibração Preventiva de Lasers Dermatológicos | Sistema Laser",
       "seoDescription": "Saiba como programar calibrações, emitir ordens de serviço e bloquear a agenda para manutenções preventivas de lasers com o Sistema Laser.",
@@ -2889,7 +2976,8 @@
         "Calibração",
         "Locadora de Laser",
         "Manutenção Preventiva",
-        "Gestão de Ativos"
+        "Gestão de Ativos",
+        "Manutenção e Gestão de Ativos"
       ],
       "keywords": [
         "calibração de laser dermatológico",
@@ -2907,7 +2995,7 @@
     {
       "title": "CRM comercial para locadoras de laser: como organizar o funil de propostas e aumentar a conversão de clínicas",
       "heroTitle": "CRM comercial para locadoras de laser: mais clínicas parceiras e contratos fechados",
-      "category": "Gestão Comercial e Vendas",
+      "category": "Comercial",
       "description": "Descubra como o CRM comercial do Sistema Laser organiza a captação de clínicas, automatiza o follow-up de propostas e acelera a conversão de locações.",
       "seoTitle": "CRM Comercial para Locadoras de Laser | Sistema Laser",
       "seoDescription": "Saiba como organizar o funil de propostas de clínicas, criar formulários de captação e gerenciar tarefas comerciais com o Sistema Laser.",
@@ -2917,7 +3005,8 @@
         "CRM Comercial",
         "Locadora de Laser",
         "Vendas para Clínicas",
-        "Gestão de Propostas"
+        "Gestão de Propostas",
+        "Gestão Comercial e Vendas"
       ],
       "keywords": [
         "crm para locadora de laser",
@@ -2935,7 +3024,7 @@
     {
       "title": "Régua de cobrança e NFS-e para locadoras de laser: como automatizar o faturamento",
       "heroTitle": "Cobrança automática e NFS-e integrada: previsibilidade de caixa para locadoras de laser",
-      "category": "Gestão Financeira e Fiscal",
+      "category": "Financeiro",
       "description": "Veja como integrar régua de cobrança, conciliação com Asaas e Banco Inter e emissão de NFS-e direto da agenda de locações no Sistema Laser.",
       "seoTitle": "Régua de Cobrança e NFS-e para Locadora de Laser | Sistema Laser",
       "seoDescription": "Automatize a emissão de NFS-e, boletos, PIX e régua de cobrança na sua locadora de equipamentos médicos e estéticos com o Sistema Laser.",
@@ -2946,7 +3035,8 @@
         "NFS-e",
         "Régua de Cobrança",
         "Locadoras de Laser",
-        "Faturamento"
+        "Faturamento",
+        "Gestão Financeira e Fiscal"
       ],
       "keywords": [
         "sistema financeiro para locadora de laser",
@@ -2965,7 +3055,7 @@
     {
       "title": "Contratos e termos de entrega para locadoras de equipamentos: padronização e segurança",
       "heroTitle": "Contratos automáticos e checklists de entrega: proteja a frota da sua locadora",
-      "category": "Gestão Operacional e Contratos",
+      "category": "Documentos",
       "description": "Saiba como automatizar contratos de locação e termos de entrega e devolução de equipamentos direto da agenda no Sistema Laser.",
       "seoTitle": "Contratos e Termos de Entrega para Locadora de Equipamentos | Sistema Laser",
       "seoDescription": "Elimine erros manuais na emissão de contratos e checklists de entrega de equipamentos com o ERP Sistema Laser para locadoras.",
@@ -2976,7 +3066,8 @@
         "Checklist de Entrega",
         "ERP para Locadora",
         "Gestão de Equipamentos",
-        "Operação"
+        "Operação",
+        "Gestão Operacional e Contratos"
       ],
       "keywords": [
         "sistema de contratos para locadora de equipamentos",

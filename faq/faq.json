@@ -34,7 +34,7 @@
         {
           "id": "migracao",
           "question": "Perderei os dados do meu sistema atual?",
-          "answer": "A equipe realiza gratuitamente a migração dos dados compatíveis das suas planilhas ou do seu sistema atual."
+          "answer": "A migração dos dados compatíveis é gratuita. Apresente os dados que consegue exportar para que a equipe avalie os formatos, os cadastros e as informações que podem ser importados. Os pontos de preparação e a entrada em uso devem ser combinados com a equipe."
         },
         {
           "id": "necessidade-especifica",
@@ -60,6 +60,16 @@
           "id": "geral-tarifas-inter",
           "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
           "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
+        },
+        {
+          "id": "geral-telas-guiadas",
+          "question": "Posso conhecer telas do sistema antes de solicitar uma demonstração?",
+          "answer": "Sim. O percurso ilustrado da página inicial apresenta disponibilidade, locação, documentos e recebimento com telas reais, sem cadastro. Você pode ampliar as imagens na galeria. Esse percurso apresenta o produto; não é uma conta de teste nem altera dados."
+        },
+        {
+          "id": "geral-solicitar-demonstracao",
+          "question": "O que acontece quando solicito uma demonstração?",
+          "answer": "Envie seu nome, telefone/WhatsApp, e-mail e informações sobre a operação no formulário. A equipe entra em contato para entender sua rotina e combinar a apresentação. Você também pode conversar pelo WhatsApp ou abrir o formulário em outra aba."
         }
       ]
     },
@@ -71,12 +81,12 @@
         {
           "id": "planos-necessidades-especiais",
           "question": "Posso conversar sobre uma estrutura ou necessidade específica para meu negócio?",
-          "answer": "Sim. Fale com a equipe para avaliar necessidades como instalação em rede privada, domínio específico, infraestrutura diferenciada, uma equipe com muitos usuários ou integração especial com plataformas existentes. A viabilidade e as condições de uma proposta adequada são avaliadas com você. Também podemos conversar sobre ideias e necessidades específicas da sua operação."
+          "answer": "Sim. Fale com a equipe para avaliar necessidades como instalação em rede privada, domínio específico, infraestrutura diferenciada ou integração especial com plataformas existentes. O Master já inclui usuários e equipamentos ilimitados; uma equipe com muitos usuários também pode conversar sobre seus requisitos de estrutura. Viabilidade e condições de uma proposta são avaliadas com você."
         },
         {
           "id": "escolher-plano",
           "question": "Como usar a sugestão de plano do site?",
-          "answer": "Na página de planos, informe a faixa de equipamentos e usuários e os recursos necessários. A sugestão considera os limites públicos de cada plano. Ela é um ponto de partida: confira a tabela completa e as condições dos serviços integrados ou solicite uma demonstração para validar sua operação."
+          "answer": "Informe separadamente a quantidade de equipamentos, a de usuários e os recursos necessários. A sugestão só aparece depois dessas respostas e considera os limites públicos de Starter, Pro e Master. Confira a justificativa e a tabela completa; você também pode copiar o resumo da avaliação ou solicitar uma demonstração do plano sugerido."
         },
         {
           "id": "taxa-adesao",
@@ -117,6 +127,11 @@
           "id": "planos-tarifas-inter",
           "question": "Boletos e PIX pelo Banco Inter são gratuitos para contas PJ?",
           "answer": "O Banco Inter oferece conta PJ gratuita e emissão, baixa e liquidação de boletos e PIX sem tarifas, conforme sua oferta de gratuidade e as condições vigentes da conta. O Sistema Laser não acrescenta tarifas nem limites de quantidade de cobranças nos planos Pro e Master. A gratuidade é uma oferta do próprio Banco Inter e pode ser modificada por ele; confirme elegibilidade, eventuais franquias e tarifas em https://inter.co/empresas/gestao-de-cobranca/. A assinatura do Sistema Laser e os limites operacionais do banco continuam aplicáveis."
+        },
+        {
+          "id": "planos-comparacao-mobile",
+          "question": "Como comparar os planos no celular?",
+          "answer": "Selecione um plano para ler seus recursos em uma tabela adaptada à tela. Você pode alternar entre Starter, Pro e Master ou escolher todos os planos, além de mostrar apenas as diferenças. O link copiado da comparação preserva as opções selecionadas; a tabela completa continua disponível."
         }
       ]
     },

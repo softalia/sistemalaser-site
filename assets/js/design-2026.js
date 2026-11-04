@@ -30,54 +30,5 @@
         if (link.hash === window.location.hash) revealTarget();
       });
     });
-    var advisor = document.getElementById('plan-advisor');
-    if (advisor) {
-      var size = document.getElementById('advisor-size');
-      var needs = document.getElementById('advisor-needs');
-      function recommend(interactive) {
-        var plan =
-          size.value === 'master' || needs.value === 'master'
-            ? 'Master'
-            : size.value === 'pro' || needs.value === 'pro'
-              ? 'Pro'
-              : 'Starter';
-        document.getElementById('advisor-plan').textContent = plan;
-        document.getElementById('advisor-reason').textContent = {
-          Starter:
-            'Até 8 equipamentos e 3 usuários, com agenda, financeiro e dashboards para organizar a operação.',
-          Pro: 'Até 15 equipamentos e 7 usuários, com CRM, cobranças, estoque, contratos e integrações.',
-          Master:
-            'Equipamentos e usuários ilimitados, com filiais, parceiros e automação de WhatsApp com a LILA.',
-        }[plan];
-        document.getElementById('advisor-link').href = '#' + plan.toLowerCase();
-        window.dataLayer = window.dataLayer || [];
-        if (interactive)
-          window.dataLayer.push({
-            event: 'plan_recommendation',
-            recommended_plan: plan,
-          });
-      }
-      size.addEventListener('change', function () {
-        recommend(true);
-      });
-      needs.addEventListener('change', function () {
-        recommend(true);
-      });
-      advisor.hidden = false;
-      recommend();
-    }
-    document
-      .querySelectorAll(
-        'a[href*="index.html#demonstracao"], a[href="#demonstracao"]',
-      )
-      .forEach(function (link) {
-        link.addEventListener('click', function () {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            event: 'demo_cta_click',
-            page_path: window.location.pathname,
-          });
-        });
-      });
   });
 })();

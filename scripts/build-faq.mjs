@@ -207,9 +207,8 @@ function faqPageHtml(data) {
 </body></html>`;
 }
 
-export function buildFaq(root) {
+export function buildFaq(root, dist = path.join(root, 'dist')) {
   const data = readFaq(root);
-  const dist = path.join(root, 'dist');
   const faqDir = path.join(dist, 'faq');
   fs.mkdirSync(faqDir, { recursive: true });
   fs.writeFileSync(

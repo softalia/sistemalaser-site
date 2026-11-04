@@ -8,3 +8,8 @@ node_modules/
 # Local browser verification artifacts
 /.playwright-cli/
 /output/playwright/
+
+# Isolated build output and publication lock
+/.dist-build-*/
+/.dist-previous-*/
+/.dist-publish-lock/

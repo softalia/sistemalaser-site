@@ -1,3 +1,5 @@
+import { createBuildOutput } from './build-output.mjs';
+import { renderArticleNextStep } from './commercial-html.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { buildFaq } from './build-faq.mjs';
@@ -9,7 +11,8 @@ import { optimizeSeo } from './seo.mjs';
 const root = process.cwd();
 const siteUrl = 'https://www.sistemalaser.com.br';
 const blogDir = path.join(root, 'blog');
-const distDir = path.join(root, 'dist');
+const output = createBuildOutput(root);
+const distDir = output.directory;
 const distBlogDir = path.join(distDir, 'blog');
 const postsFile = path.join(blogDir, 'posts.json');
 const blogImagesDir = path.join(blogDir, 'images');
@@ -365,9 +368,10 @@ function postHtml(post, posts) {
         datePublished: post.date,
         dateModified: post.modified,
         inLanguage: 'pt-BR',
-        author: post.author
-          ? { '@type': 'Person', name: post.author }
-          : { '@type': 'Organization', name: 'Sistema Laser', url: siteUrl },
+        author:
+          post.author && post.author !== 'Sistema Laser'
+            ? { '@type': 'Person', name: post.author }
+            : { '@type': 'Organization', name: 'Sistema Laser', url: siteUrl },
         publisher: { '@id': `${siteUrl}/#organization` },
         mainEntityOfPage: canonical,
         image: post.image,
@@ -455,15 +459,17 @@ ${post.tags.map((tag) => `  <meta property="article:tag" content="${escapeHtml(t
           <span class="eyebrow">${escapeHtml(post.category)}</span>
           <h1 class="display-title">${escapeHtml(post.heroTitle || post.title)}</h1>
           <p class="hero-copy">${escapeHtml(post.heroCopy || post.description)}</p>
-          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time>${post.author ? ` · Por ${escapeHtml(post.author)}` : ''} · ${formatReadingTime(post.readingTime)} de leitura</p>
+          <p class="legal-note"><time datetime="${post.date}">${formatDate(post.date)}</time> · Por ${escapeHtml(post.author || 'Sistema Laser')}${post.author === 'Sistema Laser' ? ' · Conteúdo institucional' : ''} · ${formatReadingTime(post.readingTime)} de leitura</p>
         </div>
       </header>
       <section class="section-space">
         <div class="container blog-post-content" style="max-width:860px">
 ${post.contentHtml}
+          <aside class="editorial-note"><strong>Sobre este conteúdo</strong><p>Publicado por ${escapeHtml(post.author || 'Sistema Laser')}. ${post.modified !== post.date ? `Atualizado em ${formatDate(post.modified)}.` : ''} Recursos, limites e condições comerciais podem evoluir. Confira as <a href="../funcionalidades.html">funcionalidades</a> e os <a href="../planos.html">planos atuais</a> ao avaliar sua operação.</p></aside>
         </div>
       </section>
     </article>
+${renderArticleNextStep(post)}
 ${
   related.length
     ? `    <section class="section-space surface-section">
@@ -522,13 +528,15 @@ for (const post of posts) {
   );
 }
 fs.writeFileSync(rssFile, buildRss(posts));
-buildFaq(root);
+buildFaq(root, distDir);
 injectFooter(distDir);
 injectWhatsappFab(distDir);
 applyDesign(distDir, posts);
 optimizeSeo(distDir, posts);
 await minifySiteAssets(distDir);
 const minifiedPages = await minifyHtmlDirectory(distDir);
+
+await output.publish();
 
 console.log(
   `Built dist with ${posts.length} blog pages, ${minifiedPages} minified HTML pages, sitemap.xml, blog/feed.xml and static assets`,
