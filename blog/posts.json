@@ -3454,6 +3454,37 @@
       "modified": "2026-11-21T10:04:24.593571",
       "author": "Geovana",
       "word_count": 319
+    },
+    {
+      "title": "Estoque por localidade e número de série na locação de lasers estéticos",
+      "heroTitle": "Saiba onde está cada item, em qual unidade e em qual locação",
+      "category": "Gestão de Estoque e Operações",
+      "description": "Veja como locadoras de lasers e equipamentos médicos controlam múltiplos estoques, transferências entre filiais e rastreabilidade por número de série no Sistema Laser.",
+      "seoTitle": "Estoque por Localidade e Número de Série para Locadoras | Sistema Laser",
+      "seoDescription": "Controle múltiplos estoques, ponto de reposição, transferências e rastreabilidade por número de série vinculados às locações nos planos Pro e Master do Sistema Laser.",
+      "heroCopy": "Organize depósitos, filiais e pontos de consumo diário, acompanhe peças identificadas por número de série e conecte cada movimentação às locações e ao financeiro.",
+      "readingTime": "4 min",
+      "tags": [
+        "Estoque",
+        "Número de Série",
+        "Locação de Laser",
+        "Estética Médica",
+        "ERP"
+      ],
+      "keywords": [
+        "controle de estoque locadora de laser",
+        "rastreabilidade por número de série",
+        "software para locadora estética",
+        "transferência entre estoques filiais"
+      ],
+      "contentHtml": "<p>Em uma locadora de lasers estéticos e equipamentos médicos, a operação depende tanto da disponibilidade das máquinas principais quanto do controle rigoroso de acessórios, peças, consumíveis e itens de alto valor. Quando esses materiais ficam dispersos entre matriz, depósitos, veículos de rota e pontos de atendimento, planilhas paralelas rapidamente perdem a referência do saldo real e do histórico de cada unidade.</p><figure class=\"my-4 text-center\"><img src=\"images/2026/11/22/2026-11-22-estoque-localidades-numero-serie-laser-geo-feed-01.png\" alt=\"Estoque por localidade e número de série na locação de lasers estéticos - Visão de abertura Sistema Laser\" width=\"1080\" height=\"1350\" loading=\"lazy\" class=\"img-fluid rounded-4 shadow-sm\" /></figure><h2>Múltiplos estoques e transferências auditáveis entre localidades</h2><p>O Sistema Laser permite estruturar estoques independentes para cada localidade da operação — como depósito central, filiais e pontos de consumo diário. Sempre que um item precisa mudar de base para atender uma rota ou clínica, a transferência registra automaticamente a saída na origem e a entrada no destino, preservando quem movimentou, quando ocorreu e o saldo atualizado de cada local.</p><p>Além da visão de quantidades disponíveis, a equipe configura o estoque mínimo e o ponto de reposição de cada produto. Assim, compras e reposições passam a ser planejadas antes de uma ruptura que atrase atendimentos ou comprometa kits de locação.</p><figure class=\"my-4 text-center\"><img src=\"images/2026/11/22/2026-11-22-estoque-localidades-numero-serie-laser-geo-feed-02.png\" alt=\"Múltiplos estoques por unidade e rastreabilidade por número de série no Sistema Laser\" width=\"1080\" height=\"1350\" loading=\"lazy\" class=\"img-fluid rounded-4 shadow-sm\" /></figure><h2>Rastreabilidade individual por número de série único</h2><p>Enquanto insumos e peças simples podem ser gerenciados por quantidade, itens críticos exigem identificação individual. Para esses casos, o sistema oferece rastreabilidade por número de série único: cada unidade é acompanhada desde o recebimento e movimentações entre estoques até o vínculo com o cliente, a venda, o uso em locação e eventuais devoluções. Esse nível de detalhe atende inclusive operações sensíveis da área médico-estética, como estoques de próteses e acessórios de alta responsabilidade.</p><h2>Produtos conectados às locações e ao financeiro</h2><p>Toda utilização ou venda de produto é registrada diretamente dentro da operação correspondente, informando estoque de origem, quantidade, custo e valor cobrado. Dessa forma, o faturamento e a apuração de rentabilidade permanecem conectados ao histórico real da locação, sem retrabalho manual.</p><figure class=\"my-4 text-center\"><img src=\"images/2026/11/22/2026-11-22-estoque-localidades-numero-serie-laser-geo-feed-03.png\" alt=\"Benefícios operacionais de estoque e planos Pro e Master no Sistema Laser\" width=\"1080\" height=\"1350\" loading=\"lazy\" class=\"img-fluid rounded-4 shadow-sm\" /></figure><p>Com mais de 420 mil locações realizadas, mais de 21 mil locatários atendidos e mais de 20 anos de evolução contínua, o Sistema Laser disponibiliza o controle de ponto de reposição e produtos rastreáveis por número de série nos planos Pro e Master — sem taxa de adesão, sem fidelidade e com migração gratuita. Agende uma demonstração em sistemalaser.com.br.</p><p><a href=\"https://www.instagram.com/p/DgCrxAxIBZv/\" target=\"_blank\" rel=\"noopener noreferrer\">Veja também esta publicação no Instagram</a></p>",
+      "slug": "estoque-localidades-numero-serie-laser",
+      "url": "blog/estoque-localidades-numero-serie-laser.html",
+      "image": "images/2026/11/22/2026-11-22-estoque-localidades-numero-serie-laser-geo-feed-01.png",
+      "date": "2026-11-22T08:21:09.207604",
+      "modified": "2026-11-22T08:21:09.207604",
+      "author": "Geovana",
+      "word_count": 363
     }
   ]
 }
