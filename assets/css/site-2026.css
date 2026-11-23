@@ -82,7 +82,7 @@
 .blog-card-cta{margin-top:auto;padding-top:1rem;color:var(--sl-primary);font-weight:800}
 .module-card .tag{display:inline-block;width:max-content;color:var(--sl-primary);background:var(--sl-primary-soft);padding:.28rem .55rem;border-radius:.4rem;font-size:.7rem;font-weight:900;letter-spacing:.08em}
 #indicadores .media-panel{max-width:460px;margin-inline:auto}
-.site-footer .row>.col-lg-2:last-child{display:flex;flex-direction:column}.footer-badges{display:flex;align-items:center;flex-wrap:wrap;gap:.75rem;margin-top:auto}.footer-badge-link{display:block;opacity:.65;transition:opacity .2s}.footer-badge-link:hover{opacity:1}.footer-badge-link img{display:block;width:150px;height:48px;object-fit:contain}
+.footer-badges{display:flex;align-items:center;flex-wrap:wrap;flex-wrap:balance;gap:.75rem 1rem;margin-top:2rem}.site-footer .footer-badge-link{display:block;margin-bottom:0;opacity:.7;transition:opacity .2s}.site-footer .footer-badge-link:hover{opacity:1}.footer-badge-link img{display:block;width:auto;height:32px;object-fit:contain}.site-footer .footer-bottom{margin-top:1.75rem}
 
 .hero-home-layout {
   display: grid;
